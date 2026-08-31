@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>解経 / Kaikei — 記録の履歴</title>
+<link href="https://kaikei-media.github.io/"/>
+<link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
+<id>https://kaikei-media.github.io/</id>
+<updated>2026-08-31T14:00:18+00:00</updated>
+<author><name>解経 / Kaikei</name></author>
+<rights>CC BY 4.0</rights>
+<entry>
+<title>メモリ: ビット出荷成長率と契約価格QoQ（価格×数量に分解する） — 2026-07-03</title>
+<link href="https://kaikei-media.github.io/o/t3-q3/"/>
+<id>https://kaikei-media.github.io/o/t3-q3/#2026-07-03@2026-08-31</id>
+<updated>2026-08-31T14:00:18+00:00</updated>
+<summary>【予測・実測ではない】TrendForce 7-9月期予測: 汎用DRAM契約価格 前期比+13〜18%、NAND +10〜15%（上昇幅は鈍化）</summary>
+</entry>
+<entry>
+<title>銅の在庫と実需（価格ではなく数量） — 2026-07-31</title>
+<link href="https://kaikei-media.github.io/o/t3-q10/"/>
+<id>https://kaikei-media.github.io/o/t3-q10/#2026-07-31@2026-08-30</id>
+<updated>2026-08-30T23:34:02+00:00</updated>
+<summary>LME・COMEX・SHFE合計の銅在庫 96万4,095トン（2003年8月以来の最高水準）。2025年末比+21万9,980トン(+29.6%)。内訳: LME+9万8,700トン・COMEX+19万7,288トン・SHFE−7万6,008トン。2026年上期の世界精製銅需給（見かけ）は+13.1万トンの黒字（中国保税在庫の増減調整後は+9.8万トン）</summary>
+</entry>
+<entry>
+<title>電力設備メーカーの受注残とbook-to-bill（日立エナジー・シーメンスエナジー・GEベルノバ） — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-q8/"/>
+<id>https://kaikei-media.github.io/o/t3-q8/#2026-06-30@2026-08-30</id>
+<updated>2026-08-30T23:34:02+00:00</updated>
+<summary>受注残: GEベルノバ 1,760億ドル（過去最高・前年比+37%。4-6月期受注242億ドル・前年比+88%、受注倍率は2倍超）。シーメンスエナジー 1,620億ユーロ（過去最高・前年136億ユーロから+19.3%、受注倍率1.57倍）。日立エナジー 10.3兆円／636億ドル（前期末比+10%、電力(Power Grids)部門の4-6月期受注は前年比+94%）。3社とも受注残・受注額とも過去最高を更新</summary>
+</entry>
+<entry>
+<title>系統接続の遅延（PJM等のマイルストーン変更要求に占める許認可・接続待ちの割合） — 2026-05-21</title>
+<link href="https://kaikei-media.github.io/o/t3-q9/"/>
+<id>https://kaikei-media.github.io/o/t3-q9/#2026-05-21@2026-08-30</id>
+<updated>2026-08-30T23:34:02+00:00</updated>
+<summary>PJM自身の公表（一次資料に差し替え）: 系統接続契約(interconnection agreement)を締結済みの案件のうち約53GW（フル出力で家庭4,000万世帯相当）が、PJMの管轄外の要因（連邦・州・地方の許認可、用地選定、サプライチェーン）で行き詰まっている。新規案件の系統連系契約発行までの審査期間は1〜2年に短縮され、キュー自体の滞留(backlog)は無いとPJMは述べる。2026年は30GWの処理を予定（2023年7月〜2025年12月の累計処理は170GW超）</summary>
+</entry>
+<entry>
+<title>高圧変圧器・開閉装置の納期（AI工場を完成させる難易度） — 2026-05-11</title>
+<link href="https://kaikei-media.github.io/o/t3-q7/"/>
+<id>https://kaikei-media.github.io/o/t3-q7/#2026-05-11@2026-08-30</id>
+<updated>2026-08-30T15:42:29+00:00</updated>
+<summary>大容量変圧器の納期は最大4年（PwC）。需要は2019→2025で発電機昇圧変圧器+274%・変電所用+116%（Wood Mackenzie）。価格は5年で約+80%</summary>
+</entry>
+<entry>
+<title>系統接続の遅延（PJM等のマイルストーン変更要求に占める許認可・接続待ちの割合） — 2026-01-31</title>
+<link href="https://kaikei-media.github.io/o/t3-q9/"/>
+<id>https://kaikei-media.github.io/o/t3-q9/#2026-01-31@2026-08-30</id>
+<updated>2026-08-30T15:42:29+00:00</updated>
+<summary>マイルストーン変更要求の29%が許認可の遅延によるもの（PJM）</summary>
+</entry>
+<entry>
+<title>輸出規制の品目数、制裁対象エンティティ数 — 2026-08-20</title>
+<link href="https://kaikei-media.github.io/o/t2-q5/"/>
+<id>https://kaikei-media.github.io/o/t2-q5/#2026-08-20@2026-08-29</id>
+<updated>2026-08-29T23:17:59+00:00</updated>
+<summary>米財務省OFACがHizballah向け資金密輸ネットワークの個人10名を新規指定、Hizballah自体も再指定（8/20）。ネットワークはレバノン・トルコ・UAE・イラン間で商業便の運び屋を使い現金を移動</summary>
+</entry>
+<entry>
+<title>各国の国防調達契約額（予算ではなく受注ベース） — 2026-08-21</title>
+<link href="https://kaikei-media.github.io/o/t2-f1/"/>
+<id>https://kaikei-media.github.io/o/t2-f1/#2026-08-21@2026-08-29</id>
+<updated>2026-08-29T03:11:34+00:00</updated>
+<summary>米USTRANSCOMがFedExとUPSの配送契約（NGDS-2）をそれぞれ約27.25億ドルで4年延長（2026/10/1〜2030/9/30）。Polar Air Cargoは2.725億ドルで新規追加。3社合計57億ドル</summary>
+</entry>
+<entry>
+<title>日本の生保: 国内債含み損と解約動向（T1-Pj・日本版の破断候補ノード） — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t1-q6/"/>
+<id>https://kaikei-media.github.io/o/t1-q6/#2026-06-30@2026-08-28</id>
+<updated>2026-08-28T07:27:33+00:00</updated>
+<summary>第一生命単体の国内公社債含み損 △4兆406億円（3月末比△2,383億円拡大。責準対応債券は時価が簿価の75%）。大手4社計15兆円（3カ月で+1兆円）。日本生命は減損440億円を計上。業界41社の解約返戻金は1-5月6兆190億円（前年比+39%、9カ月連続で月1兆円超）。第一のESR約206%（▲13pt、会社が要因に「大量解約リスクの増加」を明記）。減損を除外する会計ルール改正（JICPA 21号）は2/17公開草案のまま最終化未確認</summary>
+</entry>
+<entry>
+<title>海上輸送のトンマイル — 迂回で実距離がどれだけ伸びたか — 2026-08-25</title>
+<link href="https://kaikei-media.github.io/o/t2-q2/"/>
+<id>https://kaikei-media.github.io/o/t2-q2/#2026-08-25@2026-08-28</id>
+<updated>2026-08-28T05:25:15+00:00</updated>
+<summary>BIMCO 8月版タンカー市況: 原油・重質油の輸出量は年初来で前年比−5.7%、清浄石油製品の輸出量は同−11.2%。ただしLR2船型が原油・重質油輸送のシェアを増やし、プロダクトタンカーのトンマイル需要は年初来で微増。2026年の原油タンカー需要成長予測は+1〜2%（供給+1.5%）、2027年は+0〜1%（供給+3.5%）</summary>
+</entry>
+<entry>
+<title>ホルムズ経由の原油・LNGの実輸送量（AISの隻数ではなくカーゴ追跡・輸出統計。瀬取り分を含む） — 2026-08-27</title>
+<link href="https://kaikei-media.github.io/o/t2-q6/"/>
+<id>https://kaikei-media.github.io/o/t2-q6/#2026-08-27@2026-08-28</id>
+<updated>2026-08-28T05:25:15+00:00</updated>
+<summary>Kpler/Vortexaの追跡: ホルムズ海峡を経由して流出する原油量が日量7〜8百万バレルまで回復（7月中旬の日量約400万バレルから倍増）。Vortexaは直近7日平均が日量1,000万バレル近くに達したと分析。8/10には衛星画像(Sentinel-2)でオマーン湾の一区画のみで瀬取り(STS)を12件確認</summary>
+</entry>
+<entry>
+<title>AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期 — 2026-07-27</title>
+<link href="https://kaikei-media.github.io/o/t3-f1/"/>
+<id>https://kaikei-media.github.io/o/t3-f1/#2026-07-27@2026-08-28</id>
+<updated>2026-08-28T05:25:15+00:00</updated>
+<summary>Sopaipilla Investor（BlackRock主導、Meta El Paso DC向け）が125億4,700万ドルの担保付債（22.3年・2048年11月満期）をT+287.5bp・利率7.534%で起債。S&amp;P A+／Fitch AA−</summary>
+</entry>
+<entry>
+<title>AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期 — 2026-08-13</title>
+<link href="https://kaikei-media.github.io/o/t3-f1/"/>
+<id>https://kaikei-media.github.io/o/t3-f1/#2026-08-13@2026-08-28</id>
+<updated>2026-08-28T05:25:15+00:00</updated>
+<summary>Zenith Arc（Jane Street向けデータセンター、オクラホマ州149MW）がグリーンボンド22.5億ドルを起債。Jane Streetの15年トリプルネットリース保証が裏付け。発行価格99.5・利回り約9%</summary>
+</entry>
+<entry>
+<title>電力の大口契約（PPA）の新規締結MWとキャンセル — 2026-08-04</title>
+<link href="https://kaikei-media.github.io/o/t3-q2/"/>
+<id>https://kaikei-media.github.io/o/t3-q2/#2026-08-04@2026-08-28</id>
+<updated>2026-08-28T05:25:15+00:00</updated>
+<summary>NRGが未公表のグローバル・ハイパースケーラーとの間で、テキサス州の1.2GWガス火力発電所（コンバインドサイクル）の商業条件基本合意に到達。投資額32億ドル、2029年後半稼働予定。将来的に2.4GWへの倍増オプションあり</summary>
+</entry>
+<entry>
+<title>FRBの保有残高 — 買っているか減らしているか — 2026-08-26</title>
+<link href="https://kaikei-media.github.io/o/t1-q5/"/>
+<id>https://kaikei-media.github.io/o/t1-q5/#2026-08-26@2026-08-28</id>
+<updated>2026-08-28T02:48:30+00:00</updated>
+<summary>FRB総資産 6兆7,309億ドル</summary>
+</entry>
+<entry>
+<title>石油取引の非ドル決済シェア（人民元・ルピー等）と中銀の金準備比率 — 2025-12-31</title>
+<link href="https://kaikei-media.github.io/o/t2-f3/"/>
+<id>https://kaikei-media.github.io/o/t2-f3/#2025-12-31@2026-08-28</id>
+<updated>2026-08-28T02:48:30+00:00</updated>
+<summary>世界の公的準備資産に占める金の割合は27%（前年20%から上昇）、米国債22%、ユーロ15%（時価ベース、2025年末）。石油取引の非ドル決済シェアは一次資料で確認できる直近値が見つからず未記入</summary>
+</entry>
+<entry>
+<title>ウクライナ向け軍事・財政支援の拠出額（約束でなく実行）と、ロシアの凍結資産の扱い — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t2-f4/"/>
+<id>https://kaikei-media.github.io/o/t2-f4/#2026-06-30@2026-08-28</id>
+<updated>2026-08-28T02:48:30+00:00</updated>
+<summary>ウクライナ支援配分（欧州機関）: 5〜6月に新設のUkraine Support Loan経由で計約110億ユーロ配分（軍事43億ユーロ・財政人道67億ユーロ）。日本はERA第2弾で11億ユーロ拠出（凍結ロシア資産の収益が原資）。財政・人道支援は前年同月平均比41%減</summary>
+</entry>
+<entry>
+<title>台湾周辺の人民解放軍の活動（機数・艦艇数／日、月間累計）と台湾海峡の商船通航 — 2026-08-24</title>
+<link href="https://kaikei-media.github.io/o/t2-q7/"/>
+<id>https://kaikei-media.github.io/o/t2-q7/#2026-08-24@2026-08-28</id>
+<updated>2026-08-28T02:48:30+00:00</updated>
+<summary>台湾周辺の人民解放軍活動: 8/23 6時〜8/24 6時で戦闘機等2ソーティー・艦艇7隻・公船2隻（8/21は艦艇7隻・公船6隻・機なし、8/5は機21・艦14）。日によるばらつきが大きい</summary>
+</entry>
+<entry>
+<title>ロシア産原油の海上輸出量と影の船団の隻数・拿捕件数、黒海の輸送量 — 2026-07-31</title>
+<link href="https://kaikei-media.github.io/o/t2-q8/"/>
+<id>https://kaikei-media.github.io/o/t2-q8/#2026-07-31@2026-08-28</id>
+<updated>2026-08-28T02:48:30+00:00</updated>
+<summary>7月のロシア産石油の海上輸送は制裁対象「影の船団」が53%・G7＋籍が42%・非制裁の「影」船が残り。新規参入7隻中G7＋籍は2隻のみ。月末時点で偽装旗の「影の船団」46隻が稼働。ノヴォロシースクは7/19のCPCターミナル攻撃後、月間積出量が前月比23%減</summary>
+</entry>
+<entry>
+<title>米国の軍事行動と強制外交（作戦の件数、国債保有・決済通貨・関税を安全保障と結びつけた公式要求） — 2026-08-01</title>
+<link href="https://kaikei-media.github.io/o/t2-q9/"/>
+<id>https://kaikei-media.github.io/o/t2-q9/#2026-08-01@2026-08-28</id>
+<updated>2026-08-28T02:48:30+00:00</updated>
+<summary>米国の新規関税が輸入額の54%に適用（2026年）。実効関税率は2022年の1.5%から11.7%へ上昇。うちSection 232（安全保障を根拠とする関税）は鉄鋼・アルミ・銅とその派生品に適用</summary>
+</entry>
+<entry>
+<title>ホルムズ経由の原油・LNGの実輸送量（AISの隻数ではなくカーゴ追跡・輸出統計。瀬取り分を含む） — 2026-08-27</title>
+<link href="https://kaikei-media.github.io/o/t2-q6/"/>
+<id>https://kaikei-media.github.io/o/t2-q6/#2026-08-27@2026-08-27</id>
+<updated>2026-08-27T14:48:37+00:00</updated>
+<summary>クウェート・カタールの石油輸送は戦前の約7割（AIS切断・オマーン湾での瀬取り経由。待機船約150隻、1月は40隻）</summary>
+</entry>
+<entry>
+<title>貿易の陣営別シェア — 誰と誰が取引しているか — 2025-12-31</title>
+<link href="https://kaikei-media.github.io/o/t2-f2/"/>
+<id>https://kaikei-media.github.io/o/t2-f2/#2025-12-31@2026-08-27</id>
+<updated>2026-08-27T13:30:41+00:00</updated>
+<summary>同じ陣営内の貿易が世界貿易の約71%（2025年。1995年は約55%）。陣営間の貿易は2022年以降、陣営内より約4%遅く成長</summary>
+</entry>
+<entry>
+<title>海上輸送のトンマイル — 迂回で実距離がどれだけ伸びたか — 2025-12-31</title>
+<link href="https://kaikei-media.github.io/o/t2-q2/"/>
+<id>https://kaikei-media.github.io/o/t2-q2/#2025-12-31@2026-08-27</id>
+<updated>2026-08-27T13:30:41+00:00</updated>
+<summary>世界海上貿易トンマイル 2025年+0.3%（2024年は+5.9%で6兆6,781億トンマイル）。2026年の原油タンカー需要は+1.5〜2.5%（BIMCO予測）</summary>
+</entry>
+<entry>
+<title>GPU担保ABS・DC-ABSの新発条件（劣後比率・スプレッド）と格付アクション — 2026-07-27</title>
+<link href="https://kaikei-media.github.io/o/t3-f2/"/>
+<id>https://kaikei-media.github.io/o/t3-f2/#2026-07-27@2026-08-27</id>
+<updated>2026-08-27T13:30:41+00:00</updated>
+<summary>Aligned DC ABS 2026-1: 11.8億ドル（当初9.05億から30%増額）、A-2-I=A−／B=BBB（S&amp;P）、評価LTV上限70%、5年ARD</summary>
+</entry>
+<entry>
+<title>GPU担保ABS・DC-ABSの新発条件（劣後比率・スプレッド）と格付アクション — 2026-08-10</title>
+<link href="https://kaikei-media.github.io/o/t3-f2/"/>
+<id>https://kaikei-media.github.io/o/t3-f2/#2026-08-10@2026-08-27</id>
+<updated>2026-08-27T13:30:41+00:00</updated>
+<summary>CoreWeave DDTL 5.5（GPU担保ローン）26億ドル・SOFR+550bp・Moody&#x27;s Ba2／Fitch BB+。5月のDDTL 5.0（31億ドル・SOFR+450bp・同格付）よりスプレッド拡大</summary>
+</entry>
+<entry>
+<title>財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図） — 2026-08-19</title>
+<link href="https://kaikei-media.github.io/o/t1-f4/"/>
+<id>https://kaikei-media.github.io/o/t1-f4/#2026-08-19@2026-08-27</id>
+<updated>2026-08-27T13:21:21+00:00</updated>
+<summary>長期ゾーンの買い戻しを1回$20億→$40億以上に倍増（9/9〜11/4）。四半期の流動性支援枠は$38B据え置き</summary>
+</entry>
+<entry>
+<title>為替介入額とFIMAレポの利用（日本が米国債を売らずにドルを調達しているか） — 2026-07-31</title>
+<link href="https://kaikei-media.github.io/o/t1-f5/"/>
+<id>https://kaikei-media.github.io/o/t1-f5/#2026-07-31@2026-08-27</id>
+<updated>2026-08-27T13:21:21+00:00</updated>
+<summary>7/30〜31の日米協調円買いは約11〜12兆円。米側はドルでなくユーロを売り、日本は米国債を売らずFRBのFIMAレポで調達</summary>
+</entry>
+<entry>
+<title>金ETFの現物保有トン数（価格ではなく現物の増減） — 2026-07-31</title>
+<link href="https://kaikei-media.github.io/o/t1-f2/"/>
+<id>https://kaikei-media.github.io/o/t1-f2/#2026-07-31@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>世界の金ETF保有 4,068トン（7月+23トン、2か月連続流出のあと流入に転換。過去最高は2/27の4,176トン）</summary>
+</entry>
+<entry>
+<title>米国債 年限別発行額（四半期定例発行計画）— 短期化しているか — 2026-08-05</title>
+<link href="https://kaikei-media.github.io/o/t1-q1/"/>
+<id>https://kaikei-media.github.io/o/t1-q1/#2026-08-05@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>8〜10月期: 利付債の入札規模は据え置き（10年390〜420億ドル、30年220〜250億ドル）。長期ゾーン（10〜30年）の流動性支援バイバックを1回20億ドル→40億ドル以上に倍増（9/9〜11/4）</summary>
+</entry>
+<entry>
+<title>米国債入札の応札倍率と間接落札比率 — 海外中銀がまだ引き受けているか — 2026-08-13</title>
+<link href="https://kaikei-media.github.io/o/t1-q2/"/>
+<id>https://kaikei-media.github.io/o/t1-q2/#2026-08-13@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>8月入札: 10年債（420億ドル）応札倍率2.53倍・間接落札76.7%・テール−1.7bp。30年債（250億ドル）2.39倍・66.8%・−2.4bp（5月は10年2.40倍/64.0%/+4.8bp、30年2.30倍/66.6%/+1.6bp）</summary>
+</entry>
+<entry>
+<title>各国の国防調達契約額（予算ではなく受注ベース） — 2025-12-31</title>
+<link href="https://kaikei-media.github.io/o/t2-f1/"/>
+<id>https://kaikei-media.github.io/o/t2-f1/#2025-12-31@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>EU加盟国の装備調達 1,150億ユーロ（2025年。国防支出計4,180億ユーロ、前年比+20%。2026年見込み4,540億ユーロ）</summary>
+</entry>
+<entry>
+<title>ホルムズ・スエズ・パナマの通航隻数とトン数 — 2026-08-23</title>
+<link href="https://kaikei-media.github.io/o/t2-q1/"/>
+<id>https://kaikei-media.github.io/o/t2-q1/#2026-08-23@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>ホルムズ海峡 通航3隻/日（危機前の基準85隻/日の約4%）。スエズ運河 約39隻/日（8/16までの4週。危機前比−41%、2024年1月以来の高水準）。パナマ運河 平均35隻/日（FY2026 10〜6月、前年比+5.2%）</summary>
+</entry>
+<entry>
+<title>戦争リスク保険の付保可否と料率 — 2026-07-22</title>
+<link href="https://kaikei-media.github.io/o/t2-q3/"/>
+<id>https://kaikei-media.github.io/o/t2-q3/#2026-07-22@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>ホルムズ通航の戦争リスク保険料 船体価額の7.5〜10%（数週間前は1〜3%）。紅海は0.5%（7/20以前は0.3%）</summary>
+</entry>
+<entry>
+<title>主要品目の在庫日数、戦略備蓄の放出量 — 2026-08-21</title>
+<link href="https://kaikei-media.github.io/o/t2-q4/"/>
+<id>https://kaikei-media.github.io/o/t2-q4/#2026-08-21@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>米SPR 2億8,970万バレル（週−370万バレル）。IEAは3月に史上最大の協調放出4億バレルを決定</summary>
+</entry>
+<entry>
+<title>輸出規制の品目数、制裁対象エンティティ数 — 2026-07-23</title>
+<link href="https://kaikei-media.github.io/o/t2-q5/"/>
+<id>https://kaikei-media.github.io/o/t2-q5/#2026-07-23@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>EU対ロ第21次制裁: 新規指定218（個人48・団体170）、影の船団41隻追加（累計673隻）。過去4年で最大の指定バッチ</summary>
+</entry>
+<entry>
+<title>AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期 — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-f1/"/>
+<id>https://kaikei-media.github.io/o/t3-f1/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>ハイパースケーラ等のAI関連社債発行 年初来約2,250億ドル（前年同期比約10倍）、通年ペース約4,000億ドル</summary>
+</entry>
+<entry>
+<title>AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期 — 2026-07-07</title>
+<link href="https://kaikei-media.github.io/o/t3-f1/"/>
+<id>https://kaikei-media.github.io/o/t3-f1/#2026-07-07@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>Amazon 250億ドル起債の需要倍率 2.5倍（3月の同社起債は3.2倍）。最長年限に18〜21bpの上乗せ</summary>
+</entry>
+<entry>
+<title>ベンダーファイナンス — GPU供給元が顧客に出資・与信している額 — 2026-08-10</title>
+<link href="https://kaikei-media.github.io/o/t3-f3/"/>
+<id>https://kaikei-media.github.io/o/t3-f3/#2026-08-10@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>NVIDIAの5,000億ドル金融プラットフォームは覚書段階（最終契約は未締結）。NVIDIA自身の出資額・残存価値支援の条件は非開示</summary>
+</entry>
+<entry>
+<title>ベンダーファイナンス — GPU供給元が顧客に出資・与信している額 — 2026-08-17</title>
+<link href="https://kaikei-media.github.io/o/t3-f3/"/>
+<id>https://kaikei-media.github.io/o/t3-f3/#2026-08-17@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>NVIDIAがSB Energy向けの残存価値保証（上限1,050億ドル、OpenAIのデフォルト時のみ発動、オフバランス）を8-Kで開示</summary>
+</entry>
+<entry>
+<title>ハイパースケーラ: 営業CFに対するcapexのカバー率と、capexに占める新規借入の比率（FactSet: FY24 9%→直近32%） — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-f4/"/>
+<id>https://kaikei-media.github.io/o/t3-f4/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>設備投資の借入調達比率 32%（直近12か月。FY24は9%）</summary>
+</entry>
+<entry>
+<title>私募クレジット: 解約請求率・引出上限（ゲート）・NAV（Cliffwater / BCRED / Blue Owl）、BDCの純資産割引 — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-f5/"/>
+<id>https://kaikei-media.github.io/o/t3-f5/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>Cliffwater: 4-6月期の解約請求 17%（1-3月期 約14%）、上限5%で充足率約33%</summary>
+</entry>
+<entry>
+<title>ネオクラウドの発行市場の条件: 担保付と無担保の利回りの逆転、コベナンツ、ワラント付き（CoreWeave等） — 2026-07-17</title>
+<link href="https://kaikei-media.github.io/o/t3-f6/"/>
+<id>https://kaikei-media.github.io/o/t3-f6/#2026-07-17@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>Nebius 初の担保付ローン 7.75億ドル SOFR+250bp（担保は稼働中GPUと投資適格顧客の契約CF）</summary>
+</entry>
+<entry>
+<title>ネオクラウドの発行市場の条件: 担保付と無担保の利回りの逆転、コベナンツ、ワラント付き（CoreWeave等） — 2026-08-07</title>
+<link href="https://kaikei-media.github.io/o/t3-f6/"/>
+<id>https://kaikei-media.github.io/o/t3-f6/#2026-08-07@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>CoreWeave DDTL 5.5（26億ドル・担保付）: SOFR+550bp・YTM 10.44%（当初提示から100〜125bp拡大）、DSCR 1.35倍。無担保債9.625%を上回る逆転が継続</summary>
+</entry>
+<entry>
+<title>データセンターの新規着工と完工MW — 2025-12-31</title>
+<link href="https://kaikei-media.github.io/o/t3-q1/"/>
+<id>https://kaikei-media.github.io/o/t3-q1/#2025-12-31@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>北米の建設中容量 5,994MW（2024年末6,350MWから減少。2020年以来初の減少）</summary>
+</entry>
+<entry>
+<title>データセンターの新規着工と完工MW — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-q1/"/>
+<id>https://kaikei-media.github.io/o/t3-q1/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>北米のDC建設パイプライン66GW（95%が事前契約済み）、2026年上期の吸収量25GW（前年同期比2倍）</summary>
+</entry>
+<entry>
+<title>電力の大口契約（PPA）の新規締結MWとキャンセル — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-q2/"/>
+<id>https://kaikei-media.github.io/o/t3-q2/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>Constellationが4-6月期に約920MWの長期PPAを新規締結（15〜20年、原子力。うちWalmart 176MW）。キャンセルの開示なし</summary>
+</entry>
+<entry>
+<title>メモリ: ビット出荷成長率と契約価格QoQ（価格×数量に分解する） — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-q3/"/>
+<id>https://kaikei-media.github.io/o/t3-q3/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>SK hynix 4-6月期: DRAMビット出荷 前期比+高1桁%に対しASP約+30%、NANDビット+10%台半ばに対しASP+50%台半ば。7-9月期ガイダンスはDRAMビット約+10%、NAND低1桁%</summary>
+</entry>
+<entry>
+<title>メモリ: ビット出荷成長率と契約価格QoQ（価格×数量に分解する） — 2026-07-03</title>
+<link href="https://kaikei-media.github.io/o/t3-q3/"/>
+<id>https://kaikei-media.github.io/o/t3-q3/#2026-07-03@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>SanDisk 4-6月期: 売上+51%（前期比）のうち約2/3が価格・約1/3が数量。次四半期ガイダンスは約+18%（中間値）</summary>
+</entry>
+<entry>
+<title>GPUの収益力: 同一世代・同一構成の1年契約価格の前年比、旧世代の再契約価格（資産の稼ぐ力。市場価格ではない） — 2026-07-31</title>
+<link href="https://kaikei-media.github.io/o/t3-q5/"/>
+<id>https://kaikei-media.github.io/o/t3-q5/#2026-07-31@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>CoreWeave: 7月に契約価格を全SKUで約25%引き上げ。旧世代（H100等）の価格は「数年前と同等以上」、A100を2029年まで再契約</summary>
+</entry>
+<entry>
+<title>会計上の耐用年数と償却方法（GPU設備。短縮＝残存価値問題の自認、CAM指定） — 2026-03-31</title>
+<link href="https://kaikei-media.github.io/o/t3-q6/"/>
+<id>https://kaikei-media.github.io/o/t3-q6/#2026-03-31@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>Nebius: サーバー・ネットワーク機器の耐用年数を4年→5年に延長（2026年1月から。1-3月期の減価償却費を4,310万ドル削減）</summary>
+</entry>
+<entry>
+<title>会計上の耐用年数と償却方法（GPU設備。短縮＝残存価値問題の自認、CAM指定） — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-q6/"/>
+<id>https://kaikei-media.github.io/o/t3-q6/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T12:24:02+00:00</updated>
+<summary>CoreWeave: 4-6月期10-Qで会計方針に重要な変更なし（GPU等は6年・定額法のまま）</summary>
+</entry>
+<entry>
+<title>MMF残高とリバースレポ残高 — 短期に逃げているか — 2026-08-19</title>
+<link href="https://kaikei-media.github.io/o/t1-f1/"/>
+<id>https://kaikei-media.github.io/o/t1-f1/#2026-08-19@2026-08-27</id>
+<updated>2026-08-27T09:54:53+00:00</updated>
+<summary>MMF残高 7.93兆ドル、翌日物リバースレポ7億ドル（枯渇）</summary>
+</entry>
+<entry>
+<title>外国人の米国債買い越し額 — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t1-f3/"/>
+<id>https://kaikei-media.github.io/o/t1-f3/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T09:54:53+00:00</updated>
+<summary>中長期国債 純購入68億ドル、短期国庫証券は290億ドル取り崩し</summary>
+</entry>
+<entry>
+<title>海外公的部門の米国債保有残高 — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t1-q3/"/>
+<id>https://kaikei-media.github.io/o/t1-q3/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T09:54:53+00:00</updated>
+<summary>海外公的部門保有 3兆7,781億ドル（総額9兆2,990億ドル）</summary>
+</entry>
+<entry>
+<title>各国中銀の金購入量（トン） — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t1-q4/"/>
+<id>https://kaikei-media.github.io/o/t1-q4/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T09:54:53+00:00</updated>
+<summary>中銀金購入 289トン（第2四半期）</summary>
+</entry>
+<entry>
+<title>FRBの保有残高 — 買っているか減らしているか — 2026-08-19</title>
+<link href="https://kaikei-media.github.io/o/t1-q5/"/>
+<id>https://kaikei-media.github.io/o/t1-q5/#2026-08-19@2026-08-27</id>
+<updated>2026-08-27T09:54:53+00:00</updated>
+<summary>FRB総資産 6兆7,457億ドル</summary>
+</entry>
+<entry>
+<title>ハイパースケーラの受注残（RPO）とcapexの実額（キャッシュフロー計算書） — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-q4/"/>
+<id>https://kaikei-media.github.io/o/t3-q4/#2026-06-30@2026-08-27</id>
+<updated>2026-08-27T09:54:53+00:00</updated>
+<summary>主要4社合計の実キャッシュcapex 約1,650億ドル（2026年4-6月期）</summary>
+</entry>
+</feed>

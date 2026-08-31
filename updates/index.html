@@ -1,0 +1,176 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>記録の履歴 — 解経</title>
+<meta name="description" content="いつ何を記録したかの一覧です。新しい順。">
+<link rel="canonical" href="https://kaikei-media.github.io/updates/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="記録の履歴">
+<meta property="og:description" content="いつ何を記録したかの一覧です。新しい順。">
+<meta property="og:url" content="https://kaikei-media.github.io/updates/">
+<meta property="og:image" content="https://kaikei-media.github.io/ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@kaikei_media">
+<meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
+<style>
+/* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
+   地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
+   紙=#f5f1e8 ／ 副=#9089b5 ／ 沈め=#332a63 ／ 罫=#3b3272。ライト/ダークの切替は無く、常に濃紺地。 */
+:root{--bg:#080130;--paper:#0e0838;--ink:#f5f1e8;--ink2:#c9c3dc;--ink3:#9089b5;--line:#3b3272;--dim:#332a63;
+--gold:#c9a96e;--on:#c9a96e;--off:#9089b5;--c:#c9a96e;--cbg:#332a63;--mono:ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP","Zen Kaku Gothic New",system-ui,sans-serif;font-size:15px;line-height:1.7}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 18px 64px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+h1{font-family:"Hiragino Mincho ProN","Shippori Mincho","Noto Serif JP",Georgia,serif;font-size:1.7rem;margin:0;color:var(--gold);font-weight:500}
+.tag{color:var(--ink3);font-family:var(--mono);font-size:.72rem;letter-spacing:.14em}
+.lead{max-width:70ch;color:var(--ink2);margin:12px 0 26px;font-size:.95rem}
+a{color:inherit}
+.hlinks{display:flex;gap:14px;align-items:baseline}
+.xlink{color:var(--gold);text-decoration:none;font-family:var(--mono);font-size:.78rem}
+.xlink:hover{text-decoration:underline}
+h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:34px 0 10px;font-weight:500}
+/* overview cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:760px){.cards{grid-template-columns:1fr}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:1rem;color:var(--ink);font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-weight:500}
+.card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
+.card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
+.card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
+/* ladder: 現在地だけが金。過去は沈めた紺、未来は罫だけ */
+.ladder{--n:5;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;margin:6px 0 2px;position:relative}
+.ladder .rung{background:var(--bg);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:4px 5px;font-size:.7rem;line-height:1.25;color:var(--ink3);display:flex;flex-direction:column;justify-content:flex-end}
+.ladder .rung b{font-family:var(--mono);font-size:.72rem;color:var(--ink2);display:block}
+.ladder .rung.past{background:var(--dim);border-color:var(--dim);color:var(--ink2)}
+.ladder .rung.now{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+.ladder .rung.now b{color:var(--bg)}
+.ladder .rung.next{border-style:dashed;border-color:var(--gold)}
+.ladder .rung.mini{min-height:30px;justify-content:center;align-items:center;padding:2px}
+.ladder .rung.mini b{font-size:.8rem}
+.ladder.big .rung{min-height:64px;font-size:.78rem}
+.marker{position:relative;height:30px;margin-top:2px}
+.marker span{position:absolute;transform:translateX(-50%);color:var(--gold);font-size:.72rem;font-family:var(--mono);white-space:nowrap}
+.marker span:before{content:"▲";display:block;text-align:center;line-height:.6}
+.lnote{color:var(--ink3);font-size:.8rem;margin:4px 0 0}
+details.phases{margin:8px 0 0}details.phases>summary{cursor:pointer;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:var(--ink3)}
+ol.phases{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+ol.phases li{display:grid;grid-template-columns:120px 1fr;gap:10px;padding:7px 10px;border:1px solid var(--line);border-radius:6px;font-size:.84rem;background:var(--bg)}
+ol.phases li.now{border-color:var(--gold);background:var(--dim)}
+ol.phases li b{color:var(--gold);font-family:var(--mono);font-size:.8rem}
+ol.phases li span{color:var(--ink2)}ol.phases li small{grid-column:2;color:var(--ink3)}
+@media(max-width:600px){ol.phases li{grid-template-columns:1fr}ol.phases li small{grid-column:1}}
+/* trend sections */
+.trend{margin:26px 0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.trend>.head{background:var(--dim);padding:14px 18px}
+.trend>.head h2{margin:0;font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-size:1.3rem;color:var(--ink);font-weight:500}
+.trend>.head .dest{color:var(--ink2);font-size:.9rem;margin-top:4px}
+.trend .body{padding:14px 18px;background:var(--paper)}
+.state{border-left:3px solid var(--gold);padding:8px 14px;margin:0 0 16px;background:var(--bg)}
+.state .k{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:var(--ink3);display:block}
+.state .short{margin:4px 0 6px;font-size:1.12rem;font-weight:600;line-height:1.5;color:var(--ink)}
+.state .why{margin:0 0 .5em;color:var(--ink2);font-size:.92rem;line-height:1.85}
+.state .why:last-child{margin-bottom:0}
+.state .sb{margin:12px 0 0;padding:10px 12px;border-radius:6px;background:var(--paper)}
+.state .sb.lead{background:none;padding:0;margin-top:6px}
+.state .sb.on{border-left:3px solid var(--gold)}
+.state .sb.off{border-left:3px solid var(--dim)}
+.state .sb.next{border-left:3px solid var(--ink3);background:none}
+.state .sh{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;
+ margin-bottom:6px;color:var(--ink3)}
+.state .sb.on .sh{color:var(--gold)}
+.state.empty{color:var(--ink3);font-style:italic}
+h3.sub{font-size:.75rem;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin:18px 0 6px;font-weight:500}
+ul.sig{list-style:none;margin:0;padding:0}
+ul.sig li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.9rem}
+ul.sig .pill{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--ink3);white-space:nowrap;height:fit-content;margin-top:3px}
+ul.sig .pill.on{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+ul.sig .txt small{display:block;color:var(--ink3)}
+/* money flow diagram */
+.money{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;align-items:stretch;margin:6px 0 4px}
+@media(max-width:760px){.money{grid-template-columns:1fr 1fr}}
+.money .box{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 9px;font-size:.78rem;line-height:1.35;position:relative}
+.money .box b{display:block;font-size:.86rem;color:var(--ink);margin-bottom:2px}
+.money .box em{display:block;font-style:normal;color:var(--ink2)}
+.money .box small{display:block;color:var(--ink3);margin-top:3px}
+.money .box:not(:last-child):after{content:"→";position:absolute;right:-9px;top:40%;color:var(--gold);font-weight:700;font-size:.9rem}
+@media(max-width:760px){.money .box:after{display:none}}
+.loop{color:var(--ink3);font-size:.8rem;margin:2px 0 0;text-align:right}
+/* tables */
+details.data{margin-top:14px}
+details.data>summary{cursor:pointer;font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{text-align:left;vertical-align:top;padding:7px 9px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);font-weight:500}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+td.dir{font-size:1.1rem;text-align:center;color:var(--gold)}
+td.na{color:var(--ink3);font-style:italic}
+details{font-size:.82rem;color:var(--ink2)}details summary{cursor:pointer;color:var(--ink3)}
+details table{margin-top:6px}
+footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
+.t1,.t2,.t3{--c:var(--gold);--cbg:var(--dim)}
+</style></head><body><div class="wrap">
+<header><div><div class="tag">KAIKEI</div><h1>記録の履歴</h1></div></header>
+<p class="lead">いつ何を記録したかの一覧です。新しい順。</p>
+<div class="tbl"><table><tbody>
+<tr><td style="white-space:nowrap">2026-08-31</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q3/">メモリ: ビット出荷成長率と契約価格QoQ（価格×数量に分解する）</a><br><small>対象日 2026-07-03 【予測・実測ではない】TrendForce 7-9月期予測: 汎用DRAM契約価格 前期比+13〜18%、NAND +10〜15%（上昇幅は鈍化）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-30</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q10/">銅の在庫と実需（価格ではなく数量）</a><br><small>対象日 2026-07-31 LME・COMEX・SHFE合計の銅在庫 96万4,095トン（2003年8月以来の最高水準）。2025年末比+21万9,980トン(+29.6%)。内訳: LME+9万8,700トン・COMEX+19万7,288トン・SHFE−7万6,008トン。2026年上期の世界精製銅需給（見かけ）は+13.</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-30</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q8/">電力設備メーカーの受注残とbook-to-bill（日立エナジー・シーメンスエナジー・GEベルノバ）</a><br><small>対象日 2026-06-30 受注残: GEベルノバ 1,760億ドル（過去最高・前年比+37%。4-6月期受注242億ドル・前年比+88%、受注倍率は2倍超）。シーメンスエナジー 1,620億ユーロ（過去最高・前年136億ユーロから+19.3%、受注倍率1.57倍）。日立エナジー 10.3兆円／636億ドル（前期末比+10%、</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-30</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q9/">系統接続の遅延（PJM等のマイルストーン変更要求に占める許認可・接続待ちの割合）</a><br><small>対象日 2026-05-21 PJM自身の公表（一次資料に差し替え）: 系統接続契約(interconnection agreement)を締結済みの案件のうち約53GW（フル出力で家庭4,000万世帯相当）が、PJMの管轄外の要因（連邦・州・地方の許認可、用地選定、サプライチェーン）で行き詰まっている。新規案件の系統連系契約発</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-30</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q7/">高圧変圧器・開閉装置の納期（AI工場を完成させる難易度）</a><br><small>対象日 2026-05-11 大容量変圧器の納期は最大4年（PwC）。需要は2019→2025で発電機昇圧変圧器+274%・変電所用+116%（Wood Mackenzie）。価格は5年で約+80%</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-30</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q9/">系統接続の遅延（PJM等のマイルストーン変更要求に占める許認可・接続待ちの割合）</a><br><small>対象日 2026-01-31 マイルストーン変更要求の29%が許認可の遅延によるもの（PJM）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-29</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q5/">輸出規制の品目数、制裁対象エンティティ数</a><br><small>対象日 2026-08-20 米財務省OFACがHizballah向け資金密輸ネットワークの個人10名を新規指定、Hizballah自体も再指定（8/20）。ネットワークはレバノン・トルコ・UAE・イラン間で商業便の運び屋を使い現金を移動</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-29</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-f1/">各国の国防調達契約額（予算ではなく受注ベース）</a><br><small>対象日 2026-08-21 米USTRANSCOMがFedExとUPSの配送契約（NGDS-2）をそれぞれ約27.25億ドルで4年延長（2026/10/1〜2030/9/30）。Polar Air Cargoは2.725億ドルで新規追加。3社合計57億ドル</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-q6/">日本の生保: 国内債含み損と解約動向（T1-Pj・日本版の破断候補ノード）</a><br><small>対象日 2026-06-30 第一生命単体の国内公社債含み損 △4兆406億円（3月末比△2,383億円拡大。責準対応債券は時価が簿価の75%）。大手4社計15兆円（3カ月で+1兆円）。日本生命は減損440億円を計上。業界41社の解約返戻金は1-5月6兆190億円（前年比+39%、9カ月連続で月1兆円超）。第一のESR約206%</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q2/">海上輸送のトンマイル — 迂回で実距離がどれだけ伸びたか</a><br><small>対象日 2026-08-25 BIMCO 8月版タンカー市況: 原油・重質油の輸出量は年初来で前年比−5.7%、清浄石油製品の輸出量は同−11.2%。ただしLR2船型が原油・重質油輸送のシェアを増やし、プロダクトタンカーのトンマイル需要は年初来で微増。2026年の原油タンカー需要成長予測は+1〜2%（供給+1.5%）、2027年</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q6/">ホルムズ経由の原油・LNGの実輸送量（AISの隻数ではなくカーゴ追跡・輸出統計。瀬取り分を含む）</a><br><small>対象日 2026-08-27 Kpler/Vortexaの追跡: ホルムズ海峡を経由して流出する原油量が日量7〜8百万バレルまで回復（7月中旬の日量約400万バレルから倍増）。Vortexaは直近7日平均が日量1,000万バレル近くに達したと分析。8/10には衛星画像(Sentinel-2)でオマーン湾の一区画のみで瀬取り(ST</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f1/">AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期</a><br><small>対象日 2026-07-27 Sopaipilla Investor（BlackRock主導、Meta El Paso DC向け）が125億4,700万ドルの担保付債（22.3年・2048年11月満期）をT+287.5bp・利率7.534%で起債。S&amp;P A+／Fitch AA−</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f1/">AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期</a><br><small>対象日 2026-08-13 Zenith Arc（Jane Street向けデータセンター、オクラホマ州149MW）がグリーンボンド22.5億ドルを起債。Jane Streetの15年トリプルネットリース保証が裏付け。発行価格99.5・利回り約9%</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q2/">電力の大口契約（PPA）の新規締結MWとキャンセル</a><br><small>対象日 2026-08-04 NRGが未公表のグローバル・ハイパースケーラーとの間で、テキサス州の1.2GWガス火力発電所（コンバインドサイクル）の商業条件基本合意に到達。投資額32億ドル、2029年後半稼働予定。将来的に2.4GWへの倍増オプションあり</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-q5/">FRBの保有残高 — 買っているか減らしているか</a><br><small>対象日 2026-08-26 FRB総資産 6兆7,309億ドル</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-f3/">石油取引の非ドル決済シェア（人民元・ルピー等）と中銀の金準備比率</a><br><small>対象日 2025-12-31 世界の公的準備資産に占める金の割合は27%（前年20%から上昇）、米国債22%、ユーロ15%（時価ベース、2025年末）。石油取引の非ドル決済シェアは一次資料で確認できる直近値が見つからず未記入</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-f4/">ウクライナ向け軍事・財政支援の拠出額（約束でなく実行）と、ロシアの凍結資産の扱い</a><br><small>対象日 2026-06-30 ウクライナ支援配分（欧州機関）: 5〜6月に新設のUkraine Support Loan経由で計約110億ユーロ配分（軍事43億ユーロ・財政人道67億ユーロ）。日本はERA第2弾で11億ユーロ拠出（凍結ロシア資産の収益が原資）。財政・人道支援は前年同月平均比41%減</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q7/">台湾周辺の人民解放軍の活動（機数・艦艇数／日、月間累計）と台湾海峡の商船通航</a><br><small>対象日 2026-08-24 台湾周辺の人民解放軍活動: 8/23 6時〜8/24 6時で戦闘機等2ソーティー・艦艇7隻・公船2隻（8/21は艦艇7隻・公船6隻・機なし、8/5は機21・艦14）。日によるばらつきが大きい</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q8/">ロシア産原油の海上輸出量と影の船団の隻数・拿捕件数、黒海の輸送量</a><br><small>対象日 2026-07-31 7月のロシア産石油の海上輸送は制裁対象「影の船団」が53%・G7＋籍が42%・非制裁の「影」船が残り。新規参入7隻中G7＋籍は2隻のみ。月末時点で偽装旗の「影の船団」46隻が稼働。ノヴォロシースクは7/19のCPCターミナル攻撃後、月間積出量が前月比23%減</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-28</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q9/">米国の軍事行動と強制外交（作戦の件数、国債保有・決済通貨・関税を安全保障と結びつけた公式要求）</a><br><small>対象日 2026-08-01 米国の新規関税が輸入額の54%に適用（2026年）。実効関税率は2022年の1.5%から11.7%へ上昇。うちSection 232（安全保障を根拠とする関税）は鉄鋼・アルミ・銅とその派生品に適用</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q6/">ホルムズ経由の原油・LNGの実輸送量（AISの隻数ではなくカーゴ追跡・輸出統計。瀬取り分を含む）</a><br><small>対象日 2026-08-27 クウェート・カタールの石油輸送は戦前の約7割（AIS切断・オマーン湾での瀬取り経由。待機船約150隻、1月は40隻）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-f2/">貿易の陣営別シェア — 誰と誰が取引しているか</a><br><small>対象日 2025-12-31 同じ陣営内の貿易が世界貿易の約71%（2025年。1995年は約55%）。陣営間の貿易は2022年以降、陣営内より約4%遅く成長</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q2/">海上輸送のトンマイル — 迂回で実距離がどれだけ伸びたか</a><br><small>対象日 2025-12-31 世界海上貿易トンマイル 2025年+0.3%（2024年は+5.9%で6兆6,781億トンマイル）。2026年の原油タンカー需要は+1.5〜2.5%（BIMCO予測）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f2/">GPU担保ABS・DC-ABSの新発条件（劣後比率・スプレッド）と格付アクション</a><br><small>対象日 2026-07-27 Aligned DC ABS 2026-1: 11.8億ドル（当初9.05億から30%増額）、A-2-I=A−／B=BBB（S&amp;P）、評価LTV上限70%、5年ARD</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f2/">GPU担保ABS・DC-ABSの新発条件（劣後比率・スプレッド）と格付アクション</a><br><small>対象日 2026-08-10 CoreWeave DDTL 5.5（GPU担保ローン）26億ドル・SOFR+550bp・Moody&#x27;s Ba2／Fitch BB+。5月のDDTL 5.0（31億ドル・SOFR+450bp・同格付）よりスプレッド拡大</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-f4/">財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図）</a><br><small>対象日 2026-08-19 長期ゾーンの買い戻しを1回$20億→$40億以上に倍増（9/9〜11/4）。四半期の流動性支援枠は$38B据え置き</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-f5/">為替介入額とFIMAレポの利用（日本が米国債を売らずにドルを調達しているか）</a><br><small>対象日 2026-07-31 7/30〜31の日米協調円買いは約11〜12兆円。米側はドルでなくユーロを売り、日本は米国債を売らずFRBのFIMAレポで調達</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-f2/">金ETFの現物保有トン数（価格ではなく現物の増減）</a><br><small>対象日 2026-07-31 世界の金ETF保有 4,068トン（7月+23トン、2か月連続流出のあと流入に転換。過去最高は2/27の4,176トン）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-q1/">米国債 年限別発行額（四半期定例発行計画）— 短期化しているか</a><br><small>対象日 2026-08-05 8〜10月期: 利付債の入札規模は据え置き（10年390〜420億ドル、30年220〜250億ドル）。長期ゾーン（10〜30年）の流動性支援バイバックを1回20億ドル→40億ドル以上に倍増（9/9〜11/4）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-q2/">米国債入札の応札倍率と間接落札比率 — 海外中銀がまだ引き受けているか</a><br><small>対象日 2026-08-13 8月入札: 10年債（420億ドル）応札倍率2.53倍・間接落札76.7%・テール−1.7bp。30年債（250億ドル）2.39倍・66.8%・−2.4bp（5月は10年2.40倍/64.0%/+4.8bp、30年2.30倍/66.6%/+1.6bp）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-f1/">各国の国防調達契約額（予算ではなく受注ベース）</a><br><small>対象日 2025-12-31 EU加盟国の装備調達 1,150億ユーロ（2025年。国防支出計4,180億ユーロ、前年比+20%。2026年見込み4,540億ユーロ）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q1/">ホルムズ・スエズ・パナマの通航隻数とトン数</a><br><small>対象日 2026-08-23 ホルムズ海峡 通航3隻/日（危機前の基準85隻/日の約4%）。スエズ運河 約39隻/日（8/16までの4週。危機前比−41%、2024年1月以来の高水準）。パナマ運河 平均35隻/日（FY2026 10〜6月、前年比+5.2%）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q3/">戦争リスク保険の付保可否と料率</a><br><small>対象日 2026-07-22 ホルムズ通航の戦争リスク保険料 船体価額の7.5〜10%（数週間前は1〜3%）。紅海は0.5%（7/20以前は0.3%）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q4/">主要品目の在庫日数、戦略備蓄の放出量</a><br><small>対象日 2026-08-21 米SPR 2億8,970万バレル（週−370万バレル）。IEAは3月に史上最大の協調放出4億バレルを決定</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t2-q5/">輸出規制の品目数、制裁対象エンティティ数</a><br><small>対象日 2026-07-23 EU対ロ第21次制裁: 新規指定218（個人48・団体170）、影の船団41隻追加（累計673隻）。過去4年で最大の指定バッチ</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f1/">AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期</a><br><small>対象日 2026-06-30 ハイパースケーラ等のAI関連社債発行 年初来約2,250億ドル（前年同期比約10倍）、通年ペース約4,000億ドル</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f1/">AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期</a><br><small>対象日 2026-07-07 Amazon 250億ドル起債の需要倍率 2.5倍（3月の同社起債は3.2倍）。最長年限に18〜21bpの上乗せ</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f3/">ベンダーファイナンス — GPU供給元が顧客に出資・与信している額</a><br><small>対象日 2026-08-10 NVIDIAの5,000億ドル金融プラットフォームは覚書段階（最終契約は未締結）。NVIDIA自身の出資額・残存価値支援の条件は非開示</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f3/">ベンダーファイナンス — GPU供給元が顧客に出資・与信している額</a><br><small>対象日 2026-08-17 NVIDIAがSB Energy向けの残存価値保証（上限1,050億ドル、OpenAIのデフォルト時のみ発動、オフバランス）を8-Kで開示</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f4/">ハイパースケーラ: 営業CFに対するcapexのカバー率と、capexに占める新規借入の比率（FactSet: FY24 9%→直近32%）</a><br><small>対象日 2026-06-30 設備投資の借入調達比率 32%（直近12か月。FY24は9%）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f5/">私募クレジット: 解約請求率・引出上限（ゲート）・NAV（Cliffwater / BCRED / Blue Owl）、BDCの純資産割引</a><br><small>対象日 2026-06-30 Cliffwater: 4-6月期の解約請求 17%（1-3月期 約14%）、上限5%で充足率約33%</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f6/">ネオクラウドの発行市場の条件: 担保付と無担保の利回りの逆転、コベナンツ、ワラント付き（CoreWeave等）</a><br><small>対象日 2026-07-17 Nebius 初の担保付ローン 7.75億ドル SOFR+250bp（担保は稼働中GPUと投資適格顧客の契約CF）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-f6/">ネオクラウドの発行市場の条件: 担保付と無担保の利回りの逆転、コベナンツ、ワラント付き（CoreWeave等）</a><br><small>対象日 2026-08-07 CoreWeave DDTL 5.5（26億ドル・担保付）: SOFR+550bp・YTM 10.44%（当初提示から100〜125bp拡大）、DSCR 1.35倍。無担保債9.625%を上回る逆転が継続</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q1/">データセンターの新規着工と完工MW</a><br><small>対象日 2025-12-31 北米の建設中容量 5,994MW（2024年末6,350MWから減少。2020年以来初の減少）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q1/">データセンターの新規着工と完工MW</a><br><small>対象日 2026-06-30 北米のDC建設パイプライン66GW（95%が事前契約済み）、2026年上期の吸収量25GW（前年同期比2倍）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q2/">電力の大口契約（PPA）の新規締結MWとキャンセル</a><br><small>対象日 2026-06-30 Constellationが4-6月期に約920MWの長期PPAを新規締結（15〜20年、原子力。うちWalmart 176MW）。キャンセルの開示なし</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q3/">メモリ: ビット出荷成長率と契約価格QoQ（価格×数量に分解する）</a><br><small>対象日 2026-06-30 SK hynix 4-6月期: DRAMビット出荷 前期比+高1桁%に対しASP約+30%、NANDビット+10%台半ばに対しASP+50%台半ば。7-9月期ガイダンスはDRAMビット約+10%、NAND低1桁%</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q3/">メモリ: ビット出荷成長率と契約価格QoQ（価格×数量に分解する）</a><br><small>対象日 2026-07-03 SanDisk 4-6月期: 売上+51%（前期比）のうち約2/3が価格・約1/3が数量。次四半期ガイダンスは約+18%（中間値）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q5/">GPUの収益力: 同一世代・同一構成の1年契約価格の前年比、旧世代の再契約価格（資産の稼ぐ力。市場価格ではない）</a><br><small>対象日 2026-07-31 CoreWeave: 7月に契約価格を全SKUで約25%引き上げ。旧世代（H100等）の価格は「数年前と同等以上」、A100を2029年まで再契約</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q6/">会計上の耐用年数と償却方法（GPU設備。短縮＝残存価値問題の自認、CAM指定）</a><br><small>対象日 2026-03-31 Nebius: サーバー・ネットワーク機器の耐用年数を4年→5年に延長（2026年1月から。1-3月期の減価償却費を4,310万ドル削減）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q6/">会計上の耐用年数と償却方法（GPU設備。短縮＝残存価値問題の自認、CAM指定）</a><br><small>対象日 2026-06-30 CoreWeave: 4-6月期10-Qで会計方針に重要な変更なし（GPU等は6年・定額法のまま）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-f1/">MMF残高とリバースレポ残高 — 短期に逃げているか</a><br><small>対象日 2026-08-19 MMF残高 7.93兆ドル、翌日物リバースレポ7億ドル（枯渇）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-f3/">外国人の米国債買い越し額</a><br><small>対象日 2026-06-30 中長期国債 純購入68億ドル、短期国庫証券は290億ドル取り崩し</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-q3/">海外公的部門の米国債保有残高</a><br><small>対象日 2026-06-30 海外公的部門保有 3兆7,781億ドル（総額9兆2,990億ドル）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-q4/">各国中銀の金購入量（トン）</a><br><small>対象日 2026-06-30 中銀金購入 289トン（第2四半期）</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t1-q5/">FRBの保有残高 — 買っているか減らしているか</a><br><small>対象日 2026-08-19 FRB総資産 6兆7,457億ドル</small></td></tr>
+<tr><td style="white-space:nowrap">2026-08-27</td><td style="white-space:normal"><a href="https://kaikei-media.github.io/o/t3-q4/">ハイパースケーラの受注残（RPO）とcapexの実額（キャッシュフロー計算書）</a><br><small>対象日 2026-06-30 主要4社合計の実キャッシュcapex 約1,650億ドル（2026年4-6月期）</small></td></tr>
+</tbody></table></div>
+<p class="lead"><a href="../">← いまの流れ（全体）へ</a></p>
+</div></body></html>

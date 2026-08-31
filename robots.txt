@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://kaikei-media.github.io/sitemap.xml
+# feed: https://kaikei-media.github.io/feed.xml
+# data: https://kaikei-media.github.io/data/kaikei.csv (CC BY 4.0)

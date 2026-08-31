@@ -1,0 +1,134 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How this is measured — Kaikei</title>
+<meta name="description" content="What is measured, why, and how — the material you need to decide whether to trust it.">
+<link rel="canonical" href="https://kaikei-media.github.io/en/method/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How this is measured">
+<meta property="og:description" content="What is measured, why, and how — the material you need to decide whether to trust it.">
+<meta property="og:url" content="https://kaikei-media.github.io/en/method/">
+<meta property="og:image" content="https://kaikei-media.github.io/ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@kaikei_en">
+<meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
+<style>
+/* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
+   地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
+   紙=#f5f1e8 ／ 副=#9089b5 ／ 沈め=#332a63 ／ 罫=#3b3272。ライト/ダークの切替は無く、常に濃紺地。 */
+:root{--bg:#080130;--paper:#0e0838;--ink:#f5f1e8;--ink2:#c9c3dc;--ink3:#9089b5;--line:#3b3272;--dim:#332a63;
+--gold:#c9a96e;--on:#c9a96e;--off:#9089b5;--c:#c9a96e;--cbg:#332a63;--mono:ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP","Zen Kaku Gothic New",system-ui,sans-serif;font-size:15px;line-height:1.7}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 18px 64px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+h1{font-family:"Hiragino Mincho ProN","Shippori Mincho","Noto Serif JP",Georgia,serif;font-size:1.7rem;margin:0;color:var(--gold);font-weight:500}
+.tag{color:var(--ink3);font-family:var(--mono);font-size:.72rem;letter-spacing:.14em}
+.lead{max-width:70ch;color:var(--ink2);margin:12px 0 26px;font-size:.95rem}
+a{color:inherit}
+.hlinks{display:flex;gap:14px;align-items:baseline}
+.xlink{color:var(--gold);text-decoration:none;font-family:var(--mono);font-size:.78rem}
+.xlink:hover{text-decoration:underline}
+h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:34px 0 10px;font-weight:500}
+/* overview cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:760px){.cards{grid-template-columns:1fr}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:1rem;color:var(--ink);font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-weight:500}
+.card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
+.card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
+.card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
+/* ladder: 現在地だけが金。過去は沈めた紺、未来は罫だけ */
+.ladder{--n:5;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;margin:6px 0 2px;position:relative}
+.ladder .rung{background:var(--bg);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:4px 5px;font-size:.7rem;line-height:1.25;color:var(--ink3);display:flex;flex-direction:column;justify-content:flex-end}
+.ladder .rung b{font-family:var(--mono);font-size:.72rem;color:var(--ink2);display:block}
+.ladder .rung.past{background:var(--dim);border-color:var(--dim);color:var(--ink2)}
+.ladder .rung.now{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+.ladder .rung.now b{color:var(--bg)}
+.ladder .rung.next{border-style:dashed;border-color:var(--gold)}
+.ladder .rung.mini{min-height:30px;justify-content:center;align-items:center;padding:2px}
+.ladder .rung.mini b{font-size:.8rem}
+.ladder.big .rung{min-height:64px;font-size:.78rem}
+.marker{position:relative;height:30px;margin-top:2px}
+.marker span{position:absolute;transform:translateX(-50%);color:var(--gold);font-size:.72rem;font-family:var(--mono);white-space:nowrap}
+.marker span:before{content:"▲";display:block;text-align:center;line-height:.6}
+.lnote{color:var(--ink3);font-size:.8rem;margin:4px 0 0}
+details.phases{margin:8px 0 0}details.phases>summary{cursor:pointer;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:var(--ink3)}
+ol.phases{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+ol.phases li{display:grid;grid-template-columns:120px 1fr;gap:10px;padding:7px 10px;border:1px solid var(--line);border-radius:6px;font-size:.84rem;background:var(--bg)}
+ol.phases li.now{border-color:var(--gold);background:var(--dim)}
+ol.phases li b{color:var(--gold);font-family:var(--mono);font-size:.8rem}
+ol.phases li span{color:var(--ink2)}ol.phases li small{grid-column:2;color:var(--ink3)}
+@media(max-width:600px){ol.phases li{grid-template-columns:1fr}ol.phases li small{grid-column:1}}
+/* trend sections */
+.trend{margin:26px 0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.trend>.head{background:var(--dim);padding:14px 18px}
+.trend>.head h2{margin:0;font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-size:1.3rem;color:var(--ink);font-weight:500}
+.trend>.head .dest{color:var(--ink2);font-size:.9rem;margin-top:4px}
+.trend .body{padding:14px 18px;background:var(--paper)}
+.state{border-left:3px solid var(--gold);padding:8px 14px;margin:0 0 16px;background:var(--bg)}
+.state .k{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:var(--ink3);display:block}
+.state .short{margin:4px 0 6px;font-size:1.12rem;font-weight:600;line-height:1.5;color:var(--ink)}
+.state .why{margin:0 0 .5em;color:var(--ink2);font-size:.92rem;line-height:1.85}
+.state .why:last-child{margin-bottom:0}
+.state .sb{margin:12px 0 0;padding:10px 12px;border-radius:6px;background:var(--paper)}
+.state .sb.lead{background:none;padding:0;margin-top:6px}
+.state .sb.on{border-left:3px solid var(--gold)}
+.state .sb.off{border-left:3px solid var(--dim)}
+.state .sb.next{border-left:3px solid var(--ink3);background:none}
+.state .sh{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;
+ margin-bottom:6px;color:var(--ink3)}
+.state .sb.on .sh{color:var(--gold)}
+.state.empty{color:var(--ink3);font-style:italic}
+h3.sub{font-size:.75rem;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin:18px 0 6px;font-weight:500}
+ul.sig{list-style:none;margin:0;padding:0}
+ul.sig li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.9rem}
+ul.sig .pill{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--ink3);white-space:nowrap;height:fit-content;margin-top:3px}
+ul.sig .pill.on{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+ul.sig .txt small{display:block;color:var(--ink3)}
+/* money flow diagram */
+.money{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;align-items:stretch;margin:6px 0 4px}
+@media(max-width:760px){.money{grid-template-columns:1fr 1fr}}
+.money .box{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 9px;font-size:.78rem;line-height:1.35;position:relative}
+.money .box b{display:block;font-size:.86rem;color:var(--ink);margin-bottom:2px}
+.money .box em{display:block;font-style:normal;color:var(--ink2)}
+.money .box small{display:block;color:var(--ink3);margin-top:3px}
+.money .box:not(:last-child):after{content:"→";position:absolute;right:-9px;top:40%;color:var(--gold);font-weight:700;font-size:.9rem}
+@media(max-width:760px){.money .box:after{display:none}}
+.loop{color:var(--ink3);font-size:.8rem;margin:2px 0 0;text-align:right}
+/* tables */
+details.data{margin-top:14px}
+details.data>summary{cursor:pointer;font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{text-align:left;vertical-align:top;padding:7px 9px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);font-weight:500}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+td.dir{font-size:1.1rem;text-align:center;color:var(--gold)}
+td.na{color:var(--ink3);font-style:italic}
+details{font-size:.82rem;color:var(--ink2)}details summary{cursor:pointer;color:var(--ink3)}
+details table{margin-top:6px}
+footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
+.t1,.t2,.t3{--c:var(--gold);--cbg:var(--dim)}
+</style></head><body><div class="wrap">
+<header><div><div class="tag">KAIKEI</div><h1>How this is measured</h1></div></header>
+<p class="lead">What is measured, why, and how — the material you need to decide whether to trust it.</p>
+<h2>No prices, anywhere</h2>
+<p class="lead">Only physical quantities (units, tonnes, megawatts, vessels) and money flows (how much was issued, and who bought it). No share prices, interest rates or exchange rates.</p>
+<p class="lead">Price is the result of a flow — but just as often the result of money supply and demand unrelated to it. Measured by price, <b>the last rally after a flow has ended reads as continuation</b>. So it is left out.</p>
+<p class="lead">The cost is speed: this record moves later than price. It trades being early for being checkable.</p>
+<h2>Every value carries a date and a primary source</h2>
+<p class="lead">Each value records <b>the date the figure refers to</b> and the URL it came from. A figure without both is not published.</p>
+<p class="lead">Separately, each value records <b>when Kaikei wrote it down</b> (recorded_at). These are not the same: an August 5 figure may only be learned on August 27.</p>
+<p class="lead">A record that lets you present hindsight as foresight is not evidence. Both dates are kept so it cannot.</p>
+<h2>The signals that would change the reading are set in advance</h2>
+<p class="lead">For each trend, what would have to happen for the reading to change is written down first, and judged on or off against primary-source values.</p>
+<p class="lead">Counter-signals — evidence that the reading is wrong — sit in the same list, so that hits cannot be selected after the fact.</p>
+<h2>Corrections are added, not erased</h2>
+<p class="lead">When something is wrong, a new value is appended rather than the old one deleted. Every day's state is frozen under its own date, so <b>what was being claimed on any past date can be checked</b>.</p>
+<p class="lead">Future-dated values — forecasts entered as if they were observations — are blocked by an automated check before publication.</p>
+<h2>Who writes this</h2>
+<p class="lead">Kaikei is run anonymously. <b>So do not treat the author as the warrant.</b> Everything is built to be checked from the value, the date and the source URL alone.</p>
+<p class="lead">For information only; not a recommendation to buy or sell any financial instrument.</p>
+<p class="lead"><a href="../">← Back to the whole picture</a></p>
+</div></body></html>

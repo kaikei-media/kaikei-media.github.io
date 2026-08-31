@@ -1,0 +1,234 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>用語集 — 解経</title>
+<meta name="description" content="このページで使っている専門語を、専門語を使わずに説明しています。本文では最初に出てきたところが点線になっていて、押すと説明が出ます。">
+<link rel="canonical" href="https://kaikei-media.github.io/g/">
+<meta name="robots" content="index,follow">
+<meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
+<style>
+/* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
+   地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
+   紙=#f5f1e8 ／ 副=#9089b5 ／ 沈め=#332a63 ／ 罫=#3b3272。ライト/ダークの切替は無く、常に濃紺地。 */
+:root{--bg:#080130;--paper:#0e0838;--ink:#f5f1e8;--ink2:#c9c3dc;--ink3:#9089b5;--line:#3b3272;--dim:#332a63;
+--gold:#c9a96e;--on:#c9a96e;--off:#9089b5;--c:#c9a96e;--cbg:#332a63;--mono:ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP","Zen Kaku Gothic New",system-ui,sans-serif;font-size:15px;line-height:1.7}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 18px 64px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+h1{font-family:"Hiragino Mincho ProN","Shippori Mincho","Noto Serif JP",Georgia,serif;font-size:1.7rem;margin:0;color:var(--gold);font-weight:500}
+.tag{color:var(--ink3);font-family:var(--mono);font-size:.72rem;letter-spacing:.14em}
+.lead{max-width:70ch;color:var(--ink2);margin:12px 0 26px;font-size:.95rem}
+a{color:inherit}
+.hlinks{display:flex;gap:14px;align-items:baseline}
+.xlink{color:var(--gold);text-decoration:none;font-family:var(--mono);font-size:.78rem}
+.xlink:hover{text-decoration:underline}
+h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:34px 0 10px;font-weight:500}
+/* overview cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:760px){.cards{grid-template-columns:1fr}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:1rem;color:var(--ink);font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-weight:500}
+.card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
+.card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
+.card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
+/* ladder: 現在地だけが金。過去は沈めた紺、未来は罫だけ */
+.ladder{--n:5;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;margin:6px 0 2px;position:relative}
+.ladder .rung{background:var(--bg);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:4px 5px;font-size:.7rem;line-height:1.25;color:var(--ink3);display:flex;flex-direction:column;justify-content:flex-end}
+.ladder .rung b{font-family:var(--mono);font-size:.72rem;color:var(--ink2);display:block}
+.ladder .rung.past{background:var(--dim);border-color:var(--dim);color:var(--ink2)}
+.ladder .rung.now{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+.ladder .rung.now b{color:var(--bg)}
+.ladder .rung.next{border-style:dashed;border-color:var(--gold)}
+.ladder .rung.mini{min-height:30px;justify-content:center;align-items:center;padding:2px}
+.ladder .rung.mini b{font-size:.8rem}
+.ladder.big .rung{min-height:64px;font-size:.78rem}
+.marker{position:relative;height:30px;margin-top:2px}
+.marker span{position:absolute;transform:translateX(-50%);color:var(--gold);font-size:.72rem;font-family:var(--mono);white-space:nowrap}
+.marker span:before{content:"▲";display:block;text-align:center;line-height:.6}
+.lnote{color:var(--ink3);font-size:.8rem;margin:4px 0 0}
+details.phases{margin:8px 0 0}details.phases>summary{cursor:pointer;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:var(--ink3)}
+ol.phases{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+ol.phases li{display:grid;grid-template-columns:120px 1fr;gap:10px;padding:7px 10px;border:1px solid var(--line);border-radius:6px;font-size:.84rem;background:var(--bg)}
+ol.phases li.now{border-color:var(--gold);background:var(--dim)}
+ol.phases li b{color:var(--gold);font-family:var(--mono);font-size:.8rem}
+ol.phases li span{color:var(--ink2)}ol.phases li small{grid-column:2;color:var(--ink3)}
+@media(max-width:600px){ol.phases li{grid-template-columns:1fr}ol.phases li small{grid-column:1}}
+/* trend sections */
+.trend{margin:26px 0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.trend>.head{background:var(--dim);padding:14px 18px}
+.trend>.head h2{margin:0;font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-size:1.3rem;color:var(--ink);font-weight:500}
+.trend>.head .dest{color:var(--ink2);font-size:.9rem;margin-top:4px}
+.trend .body{padding:14px 18px;background:var(--paper)}
+.state{border-left:3px solid var(--gold);padding:8px 14px;margin:0 0 16px;background:var(--bg)}
+.state .k{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:var(--ink3);display:block}
+.state .short{margin:4px 0 6px;font-size:1.12rem;font-weight:600;line-height:1.5;color:var(--ink)}
+.state .why{margin:0 0 .5em;color:var(--ink2);font-size:.92rem;line-height:1.85}
+.state .why:last-child{margin-bottom:0}
+.state .sb{margin:12px 0 0;padding:10px 12px;border-radius:6px;background:var(--paper)}
+.state .sb.lead{background:none;padding:0;margin-top:6px}
+.state .sb.on{border-left:3px solid var(--gold)}
+.state .sb.off{border-left:3px solid var(--dim)}
+.state .sb.next{border-left:3px solid var(--ink3);background:none}
+.state .sh{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;
+ margin-bottom:6px;color:var(--ink3)}
+.state .sb.on .sh{color:var(--gold)}
+.state.empty{color:var(--ink3);font-style:italic}
+h3.sub{font-size:.75rem;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin:18px 0 6px;font-weight:500}
+ul.sig{list-style:none;margin:0;padding:0}
+ul.sig li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.9rem}
+ul.sig .pill{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--ink3);white-space:nowrap;height:fit-content;margin-top:3px}
+ul.sig .pill.on{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+ul.sig .txt small{display:block;color:var(--ink3)}
+/* money flow diagram */
+.money{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;align-items:stretch;margin:6px 0 4px}
+@media(max-width:760px){.money{grid-template-columns:1fr 1fr}}
+.money .box{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 9px;font-size:.78rem;line-height:1.35;position:relative}
+.money .box b{display:block;font-size:.86rem;color:var(--ink);margin-bottom:2px}
+.money .box em{display:block;font-style:normal;color:var(--ink2)}
+.money .box small{display:block;color:var(--ink3);margin-top:3px}
+.money .box:not(:last-child):after{content:"→";position:absolute;right:-9px;top:40%;color:var(--gold);font-weight:700;font-size:.9rem}
+@media(max-width:760px){.money .box:after{display:none}}
+.loop{color:var(--ink3);font-size:.8rem;margin:2px 0 0;text-align:right}
+/* tables */
+details.data{margin-top:14px}
+details.data>summary{cursor:pointer;font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{text-align:left;vertical-align:top;padding:7px 9px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);font-weight:500}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+td.dir{font-size:1.1rem;text-align:center;color:var(--gold)}
+td.na{color:var(--ink3);font-style:italic}
+details{font-size:.82rem;color:var(--ink2)}details summary{cursor:pointer;color:var(--ink3)}
+details table{margin-top:6px}
+footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
+.t1,.t2,.t3{--c:var(--gold);--cbg:var(--dim)}
+</style></head><body><div class="wrap">
+<header><div><div class="tag">KAIKEI</div><h1>用語集</h1></div></header>
+<p class="lead">このページで使っている専門語を、専門語を使わずに説明しています。本文では最初に出てきたところが点線になっていて、押すと説明が出ます。</p>
+<div class="tbl"><table><tbody>
+<tr><td style="white-space:nowrap"><b>AA</b></td><td style="white-space:normal">債券の返済の確からしさを表す記号で、上から2番目に高い区分。</td></tr>
+<tr><td style="white-space:nowrap"><b>ABS</b></td><td style="white-space:normal">資産担保証券。特定の資産（ここではGPUやデータセンター）から生まれる収入を裏づけに発行する債券。</td></tr>
+<tr><td style="white-space:nowrap"><b>AIS</b></td><td style="white-space:normal">船が自分の位置を電波で知らせる仕組み。切ると追跡から消えるので、切っていること自体が情報になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>AIラボ</b></td><td style="white-space:normal">AIのモデルそのものを作っている会社。OpenAI・Anthropic・Google DeepMindなど。設備を買う側ではなく、その設備で動かすものを作る側。</td></tr>
+<tr><td style="white-space:nowrap"><b>ASP</b></td><td style="white-space:normal">平均販売価格。売上を数量で割ったもの。売上の伸びが値段によるのか数量によるのかを分けるのに使う。</td></tr>
+<tr><td style="white-space:nowrap"><b>BACI</b></td><td style="white-space:normal">CEPIIが作る、国と国のあいだの品目別の貿易統計。輸出側と輸入側で食い違う数字を突き合わせて直してある。</td></tr>
+<tr><td style="white-space:nowrap"><b>Bad PIK</b></td><td style="white-space:normal">利息を現金で払えず、借金の元本に上乗せして先送りしている状態。借り手が苦しくなっている印として見られる。</td></tr>
+<tr><td style="white-space:nowrap"><b>BB</b></td><td style="white-space:normal">債券の返済の確からしさを表す記号のひとつ。上からAAA・AA・A・BBBと続き、BBはその下。BBB以上を「投資適格」と呼び、BB以下は返せなくなる確率が高いとみなされる。</td></tr>
+<tr><td style="white-space:nowrap"><b>BBB</b></td><td style="white-space:normal">債券の返済の確からしさを表す記号。「投資適格」と呼ばれる範囲のいちばん下で、ここから一段下がると買えなくなる投資家がいる。</td></tr>
+<tr><td style="white-space:nowrap"><b>BCRED</b></td><td style="white-space:normal">ブラックストーンが運用する私募クレジットのファンド。規模が大きく、解約の受付状況が業界の目安として見られている。</td></tr>
+<tr><td style="white-space:nowrap"><b>BDC</b></td><td style="white-space:normal">事業開発会社。私募クレジットを個人にも売る形の上場ファンド。解約や純資産の割引が、私募の傷みを外から見る窓になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>BIMCO</b></td><td style="white-space:normal">海運会社の国際的な業界団体。船の契約の標準書式をつくり、輸送量の統計や見通しを出す。</td></tr>
+<tr><td style="white-space:nowrap"><b>Blue Owl</b></td><td style="white-space:normal">私募クレジットを手がける米国の運用会社。ここが持つ資産の評価の切り下げは、損が表に出始めた合図になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>book-to-bill</b></td><td style="white-space:normal">受注と売上の比。1を超えていれば、売った以上に注文が入っている＝受注残が積み上がっている。</td></tr>
+<tr><td style="white-space:nowrap"><b>capex</b></td><td style="white-space:normal">設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。日々の経費と違い、支出は先に出て、回収は何年もかけて起きる。</td></tr>
+<tr><td style="white-space:nowrap"><b>Capex</b></td><td style="white-space:normal">設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。支出は先、回収は後になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>CEPII</b></td><td style="white-space:normal">フランスの国際経済の研究機関。国どうしの品目別の貿易統計（BACI）を作っている。</td></tr>
+<tr><td style="white-space:nowrap"><b>CF</b></td><td style="white-space:normal">キャッシュフロー。会計上の利益ではなく、実際に出入りした現金のこと。</td></tr>
+<tr><td style="white-space:nowrap"><b>Cliffwater</b></td><td style="white-space:normal">米国の運用会社。個人でも買える私募クレジットのファンドを出しており、その解約の状況が、私募全体の詰まり具合を外から見る窓になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>CLO</b></td><td style="white-space:normal">多くの企業向け貸付をひとまとめにし、返ってくるお金の受け取り順を段に分けて売る債券。上の段から先に払われ、下の段は損を先に受ける。</td></tr>
+<tr><td style="white-space:nowrap"><b>COMEX</b></td><td style="white-space:normal">米国の商品取引所。金や銅の先物と在庫の集計を行う。</td></tr>
+<tr><td style="white-space:nowrap"><b>Constellation</b></td><td style="white-space:normal">米国の電力会社。原子力発電を多く持ち、データセンター向けに電気を長期で売る契約を結んでいる。</td></tr>
+<tr><td style="white-space:nowrap"><b>CoreWeave</b></td><td style="white-space:normal">GPUを大量に買い集めて他社に貸す会社。借金で設備を買っているので、借入の条件に引っかかるかどうかが注目されている。</td></tr>
+<tr><td style="white-space:nowrap"><b>Coreweave</b></td><td style="white-space:normal">GPUを大量に買い集めて他社に貸す会社。借金で設備を買っているので、借入の条件に引っかかるかどうかが注目されている。</td></tr>
+<tr><td style="white-space:nowrap"><b>DC</b></td><td style="white-space:normal">データセンターの略。ここでは「DC-ABS」＝データセンターを裏づけにした債券のように使う。</td></tr>
+<tr><td style="white-space:nowrap"><b>DC-ABS</b></td><td style="white-space:normal">データセンターを担保にして発行される債券。建物と、そこを借りている会社が払う賃料を裏づけに、投資家からお金を集める仕組み。借り手が払えなくなると、担保のデータセンターが売られる。</td></tr>
+<tr><td style="white-space:nowrap"><b>DDoS</b></td><td style="white-space:normal">多数の端末から一斉に通信を送って、サービスを止める攻撃。</td></tr>
+<tr><td style="white-space:nowrap"><b>DDTL</b></td><td style="white-space:normal">あとから小分けに引き出せる約束の融資枠。必要なときに必要なだけ借りられる代わりに、条件が付く。</td></tr>
+<tr><td style="white-space:nowrap"><b>DSCR</b></td><td style="white-space:normal">債務返済カバー率。稼ぎが返済額の何倍あるかを示す。借入の契約でこの下限が決められていることが多く、割ると条件違反になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>FCF</b></td><td style="white-space:normal">フリーキャッシュフロー。本業で稼いだ現金から設備投資を引いた残り。ここがマイナスだと、設備投資を借金でまかなっている。</td></tr>
+<tr><td style="white-space:nowrap"><b>FIMA</b></td><td style="white-space:normal">外国の中央銀行が、持っている米国債を担保に一時的にドルを借りられる仕組み。米国債を売らずにドルを手当てできる。</td></tr>
+<tr><td style="white-space:nowrap"><b>Fitch</b></td><td style="white-space:normal">格付会社のひとつ。債券の返済の確からしさを記号で示す。引き下げは貸し手の見方が変わった印。</td></tr>
+<tr><td style="white-space:nowrap"><b>FY24</b></td><td style="white-space:normal">2024年度のこと。FYは会計年度で、会社によって1年の区切りが1月始まりとは限らない。</td></tr>
+<tr><td style="white-space:nowrap"><b>GPU担保</b></td><td style="white-space:normal">計算用の半導体（GPU）そのものを担保に入れてお金を借りること。半導体は数年で新型に置き換わるため、担保の価値が下がる速さが読みにくい。</td></tr>
+<tr><td style="white-space:nowrap"><b>GW</b></td><td style="white-space:normal">ギガワット。1GW＝1,000MW。大型の原発1基がおおよそ1GW。</td></tr>
+<tr><td style="white-space:nowrap"><b>IEA</b></td><td style="white-space:normal">国際エネルギー機関。主要な消費国が作った組織で、石油や電力の在庫・需給の統計と見通しを出す。</td></tr>
+<tr><td style="white-space:nowrap"><b>IMF</b></td><td style="white-space:normal">国際通貨基金。各国が出資してつくった組織で、支払いに行き詰まった国に資金を貸し、世界経済の見通しを定期的に出す。</td></tr>
+<tr><td style="white-space:nowrap"><b>JICPA</b></td><td style="white-space:normal">日本公認会計士協会。決算書を調べる会計士の団体で、監査のやり方の指針を出す。</td></tr>
+<tr><td style="white-space:nowrap"><b>Kpler</b></td><td style="white-space:normal">船の位置と積荷を追跡して、原油などの実際の流れを推計する会社。書類上の輸出量との差を見るのに使う。</td></tr>
+<tr><td style="white-space:nowrap"><b>LME</b></td><td style="white-space:normal">ロンドン金属取引所。銅などの金属の取引と在庫の集計を行う。在庫の増減は需給の実態を示す。</td></tr>
+<tr><td style="white-space:nowrap"><b>MMF</b></td><td style="white-space:normal">マネー・マーケット・ファンド。短期の国債などで運用する、預金に近い投資信託。ここの残高は、行き場を探している現金の量を示す。</td></tr>
+<tr><td style="white-space:nowrap"><b>MW</b></td><td style="white-space:normal">メガワット。電力の大きさの単位。1MWでおおよそ一般家庭数百軒ぶんの電力。データセンターの規模はこれで測る。</td></tr>
+<tr><td style="white-space:nowrap"><b>NAV</b></td><td style="white-space:normal">純資産価値。ファンドが持っている資産から負債を引いた1口あたりの価値。ここが切り下げられると、損が表に出たことになる。</td></tr>
+<tr><td style="white-space:nowrap"><b>NGDS</b></td><td style="white-space:normal">米軍が民間の宅配会社と結ぶ、数年単位の小包配送契約の枠組み。</td></tr>
+<tr><td style="white-space:nowrap"><b>OTF</b></td><td style="white-space:normal">Blue Owl が運用するファンドの名前（Owl Rock Technology Income などの略称として使われる）。技術系の企業への貸付が中心。</td></tr>
+<tr><td style="white-space:nowrap"><b>PIK</b></td><td style="white-space:normal">利息を現金ではなく、借金の元本に足す形で払うこと。現金が出ていかない代わりに、借金が膨らむ。</td></tr>
+<tr><td style="white-space:nowrap"><b>PJM</b></td><td style="white-space:normal">米国最大の送電網の運用者。発電所を系統につなぐ順番待ちの行列を公表しており、その遅れがデータセンターの完成時期に効く。</td></tr>
+<tr><td style="white-space:nowrap"><b>PLA</b></td><td style="white-space:normal">中国人民解放軍。台湾周辺での活動量が、緊張の度合いを測る数量になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>PortWatch</b></td><td style="white-space:normal">IMFが公開している港の入出港データ。船が発する位置情報から、港ごとの貨物の出入りを推計する。</td></tr>
+<tr><td style="white-space:nowrap"><b>PPA</b></td><td style="white-space:normal">電力購入契約。発電する側と使う側が、何年ぶんかの電気を先に約束して結ぶ契約。データセンターを建てる前に必要になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>QE</b></td><td style="white-space:normal">中央銀行が国債などを買って、市場にお金を流す政策。金利を下げ、資産価格を支える方向に働く。</td></tr>
+<tr><td style="white-space:nowrap"><b>QRA</b></td><td style="white-space:normal">米財務省が四半期ごとに出す、国債の発行計画の公表。年限の配分が変わると、政府の狙いが読める。</td></tr>
+<tr><td style="white-space:nowrap"><b>RPO</b></td><td style="white-space:normal">受注残。契約は済んでいるが、まだ売上に計上していない金額。将来の売上の見込みだが、契約が取り消されれば消える。</td></tr>
+<tr><td style="white-space:nowrap"><b>SanDisk</b></td><td style="white-space:normal">メモリ（記憶装置）を作る会社。売上の伸びが値段によるのか数量によるのかを分けて開示したことで、需要の実態を測る材料になった。</td></tr>
+<tr><td style="white-space:nowrap"><b>SHFE</b></td><td style="white-space:normal">上海期貨交易所。中国の商品取引所で、銅などの在庫を集計している。</td></tr>
+<tr><td style="white-space:nowrap"><b>SOFR</b></td><td style="white-space:normal">米国の代表的な短期金利。国債を担保にした翌日物の取引から作られる。変動金利の借入はこれに上乗せして決まる。</td></tr>
+<tr><td style="white-space:nowrap"><b>STS</b></td><td style="white-space:normal">洋上で船から船へ積荷を移すこと（瀬取り）。制裁を避けて原油を動かすときに使われる。</td></tr>
+<tr><td style="white-space:nowrap"><b>take-or-pay</b></td><td style="white-space:normal">使っても使わなくても、決めた額を払う契約。買い手には逃げ場がないが、売り手の収入は約束される。</td></tr>
+<tr><td style="white-space:nowrap"><b>TIC</b></td><td style="white-space:normal">米財務省が毎月出す、海外から見た米国の証券の売買と保有の統計。誰が米国債を買っているかを見る一次資料。</td></tr>
+<tr><td style="white-space:nowrap"><b>TrendForce</b></td><td style="white-space:normal">台湾の調査会社。メモリなど半導体の価格と出荷の見通しを出す。予測は実測ではないので、日付と区別して読む。</td></tr>
+<tr><td style="white-space:nowrap"><b>Vortexa</b></td><td style="white-space:normal">Kplerと同じく、船の動きから原油の実際の流れを推計する会社。</td></tr>
+<tr><td style="white-space:nowrap"><b>WTO</b></td><td style="white-space:normal">世界貿易機関。国と国の貿易のルールを決め、争いが起きたときの手続きを扱う。</td></tr>
+<tr><td style="white-space:nowrap"><b>YTM</b></td><td style="white-space:normal">最終利回り。その債券を満期まで持ったときに、1年あたり何%になるかの利回り。</td></tr>
+<tr><td style="white-space:nowrap"><b>オフバランス</b></td><td style="white-space:normal">借金や資産を、自分の決算書に載せない形にすること。別会社や賃借の形にすると載らない。載っていないだけで、支払う義務は残る。</td></tr>
+<tr><td style="white-space:nowrap"><b>ガイダンス</b></td><td style="white-space:normal">会社が自分で出す、次の期間の売上や利益の見通し。外れたときに株価が動きやすい。</td></tr>
+<tr><td style="white-space:nowrap"><b>クレジット</b></td><td style="white-space:normal">お金を貸すこと、および貸した相手が返せるかどうかの度合い。株ではなく、貸付や社債の世界を指して使う。</td></tr>
+<tr><td style="white-space:nowrap"><b>グリーンボンド</b></td><td style="white-space:normal">集めたお金の使い道を、環境に関する事業に限ると決めて出す債券。使い道が決まっている分、買い手の層が違う。</td></tr>
+<tr><td style="white-space:nowrap"><b>コベナンツ</b></td><td style="white-space:normal">借入契約に付く約束事。財務指標の下限などを決めておき、破ると一括返済を求められることがある。</td></tr>
+<tr><td style="white-space:nowrap"><b>コンバインドサイクル</b></td><td style="white-space:normal">ガスを燃やして発電し、その排熱でもう一度発電する方式。同じ燃料で多く発電できるが、建設に数年かかる。</td></tr>
+<tr><td style="white-space:nowrap"><b>シンジケーション</b></td><td style="white-space:normal">大きな融資を複数の金融機関に分けて売っていく作業。途中で条件を変えることになると、需要が足りていない合図になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>スプレッド</b></td><td style="white-space:normal">安全とされる国債の利回りと比べて、どれだけ上乗せの金利を求められているかの差。広がるほど、貸し手が risk を強く見ている。</td></tr>
+<tr><td style="white-space:nowrap"><b>ソフトデフォルト</b></td><td style="white-space:normal">借金を踏み倒すのではなく、インフレと低金利で実質的な負担を目減りさせること。名目では全額返している。</td></tr>
+<tr><td style="white-space:nowrap"><b>チョークポイント</b></td><td style="white-space:normal">そこが詰まると全体が止まってしまう、細い通り道。海峡や特定の工場・素材がこれにあたる。</td></tr>
+<tr><td style="white-space:nowrap"><b>テナント</b></td><td style="white-space:normal">建物を借りて使う側の会社や人。データセンターの話では、その施設を借りて計算機を置く会社を指す。</td></tr>
+<tr><td style="white-space:nowrap"><b>デフォルト</b></td><td style="white-space:normal">借りたお金を、約束した期日に返せないこと。利息の支払いが遅れた時点で起きることもある。</td></tr>
+<tr><td style="white-space:nowrap"><b>デフォルト率</b></td><td style="white-space:normal">借り手が返済できなくなった割合。上がるほど、貸している側の損が近づいている。</td></tr>
+<tr><td style="white-space:nowrap"><b>トリプルネットリース</b></td><td style="white-space:normal">借りた側が、賃料に加えて税金・保険・修繕まで払う契約。貸した側の手取りが読みやすくなるかわりに、借り手が倒れたときの穴が大きい。</td></tr>
+<tr><td style="white-space:nowrap"><b>トンマイル</b></td><td style="white-space:normal">運んだ重さ（トン）×運んだ距離（マイル）。同じ量でも遠回りすれば増えるので、航路が変わったことが数量で分かる。</td></tr>
+<tr><td style="white-space:nowrap"><b>ネオクラウド</b></td><td style="white-space:normal">GPUを大量に買い集めて、他社に時間貸しする会社。CoreWeaveなど。自社でAIを作るのではなく、計算する場所を貸すのが商売。</td></tr>
+<tr><td style="white-space:nowrap"><b>ノヴォロシースク</b></td><td style="white-space:normal">ロシア南部・黒海に面した港町。原油と穀物の主要な積み出し口で、ここが止まると出荷量に直接出る。</td></tr>
+<tr><td style="white-space:nowrap"><b>ハイパースケーラ</b></td><td style="white-space:normal">自前で巨大なデータセンターを持つ大手のこと。ふつうアマゾン・アルファベット（Google）・マイクロソフト・メタの4社を指す。</td></tr>
+<tr><td style="white-space:nowrap"><b>バイバック</b></td><td style="white-space:normal">会社が自社の株を買い戻すこと。出回る株が減るので、1株あたりの取り分は増える。使った現金は設備には回らない。</td></tr>
+<tr><td style="white-space:nowrap"><b>ビット出荷</b></td><td style="white-space:normal">メモリを、金額ではなく容量（ビット数）で数えた出荷量。金額は値段の上下で動くので、数量で見ると実需が分かる。</td></tr>
+<tr><td style="white-space:nowrap"><b>プロダクトタンカー</b></td><td style="white-space:normal">原油そのものではなく、精製した後のガソリンや軽油を運ぶ船。原油船とは航路も運賃も別に動く。</td></tr>
+<tr><td style="white-space:nowrap"><b>ベンダーファイナンス</b></td><td style="white-space:normal">売り手が買い手にお金を貸したり出資したりして、自社製品を買わせること。売上は立つが、代金の risk は売り手に残る。</td></tr>
+<tr><td style="white-space:nowrap"><b>リバースレポ</b></td><td style="white-space:normal">中央銀行が金融機関から一時的にお金を預かる取引。市場に出回るお金の量を測る目安として使われる。</td></tr>
+<tr><td style="white-space:nowrap"><b>レポ</b></td><td style="white-space:normal">債券を担保にして短期でお金を借りる取引。売って買い戻す形をとる。</td></tr>
+<tr><td style="white-space:nowrap"><b>上場来</b></td><td style="white-space:normal">その会社が株式を公開してから今までの期間。「上場来初」は、公開後はじめて起きたということ。</td></tr>
+<tr><td style="white-space:nowrap"><b>保税</b></td><td style="white-space:normal">関税をまだ払っていない状態で保管されている在庫。統計上の在庫に入らないことがあり、需給の見え方を変える。</td></tr>
+<tr><td style="white-space:nowrap"><b>借入比率</b></td><td style="white-space:normal">設備投資のうち、新しく借りた金でまかなった割合。上がるほど、自分の稼ぎでは足りていないことになる。</td></tr>
+<tr><td style="white-space:nowrap"><b>償却</b></td><td style="white-space:normal">設備の値段を、使う年数で割って少しずつ費用にしていく会計処理。年数を短くすると、費用が増えて利益が減る。</td></tr>
+<tr><td style="white-space:nowrap"><b>入札</b></td><td style="white-space:normal">国債などを売り出すときに、買い手が価格や利回りを出して競り合う仕組み。</td></tr>
+<tr><td style="white-space:nowrap"><b>劣後</b></td><td style="white-space:normal">返済の順番が後ろになる部分。損が出たときに先に削られる代わりに、利回りが高い。</td></tr>
+<tr><td style="white-space:nowrap"><b>受注倍率</b></td><td style="white-space:normal">その期間に受けた注文を、同じ期間に売り上げた金額で割った数字。1を超えていれば、注文が売上より先に積み上がっている。</td></tr>
+<tr><td style="white-space:nowrap"><b>含み損</b></td><td style="white-space:normal">持っているだけで、まだ売っていないために損益計算書に出ていない損。売った瞬間に表に出る。</td></tr>
+<tr><td style="white-space:nowrap"><b>営業CF</b></td><td style="white-space:normal">本業で1年間に実際に入ってきた現金から、出ていった現金を引いた額。利益と違い、実際に手元を通ったお金だけを数える。</td></tr>
+<tr><td style="white-space:nowrap"><b>変電所</b></td><td style="white-space:normal">送られてきた電気の電圧を変えて、使える形にする施設。データセンターにはほぼ必ず要る。</td></tr>
+<tr><td style="white-space:nowrap"><b>契約非更新</b></td><td style="white-space:normal">期限が来た契約が、更新されずに終わること。需要が本物かどうかが最初に出る場所のひとつ。</td></tr>
+<tr><td style="white-space:nowrap"><b>定例発行計画</b></td><td style="white-space:normal">政府が四半期ごとに公表する、国債をどの年限でいくら出すかの計画。短期に寄せるか長期に戻すかで、政府の狙いが読める。</td></tr>
+<tr><td style="white-space:nowrap"><b>年初来</b></td><td style="white-space:normal">その年の1月1日から今日までの期間。</td></tr>
+<tr><td style="white-space:nowrap"><b>年限構成</b></td><td style="white-space:normal">政府が国債を出すときの、短期と長期の配分。短期に寄せると当座はしのげるが、借り換えが頻繁になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>影の船団</b></td><td style="white-space:normal">制裁を受けた国の原油を運ぶために使われる、所有者や保険が不透明な老朽タンカーの集まり。</td></tr>
+<tr><td style="white-space:nowrap"><b>循環取引</b></td><td style="white-space:normal">売り手が買い手にお金を出し、そのお金で自社の製品を買ってもらう形の取引。外から見ると売上が立つが、外部から新しいお金は入っていない。</td></tr>
+<tr><td style="white-space:nowrap"><b>応札倍率</b></td><td style="white-space:normal">入札で、売り出した額の何倍の買い注文が集まったかの比。低いほど買い手が引いている。2倍割れは弱さの目安。</td></tr>
+<tr><td style="white-space:nowrap"><b>担保付</b></td><td style="white-space:normal">返せなくなったときに差し押さえられる資産を、あらかじめ決めてある借金。普通は無担保より金利が低い。</td></tr>
+<tr><td style="white-space:nowrap"><b>昇圧</b></td><td style="white-space:normal">電圧を上げること。発電した電気を遠くへ送るために必要で、そのための変圧器の納期が問題になっている。</td></tr>
+<tr><td style="white-space:nowrap"><b>格付</b></td><td style="white-space:normal">債券の返済の確からしさを、格付会社が記号で示したもの。引き下げは、貸し手の見方が変わったことを意味する。</td></tr>
+<tr><td style="white-space:nowrap"><b>流動性ストレス</b></td><td style="white-space:normal">お金が返せないのではなく、すぐに引き出せない状態。解約を止める、担保を積み増すといった形で先に出る。損が確定する前の段階。</td></tr>
+<tr><td style="white-space:nowrap"><b>減損</b></td><td style="white-space:normal">持っている資産の価値が戻らないと判断して、帳簿の金額を切り下げること。切り下げた分がその期の損になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>瀬取り</b></td><td style="white-space:normal">洋上で船から船へ積荷を移し替えること。制裁を避けて原油を動かすときに使われ、書類の上の輸出量と実際の流れがずれる。</td></tr>
+<tr><td style="white-space:nowrap"><b>無担保</b></td><td style="white-space:normal">差し押さえる資産を決めていない借金。返ってこない risk が高いぶん、普通は担保付より金利が高い。逆転すると、担保そのものが疑われている合図になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>短期国庫証券</b></td><td style="white-space:normal">政府が1年以内に返す約束で出す借用証書。返ってくるまでが短いので、お金を置く場所として使われやすい。</td></tr>
+<tr><td style="white-space:nowrap"><b>私募クレジット</b></td><td style="white-space:normal">銀行や公募の債券市場を通さず、ファンドが直接企業に貸すお金。値段が市場で毎日つかないので、傷んでも表に出るのが遅い。</td></tr>
+<tr><td style="white-space:nowrap"><b>系統接続</b></td><td style="white-space:normal">作った発電設備や工場を、送電網につなぐこと。順番待ちの行列ができていて、これが遅れると建物が完成しても電気が使えない。</td></tr>
+<tr><td style="white-space:nowrap"><b>耐用年数</b></td><td style="white-space:normal">設備を何年使う前提で費用にするか。GPUの耐用年数を短くするのは、価値が早く落ちると自分で認めたことになる。</td></tr>
+<tr><td style="white-space:nowrap"><b>解約ゲート</b></td><td style="white-space:normal">ファンドが、1期間に解約できる額に上限を設けること。上限に張り付いているのは、出したい人が上限より多いという意味。</td></tr>
+<tr><td style="white-space:nowrap"><b>設備投資</b></td><td style="white-space:normal">工場やデータセンターなど、何年も使う設備にかけるお金。支出が先に出て、回収は何年もかけて起きるので、資金繰りが先に苦しくなりやすい。</td></tr>
+<tr><td style="white-space:nowrap"><b>買い戻し</b></td><td style="white-space:normal">政府が、すでに発行した自分の国債を市場から買い戻すこと。長期金利を抑えたいときに使われる。</td></tr>
+<tr><td style="white-space:nowrap"><b>起債</b></td><td style="white-space:normal">債券を発行してお金を借りること。株を発行するのと違い、返済の義務がある。</td></tr>
+<tr><td style="white-space:nowrap"><b>金融抑圧</b></td><td style="white-space:normal">金利を人為的に低く抑えて、政府の借金の実質負担を軽くする政策。預金者や債券の保有者が損をする形で起きる。</td></tr>
+<tr><td style="white-space:nowrap"><b>間接落札</b></td><td style="white-space:normal">国債の入札で、海外の中央銀行など、証券会社を通して買った側の落札分。ここが減ると海外勢が引いている合図になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>需要倍率</b></td><td style="white-space:normal">債券を売り出したときに、売り出した額の何倍の買い注文が集まったか。下がるほど買い手が引いている。</td></tr>
+</tbody></table></div>
+<p class="lead"><a href="../">← いまの流れ（全体）へ</a></p>
+</div></body></html>

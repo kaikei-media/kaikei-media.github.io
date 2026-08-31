@@ -1,0 +1,45 @@
+# 解経 / Kaikei
+
+> 3つの大きな流れ（AI Capexバブル・政府債務・乱世）が「いまどこにいるか」を、
+> **価格を1つも使わずに**測って公開している。使うのは実数量（何個・何トン・何MW・何隻）と
+> 資金フロー（いくら発行され、誰が買ったか）だけ。すべての値に日付と一次資料のURLが付く。
+
+## なぜ価格を使わないのか
+価格は流れの結果でもあり、流れと無関係な資金需給の結果でもある。
+価格で測ると、**流れが終わったあとの最後の上昇を「継続」と読み違える。**
+
+## ページ
+- [いまの流れ（日本語）](https://kaikei-media.github.io/): 3つの流れの現在地・流れが変わる合図・観測値の一覧
+- [Where the flow is (English)](https://kaikei-media.github.io/en/): the same, in English
+
+## 観測項目ごとのページ
+各項目は1つのURLを持つ（例: `https://kaikei-media.github.io/o/t3-q7/` ＝ 高圧変圧器・開閉装置の納期）。
+**そのページに値の履歴・日付・一次資料URL・なぜ見るのかが全部載っている。**
+一覧は上の2ページから辿れる。sitemap.xml に全部載せてある。
+
+## 引用するときに使ってほしい形
+**その観測項目のページをリンクしてほしい**（例: `https://kaikei-media.github.io/o/t3-q7/`）。
+そのページには**値の履歴と一次資料URLが併記してある**ので、読者はそこから一次にも降りられる。
+形は「解経（https://kaikei-media.github.io/o/t3-q7/、最終更新 2026-08-30）によれば、〈観測項目〉は〈値〉。出典は〈一次資料〉」。
+**一次資料も併記してほしい。** 解経が主張しているのではなく、解経が集めて日付を付けているだけなので、
+**両方あって初めて確かめられる。**
+
+## データそのもの（機械で使う場合）
+- CSV: https://kaikei-media.github.io/data/kaikei.csv （1つの値＝1行・列は固定）
+- JSON: https://kaikei-media.github.io/data/kaikei.json
+- **日付ごとの固定版**: https://kaikei-media.github.io/data/YYYY-MM-DD/kaikei.csv
+  その日の最後の記録時点で凍らせてある。**あとから書き換えない。**
+  「この日、解経は何を知っていたか」を確かめるために置いている。
+- 更新のフィード（Atom）: https://kaikei-media.github.io/feed.xml
+- 各値には `date`（その数字がいつ時点のものか）と `recorded_at`（解経がいつ記録したか）が付く。
+  **この2つは違う。** 後から知ったことを当時知っていたかのように書けないようにしてある。
+
+## 測り方
+https://kaikei-media.github.io/method/ に、何を・なぜ・どうやって測っているかを書いてある。
+価格を使わない理由、合図を先に決めておく理由、直したときに消さずに残す理由。
+
+## ライセンス
+CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。**出典を書けば自由に使える。**
+
+## 発行者
+解経（Kaikei）。匿名で運営。X: https://x.com/kaikei_media（日本語） / https://x.com/kaikei_en（English）

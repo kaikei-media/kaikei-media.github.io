@@ -1,0 +1,234 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Glossary — Kaikei</title>
+<meta name="description" content="Plain-language explanations of the technical terms used here. In the text, the first occurrence of each term is underlined with dots — tap it for the explanation.">
+<link rel="canonical" href="https://kaikei-media.github.io/en/g/">
+<meta name="robots" content="index,follow">
+<meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
+<style>
+/* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
+   地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
+   紙=#f5f1e8 ／ 副=#9089b5 ／ 沈め=#332a63 ／ 罫=#3b3272。ライト/ダークの切替は無く、常に濃紺地。 */
+:root{--bg:#080130;--paper:#0e0838;--ink:#f5f1e8;--ink2:#c9c3dc;--ink3:#9089b5;--line:#3b3272;--dim:#332a63;
+--gold:#c9a96e;--on:#c9a96e;--off:#9089b5;--c:#c9a96e;--cbg:#332a63;--mono:ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP","Zen Kaku Gothic New",system-ui,sans-serif;font-size:15px;line-height:1.7}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 18px 64px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+h1{font-family:"Hiragino Mincho ProN","Shippori Mincho","Noto Serif JP",Georgia,serif;font-size:1.7rem;margin:0;color:var(--gold);font-weight:500}
+.tag{color:var(--ink3);font-family:var(--mono);font-size:.72rem;letter-spacing:.14em}
+.lead{max-width:70ch;color:var(--ink2);margin:12px 0 26px;font-size:.95rem}
+a{color:inherit}
+.hlinks{display:flex;gap:14px;align-items:baseline}
+.xlink{color:var(--gold);text-decoration:none;font-family:var(--mono);font-size:.78rem}
+.xlink:hover{text-decoration:underline}
+h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:34px 0 10px;font-weight:500}
+/* overview cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:760px){.cards{grid-template-columns:1fr}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:1rem;color:var(--ink);font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-weight:500}
+.card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
+.card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
+.card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
+/* ladder: 現在地だけが金。過去は沈めた紺、未来は罫だけ */
+.ladder{--n:5;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;margin:6px 0 2px;position:relative}
+.ladder .rung{background:var(--bg);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:4px 5px;font-size:.7rem;line-height:1.25;color:var(--ink3);display:flex;flex-direction:column;justify-content:flex-end}
+.ladder .rung b{font-family:var(--mono);font-size:.72rem;color:var(--ink2);display:block}
+.ladder .rung.past{background:var(--dim);border-color:var(--dim);color:var(--ink2)}
+.ladder .rung.now{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+.ladder .rung.now b{color:var(--bg)}
+.ladder .rung.next{border-style:dashed;border-color:var(--gold)}
+.ladder .rung.mini{min-height:30px;justify-content:center;align-items:center;padding:2px}
+.ladder .rung.mini b{font-size:.8rem}
+.ladder.big .rung{min-height:64px;font-size:.78rem}
+.marker{position:relative;height:30px;margin-top:2px}
+.marker span{position:absolute;transform:translateX(-50%);color:var(--gold);font-size:.72rem;font-family:var(--mono);white-space:nowrap}
+.marker span:before{content:"▲";display:block;text-align:center;line-height:.6}
+.lnote{color:var(--ink3);font-size:.8rem;margin:4px 0 0}
+details.phases{margin:8px 0 0}details.phases>summary{cursor:pointer;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:var(--ink3)}
+ol.phases{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+ol.phases li{display:grid;grid-template-columns:120px 1fr;gap:10px;padding:7px 10px;border:1px solid var(--line);border-radius:6px;font-size:.84rem;background:var(--bg)}
+ol.phases li.now{border-color:var(--gold);background:var(--dim)}
+ol.phases li b{color:var(--gold);font-family:var(--mono);font-size:.8rem}
+ol.phases li span{color:var(--ink2)}ol.phases li small{grid-column:2;color:var(--ink3)}
+@media(max-width:600px){ol.phases li{grid-template-columns:1fr}ol.phases li small{grid-column:1}}
+/* trend sections */
+.trend{margin:26px 0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.trend>.head{background:var(--dim);padding:14px 18px}
+.trend>.head h2{margin:0;font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-size:1.3rem;color:var(--ink);font-weight:500}
+.trend>.head .dest{color:var(--ink2);font-size:.9rem;margin-top:4px}
+.trend .body{padding:14px 18px;background:var(--paper)}
+.state{border-left:3px solid var(--gold);padding:8px 14px;margin:0 0 16px;background:var(--bg)}
+.state .k{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:var(--ink3);display:block}
+.state .short{margin:4px 0 6px;font-size:1.12rem;font-weight:600;line-height:1.5;color:var(--ink)}
+.state .why{margin:0 0 .5em;color:var(--ink2);font-size:.92rem;line-height:1.85}
+.state .why:last-child{margin-bottom:0}
+.state .sb{margin:12px 0 0;padding:10px 12px;border-radius:6px;background:var(--paper)}
+.state .sb.lead{background:none;padding:0;margin-top:6px}
+.state .sb.on{border-left:3px solid var(--gold)}
+.state .sb.off{border-left:3px solid var(--dim)}
+.state .sb.next{border-left:3px solid var(--ink3);background:none}
+.state .sh{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;
+ margin-bottom:6px;color:var(--ink3)}
+.state .sb.on .sh{color:var(--gold)}
+.state.empty{color:var(--ink3);font-style:italic}
+h3.sub{font-size:.75rem;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin:18px 0 6px;font-weight:500}
+ul.sig{list-style:none;margin:0;padding:0}
+ul.sig li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.9rem}
+ul.sig .pill{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--ink3);white-space:nowrap;height:fit-content;margin-top:3px}
+ul.sig .pill.on{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+ul.sig .txt small{display:block;color:var(--ink3)}
+/* money flow diagram */
+.money{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;align-items:stretch;margin:6px 0 4px}
+@media(max-width:760px){.money{grid-template-columns:1fr 1fr}}
+.money .box{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 9px;font-size:.78rem;line-height:1.35;position:relative}
+.money .box b{display:block;font-size:.86rem;color:var(--ink);margin-bottom:2px}
+.money .box em{display:block;font-style:normal;color:var(--ink2)}
+.money .box small{display:block;color:var(--ink3);margin-top:3px}
+.money .box:not(:last-child):after{content:"→";position:absolute;right:-9px;top:40%;color:var(--gold);font-weight:700;font-size:.9rem}
+@media(max-width:760px){.money .box:after{display:none}}
+.loop{color:var(--ink3);font-size:.8rem;margin:2px 0 0;text-align:right}
+/* tables */
+details.data{margin-top:14px}
+details.data>summary{cursor:pointer;font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{text-align:left;vertical-align:top;padding:7px 9px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);font-weight:500}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+td.dir{font-size:1.1rem;text-align:center;color:var(--gold)}
+td.na{color:var(--ink3);font-style:italic}
+details{font-size:.82rem;color:var(--ink2)}details summary{cursor:pointer;color:var(--ink3)}
+details table{margin-top:6px}
+footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
+.t1,.t2,.t3{--c:var(--gold);--cbg:var(--dim)}
+</style></head><body><div class="wrap">
+<header><div><div class="tag">KAIKEI</div><h1>Glossary</h1></div></header>
+<p class="lead">Plain-language explanations of the technical terms used here. In the text, the first occurrence of each term is underlined with dots — tap it for the explanation.</p>
+<div class="tbl"><table><tbody>
+<tr><td style="white-space:nowrap"><b>AA</b></td><td style="white-space:normal">A bond rating symbol — the second-highest band.</td></tr>
+<tr><td style="white-space:nowrap"><b>ABS</b></td><td style="white-space:normal">Asset-backed security — a bond backed by the cash flows of specific assets.</td></tr>
+<tr><td style="white-space:nowrap"><b>AIS</b></td><td style="white-space:normal">The Automatic Identification System — ships broadcast their position; switching it off is itself a signal.</td></tr>
+<tr><td style="white-space:nowrap"><b>AIラボ</b></td><td style="white-space:normal">The companies that build AI models themselves — OpenAI, Anthropic, Google DeepMind and peers.</td></tr>
+<tr><td style="white-space:nowrap"><b>ASP</b></td><td style="white-space:normal">Average selling price — revenue divided by units.</td></tr>
+<tr><td style="white-space:nowrap"><b>BACI</b></td><td style="white-space:normal">CEPII&#x27;s product-level bilateral trade dataset, reconciled where exporter and importer figures disagree.</td></tr>
+<tr><td style="white-space:nowrap"><b>Bad PIK</b></td><td style="white-space:normal">PIK (payment in kind) that reflects distress — interest added to principal because the borrower cannot pay cash.</td></tr>
+<tr><td style="white-space:nowrap"><b>BB</b></td><td style="white-space:normal">A rating symbol for how likely a bond is to be repaid. The ladder runs AAA, AA, A, BBB, then BB. BBB and above is &#x27;investment grade&#x27;; BB and below is seen as materially riskier.</td></tr>
+<tr><td style="white-space:nowrap"><b>BBB</b></td><td style="white-space:normal">A bond rating symbol: the lowest rung of &#x27;investment grade&#x27;. One notch below it, some investors are no longer allowed to hold the bond.</td></tr>
+<tr><td style="white-space:nowrap"><b>BCRED</b></td><td style="white-space:normal">Blackstone Private Credit Fund — a very large private-credit vehicle whose redemption behaviour is treated as a bellwether.</td></tr>
+<tr><td style="white-space:nowrap"><b>BDC</b></td><td style="white-space:normal">Business development company — a listed vehicle that packages private credit for retail investors.</td></tr>
+<tr><td style="white-space:nowrap"><b>BIMCO</b></td><td style="white-space:normal">An international shipping industry association that writes standard contract forms and publishes cargo volume statistics and outlooks.</td></tr>
+<tr><td style="white-space:nowrap"><b>Blue Owl</b></td><td style="white-space:normal">A US private-credit manager; markdowns in its funds signal losses starting to surface.</td></tr>
+<tr><td style="white-space:nowrap"><b>book-to-bill</b></td><td style="white-space:normal">The ratio of new orders to revenue. Above 1 means the order book is growing.</td></tr>
+<tr><td style="white-space:nowrap"><b>capex</b></td><td style="white-space:normal">Capital expenditure — money spent on long-lived assets like factories and data centres. The cash goes out first; the return comes over years.</td></tr>
+<tr><td style="white-space:nowrap"><b>Capex</b></td><td style="white-space:normal">Capital expenditure — money spent on long-lived assets. Cash out first, returns later.</td></tr>
+<tr><td style="white-space:nowrap"><b>CEPII</b></td><td style="white-space:normal">A French international economics research institute; it produces the BACI dataset of product-level trade between countries.</td></tr>
+<tr><td style="white-space:nowrap"><b>CF</b></td><td style="white-space:normal">Cash flow — actual cash in and out, as opposed to accounting profit.</td></tr>
+<tr><td style="white-space:nowrap"><b>Cliffwater</b></td><td style="white-space:normal">A US asset manager whose retail private-credit funds are watched as a window into redemption pressure.</td></tr>
+<tr><td style="white-space:nowrap"><b>CLO</b></td><td style="white-space:normal">A bond built by pooling many corporate loans and slicing the repayments into ranks. Upper ranks are paid first; lower ranks absorb losses first.</td></tr>
+<tr><td style="white-space:nowrap"><b>COMEX</b></td><td style="white-space:normal">A US commodities exchange reporting metals futures and warehouse stocks.</td></tr>
+<tr><td style="white-space:nowrap"><b>Constellation</b></td><td style="white-space:normal">A US power company with a large nuclear fleet, signing long-term supply deals with data centres.</td></tr>
+<tr><td style="white-space:nowrap"><b>CoreWeave</b></td><td style="white-space:normal">A company that buys GPUs at scale and rents compute. It is heavily debt-financed, so its loan covenants are closely watched.</td></tr>
+<tr><td style="white-space:nowrap"><b>Coreweave</b></td><td style="white-space:normal">A company that buys GPUs at scale and rents compute, financed largely by debt.</td></tr>
+<tr><td style="white-space:nowrap"><b>DC</b></td><td style="white-space:normal">Short for data centre (as in DC-ABS, bonds backed by data-centre assets).</td></tr>
+<tr><td style="white-space:nowrap"><b>DC-ABS</b></td><td style="white-space:normal">Bonds backed by data centres — the building and the rent its tenants pay serve as collateral. If the tenant stops paying, the data centre itself is sold.</td></tr>
+<tr><td style="white-space:nowrap"><b>DDoS</b></td><td style="white-space:normal">A denial-of-service attack that floods a service with traffic.</td></tr>
+<tr><td style="white-space:nowrap"><b>DDTL</b></td><td style="white-space:normal">A delayed-draw term loan — a committed facility drawn down in stages, with conditions attached.</td></tr>
+<tr><td style="white-space:nowrap"><b>DSCR</b></td><td style="white-space:normal">Debt service coverage ratio — earnings divided by debt payments. Loan covenants often set a minimum.</td></tr>
+<tr><td style="white-space:nowrap"><b>FCF</b></td><td style="white-space:normal">Free cash flow — operating cash minus capital expenditure. Negative FCF means capex is being funded by borrowing.</td></tr>
+<tr><td style="white-space:nowrap"><b>FIMA</b></td><td style="white-space:normal">The Fed&#x27;s repo facility for foreign official institutions — dollars against Treasuries, without selling them.</td></tr>
+<tr><td style="white-space:nowrap"><b>Fitch</b></td><td style="white-space:normal">One of the major credit rating agencies.</td></tr>
+<tr><td style="white-space:nowrap"><b>FY24</b></td><td style="white-space:normal">Fiscal year 2024. A company&#x27;s financial year does not always start in January.</td></tr>
+<tr><td style="white-space:nowrap"><b>GPU担保</b></td><td style="white-space:normal">Borrowing money with AI chips (GPUs) themselves pledged as collateral. Chips are replaced by newer models within a few years, so how fast that collateral loses value is hard to predict.</td></tr>
+<tr><td style="white-space:nowrap"><b>GW</b></td><td style="white-space:normal">Gigawatt — 1,000 MW. Roughly the output of one large nuclear reactor.</td></tr>
+<tr><td style="white-space:nowrap"><b>IEA</b></td><td style="white-space:normal">The International Energy Agency, formed by major consuming countries; it publishes inventory, supply and demand statistics and outlooks for oil and power.</td></tr>
+<tr><td style="white-space:nowrap"><b>IMF</b></td><td style="white-space:normal">The International Monetary Fund — an organisation funded by member countries that lends to states unable to meet payments and publishes regular global economic outlooks.</td></tr>
+<tr><td style="white-space:nowrap"><b>JICPA</b></td><td style="white-space:normal">The Japanese Institute of Certified Public Accountants, the body of accountants who examine financial statements and issue audit guidance.</td></tr>
+<tr><td style="white-space:nowrap"><b>Kpler</b></td><td style="white-space:normal">A firm that tracks vessels and cargoes to estimate physical commodity flows.</td></tr>
+<tr><td style="white-space:nowrap"><b>LME</b></td><td style="white-space:normal">The London Metal Exchange — trades industrial metals and reports warehouse stocks.</td></tr>
+<tr><td style="white-space:nowrap"><b>MMF</b></td><td style="white-space:normal">Money market fund — a near-cash fund investing in short-term government paper.</td></tr>
+<tr><td style="white-space:nowrap"><b>MW</b></td><td style="white-space:normal">Megawatt — a unit of electrical capacity. Data-centre size is measured in MW.</td></tr>
+<tr><td style="white-space:nowrap"><b>NAV</b></td><td style="white-space:normal">Net asset value — a fund&#x27;s assets minus liabilities, per unit.</td></tr>
+<tr><td style="white-space:nowrap"><b>NGDS</b></td><td style="white-space:normal">The multi-year framework under which the US military contracts commercial carriers for parcel delivery.</td></tr>
+<tr><td style="white-space:nowrap"><b>OTF</b></td><td style="white-space:normal">A Blue Owl fund focused on lending to technology companies.</td></tr>
+<tr><td style="white-space:nowrap"><b>PIK</b></td><td style="white-space:normal">Payment in kind — interest paid by increasing the principal instead of paying cash.</td></tr>
+<tr><td style="white-space:nowrap"><b>PJM</b></td><td style="white-space:normal">The largest US grid operator; its interconnection queue delays feed straight into data-centre timelines.</td></tr>
+<tr><td style="white-space:nowrap"><b>PLA</b></td><td style="white-space:normal">The People&#x27;s Liberation Army of China.</td></tr>
+<tr><td style="white-space:nowrap"><b>PortWatch</b></td><td style="white-space:normal">An IMF dataset of port calls that estimates cargo flows per port from ships&#x27; broadcast position signals.</td></tr>
+<tr><td style="white-space:nowrap"><b>PPA</b></td><td style="white-space:normal">Power purchase agreement — a long-term contract to buy electricity, signed before a data centre is built.</td></tr>
+<tr><td style="white-space:nowrap"><b>QE</b></td><td style="white-space:normal">Quantitative easing — a central bank buying bonds to inject money and hold rates down.</td></tr>
+<tr><td style="white-space:nowrap"><b>QRA</b></td><td style="white-space:normal">The US Treasury&#x27;s quarterly refunding announcement.</td></tr>
+<tr><td style="white-space:nowrap"><b>RPO</b></td><td style="white-space:normal">Remaining performance obligations — contracted but not yet recognised revenue.</td></tr>
+<tr><td style="white-space:nowrap"><b>SanDisk</b></td><td style="white-space:normal">A memory maker whose disclosure split revenue growth into price and volume, giving a read on real demand.</td></tr>
+<tr><td style="white-space:nowrap"><b>SHFE</b></td><td style="white-space:normal">The Shanghai Futures Exchange, which reports Chinese metal stocks.</td></tr>
+<tr><td style="white-space:nowrap"><b>SOFR</b></td><td style="white-space:normal">The main US overnight rate, based on repo transactions; floating-rate loans are priced over it.</td></tr>
+<tr><td style="white-space:nowrap"><b>STS</b></td><td style="white-space:normal">Ship-to-ship transfer at sea.</td></tr>
+<tr><td style="white-space:nowrap"><b>take-or-pay</b></td><td style="white-space:normal">Take-or-pay — the buyer pays the agreed amount whether or not it takes delivery.</td></tr>
+<tr><td style="white-space:nowrap"><b>TIC</b></td><td style="white-space:normal">US Treasury International Capital data — monthly statistics on foreign holdings of US securities.</td></tr>
+<tr><td style="white-space:nowrap"><b>TrendForce</b></td><td style="white-space:normal">A Taiwanese research firm publishing semiconductor price and shipment forecasts.</td></tr>
+<tr><td style="white-space:nowrap"><b>Vortexa</b></td><td style="white-space:normal">Another vessel-tracking firm estimating physical oil flows.</td></tr>
+<tr><td style="white-space:nowrap"><b>WTO</b></td><td style="white-space:normal">The World Trade Organization, which sets the rules for trade between countries and handles disputes.</td></tr>
+<tr><td style="white-space:nowrap"><b>YTM</b></td><td style="white-space:normal">Yield to maturity — the annualised return if a bond is held to maturity.</td></tr>
+<tr><td style="white-space:nowrap"><b>オフバランス</b></td><td style="white-space:normal">Keeping debt or assets off a company&#x27;s own balance sheet — for example by routing them through a separate entity or a lease. The obligation to pay still exists; it just is not shown.</td></tr>
+<tr><td style="white-space:nowrap"><b>ガイダンス</b></td><td style="white-space:normal">A company&#x27;s own forecast for its next period&#x27;s revenue or profit. Share prices tend to move when it is missed.</td></tr>
+<tr><td style="white-space:nowrap"><b>クレジット</b></td><td style="white-space:normal">Lending, and the question of whether the borrower can repay. It refers to the world of loans and bonds rather than shares.</td></tr>
+<tr><td style="white-space:nowrap"><b>グリーンボンド</b></td><td style="white-space:normal">A bond issued on the condition that the money raised is spent on environment-related projects. The restricted use attracts a different set of buyers.</td></tr>
+<tr><td style="white-space:nowrap"><b>コベナンツ</b></td><td style="white-space:normal">Covenants — conditions attached to a loan; breaching them can trigger repayment.</td></tr>
+<tr><td style="white-space:nowrap"><b>コンバインドサイクル</b></td><td style="white-space:normal">A power plant that burns gas to generate electricity, then reuses the waste heat to generate more. More output per unit of fuel, but it takes years to build.</td></tr>
+<tr><td style="white-space:nowrap"><b>シンジケーション</b></td><td style="white-space:normal">Syndication — distributing a large loan among lenders.</td></tr>
+<tr><td style="white-space:nowrap"><b>スプレッド</b></td><td style="white-space:normal">Spread — the extra yield demanded over government bonds.</td></tr>
+<tr><td style="white-space:nowrap"><b>ソフトデフォルト</b></td><td style="white-space:normal">Soft default — eroding the real value of debt through inflation and financial repression rather than failing to pay.</td></tr>
+<tr><td style="white-space:nowrap"><b>チョークポイント</b></td><td style="white-space:normal">A chokepoint — a narrow passage whose blockage halts the whole flow.</td></tr>
+<tr><td style="white-space:nowrap"><b>テナント</b></td><td style="white-space:normal">The party renting a building. In the data-centre context, the company that rents the facility and puts its machines in it.</td></tr>
+<tr><td style="white-space:nowrap"><b>デフォルト</b></td><td style="white-space:normal">Failure to repay borrowed money on the promised date. It can be triggered by a late interest payment alone.</td></tr>
+<tr><td style="white-space:nowrap"><b>デフォルト率</b></td><td style="white-space:normal">Default rate — the share of borrowers failing to pay.</td></tr>
+<tr><td style="white-space:nowrap"><b>トリプルネットリース</b></td><td style="white-space:normal">A lease where the tenant pays taxes, insurance and maintenance on top of rent. The landlord&#x27;s income is predictable, but the hole is bigger if the tenant fails.</td></tr>
+<tr><td style="white-space:nowrap"><b>トンマイル</b></td><td style="white-space:normal">Tonne-miles — cargo weight times distance. Rerouting raises it even when volumes are unchanged.</td></tr>
+<tr><td style="white-space:nowrap"><b>ネオクラウド</b></td><td style="white-space:normal">Companies that buy GPUs in bulk and rent compute to others (e.g. CoreWeave).</td></tr>
+<tr><td style="white-space:nowrap"><b>ノヴォロシースク</b></td><td style="white-space:normal">A Russian port on the Black Sea and a main loading point for crude oil and grain; a stoppage there shows up directly in export volumes.</td></tr>
+<tr><td style="white-space:nowrap"><b>ハイパースケーラ</b></td><td style="white-space:normal">The largest operators of their own data centres — usually Amazon, Alphabet, Microsoft and Meta.</td></tr>
+<tr><td style="white-space:nowrap"><b>バイバック</b></td><td style="white-space:normal">A company buying back its own shares. Fewer shares outstanding means a larger claim per share — but the cash spent does not go into equipment.</td></tr>
+<tr><td style="white-space:nowrap"><b>ビット出荷</b></td><td style="white-space:normal">Bit shipments — memory volume measured in bits rather than dollars.</td></tr>
+<tr><td style="white-space:nowrap"><b>プロダクトタンカー</b></td><td style="white-space:normal">A ship that carries refined fuels such as petrol and diesel rather than crude oil. Its routes and freight rates move separately from crude tankers.</td></tr>
+<tr><td style="white-space:nowrap"><b>ベンダーファイナンス</b></td><td style="white-space:normal">Vendor financing — the seller lends to or invests in the buyer so the buyer can purchase its products.</td></tr>
+<tr><td style="white-space:nowrap"><b>リバースレポ</b></td><td style="white-space:normal">A transaction in which the central bank temporarily takes in cash from financial institutions. The amount is used as a gauge of how much money is sloshing around the market.</td></tr>
+<tr><td style="white-space:nowrap"><b>レポ</b></td><td style="white-space:normal">A repo — short-term borrowing secured by bonds.</td></tr>
+<tr><td style="white-space:nowrap"><b>上場来</b></td><td style="white-space:normal">Since the company&#x27;s listing. &#x27;First since listing&#x27; means it has not happened since the IPO.</td></tr>
+<tr><td style="white-space:nowrap"><b>保税</b></td><td style="white-space:normal">Bonded — inventory held before customs duty is paid; often outside headline stock figures.</td></tr>
+<tr><td style="white-space:nowrap"><b>借入比率</b></td><td style="white-space:normal">The share of capital spending funded by new borrowing rather than internal cash.</td></tr>
+<tr><td style="white-space:nowrap"><b>償却</b></td><td style="white-space:normal">Depreciation — spreading an asset&#x27;s cost over its useful life.</td></tr>
+<tr><td style="white-space:nowrap"><b>入札</b></td><td style="white-space:normal">An auction in which buyers bid for newly issued securities.</td></tr>
+<tr><td style="white-space:nowrap"><b>劣後</b></td><td style="white-space:normal">Subordinated — the tranche that absorbs losses first in exchange for a higher yield.</td></tr>
+<tr><td style="white-space:nowrap"><b>受注倍率</b></td><td style="white-space:normal">Orders received in a period divided by revenue recognised in the same period. Above 1 means the order book is building faster than sales are being delivered.</td></tr>
+<tr><td style="white-space:nowrap"><b>含み損</b></td><td style="white-space:normal">An unrealised loss — not yet recognised because the asset has not been sold.</td></tr>
+<tr><td style="white-space:nowrap"><b>営業CF</b></td><td style="white-space:normal">Cash actually received from the core business over a year, minus cash paid out. Unlike profit, it counts only money that really passed through the company&#x27;s hands.</td></tr>
+<tr><td style="white-space:nowrap"><b>変電所</b></td><td style="white-space:normal">A substation — converts transmission voltage into usable power.</td></tr>
+<tr><td style="white-space:nowrap"><b>契約非更新</b></td><td style="white-space:normal">A contract not being renewed at expiry — one of the first places real demand shows up.</td></tr>
+<tr><td style="white-space:nowrap"><b>定例発行計画</b></td><td style="white-space:normal">The quarterly refunding plan — how much government debt is issued at which maturities.</td></tr>
+<tr><td style="white-space:nowrap"><b>年初来</b></td><td style="white-space:normal">Year to date — from 1 January to today.</td></tr>
+<tr><td style="white-space:nowrap"><b>年限構成</b></td><td style="white-space:normal">The maturity mix of government debt issuance — how much is short-dated versus long-dated.</td></tr>
+<tr><td style="white-space:nowrap"><b>影の船団</b></td><td style="white-space:normal">The shadow fleet — ageing tankers with opaque ownership and insurance used to move sanctioned oil.</td></tr>
+<tr><td style="white-space:nowrap"><b>循環取引</b></td><td style="white-space:normal">A sale where the seller funds the buyer, who then uses that money to buy the seller&#x27;s product. Revenue appears, but no new money has come in from outside.</td></tr>
+<tr><td style="white-space:nowrap"><b>応札倍率</b></td><td style="white-space:normal">Bid-to-cover ratio — total bids divided by the amount offered. Lower means weaker demand.</td></tr>
+<tr><td style="white-space:nowrap"><b>担保付</b></td><td style="white-space:normal">Secured — debt backed by specific collateral, normally cheaper than unsecured debt.</td></tr>
+<tr><td style="white-space:nowrap"><b>昇圧</b></td><td style="white-space:normal">Stepping voltage up so power can travel long distances.</td></tr>
+<tr><td style="white-space:nowrap"><b>格付</b></td><td style="white-space:normal">A credit rating — an agency&#x27;s assessment of repayment likelihood.</td></tr>
+<tr><td style="white-space:nowrap"><b>流動性ストレス</b></td><td style="white-space:normal">Liquidity stress — money cannot be withdrawn quickly, even though it is not yet lost. It shows up as redemption gates and margin calls, before losses are realised.</td></tr>
+<tr><td style="white-space:nowrap"><b>減損</b></td><td style="white-space:normal">An impairment — writing down an asset whose value is judged unrecoverable.</td></tr>
+<tr><td style="white-space:nowrap"><b>瀬取り</b></td><td style="white-space:normal">Ship-to-ship transfer at sea — used to move sanctioned cargo, decoupling paperwork from physical flows.</td></tr>
+<tr><td style="white-space:nowrap"><b>無担保</b></td><td style="white-space:normal">Unsecured — debt with no specific collateral, normally more expensive than secured debt. An inversion suggests the collateral itself is doubted.</td></tr>
+<tr><td style="white-space:nowrap"><b>短期国庫証券</b></td><td style="white-space:normal">Government IOUs repaid within a year. Because the wait is short, they are widely used as a place to park cash.</td></tr>
+<tr><td style="white-space:nowrap"><b>私募クレジット</b></td><td style="white-space:normal">Private credit — lending by funds outside banks and public bond markets; it is not marked daily, so losses surface late.</td></tr>
+<tr><td style="white-space:nowrap"><b>系統接続</b></td><td style="white-space:normal">Grid interconnection — hooking a facility up to the transmission network. Queues here delay projects even when construction is done.</td></tr>
+<tr><td style="white-space:nowrap"><b>耐用年数</b></td><td style="white-space:normal">Useful life — the number of years over which an asset is depreciated.</td></tr>
+<tr><td style="white-space:nowrap"><b>解約ゲート</b></td><td style="white-space:normal">A redemption gate — a cap on how much investors can withdraw in a period. Hitting the cap means more want out than the cap allows.</td></tr>
+<tr><td style="white-space:nowrap"><b>設備投資</b></td><td style="white-space:normal">Spending on long-lived assets such as plants and data centres.</td></tr>
+<tr><td style="white-space:nowrap"><b>買い戻し</b></td><td style="white-space:normal">Buybacks — the government repurchasing its own outstanding bonds.</td></tr>
+<tr><td style="white-space:nowrap"><b>起債</b></td><td style="white-space:normal">Issuing bonds to raise debt.</td></tr>
+<tr><td style="white-space:nowrap"><b>金融抑圧</b></td><td style="white-space:normal">Financial repression — holding interest rates artificially low so the real burden of government debt falls.</td></tr>
+<tr><td style="white-space:nowrap"><b>間接落札</b></td><td style="white-space:normal">Indirect bidders — mostly foreign official buyers bidding through dealers.</td></tr>
+<tr><td style="white-space:nowrap"><b>需要倍率</b></td><td style="white-space:normal">The ratio of orders to the amount offered in a bond sale. A falling ratio means weaker demand.</td></tr>
+</tbody></table></div>
+<p class="lead"><a href="../">← Back to the whole picture</a></p>
+</div></body></html>
