@@ -1,16 +1,16 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8">
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>How this is measured — Kaikei</title>
-<meta name="description" content="What is measured, why, and how — the material you need to decide whether to trust it.">
-<link rel="canonical" href="https://kaikei-media.github.io/en/method/">
+<title>書き換えられていないことの確かめ方 — 解経</title>
+<meta name="description" content="解経が「後から書き換えていない」ことを、解経を信じずに確かめる方法です。">
+<link rel="canonical" href="https://kaikei-media.github.io/verify/">
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="article">
-<meta property="og:title" content="How this is measured">
-<meta property="og:description" content="What is measured, why, and how — the material you need to decide whether to trust it.">
-<meta property="og:url" content="https://kaikei-media.github.io/en/method/">
+<meta property="og:title" content="書き換えられていないことの確かめ方">
+<meta property="og:description" content="解経が「後から書き換えていない」ことを、解経を信じずに確かめる方法です。">
+<meta property="og:url" content="https://kaikei-media.github.io/verify/">
 <meta property="og:image" content="https://kaikei-media.github.io/ogp.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@kaikei_en">
+<meta name="twitter:site" content="@kaikei_media">
 <meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
 <style>
 /* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
@@ -111,32 +111,35 @@ details table{margin-top:6px}
 footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
 .t1,.t2,.t3{--c:var(--gold);--cbg:var(--dim)}
 </style></head><body><div class="wrap">
-<header><div><div class="tag">KAIKEI</div><h1>How this is measured</h1></div></header>
-<p class="lead">What is measured, why, and how — the material you need to decide whether to trust it.</p>
-<h2>No prices, anywhere</h2>
-<p class="lead">Only physical quantities (units, tonnes, megawatts, vessels) and money flows (how much was issued, and who bought it). No share prices, interest rates or exchange rates.</p>
-<p class="lead">Price is the result of a flow — but just as often the result of money supply and demand unrelated to it. Measured by price, <b>the last rally after a flow has ended reads as continuation</b>. So it is left out.</p>
-<p class="lead">The cost is speed: this record moves later than price. It trades being early for being checkable.</p>
-<h2>Every value carries a date and a primary source</h2>
-<p class="lead">Each value records <b>the date the figure refers to</b> and the URL it came from. A figure without both is not published.</p>
-<p class="lead">Separately, each value records <b>when Kaikei wrote it down</b> (recorded_at). These are not the same: an August 5 figure may only be learned on August 27.</p>
-<p class="lead">A record that lets you present hindsight as foresight is not evidence. Both dates are kept so it cannot.</p>
-<h2>The signals that would change the reading are set in advance</h2>
-<p class="lead">For each trend, what would have to happen for the reading to change is written down first, and judged on or off against primary-source values.</p>
-<p class="lead">Counter-signals — evidence that the reading is wrong — sit in the same list, so that hits cannot be selected after the fact.</p>
-<h2>Corrections are added, not erased</h2>
-<p class="lead">When something is wrong, a new value is appended rather than the old one deleted. Every day's state is frozen under its own date, so <b>what was being claimed on any past date can be checked</b>.</p>
-<p class="lead">Future-dated values — forecasts entered as if they were observations — are blocked by an automated check before publication.</p>
-<h2>You can check the record was not rewritten, without trusting Kaikei</h2>
-<p class="lead">Kaikei saying it does not rewrite the past is not evidence: the snapshots and the record behind them sit in the operator's hands.</p>
-<p class="lead">So each daily snapshot's fingerprint is <b>committed into a Bitcoin block</b> (OpenTimestamps) — alterable by neither Kaikei nor the timestamping service. The days are chained, so <b>removing even one day breaks every later link</b>.</p>
-<p class="lead">The procedure is at <a href="../verify/">How to check nothing was rewritten</a>. <b>A timestamp with no published verification procedure is worth almost nothing.</b></p>
-<h2>What this proves, and what it does not</h2>
-<p class="lead"><b>Proved:</b> this content existed before this time and has not been altered since.</p>
-<p class="lead"><b>Not proved:</b> that the content is correct. A lie committed to a chain is a permanent lie. Every value carries its primary-source URL — <b>that is what to check</b>.</p>
-<p class="lead"><b>Also not proved:</b> whether an inconvenient value was <b>never published</b>. Timestamps protect only what was published. The defence against omission is that <b>the signals that would change the reading are written down in advance</b>, counter-signals included.</p>
-<h2>Who writes this</h2>
-<p class="lead">Kaikei is run anonymously. <b>So do not treat the author as the warrant.</b> Everything is built to be checked from the value, the date and the source URL alone.</p>
-<p class="lead">For information only; not a recommendation to buy or sell any financial instrument.</p>
-<p class="lead"><a href="../">← Back to the whole picture</a></p>
+<header><div><div class="tag">KAIKEI</div><h1>書き換えられていないことの確かめ方</h1></div></header>
+<p class="lead">解経が「後から書き換えていない」ことを、解経を信じずに確かめる方法です。</p>
+
+<h2>なぜこれが要るのか</h2>
+<p class="lead">解経は「値を後から書き換えない」と言っています。ですが、<b>言っているだけでは根拠になりません。</b> 日付ごとの固定版も、その元になっている記録も、解経の手元にあります。運営者がその気になれば書き換えられます。</p>
+<p class="lead">そこで、<b>解経の外側に証拠を置いています。</b> 下の手順で、解経を信じずに確かめられます。</p>
+
+<h2>手順1: その日の記録が、その日より前に存在していたことを確かめる</h2>
+<p class="lead">日付ごとの固定版には、<b>OpenTimestamps</b> の証明ファイル（<code>.ots</code>）を添えてあります。これは、そのファイルの指紋を Bitcoin のブロックに刻んだ記録です。<b>解経にも、証明を作った側にも、後から書き換えられません。</b></p>
+<p class="lead"><code>pip install opentimestamps-client</code><br>
+<code>curl -O https://kaikei-media.github.io/data/2026-09-01/kaikei.csv</code><br>
+<code>curl -O https://kaikei-media.github.io/data/2026-09-01/kaikei.csv.ots</code><br>
+<code>ots verify kaikei.csv.ots</code></p>
+<p class="lead">「Success! Bitcoin block N attests existence as of ...」と出れば、<b>そのCSVがその日時より前に存在していた</b>ことが確かめられます。1文字でも違うファイルでは通りません。</p>
+<p class="lead"><small>Bitcoin のブロックに入るまで数時間かかります。打った直後の日付は、まだ「未確定」と出ることがあります。</small></p>
+
+<h2>手順2: 途中の日が抜き取られていないことを確かめる</h2>
+<p class="lead">1日ぶんの証明だけでは、<b>都合の悪い日をまるごと消したかどうか</b>はわかりません。そこで、日ごとの記録を鎖にしてあります。</p>
+<p class="lead">各日の記録は「その日のCSVの指紋」と「前日の鎖の値」を合わせてもう一度ハッシュを取った値を持ちます。<b>1日でも中身を変えるか、1日でも抜き取ると、それ以降の鎖が全部合わなくなります。</b></p>
+<p class="lead"><code>curl -O https://kaikei-media.github.io/data/chain.jsonl</code></p>
+<p class="lead">各行の <code>chain</code> が <code>sha256(prev + sha256)</code> になっているかを確かめてください。最初の行の <code>prev</code> は 0 が64個です。</p>
+
+<h2>これで証明できること・できないこと</h2>
+<p class="lead"><b>証明できること:</b> この内容が、この時刻より前に存在していたこと。そして、後から書き換えられていないこと。</p>
+<p class="lead"><b>証明できないこと:</b> 内容が正しいこと。嘘を刻めば、嘘がそのまま永久に残るだけです。だから<b>すべての値に一次資料のURLを付けています</b>。確かめるべきはそちらです。</p>
+<p class="lead"><b>これも証明できません:</b> 解経が、都合の悪い値を<b>最初から載せなかった</b>かどうか。タイムスタンプは「載せたもの」しか守れません。これへの備えは技術ではなく、<b>流れが変わる合図を先に決めて公開しておく</b>という設計のほうです。見立てが外れる側の合図（逆方向の合図）も同じ場所に並べてあります。</p>
+
+<h2>自分でチェーンに書き込まない理由</h2>
+<p class="lead">自前のウォレットから直接書き込む方式は採っていません。入金の経路から匿名運営の身元が割れるためです。OpenTimestamps は<b>手数料も、ウォレットも、秘密鍵も要りません</b>。得られる証明は同じです。</p>
+
+<p class="lead"><a href="../">← いまの流れ（全体）へ</a></p>
 </div></body></html>

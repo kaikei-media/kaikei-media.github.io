@@ -38,6 +38,15 @@
 https://kaikei-media.github.io/method/ に、何を・なぜ・どうやって測っているかを書いてある。
 価格を使わない理由、合図を先に決めておく理由、直したときに消さずに残す理由。
 
+## 書き換えていないことの確かめ方
+https://kaikei-media.github.io/verify/
+日付ごとの固定版に OpenTimestamps の証明（.ots）を添えてある。
+`ots verify kaikei.csv.ots` で、そのCSVがその日時より前に存在していたことを誰でも確かめられる。
+日ごとの記録は鎖（https://kaikei-media.github.io/data/chain.jsonl）になっていて、
+**1日でも中身を変えるか抜き取ると、それ以降の鎖が全部合わなくなる。**
+証明できるのは「その時刻より前に存在した」ことだけで、**内容が正しいことは証明しない**。
+だから一次資料のURLを全部の値に付けてある。
+
 ## ライセンス
 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。**出典を書けば自由に使える。**
 
