@@ -129,6 +129,12 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
  margin-left:.4em;border:1px solid var(--ink3);border-radius:50%;font-size:.72em;color:var(--ink3);
  vertical-align:middle;flex:none}
 .gl.q:hover,.gl.q:focus{border-color:var(--gold);color:var(--gold)}
+/* 先行/同時/遅行。**遅行だけは目立たせる**——「出ていない」を安心と読ませないため。 */
+.gl.lead{display:inline-block;margin-right:.5em;padding:.05em .5em;border:1px solid var(--ink3);
+ border-radius:999px;font-size:.68em;letter-spacing:.06em;vertical-align:.12em;white-space:nowrap}
+.gl.lead.lead{border-color:var(--gold);color:var(--gold)}
+.gl.lead.lag{border-color:#b4534f;color:#d98a86}
+.gl.lead.counter{border-style:dashed}
 #glp .cl{position:absolute;top:6px;right:10px;color:var(--ink3);cursor:pointer;font-size:1rem}
 </style></head><body><div class="wrap">
 <header><div><div class="tag">KAIKEI · AI <button type="button" class="gl" data-t="Capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。支出は先、回収は後になる。" aria-label="Capex">Capex</button>バブル — 二重の時間軸（信用1〜3年＋生産性10年+）</div><h1><button type="button" class="gl" data-t="系統接続" data-d="作った発電設備や工場を、送電網につなぐこと。順番待ちの行列ができていて、これが遅れると建物が完成しても電気が使えない。" aria-label="系統接続">系統接続</button>の遅延（<button type="button" class="gl" data-t="PJM" data-d="米国最大の送電網の運用者。発電所を系統につなぐ順番待ちの行列を公表しており、その遅れがデータセンターの完成時期に効く。" aria-label="PJM">PJM</button>等のマイルストーン変更要求に占める許認可・接続待ちの割合）</h1></div><div class="hlinks"><a class="xlink" href="https://x.com/kaikei_media" rel="me">@kaikei_media</a><a href="https://kaikei-media.github.io/en/o/t3-q9/">English</a></div></header>

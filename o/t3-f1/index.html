@@ -129,6 +129,12 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
  margin-left:.4em;border:1px solid var(--ink3);border-radius:50%;font-size:.72em;color:var(--ink3);
  vertical-align:middle;flex:none}
 .gl.q:hover,.gl.q:focus{border-color:var(--gold);color:var(--gold)}
+/* 先行/同時/遅行。**遅行だけは目立たせる**——「出ていない」を安心と読ませないため。 */
+.gl.lead{display:inline-block;margin-right:.5em;padding:.05em .5em;border:1px solid var(--ink3);
+ border-radius:999px;font-size:.68em;letter-spacing:.06em;vertical-align:.12em;white-space:nowrap}
+.gl.lead.lead{border-color:var(--gold);color:var(--gold)}
+.gl.lead.lag{border-color:#b4534f;color:#d98a86}
+.gl.lead.counter{border-style:dashed}
 #glp .cl{position:absolute;top:6px;right:10px;color:var(--ink3);cursor:pointer;font-size:1rem}
 </style></head><body><div class="wrap">
 <header><div><div class="tag">KAIKEI · AI <button type="button" class="gl" data-t="Capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。支出は先、回収は後になる。" aria-label="Capex">Capex</button>バブル — 二重の時間軸（信用1〜3年＋生産性10年+）</div><h1>AI関連の<button type="button" class="gl" data-t="起債" data-d="債券を発行してお金を借りること。株を発行するのと違い、返済の義務がある。" aria-label="起債">起債</button>・ローン: 月次発行額、<button type="button" class="gl" data-t="応札倍率" data-d="入札で、売り出した額の何倍の買い注文が集まったかの比。低いほど買い手が引いている。2倍割れは弱さの目安。" aria-label="応札倍率">応札倍率</button>、<button type="button" class="gl" data-t="シンジケーション" data-d="大きな融資を複数の金融機関に分けて売っていく作業。途中で条件を変えることになると、需要が足りていない合図になる。" aria-label="シンジケーション">シンジケーション</button>中の条件変更幅、撤回・延期</h1></div><div class="hlinks"><a class="xlink" href="https://x.com/kaikei_media" rel="me">@kaikei_media</a><a href="https://kaikei-media.github.io/en/o/t3-f1/">English</a></div></header>

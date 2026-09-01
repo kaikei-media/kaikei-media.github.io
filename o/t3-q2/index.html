@@ -129,6 +129,12 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
  margin-left:.4em;border:1px solid var(--ink3);border-radius:50%;font-size:.72em;color:var(--ink3);
  vertical-align:middle;flex:none}
 .gl.q:hover,.gl.q:focus{border-color:var(--gold);color:var(--gold)}
+/* 先行/同時/遅行。**遅行だけは目立たせる**——「出ていない」を安心と読ませないため。 */
+.gl.lead{display:inline-block;margin-right:.5em;padding:.05em .5em;border:1px solid var(--ink3);
+ border-radius:999px;font-size:.68em;letter-spacing:.06em;vertical-align:.12em;white-space:nowrap}
+.gl.lead.lead{border-color:var(--gold);color:var(--gold)}
+.gl.lead.lag{border-color:#b4534f;color:#d98a86}
+.gl.lead.counter{border-style:dashed}
 #glp .cl{position:absolute;top:6px;right:10px;color:var(--ink3);cursor:pointer;font-size:1rem}
 </style></head><body><div class="wrap">
 <header><div><div class="tag">KAIKEI · AI <button type="button" class="gl" data-t="Capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。支出は先、回収は後になる。" aria-label="Capex">Capex</button>バブル — 二重の時間軸（信用1〜3年＋生産性10年+）</div><h1>電力の大口契約（<button type="button" class="gl" data-t="PPA" data-d="電力購入契約。発電する側と使う側が、何年ぶんかの電気を先に約束して結ぶ契約。データセンターを建てる前に必要になる。" aria-label="PPA">PPA</button>）の新規締結<button type="button" class="gl" data-t="MW" data-d="メガワット。電力の大きさの単位。1MWでおおよそ一般家庭数百軒ぶんの電力。データセンターの規模はこれで測る。" aria-label="MW">MW</button>とキャンセル</h1></div><div class="hlinks"><a class="xlink" href="https://x.com/kaikei_media" rel="me">@kaikei_media</a><a href="https://kaikei-media.github.io/en/o/t3-q2/">English</a></div></header>

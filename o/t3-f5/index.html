@@ -129,6 +129,12 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
  margin-left:.4em;border:1px solid var(--ink3);border-radius:50%;font-size:.72em;color:var(--ink3);
  vertical-align:middle;flex:none}
 .gl.q:hover,.gl.q:focus{border-color:var(--gold);color:var(--gold)}
+/* 先行/同時/遅行。**遅行だけは目立たせる**——「出ていない」を安心と読ませないため。 */
+.gl.lead{display:inline-block;margin-right:.5em;padding:.05em .5em;border:1px solid var(--ink3);
+ border-radius:999px;font-size:.68em;letter-spacing:.06em;vertical-align:.12em;white-space:nowrap}
+.gl.lead.lead{border-color:var(--gold);color:var(--gold)}
+.gl.lead.lag{border-color:#b4534f;color:#d98a86}
+.gl.lead.counter{border-style:dashed}
 #glp .cl{position:absolute;top:6px;right:10px;color:var(--ink3);cursor:pointer;font-size:1rem}
 </style></head><body><div class="wrap">
 <header><div><div class="tag">KAIKEI · AI <button type="button" class="gl" data-t="Capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。支出は先、回収は後になる。" aria-label="Capex">Capex</button>バブル — 二重の時間軸（信用1〜3年＋生産性10年+）</div><h1><button type="button" class="gl" data-t="私募クレジット" data-d="銀行や公募の債券市場を通さず、ファンドが直接企業に貸すお金。値段が市場で毎日つかないので、傷んでも表に出るのが遅い。" aria-label="私募クレジット">私募クレジット</button>: 解約請求率・引出上限（ゲート）・<button type="button" class="gl" data-t="NAV" data-d="純資産価値。ファンドが持っている資産から負債を引いた1口あたりの価値。ここが切り下げられると、損が表に出たことになる。" aria-label="NAV">NAV</button>（<button type="button" class="gl" data-t="Cliffwater" data-d="米国の運用会社。個人でも買える私募クレジットのファンドを出しており、その解約の状況が、私募全体の詰まり具合を外から見る窓になる。" aria-label="Cliffwater">Cliffwater</button> / <button type="button" class="gl" data-t="BCRED" data-d="ブラックストーンが運用する私募クレジットのファンド。規模が大きく、解約の受付状況が業界の目安として見られている。" aria-label="BCRED">BCRED</button> / <button type="button" class="gl" data-t="Blue Owl" data-d="私募クレジットを手がける米国の運用会社。ここが持つ資産の評価の切り下げは、損が表に出始めた合図になる。" aria-label="Blue Owl">Blue Owl</button>）、<button type="button" class="gl" data-t="BDC" data-d="事業開発会社。私募クレジットを個人にも売る形の上場ファンド。解約や純資産の割引が、私募の傷みを外から見る窓になる。" aria-label="BDC">BDC</button>の純資産割引</h1></div><div class="hlinks"><a class="xlink" href="https://x.com/kaikei_media" rel="me">@kaikei_media</a><a href="https://kaikei-media.github.io/en/o/t3-f5/">English</a></div></header>

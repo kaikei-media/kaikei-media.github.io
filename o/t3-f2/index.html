@@ -129,6 +129,12 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
  margin-left:.4em;border:1px solid var(--ink3);border-radius:50%;font-size:.72em;color:var(--ink3);
  vertical-align:middle;flex:none}
 .gl.q:hover,.gl.q:focus{border-color:var(--gold);color:var(--gold)}
+/* 先行/同時/遅行。**遅行だけは目立たせる**——「出ていない」を安心と読ませないため。 */
+.gl.lead{display:inline-block;margin-right:.5em;padding:.05em .5em;border:1px solid var(--ink3);
+ border-radius:999px;font-size:.68em;letter-spacing:.06em;vertical-align:.12em;white-space:nowrap}
+.gl.lead.lead{border-color:var(--gold);color:var(--gold)}
+.gl.lead.lag{border-color:#b4534f;color:#d98a86}
+.gl.lead.counter{border-style:dashed}
 #glp .cl{position:absolute;top:6px;right:10px;color:var(--ink3);cursor:pointer;font-size:1rem}
 </style></head><body><div class="wrap">
 <header><div><div class="tag">KAIKEI · AI <button type="button" class="gl" data-t="Capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。支出は先、回収は後になる。" aria-label="Capex">Capex</button>バブル — 二重の時間軸（信用1〜3年＋生産性10年+）</div><h1><button type="button" class="gl" data-t="GPU担保" data-d="計算用の半導体（GPU）そのものを担保に入れてお金を借りること。半導体は数年で新型に置き換わるため、担保の価値が下がる速さが読みにくい。" aria-label="GPU担保">GPU担保</button><button type="button" class="gl" data-t="ABS" data-d="資産担保証券。特定の資産（ここではGPUやデータセンター）から生まれる収入を裏づけに発行する債券。" aria-label="ABS">ABS</button>・<button type="button" class="gl" data-t="DC-ABS" data-d="データセンターを担保にして発行される債券。建物と、そこを借りている会社が払う賃料を裏づけに、投資家からお金を集める仕組み。借り手が払えなくなると、担保のデータセンターが売られる。" aria-label="DC-ABS">DC-ABS</button>の新発条件（<button type="button" class="gl" data-t="劣後" data-d="返済の順番が後ろになる部分。損が出たときに先に削られる代わりに、利回りが高い。" aria-label="劣後">劣後</button>比率・<button type="button" class="gl" data-t="スプレッド" data-d="安全とされる国債の利回りと比べて、どれだけ上乗せの金利を求められているかの差。広がるほど、貸し手が risk を強く見ている。" aria-label="スプレッド">スプレッド</button>）と<button type="button" class="gl" data-t="格付" data-d="債券の返済の確からしさを、格付会社が記号で示したもの。引き下げは、貸し手の見方が変わったことを意味する。" aria-label="格付">格付</button>アクション</h1></div><div class="hlinks"><a class="xlink" href="https://x.com/kaikei_media" rel="me">@kaikei_media</a><a href="https://kaikei-media.github.io/en/o/t3-f2/">English</a></div></header>

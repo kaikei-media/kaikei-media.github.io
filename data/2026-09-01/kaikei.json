@@ -144,7 +144,7 @@
    "item_id": "T1-F2",
    "trend": "T1",
    "kind": "flow",
-   "cadence": "daily",
+   "cadence": "monthly",
    "unit": "t",
    "name_ja": "金ETFの現物保有トン数（価格ではなく現物の増減）",
    "name_en": "Physical gold held by ETFs (tonnes, not price)",
