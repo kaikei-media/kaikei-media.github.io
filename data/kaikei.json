@@ -4,8 +4,8 @@
  "license_name": "CC BY 4.0",
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
- "temporal_coverage": "2025-01-01/2026-08-27",
- "count": 67,
+ "temporal_coverage": "2025-01-01/2026-09-01",
+ "count": 68,
  "columns": [
   "item_id",
   "trend",
@@ -1203,6 +1203,25 @@
    "note_ja": "この項目は、まだ合図として使えない。営業CF(+22.58億ドル)が売上(3.99億ドル)を大きく上回っている。稼いだ金ではなく、顧客からの前受けなどが入っていると考えるのが自然で、分解しないと「残り月数」の分母にできない。現金の増加も財務活動+62.96億ドル（転換社債43億ドル・NVIDIAのワラント20億ドル）によるもので、手元の厚さは調達の結果であって、稼ぐ力の結果ではない。分解できるまで、この項目に判定は付けない。",
    "note_en": "Not yet usable as a signal: operating cash flow (+$2,258.0m) far exceeds revenue ($399.0m), so it likely contains customer prepayments and must be decomposed before it can serve as a runway denominator. The cash build came from $6,295.5m of financing (a $4.3bn convertible and a $2.0bn NVIDIA warrant), so the cushion reflects funding raised, not cash earned.",
    "page_url": "https://kaikei-media.github.io/o/t3-f12/"
+  },
+  {
+   "item_id": "T3-Q4",
+   "trend": "T3",
+   "kind": "quantity",
+   "cadence": "quarterly",
+   "unit": "USD bn",
+   "name_ja": "ハイパースケーラの受注残（RPO）とcapexの実額（キャッシュフロー計算書）",
+   "name_en": "Hyperscaler RPO and actual capex (cash-flow statement, not guidance)",
+   "date": "2026-09-01",
+   "recorded_at": "2026-09-01T14:32:41+00:00",
+   "value_ja": "AI・ハイパースケーラのcapexは2025年に米GDPの1.4%（2019年は0.3%）。比較の相手は1990年代の通信投資（2000年のピーク1.2%）に限る",
+   "value_en": "AI/hyperscaler capex reached 1.4% of US GDP in 2025 (0.3% in 2019). The only comparison kept is the 1990s telecom buildout, which peaked at 1.2% of GDP in 2000.",
+   "direction": "up",
+   "source_url": "https://www.bea.gov/help/glossary/residential-fixed-investment",
+   "source_label": "BEA 用語集（住宅固定投資の定義）。数値そのものはアポロの試算（2026-08-06の値を参照）",
+   "note_ja": "枠組みの訂正（2026-09-01）。 2026-08-06の値では、出典（アポロ）に従って住宅バブルのピーク（GDP比6.6%・2005年）とも並べていた。数字は原典で確認したが、比較の枠組みそのものを疑っていなかった。 住宅の6.6%はBEAの住宅固定投資＝経済全体の住宅建設で、担い手は何百万の家計とその借金を持つ銀行。AI設備投資の1.4%は実質数社の設備投資で、損は社債と株式に載る。同じGDP比という単位に乗るだけで、中身も壊れ方の経路も違う。 さらに「5分の1だから小さい」と「倍の速さだから異常」が同じ数字から出るので、どちらにも読める＝判断材料にならない。 通信投資との比較は残す（同じ種類の基盤設備で、経路まで追える）。前の値は消していない。",
+   "note_en": "Framing correction (2026-09-01). The 2026-08-06 entry also compared this with the housing boom's 6.6% peak, following Apollo's own framing. The figures were verified, but the framing was not questioned: housing's 6.6% is BEA residential fixed investment, i.e. economy-wide homebuilding carried by millions of households and the banks holding their debt, while AI capex at 1.4% is a handful of companies whose losses sit in corporate credit and equity. The same GDP-share unit hides a different composition and a different transmission channel. The telecom comparison is kept because it is the same kind of infrastructure and its channel can be traced. The earlier value has not been deleted.",
+   "page_url": "https://kaikei-media.github.io/o/t3-q4/"
   },
   {
    "item_id": "T3-F1",

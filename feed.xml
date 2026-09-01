@@ -43,6 +43,13 @@
 <summary>起債が通らなかった例が2件。Pure Data Centres（Oaktree系）は10億ユーロの無担保債（過去最大規模になるはずだった）を撤回し、7/21に SMBC・ABN AMRO・Citi・Societe Generale・Natixis CIB から13億ユーロの上位債務を確保して銀行融資に切替。Prime Data Centers はノルウェー法の社債を6億→5億ドルに減額してもなお投資家が足りず棚上げ（再launchの可能性あり）。データセンター関連証券の約8割が発行時より広いスプレッドで取引されているとの報道。</summary>
 </entry>
 <entry>
+<title>ハイパースケーラの受注残（RPO）とcapexの実額（キャッシュフロー計算書） — 2026-09-01</title>
+<link href="https://kaikei-media.github.io/o/t3-q4/"/>
+<id>https://kaikei-media.github.io/o/t3-q4/#2026-09-01@2026-09-01</id>
+<updated>2026-09-01T14:32:41+00:00</updated>
+<summary>AI・ハイパースケーラのcapexは2025年に米GDPの1.4%（2019年は0.3%）。比較の相手は1990年代の通信投資（2000年のピーク1.2%）に限る</summary>
+</entry>
+<entry>
 <title>ネオクラウドの残り月数 — 手元資金 ÷ 現金の流出 — 2026-03-31</title>
 <link href="https://kaikei-media.github.io/o/t3-f12/"/>
 <id>https://kaikei-media.github.io/o/t3-f12/#2026-03-31@2026-09-01</id>
@@ -419,12 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-q5/#2026-07-31@2026-08-27</id>
 <updated>2026-08-27T12:24:02+00:00</updated>
 <summary>CoreWeave: 7月に契約価格を全SKUで約25%引き上げ。旧世代（H100等）の価格は「数年前と同等以上」、A100を2029年まで再契約</summary>
-</entry>
-<entry>
-<title>会計上の耐用年数と償却方法（GPU設備。短縮＝残存価値問題の自認、CAM指定） — 2026-03-31</title>
-<link href="https://kaikei-media.github.io/o/t3-q6/"/>
-<id>https://kaikei-media.github.io/o/t3-q6/#2026-03-31@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>Nebius: サーバー・ネットワーク機器の耐用年数を4年→5年に延長（2026年1月から。1-3月期の減価償却費を4,310万ドル削減）</summary>
 </entry>
 </feed>
