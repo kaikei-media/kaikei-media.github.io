@@ -1,16 +1,16 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8">
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Data — Kaikei</title>
-<meta name="description" content="The record itself, as CSV and JSON, with dated frozen snapshots.">
-<link rel="canonical" href="https://kaikei-media.github.io/en/data/">
+<title>直したこと — 解経</title>
+<meta name="description" content="解経が自分で見つけて直した誤りの記録です。消して直さず、足して直します。">
+<link rel="canonical" href="https://kaikei-media.github.io/corrections/">
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Data">
-<meta property="og:description" content="The record itself, as CSV and JSON, with dated frozen snapshots.">
-<meta property="og:url" content="https://kaikei-media.github.io/en/data/">
+<meta property="og:title" content="直したこと">
+<meta property="og:description" content="解経が自分で見つけて直した誤りの記録です。消して直さず、足して直します。">
+<meta property="og:url" content="https://kaikei-media.github.io/corrections/">
 <meta property="og:image" content="https://kaikei-media.github.io/ogp.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@kaikei_en">
+<meta name="twitter:site" content="@kaikei_media">
 <meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
 <style>
 /* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
@@ -116,21 +116,14 @@ details table{margin-top:6px}
 footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
 .t1,.t2,.t3{--c:var(--gold);--cbg:var(--dim)}
 </style></head><body><div class="wrap">
-<header><div><div class="tag">KAIKEI</div><h1>Data</h1></div></header>
-<p class="lead">The record itself, as CSV and JSON, with dated frozen snapshots.</p>
-<h2>Current files</h2>
-<ul class="sig">
-<li><span class="txt"><a href="https://kaikei-media.github.io/data/kaikei.csv">kaikei.csv</a> — one row per value; columns are stable</li>
-<li><span class="txt"><a href="https://kaikei-media.github.io/data/kaikei.json">kaikei.json</a> — the same content as JSON</li>
-</ul>
-<p class="lead">Coverage 2025-12-31 to 2026-08-27, 58 values. Licensed CC BY 4.0 — free to use with attribution.</p>
-<h2>Frozen daily snapshots</h2>
-<p class="lead">Each snapshot is frozen at the last write of that day and is never rewritten, so that what Kaikei knew on a given date can be checked.</p>
-<ul class="sig">
-<li><span class="txt"><a href="https://kaikei-media.github.io/data/2026-09-01/kaikei.csv">2026-09-01</a> <a href="https://kaikei-media.github.io/data/2026-09-01/kaikei.json">(json)</a></span></li>
-</ul>
-<h2>How to cite</h2>
-<p class="lead">Kaikei, “Where the flow is”, https://kaikei-media.github.io/, accessed 2026-09-01. Data: https://kaikei-media.github.io/data/kaikei.csv</p>
-<p class="lead">Please cite the primary source alongside it: Kaikei collects and dates figures rather than asserting them, so both are needed to check anything.</p>
-<p class="lead"><a href="../">← Back to the whole picture</a></p>
+<header><div><div class="tag">KAIKEI</div><h1>直したこと</h1></div></header>
+<p class="lead">解経が自分で見つけて直した誤りの記録です。消して直さず、足して直します。</p>
+<h2>2026-09-01 — ドットコムの2社を比べた対比が、事実として成り立っていなかった</h2>
+<p class="lead"><b>見つけたのは:</b> 解経自身（Tasukuの「再検証して」の指示で点検した結果）</p>
+<p class="lead"><b>何を書いていたか:</b> 「Lucent と Nortel は1999年に同じ先行の合図（顧客への与信の膨張）を抱えていたのに、株価の折れ方が12か月違った」と書いた。これを、合図が値段に伝わるまでの長さが銘柄ごとに違うことの根拠にしていた。</p>
+<p class="lead"><b>なぜ誤りだったか:</b> **Nortel が顧客への与信を本格化させたのは2000年10月で、株価の天井（2000年7月）より後だった。** 同じ合図があって反応が違ったのではなく、そもそも合図の時期が違った。対比が成り立たない。</p>
+<p class="lead"><b>どう直したか:</b> 対比を撤回し、確かめられた事実（Lucentは天井の約12か月前に合図があった／Nortelは天井の前には無く、売上の前四半期比の減速で折れた）だけを残した。「伝わるまでの長さ」という考え方は捨てないが、**実証は1例だけの仮説**に格下げし、期限を切った。</p>
+<p class="lead"><b>教訓:</b> **2つの事例を並べる前に、両方の日付を確かめる。** 片方の日付だけ確かめて、もう片方は「同じだろう」で書いていた。</p>
+<p class="lead"><b>この点検から出たもの:</b> この点検から、より使える発見が出た。**Nortelの顧客への与信は、早い警告ではなく、鈍った需要を埋める突っかい棒だった。** 見分けるには前年同期比ではなく前四半期比を見る（折れた四半期、光製品は前年比+90%・前四半期比−5〜10%）。観測項目 T3-F11 として登録した。</p>
+<p class="lead"><a href="../">← いまの流れ（全体）へ</a></p>
 </div></body></html>

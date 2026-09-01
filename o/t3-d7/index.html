@@ -1,17 +1,22 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8">
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Data — Kaikei</title>
-<meta name="description" content="The record itself, as CSV and JSON, with dated frozen snapshots.">
-<link rel="canonical" href="https://kaikei-media.github.io/en/data/">
-<meta name="robots" content="index,follow">
+<title>建てるときに置いた前提 — capexを正当化するために各社が公言した需要の想定 — 解経</title>
+<meta name="description" content="建てるときに置いた前提 — capexを正当化するために各社が公言した需要の想定 — AI Capexバブル — 二重の時間軸（信用1〜3年＋生産性10年+） の観測項目。価格ではなく数量と資金フローで測っています。値には日付と一次資料が付いています。">
+<meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
+<link rel="canonical" href="https://kaikei-media.github.io/o/t3-d7/">
+<link rel="alternate" hreflang="ja" href="https://kaikei-media.github.io/o/t3-d7/">
+<link rel="alternate" hreflang="en" href="https://kaikei-media.github.io/en/o/t3-d7/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Data">
-<meta property="og:description" content="The record itself, as CSV and JSON, with dated frozen snapshots.">
-<meta property="og:url" content="https://kaikei-media.github.io/en/data/">
+<meta property="og:site_name" content="解経">
+<meta property="og:title" content="建てるときに置いた前提 — capexを正当化するために各社が公言した需要の想定">
+<meta property="og:description" content="建てるときに置いた前提 — capexを正当化するために各社が公言した需要の想定 — AI Capexバブル — 二重の時間軸（信用1〜3年＋生産性10年+） の観測項目。価格ではなく数量と資金フローで測っています。値には日付と一次資料が付いています。">
+<meta property="og:url" content="https://kaikei-media.github.io/o/t3-d7/">
 <meta property="og:image" content="https://kaikei-media.github.io/ogp.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@kaikei_en">
-<meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
+<meta name="twitter:site" content="@kaikei_media">
+<meta name="twitter:image" content="https://kaikei-media.github.io/ogp.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"建てるときに置いた前提 — capexを正当化するために各社が公言した需要の想定","description":"建てるときに置いた前提 — capexを正当化するために各社が公言した需要の想定 — AI Capexバブル — 二重の時間軸（信用1〜3年＋生産性10年+） の観測項目。価格ではなく数量と資金フローで測っています。値には日付と一次資料が付いています。","url":"https://kaikei-media.github.io/o/t3-d7/","inLanguage":"ja","isPartOf":{"@type":"Dataset","@id":"https://kaikei-media.github.io/#dataset"},"creator":{"@type":"Organization","name":"解経","url":"https://kaikei-media.github.io/","sameAs":["https://x.com/kaikei_media","https://x.com/kaikei_en"]},"isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by/4.0/"}</script>
 <style>
 /* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
    地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
@@ -115,22 +120,59 @@ details{font-size:.82rem;color:var(--ink2)}details summary{cursor:pointer;color:
 details table{margin-top:6px}
 footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
 .t1,.t2,.t3{--c:var(--gold);--cbg:var(--dim)}
+
+/* 数が多くなるので、既定は目立たせない（点線は沈めた色）。触れたときだけ金にする。 */
+.gl{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:help;
+ border-bottom:1px dotted var(--line);line-height:inherit}
+.gl:hover,.gl:focus{color:var(--gold);outline:none}
+#glp{position:absolute;z-index:50;max-width:min(30rem,92vw);background:var(--paper);
+ color:var(--ink);border:1px solid var(--gold);border-radius:8px;padding:12px 14px;
+ font-size:.9rem;line-height:1.65;box-shadow:0 8px 28px rgba(0,0,0,.5);display:none}
+#glp b{display:block;color:var(--gold);margin-bottom:6px;font-size:.95rem}
+#glp .tx{white-space:pre-line}
+.gl.q{display:inline-flex;align-items:center;justify-content:center;width:1.15em;height:1.15em;
+ margin-left:.4em;border:1px solid var(--ink3);border-radius:50%;font-size:.72em;color:var(--ink3);
+ vertical-align:middle;flex:none}
+.gl.q:hover,.gl.q:focus{border-color:var(--gold);color:var(--gold)}
+/* 先行/同時/遅行。**遅行だけは目立たせる**——「出ていない」を安心と読ませないため。 */
+.gl.lead{display:inline-block;margin-right:.5em;padding:.05em .5em;border:1px solid var(--ink3);
+ border-radius:999px;font-size:.68em;letter-spacing:.06em;vertical-align:.12em;white-space:nowrap}
+.gl.lead.lead{border-color:var(--gold);color:var(--gold)}
+.gl.lead.lag{border-color:#b4534f;color:#d98a86}
+.gl.lead.counter{border-style:dashed}
+#glp .cl{position:absolute;top:6px;right:10px;color:var(--ink3);cursor:pointer;font-size:1rem}
 </style></head><body><div class="wrap">
-<header><div><div class="tag">KAIKEI</div><h1>Data</h1></div></header>
-<p class="lead">The record itself, as CSV and JSON, with dated frozen snapshots.</p>
-<h2>Current files</h2>
-<ul class="sig">
-<li><span class="txt"><a href="https://kaikei-media.github.io/data/kaikei.csv">kaikei.csv</a> — one row per value; columns are stable</li>
-<li><span class="txt"><a href="https://kaikei-media.github.io/data/kaikei.json">kaikei.json</a> — the same content as JSON</li>
-</ul>
-<p class="lead">Coverage 2025-12-31 to 2026-08-27, 58 values. Licensed CC BY 4.0 — free to use with attribution.</p>
-<h2>Frozen daily snapshots</h2>
-<p class="lead">Each snapshot is frozen at the last write of that day and is never rewritten, so that what Kaikei knew on a given date can be checked.</p>
-<ul class="sig">
-<li><span class="txt"><a href="https://kaikei-media.github.io/data/2026-09-01/kaikei.csv">2026-09-01</a> <a href="https://kaikei-media.github.io/data/2026-09-01/kaikei.json">(json)</a></span></li>
-</ul>
-<h2>How to cite</h2>
-<p class="lead">Kaikei, “Where the flow is”, https://kaikei-media.github.io/, accessed 2026-09-01. Data: https://kaikei-media.github.io/data/kaikei.csv</p>
-<p class="lead">Please cite the primary source alongside it: Kaikei collects and dates figures rather than asserting them, so both are needed to check anything.</p>
-<p class="lead"><a href="../">← Back to the whole picture</a></p>
+<header><div><div class="tag">KAIKEI · AI <button type="button" class="gl" data-t="Capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。支出は先、回収は後になる。" aria-label="Capex">Capex</button>バブル — 二重の時間軸（信用1〜3年＋生産性10年+）</div><h1>建てるときに置いた前提 — <button type="button" class="gl" data-t="capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。日々の経費と違い、支出は先に出て、回収は何年もかけて起きる。" aria-label="capex">capex</button>を正当化するために各社が公言した需要の想定</h1></div><div class="hlinks"><a class="xlink" href="https://x.com/kaikei_media" rel="me">@kaikei_media</a><a href="https://kaikei-media.github.io/en/o/t3-d7/">English</a></div></header>
+<p class="lead">AI <button type="button" class="gl" data-t="Capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。支出は先、回収は後になる。" aria-label="Capex">Capex</button>バブル — 二重の時間軸（信用1〜3年＋生産性10年+） の観測項目。価格ではなく数量と資金フローで測っています。値には日付と一次資料が付いています。</p>
+<h2 class="sec">観測の履歴</h2>
+<p class="lead">まだ観測値がありません。次の更新で入ります。</p>
+<h2 class="sec">なぜこれを見るのか</h2><p class="lead"><strong>ドットコムで潰れた理由は「需要が来なかった」ことではない</strong>（`参照/ドットコムの合図の時期.md`）。通信量は1997〜2002年に年約2倍で、崩壊のあいだも伸び続けた。潰れたのは<strong>年16倍（100日で倍）を前提に建てて2倍しか来なかった</strong>から。<strong>実績だけを見ていると、この差は永久に見えない。</strong> 建てるときに公言した前提を残しておけば、あとで答え合わせができる。<strong>予測を実測として登録しない</strong>（値には【前提・実測ではない】と明記する）。</p>
+<h2 class="sec">出どころ</h2><p class="lead">出どころ: 各社の決算説明会・投資家説明会の発言（一次: トランスクリプト／8-K）<br>更新の頻度: quarterly</p>
+<p class="lead"><a href="../../">← いまの流れ（全体）へ</a> · <a href="../../g/">用語集</a> · <a href="../../method/">測り方</a> · <a href="../../data/">データ</a></p>
+<footer><time datetime="2026-09-01">最終更新 · 2026-09-01</time> · <a class="xlink" href="https://x.com/kaikei_media" rel="me">Xで毎日の観測を出しています（@kaikei_media）</a><br>情報提供のみを目的とし、特定の金融商品の売買を推奨するものではありません。数値は各出典の一次資料に基づきますが、正確性を保証するものではありません。</footer>
+<script>
+(function(){
+ var d=document,p=null;
+ function close(){if(p)p.style.display='none';}
+ function open(b){
+  if(!p){p=d.createElement('div');p.id='glp';
+   p.innerHTML='<span class="cl">×</span><b></b><span class="tx"></span>';
+   d.body.appendChild(p);
+   p.querySelector('.cl').addEventListener('click',close);}
+  p.querySelector('b').textContent=b.dataset.t;
+  p.querySelector('.tx').textContent=b.dataset.d;
+  p.style.display='block';
+  var r=b.getBoundingClientRect(),w=p.offsetWidth;
+  var x=Math.min(Math.max(8,r.left+window.scrollX),window.scrollX+d.documentElement.clientWidth-w-8);
+  p.style.left=x+'px';
+  p.style.top=(r.bottom+window.scrollY+6)+'px';
+ }
+ d.addEventListener('click',function(e){
+  var b=e.target.closest?e.target.closest('.gl'):null;
+  if(b){e.preventDefault();e.stopPropagation();open(b);}
+  else if(!e.target.closest||!e.target.closest('#glp'))close();
+ });
+ d.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+})();
+</script>
 </div></body></html>

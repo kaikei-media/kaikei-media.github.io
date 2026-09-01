@@ -1,17 +1,22 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Data — Kaikei</title>
-<meta name="description" content="The record itself, as CSV and JSON, with dated frozen snapshots.">
-<link rel="canonical" href="https://kaikei-media.github.io/en/data/">
-<meta name="robots" content="index,follow">
+<title>Assumed useful life of GPUs and servers, and changes to it — Kaikei</title>
+<meta name="description" content="Assumed useful life of GPUs and servers, and changes to it — An observation item under AI capex bubble — two clocks (credit 1–3 yrs, productivity 10+ yrs), measured in quantities a">
+<meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
+<link rel="canonical" href="https://kaikei-media.github.io/en/o/t3-d8/">
+<link rel="alternate" hreflang="ja" href="https://kaikei-media.github.io/o/t3-d8/">
+<link rel="alternate" hreflang="en" href="https://kaikei-media.github.io/en/o/t3-d8/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Data">
-<meta property="og:description" content="The record itself, as CSV and JSON, with dated frozen snapshots.">
-<meta property="og:url" content="https://kaikei-media.github.io/en/data/">
-<meta property="og:image" content="https://kaikei-media.github.io/ogp.png">
+<meta property="og:site_name" content="Kaikei">
+<meta property="og:title" content="Assumed useful life of GPUs and servers, and changes to it">
+<meta property="og:description" content="Assumed useful life of GPUs and servers, and changes to it — An observation item under AI capex bubble — two clocks (credit 1–3 yrs, productivity 10+ yrs), measured in quantities a">
+<meta property="og:url" content="https://kaikei-media.github.io/en/o/t3-d8/">
+<meta property="og:image" content="https://kaikei-media.github.io/en/ogp.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@kaikei_en">
-<meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
+<meta name="twitter:image" content="https://kaikei-media.github.io/en/ogp.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Assumed useful life of GPUs and servers, and changes to it","description":"Assumed useful life of GPUs and servers, and changes to it — An observation item under AI capex bubble — two clocks (credit 1–3 yrs, productivity 10+ yrs), measured in quantities a","url":"https://kaikei-media.github.io/en/o/t3-d8/","inLanguage":"en","isPartOf":{"@type":"Dataset","@id":"https://kaikei-media.github.io/#dataset"},"creator":{"@type":"Organization","name":"Kaikei","url":"https://kaikei-media.github.io/","sameAs":["https://x.com/kaikei_media","https://x.com/kaikei_en"]},"isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by/4.0/"}</script>
 <style>
 /* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
    地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
@@ -115,22 +120,59 @@ details{font-size:.82rem;color:var(--ink2)}details summary{cursor:pointer;color:
 details table{margin-top:6px}
 footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
 .t1,.t2,.t3{--c:var(--gold);--cbg:var(--dim)}
+
+/* 数が多くなるので、既定は目立たせない（点線は沈めた色）。触れたときだけ金にする。 */
+.gl{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:help;
+ border-bottom:1px dotted var(--line);line-height:inherit}
+.gl:hover,.gl:focus{color:var(--gold);outline:none}
+#glp{position:absolute;z-index:50;max-width:min(30rem,92vw);background:var(--paper);
+ color:var(--ink);border:1px solid var(--gold);border-radius:8px;padding:12px 14px;
+ font-size:.9rem;line-height:1.65;box-shadow:0 8px 28px rgba(0,0,0,.5);display:none}
+#glp b{display:block;color:var(--gold);margin-bottom:6px;font-size:.95rem}
+#glp .tx{white-space:pre-line}
+.gl.q{display:inline-flex;align-items:center;justify-content:center;width:1.15em;height:1.15em;
+ margin-left:.4em;border:1px solid var(--ink3);border-radius:50%;font-size:.72em;color:var(--ink3);
+ vertical-align:middle;flex:none}
+.gl.q:hover,.gl.q:focus{border-color:var(--gold);color:var(--gold)}
+/* 先行/同時/遅行。**遅行だけは目立たせる**——「出ていない」を安心と読ませないため。 */
+.gl.lead{display:inline-block;margin-right:.5em;padding:.05em .5em;border:1px solid var(--ink3);
+ border-radius:999px;font-size:.68em;letter-spacing:.06em;vertical-align:.12em;white-space:nowrap}
+.gl.lead.lead{border-color:var(--gold);color:var(--gold)}
+.gl.lead.lag{border-color:#b4534f;color:#d98a86}
+.gl.lead.counter{border-style:dashed}
+#glp .cl{position:absolute;top:6px;right:10px;color:var(--ink3);cursor:pointer;font-size:1rem}
 </style></head><body><div class="wrap">
-<header><div><div class="tag">KAIKEI</div><h1>Data</h1></div></header>
-<p class="lead">The record itself, as CSV and JSON, with dated frozen snapshots.</p>
-<h2>Current files</h2>
-<ul class="sig">
-<li><span class="txt"><a href="https://kaikei-media.github.io/data/kaikei.csv">kaikei.csv</a> — one row per value; columns are stable</li>
-<li><span class="txt"><a href="https://kaikei-media.github.io/data/kaikei.json">kaikei.json</a> — the same content as JSON</li>
-</ul>
-<p class="lead">Coverage 2025-12-31 to 2026-08-27, 58 values. Licensed CC BY 4.0 — free to use with attribution.</p>
-<h2>Frozen daily snapshots</h2>
-<p class="lead">Each snapshot is frozen at the last write of that day and is never rewritten, so that what Kaikei knew on a given date can be checked.</p>
-<ul class="sig">
-<li><span class="txt"><a href="https://kaikei-media.github.io/data/2026-09-01/kaikei.csv">2026-09-01</a> <a href="https://kaikei-media.github.io/data/2026-09-01/kaikei.json">(json)</a></span></li>
-</ul>
-<h2>How to cite</h2>
-<p class="lead">Kaikei, “Where the flow is”, https://kaikei-media.github.io/, accessed 2026-09-01. Data: https://kaikei-media.github.io/data/kaikei.csv</p>
-<p class="lead">Please cite the primary source alongside it: Kaikei collects and dates figures rather than asserting them, so both are needed to check anything.</p>
-<p class="lead"><a href="../">← Back to the whole picture</a></p>
+<header><div><div class="tag">KAIKEI · AI <button type="button" class="gl" data-t="capex" data-d="Capital expenditure — money spent on long-lived assets like factories and data centres. The cash goes out first; the return comes over years." aria-label="capex">capex</button> bubble — two clocks (credit 1–3 yrs, productivity 10+ yrs)</div><h1>Assumed useful life of GPUs and servers, and changes to it</h1></div><div class="hlinks"><a class="xlink" href="https://x.com/kaikei_en" rel="me">@kaikei_en</a><a href="https://kaikei-media.github.io/o/t3-d8/">日本語</a></div></header>
+<p class="lead">An observation item under AI <button type="button" class="gl" data-t="capex" data-d="Capital expenditure — money spent on long-lived assets like factories and data centres. The cash goes out first; the return comes over years." aria-label="capex">capex</button> bubble — two clocks (credit 1–3 yrs, productivity 10+ yrs), measured in quantities and money flows rather than prices. Every figure carries a date and a primary source.</p>
+<h2 class="sec">Observation history</h2>
+<p class="lead">No observation yet. It will be filled at the next update.</p>
+<h2 class="sec">Why we watch this</h2><p class="lead"><strong>Fibre lasts ~25 years; GPUs 3-6. A 25-year asset can wait out a demand shortfall; a 4-year asset cannot.</strong> A builder shortening its own assumed life is itself a signal (Amazon cut part of its server fleet from 6 to 5 years in January 2025, citing the pace of AI technology change, at about $0.3bn a quarter of net income). Extensions flatter reported profit (Meta to 5.5 years). Classified as leading.</p>
+<h2 class="sec">Source</h2><p class="lead">Source: Useful-life accounting policy and changes in 10-K/10-Q<br>Update frequency: quarterly</p>
+<p class="lead"><a href="../../">← Back to the whole picture</a> · <a href="../../g/">Glossary</a> · <a href="../../method/">How this is measured</a> · <a href="../../data/">Data</a></p>
+<footer><time datetime="2026-09-01">Last updated · 2026-09-01</time> · <a class="xlink" href="https://x.com/kaikei_en" rel="me">Daily observations on X (@kaikei_en)</a><br>For information only; not a recommendation to buy or sell any financial instrument. Figures are taken from the cited primary sources; accuracy is not guaranteed.</footer>
+<script>
+(function(){
+ var d=document,p=null;
+ function close(){if(p)p.style.display='none';}
+ function open(b){
+  if(!p){p=d.createElement('div');p.id='glp';
+   p.innerHTML='<span class="cl">×</span><b></b><span class="tx"></span>';
+   d.body.appendChild(p);
+   p.querySelector('.cl').addEventListener('click',close);}
+  p.querySelector('b').textContent=b.dataset.t;
+  p.querySelector('.tx').textContent=b.dataset.d;
+  p.style.display='block';
+  var r=b.getBoundingClientRect(),w=p.offsetWidth;
+  var x=Math.min(Math.max(8,r.left+window.scrollX),window.scrollX+d.documentElement.clientWidth-w-8);
+  p.style.left=x+'px';
+  p.style.top=(r.bottom+window.scrollY+6)+'px';
+ }
+ d.addEventListener('click',function(e){
+  var b=e.target.closest?e.target.closest('.gl'):null;
+  if(b){e.preventDefault();e.stopPropagation();open(b);}
+  else if(!e.target.closest||!e.target.closest('#glp'))close();
+ });
+ d.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+})();
+</script>
 </div></body></html>

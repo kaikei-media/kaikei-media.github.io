@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
  "temporal_coverage": "2025-12-31/2026-08-27",
- "count": 57,
+ "count": 58,
  "columns": [
   "item_id",
   "trend",
@@ -1108,6 +1108,25 @@
    "note_ja": "予測を実測として登録していた（date=2026-09-30 という未来日付で入っていた）。2026-08-31に公表日へ直し、予測であることを明示した。実測が出たら別の値として登録する。 / 前期比の予測値。水準の反転（マイナス）はまだ",
    "note_en": "",
    "page_url": "https://kaikei-media.github.io/o/t3-q3/"
+  },
+  {
+   "item_id": "T3-F7",
+   "trend": "T3",
+   "kind": "flow",
+   "cadence": "quarterly",
+   "unit": "days / YoY %",
+   "name_ja": "AI半導体の売り手の売掛金・在庫が、売上より速く伸びていないか（DSO）",
+   "name_en": "Are the AI-chip sellers' receivables and inventory growing faster than sales? (DSO)",
+   "date": "2026-07-26",
+   "recorded_at": "2026-09-01T13:10:00+09:00",
+   "value_ja": "NVIDIA 2026年7月26日期: 売掛金が前四半期比+54.9%（407億→631億ドル）に対し売上は+17.9%（816億→962億ドル）。DSOは45.4日→59.6日（+14.2日）。 在庫は+22.4%（258億→316億ドル）。営業キャッシュフローは503億→241億ドル（−52.2%）で、売上1ドルあたり0.62→0.25。前年同期比では売上+106.0%に対し売掛金+126.8%・在庫+111.0%。1四半期のみ。Lucentは8四半期続いて初めて壊れた。",
+   "value_en": "NVIDIA, quarter ended 2026-07-26: receivables +54.9% QoQ ($40.7bn to $63.1bn) against revenue +17.9% ($81.6bn to $96.2bn). DSO 45.4 to 59.6 days (+14.2). Inventory +22.4% ($25.8bn to $31.6bn). Operating cash flow $50.3bn to $24.1bn (-52.2%), or $0.62 to $0.25 per dollar of revenue. Year on year, revenue +106.0% against receivables +126.8% and inventory +111.0%. One quarter only. Lucent's divergence ran eight quarters before anything broke.",
+   "direction": "up",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+   "source_label": "NVIDIA Q2 FY2027 results (SEC EDGAR)",
+   "note_ja": "売掛金・在庫・売上は10-Qの決算発表（SEC）、前四半期・前年同期の値はSECのXBRL（AccountsReceivableNetCurrent / InventoryNet）と各期の発表資料から。DSOは 売掛金÷売上×91日 で計算。営業CFは6か月累計74,421から当四半期24,077を引いて前四半期を出した。別の読み方がありうる: 四半期末に売上が偏った／顧客構成が変わった（ネオクラウド・政府系は支払いが遅い）／同時に発表された計算資源の融資枠組み。1四半期では判定しない。次の10-Q（2026年11月ごろ）で続くかどうかを見る。",
+   "note_en": "Figures from the Q2 FY2027 results (SEC) and SEC XBRL. DSO = receivables / revenue x 91 days. Prior-quarter operating cash flow derived from the six-month total minus the quarter. Alternative readings exist: revenue weighted to the end of the quarter, a shift in customer mix toward slower-paying neoclouds and sovereigns, or the compute-financing arrangements announced alongside. One quarter is not a verdict.",
+   "page_url": "https://kaikei-media.github.io/o/t3-f7/"
   }
  ]
 }
