@@ -43,6 +43,11 @@ h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transf
 .card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
 .card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
 .card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
+/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 Tasuku決定 3-a）。 */
+.ladder{position:relative}
+.ladder .band{position:absolute;top:0;bottom:0;background:rgba(201,169,110,.14);
+ border-left:1px solid var(--gold);border-right:1px solid var(--gold);pointer-events:none}
+.lnote.lead{color:var(--ink2)}
 /* ladder: 現在地だけが金。過去は沈めた紺、未来は罫だけ */
 .ladder{--n:5;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;margin:6px 0 2px;position:relative}
 .ladder .rung{background:var(--bg);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:4px 5px;font-size:.7rem;line-height:1.25;color:var(--ink3);display:flex;flex-direction:column;justify-content:flex-end}
@@ -139,6 +144,7 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 </style></head><body><div class="wrap">
 <header><div><div class="tag">KAIKEI · Disorder — the accelerator of structural inflation</div><h1>Trade share by bloc — who trades with whom</h1></div><div class="hlinks"><a class="xlink" href="https://x.com/kaikei_en" rel="me">@kaikei_en</a><a href="https://kaikei-media.github.io/o/t2-f2/">日本語</a></div></header>
 <p class="lead">An observation item under Disorder — the accelerator of structural inflation, measured in quantities and money flows rather than prices. Every figure carries a date and a primary source.</p>
+<p class="lead"><b>This item was retired on 2026-09-01.</b> Retired 2026-09-01: no single primary source; unfilled for 244 days. Superseded by T2-F8.</p>
 <h2 class="sec">Observation history</h2>
 <div class="tbl"><table><thead><tr><th>Date</th><th>Latest</th><th>Source</th></tr></thead><tbody>
 <tr><td class="num">2025-12-31</td><td style="white-space:normal">Trade within the same geopolitical bloc is ~71% of world trade in 2025 (vs ~55% in 1995); trade between blocs has grown ~4% slower than within blocs since 2022<button type="button" class="gl q" data-t="Trade share by bloc — who trades with whom" data-d="■ How to read it

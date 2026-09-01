@@ -43,6 +43,11 @@ h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transf
 .card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
 .card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
 .card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
+/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 Tasuku決定 3-a）。 */
+.ladder{position:relative}
+.ladder .band{position:absolute;top:0;bottom:0;background:rgba(201,169,110,.14);
+ border-left:1px solid var(--gold);border-right:1px solid var(--gold);pointer-events:none}
+.lnote.lead{color:var(--ink2)}
 /* ladder: 現在地だけが金。過去は沈めた紺、未来は罫だけ */
 .ladder{--n:5;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;margin:6px 0 2px;position:relative}
 .ladder .rung{background:var(--bg);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:4px 5px;font-size:.7rem;line-height:1.25;color:var(--ink3);display:flex;flex-direction:column;justify-content:flex-end}
@@ -139,6 +144,7 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 </style></head><body><div class="wrap">
 <header><div><div class="tag">KAIKEI · 乱世 — 構造的インフレの加速装置</div><h1>貿易の陣営別シェア — 誰と誰が取引しているか</h1></div><div class="hlinks"><a class="xlink" href="https://x.com/kaikei_media" rel="me">@kaikei_media</a><a href="https://kaikei-media.github.io/en/o/t2-f2/">English</a></div></header>
 <p class="lead">乱世 — 構造的インフレの加速装置 の観測項目。価格ではなく数量と資金フローで測っています。値には日付と一次資料が付いています。</p>
+<p class="lead"><b>この項目は 2026-09-01 に終了しました。</b> 「各国通関統計」を自分で集計する前提だったため、<strong>単一の一次資料が無く244日埋まらなかった</strong>。全自動では埋まらない定義だった。（後継: T2-F8）</p>
 <h2 class="sec">観測の履歴</h2>
 <div class="tbl"><table><thead><tr><th>日付</th><th>最新</th><th>出どころ</th></tr></thead><tbody>
 <tr><td class="num">2025-12-31</td><td style="white-space:normal">同じ陣営内の貿易が世界貿易の約71%（2025年。1995年は約55%）。陣営間の貿易は2022年以降、陣営内より約4%遅く成長<button type="button" class="gl q" data-t="貿易の陣営別シェア — 誰と誰が取引しているか" data-d="■ この数字の読み方

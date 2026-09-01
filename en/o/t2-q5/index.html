@@ -43,6 +43,11 @@ h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transf
 .card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
 .card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
 .card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
+/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 Tasuku決定 3-a）。 */
+.ladder{position:relative}
+.ladder .band{position:absolute;top:0;bottom:0;background:rgba(201,169,110,.14);
+ border-left:1px solid var(--gold);border-right:1px solid var(--gold);pointer-events:none}
+.lnote.lead{color:var(--ink2)}
 /* ladder: 現在地だけが金。過去は沈めた紺、未来は罫だけ */
 .ladder{--n:5;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;margin:6px 0 2px;position:relative}
 .ladder .rung{background:var(--bg);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:4px 5px;font-size:.7rem;line-height:1.25;color:var(--ink3);display:flex;flex-direction:column;justify-content:flex-end}

@@ -43,6 +43,11 @@ h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transf
 .card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
 .card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
 .card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
+/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 Tasuku決定 3-a）。 */
+.ladder{position:relative}
+.ladder .band{position:absolute;top:0;bottom:0;background:rgba(201,169,110,.14);
+ border-left:1px solid var(--gold);border-right:1px solid var(--gold);pointer-events:none}
+.lnote.lead{color:var(--ink2)}
 /* ladder: 現在地だけが金。過去は沈めた紺、未来は罫だけ */
 .ladder{--n:5;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;margin:6px 0 2px;position:relative}
 .ladder .rung{background:var(--bg);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:4px 5px;font-size:.7rem;line-height:1.25;color:var(--ink3);display:flex;flex-direction:column;justify-content:flex-end}
@@ -139,6 +144,7 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 </style></head><body><div class="wrap">
 <header><div><div class="tag">KAIKEI · 乱世 — 構造的インフレの加速装置</div><h1>石油取引の非ドル決済シェア（人民元・ルピー等）と中銀の金準備比率</h1></div><div class="hlinks"><a class="xlink" href="https://x.com/kaikei_media" rel="me">@kaikei_media</a><a href="https://kaikei-media.github.io/en/o/t2-f3/">English</a></div></header>
 <p class="lead">乱世 — 構造的インフレの加速装置 の観測項目。価格ではなく数量と資金フローで測っています。値には日付と一次資料が付いています。</p>
+<p class="lead"><b>この項目は 2026-09-01 に終了しました。</b> 石油取引の決済通貨別シェアを公表している一次資料は存在せず（報道の推計しかない）、<strong>244日埋まらなかった</strong>。推計を一次資料のように載せない。（後継: T2-F9）</p>
 <h2 class="sec">観測の履歴</h2>
 <div class="tbl"><table><thead><tr><th>日付</th><th>最新</th><th>出どころ</th></tr></thead><tbody>
 <tr><td class="num">2025-12-31</td><td style="white-space:normal">世界の公的準備資産に占める金の割合は27%（前年20%から上昇）、米国債22%、ユーロ15%（時価ベース、2025年末）。石油取引の非ドル決済シェアは一次資料で確認できる直近値が見つからず未記入<button type="button" class="gl q" data-t="石油取引の非ドル決済シェア（人民元・ルピー等）と中銀の金準備比率" data-d="■ この数字の読み方
