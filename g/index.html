@@ -114,6 +114,7 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <div class="tbl"><table><tbody>
 <tr><td style="white-space:nowrap"><b>AA</b></td><td style="white-space:normal">債券の返済の確からしさを表す記号で、上から2番目に高い区分。</td></tr>
 <tr><td style="white-space:nowrap"><b>ABS</b></td><td style="white-space:normal">資産担保証券。特定の資産（ここではGPUやデータセンター）から生まれる収入を裏づけに発行する債券。</td></tr>
+<tr><td style="white-space:nowrap"><b>AccountsReceivableNetCurrent</b></td><td style="white-space:normal">決算書に載る、まだ受け取っていない売上代金（売掛金）の残高を表す会計上の項目名。SECへの提出資料から機械的に集計するときに使う名前。</td></tr>
 <tr><td style="white-space:nowrap"><b>AIS</b></td><td style="white-space:normal">船が自分の位置を電波で知らせる仕組み。切ると追跡から消えるので、切っていること自体が情報になる。</td></tr>
 <tr><td style="white-space:nowrap"><b>AIラボ</b></td><td style="white-space:normal">AIのモデルそのものを作っている会社。OpenAI・Anthropic・Google DeepMindなど。設備を買う側ではなく、その設備で動かすものを作る側。</td></tr>
 <tr><td style="white-space:nowrap"><b>ASP</b></td><td style="white-space:normal">平均販売価格。売上を数量で割ったもの。売上の伸びが値段によるのか数量によるのかを分けるのに使う。</td></tr>
@@ -132,6 +133,7 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <tr><td style="white-space:nowrap"><b>CF</b></td><td style="white-space:normal">キャッシュフロー。会計上の利益ではなく、実際に出入りした現金のこと。</td></tr>
 <tr><td style="white-space:nowrap"><b>Cliffwater</b></td><td style="white-space:normal">米国の運用会社。個人でも買える私募クレジットのファンドを出しており、その解約の状況が、私募全体の詰まり具合を外から見る窓になる。</td></tr>
 <tr><td style="white-space:nowrap"><b>CLO</b></td><td style="white-space:normal">多くの企業向け貸付をひとまとめにし、返ってくるお金の受け取り順を段に分けて売る債券。上の段から先に払われ、下の段は損を先に受ける。</td></tr>
+<tr><td style="white-space:nowrap"><b>COFER</b></td><td style="white-space:normal">IMFが四半期ごとに集計する、世界の外貨準備が何の通貨で持たれているかの統計。ドルの比率が下がれば、準備通貨としてのドルの地位が弱まっていることになる。</td></tr>
 <tr><td style="white-space:nowrap"><b>COMEX</b></td><td style="white-space:normal">米国の商品取引所。金や銅の先物と在庫の集計を行う。</td></tr>
 <tr><td style="white-space:nowrap"><b>Constellation</b></td><td style="white-space:normal">米国の電力会社。原子力発電を多く持ち、データセンター向けに電気を長期で売る契約を結んでいる。</td></tr>
 <tr><td style="white-space:nowrap"><b>CoreWeave</b></td><td style="white-space:normal">GPUを大量に買い集めて他社に貸す会社。借金で設備を買っているので、借入の条件に引っかかるかどうかが注目されている。</td></tr>
@@ -141,6 +143,7 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <tr><td style="white-space:nowrap"><b>DDoS</b></td><td style="white-space:normal">多数の端末から一斉に通信を送って、サービスを止める攻撃。</td></tr>
 <tr><td style="white-space:nowrap"><b>DDTL</b></td><td style="white-space:normal">あとから小分けに引き出せる約束の融資枠。必要なときに必要なだけ借りられる代わりに、条件が付く。</td></tr>
 <tr><td style="white-space:nowrap"><b>DSCR</b></td><td style="white-space:normal">債務返済カバー率。稼ぎが返済額の何倍あるかを示す。借入の契約でこの下限が決められていることが多く、割ると条件違反になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>DSO</b></td><td style="white-space:normal">売上債権回転日数。売った代金をまだ受け取っていない日数の目安で、売掛金を売上高で割って日数に直したもの。伸びるのは、売っているのに現金が入ってくるのが遅くなっているということ。</td></tr>
 <tr><td style="white-space:nowrap"><b>FCF</b></td><td style="white-space:normal">フリーキャッシュフロー。本業で稼いだ現金から設備投資を引いた残り。ここがマイナスだと、設備投資を借金でまかなっている。</td></tr>
 <tr><td style="white-space:nowrap"><b>FIMA</b></td><td style="white-space:normal">外国の中央銀行が、持っている米国債を担保に一時的にドルを借りられる仕組み。米国債を売らずにドルを手当てできる。</td></tr>
 <tr><td style="white-space:nowrap"><b>Fitch</b></td><td style="white-space:normal">格付会社のひとつ。債券の返済の確からしさを記号で示す。引き下げは貸し手の見方が変わった印。</td></tr>
@@ -149,12 +152,14 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <tr><td style="white-space:nowrap"><b>GW</b></td><td style="white-space:normal">ギガワット。1GW＝1,000MW。大型の原発1基がおおよそ1GW。</td></tr>
 <tr><td style="white-space:nowrap"><b>IEA</b></td><td style="white-space:normal">国際エネルギー機関。主要な消費国が作った組織で、石油や電力の在庫・需給の統計と見通しを出す。</td></tr>
 <tr><td style="white-space:nowrap"><b>IMF</b></td><td style="white-space:normal">国際通貨基金。各国が出資してつくった組織で、支払いに行き詰まった国に資金を貸し、世界経済の見通しを定期的に出す。</td></tr>
+<tr><td style="white-space:nowrap"><b>InventoryNet</b></td><td style="white-space:normal">決算書に載る、まだ売れていない在庫の残高を表す会計上の項目名。SECへの提出資料から機械的に集計するときに使う名前。</td></tr>
 <tr><td style="white-space:nowrap"><b>JICPA</b></td><td style="white-space:normal">日本公認会計士協会。決算書を調べる会計士の団体で、監査のやり方の指針を出す。</td></tr>
 <tr><td style="white-space:nowrap"><b>Kpler</b></td><td style="white-space:normal">船の位置と積荷を追跡して、原油などの実際の流れを推計する会社。書類上の輸出量との差を見るのに使う。</td></tr>
 <tr><td style="white-space:nowrap"><b>LME</b></td><td style="white-space:normal">ロンドン金属取引所。銅などの金属の取引と在庫の集計を行う。在庫の増減は需給の実態を示す。</td></tr>
 <tr><td style="white-space:nowrap"><b>MMF</b></td><td style="white-space:normal">マネー・マーケット・ファンド。短期の国債などで運用する、預金に近い投資信託。ここの残高は、行き場を探している現金の量を示す。</td></tr>
 <tr><td style="white-space:nowrap"><b>MW</b></td><td style="white-space:normal">メガワット。電力の大きさの単位。1MWでおおよそ一般家庭数百軒ぶんの電力。データセンターの規模はこれで測る。</td></tr>
 <tr><td style="white-space:nowrap"><b>NAV</b></td><td style="white-space:normal">純資産価値。ファンドが持っている資産から負債を引いた1口あたりの価値。ここが切り下げられると、損が表に出たことになる。</td></tr>
+<tr><td style="white-space:nowrap"><b>Nebius</b></td><td style="white-space:normal">GPUを大量に買い集めて他社に貸すネオクラウドの一社。自己資本での調達が多く、手元資金の残り月数が注目されている。</td></tr>
 <tr><td style="white-space:nowrap"><b>NGDS</b></td><td style="white-space:normal">米軍が民間の宅配会社と結ぶ、数年単位の小包配送契約の枠組み。</td></tr>
 <tr><td style="white-space:nowrap"><b>OTF</b></td><td style="white-space:normal">Blue Owl が運用するファンドの名前（Owl Rock Technology Income などの略称として使われる）。技術系の企業への貸付が中心。</td></tr>
 <tr><td style="white-space:nowrap"><b>PIK</b></td><td style="white-space:normal">利息を現金ではなく、借金の元本に足す形で払うこと。現金が出ていかない代わりに、借金が膨らむ。</td></tr>
@@ -162,6 +167,8 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <tr><td style="white-space:nowrap"><b>PLA</b></td><td style="white-space:normal">中国人民解放軍。台湾周辺での活動量が、緊張の度合いを測る数量になる。</td></tr>
 <tr><td style="white-space:nowrap"><b>PortWatch</b></td><td style="white-space:normal">IMFが公開している港の入出港データ。船が発する位置情報から、港ごとの貨物の出入りを推計する。</td></tr>
 <tr><td style="white-space:nowrap"><b>PPA</b></td><td style="white-space:normal">電力購入契約。発電する側と使う側が、何年ぶんかの電気を先に約束して結ぶ契約。データセンターを建てる前に必要になる。</td></tr>
+<tr><td style="white-space:nowrap"><b>Prime Data Centers</b></td><td style="white-space:normal">米国のデータセンター開発会社。社債の発行額を減らしてもなお買い手が集まらず、発行を棚上げした。</td></tr>
+<tr><td style="white-space:nowrap"><b>Pure Data Centres</b></td><td style="white-space:normal">欧州でデータセンターを開発する会社。Oaktreeが出資している。社債を発行しようとして撤回し、銀行融資に切り替えた。</td></tr>
 <tr><td style="white-space:nowrap"><b>QE</b></td><td style="white-space:normal">中央銀行が国債などを買って、市場にお金を流す政策。金利を下げ、資産価格を支える方向に働く。</td></tr>
 <tr><td style="white-space:nowrap"><b>QRA</b></td><td style="white-space:normal">米財務省が四半期ごとに出す、国債の発行計画の公表。年限の配分が変わると、政府の狙いが読める。</td></tr>
 <tr><td style="white-space:nowrap"><b>RPO</b></td><td style="white-space:normal">受注残。契約は済んでいるが、まだ売上に計上していない金額。将来の売上の見込みだが、契約が取り消されれば消える。</td></tr>
