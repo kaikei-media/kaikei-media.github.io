@@ -118,6 +118,27 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 </style></head><body><div class="wrap">
 <header><div><div class="tag">KAIKEI</div><h1>Corrections</h1></div></header>
 <p class="lead">A record of mistakes Kaikei found and fixed in its own work. Corrections are added, never erased.</p>
+<h2>2026-09-01 — Two signals were shown as unmeasured because there was no slot to record their state</h2>
+<p class="lead"><b>Found by:</b> Tasuku, who simply asked whether the unmeasured signals could not in fact be measured</p>
+<p class="lead"><b>What was written:</b> Two of the eight signals were shown as unmeasured for a long time.</p>
+<p class="lead"><b>Why it was wrong:</b> They were not unmeasurable. The array holding signal states had six entries for eight signals, so the last two silently rendered as unmeasured. When actually measured, both could be judged the same day.</p>
+<p class="lead"><b>How it was fixed:</b> The array was extended to eight and both signals were measured. The counter-signal is not lit (US Census BTOS firm-level AI use flat at 17-20%). Inference pricing has a first data point (OpenAI cut same-generation prices on 30 July) but the signal requires a sustained decline, so judgement is pending. A machine check now blocks the mismatch.</p>
+<p class="lead"><b>Lesson:</b> Do not accept &#x27;unmeasured&#x27; as a synonym for &#x27;unmeasurable&#x27;. When a field is blank, suspect the pipeline before the world.</p>
+<p class="lead"><b>What the re-check produced:</b> The most valuable result is that the counter-signal is not lit: there is currently no evidence that the reading is wrong. Without measuring, that could not have been said either way.</p>
+<h2>2026-09-01 — A signal had fired, but the site still showed it as unlit</h2>
+<p class="lead"><b>Found by:</b> Kaikei itself, after being told to verify rather than trust its own record</p>
+<p class="lead"><b>What was written:</b> Signal 2 (AI-related bond or loan deals failing, being pulled or delayed) was shown as unlit, on the grounds that issuance volume was high and bid-to-cover had only slipped from 3.2x to 2.5x.</p>
+<p class="lead"><b>Why it was wrong:</b> We looked at aggregate issuance and missed whether individual deals cleared. In July two did not: Pure Data Centres pulled a would-be record EUR1bn bond and switched to EUR1.3bn of bank debt on 21 July, and Prime Data Centers shelved a bond after cutting it from $600m to $500m.</p>
+<p class="lead"><b>How it was fixed:</b> Signal 2 was switched to lit with its evidence and sources, and the deals were recorded as a value under observation T3-F1.</p>
+<p class="lead"><b>Lesson:</b> The signal&#x27;s own explanation said the credit window closes as an absence of issuance rather than a widening of spreads. It closed in exactly that way, and we still missed it by watching the aggregate. Judge a signal by the words of its own definition.</p>
+<p class="lead"><b>What the re-check produced:</b> This was found only by re-checking rather than trusting the record. A record is only correct up to the moment it was written.</p>
+<h2>2026-09-01 — Two price increases of different kinds were presented as comparable</h2>
+<p class="lead"><b>Found by:</b> Tasuku, whose complaint that a post was unintelligible led to checking the source article</p>
+<p class="lead"><b>What was written:</b> A post said a 17% price increase by Huawei fell inside a forecast range. The forecast quoted was TrendForce&#x27;s +13-18% quarter-on-quarter for DRAM contract prices.</p>
+<p class="lead"><b>Why it was wrong:</b> The 17% was the increase in smartphone retail prices, not in DRAM contract prices. Component prices and finished-goods prices are different quantities; their numerical closeness carries no information, so the comparison does not hold.</p>
+<p class="lead"><b>How it was fixed:</b> The comparison was withdrawn. The same event is better described as a pass-through, with the upstream volume decomposition that shows most of the revenue growth came from price rather than units. A machine check now blocks posts that carry price figures with no volume figure.</p>
+<p class="lead"><b>Lesson:</b> Check that two figures measure the same thing before placing them side by side. Percentages look comparable even when they are not; a shared unit sign is not a licence to compare.</p>
+<p class="lead"><b>What the re-check produced:</b> The real question in this story was pass-through: whoever can pass the cost on keeps its volumes, whoever absorbs it loses margin. The late-October results will show which moved.</p>
 <h2>2026-09-01 — A comparison between two dot-com companies did not hold up</h2>
 <p class="lead"><b>Found by:</b> Kaikei itself, after being asked to re-check its own analysis</p>
 <p class="lead"><b>What was written:</b> We wrote that Lucent and Nortel carried the same leading signal in 1999 yet broke twelve months apart, and used that as evidence that the lag from signal to price differs by company.</p>
@@ -125,5 +146,12 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <p class="lead"><b>How it was fixed:</b> The comparison was withdrawn. Only the verified facts were kept, and the underlying idea was downgraded to a single-case hypothesis with an expiry date.</p>
 <p class="lead"><b>Lesson:</b> Check the dates on both cases before drawing a contrast. One side&#x27;s dates were verified; the other&#x27;s were assumed.</p>
 <p class="lead"><b>What the re-check produced:</b> The re-check produced a more useful finding: Nortel&#x27;s customer financing was a prop for softening demand, not an early warning, and only the sequential figure distinguishes the two. Recorded as observation T3-F11.</p>
+<h2>2026-09-01 — The neocloud &#x27;months of runway&#x27; figure was computed from an unverified number</h2>
+<p class="lead"><b>Found by:</b> While verifying figures against the primary filing before publishing the pinned article</p>
+<p class="lead"><b>What was written:</b> An internal reference note read &#x27;Nebius: $9.3bn cash / $3.4bn quarterly FCF burn = 0.7 years&#x27; and compared it with Level 3&#x27;s 3.7 years.</p>
+<p class="lead"><b>Why it was wrong:</b> Quarterly free cash outflow was $214.9m, not $3.4bn: capex had been treated as if it were the whole outflow, ignoring $2,258.0m of operating cash inflow — an error of roughly 16x. The operating inflow also far exceeds revenue, so it must be decomposed before use.</p>
+<p class="lead"><b>How it was fixed:</b> The primary figures were recorded under T3-F12 with an explicit note that no judgement will be made until the operating inflow is decomposed. The comparison was removed from the pinned article.</p>
+<p class="lead"><b>Lesson:</b> Capex is not the same as free cash outflow. Skipping the subtraction changes the order of magnitude. Take both numerator and denominator from the primary source before forming a ratio.</p>
+<p class="lead"><b>What the re-check produced:</b> Caught before publication; it never reached the pinned article.</p>
 <p class="lead"><a href="../">← Back to the whole picture</a></p>
 </div></body></html>
