@@ -18,7 +18,7 @@
 <meta name="twitter:image" content="https://kaikei-media.github.io/ogp.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"日本の生保: 国内債含み損と解約動向（T1-Pj・日本版の破断候補ノード）","description":"日本の生保: 国内債含み損と解約動向（T1-Pj・日本版の破断候補ノード） — 政府債務 — ソフトデフォルトへの長い坂 の観測項目。価格ではなく数量と資金フローで測っています。値には日付と一次資料が付いています。","url":"https://kaikei-media.github.io/o/t1-q6/","inLanguage":"ja","isPartOf":{"@type":"Dataset","@id":"https://kaikei-media.github.io/#dataset"},"creator":{"@type":"Organization","name":"解経","url":"https://kaikei-media.github.io/","sameAs":["https://x.com/kaikei_media","https://x.com/kaikei_en"]},"isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by/4.0/","dateModified":"2026-06-30","hasPart":[{"@type":"Observation","observationDate":"2026-06-30","measuredProperty":"日本の生保: 国内債含み損と解約動向（T1-Pj・日本版の破断候補ノード）","description":"第一生命単体の国内公社債含み損 △4兆406億円（3月末比△2,383億円拡大。責準対応債券は時価が簿価の75%）。大手4社計15兆円（3カ月で+1兆円）。日本生命は減損440億円を計上。業界41社の解約返戻金は1-5月6兆190億円（前年比+39%、9カ月連続で月1兆円超）。第一のESR約206%（▲13pt、会社が要因に「大量解約リスクの増加」を明記）。減損を除外する会計ルール改正（JICPA 21号）は2/17公開草案のまま最終化未確認","citation":"https://www.daiichilife-group.com/investor/library/earning/pdf/2026/index_001.pdf"}]}</script>
 <style>
-/* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
+/* 解経のブランドカラー（図と同じ値を使う）
    地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
    紙=#f5f1e8 ／ 副=#9089b5 ／ 沈め=#332a63 ／ 罫=#3b3272。ライト/ダークの切替は無く、常に濃紺地。 */
 :root{--bg:#080130;--paper:#0e0838;--ink:#f5f1e8;--ink2:#c9c3dc;--ink3:#9089b5;--line:#3b3272;--dim:#332a63;
@@ -43,7 +43,7 @@ h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transf
 .card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
 .card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
 .card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
-/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 Tasuku決定 3-a）。 */
+/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 決定）。 */
 .ladder{position:relative}
 .ladder .band{position:absolute;top:0;bottom:0;background:rgba(201,169,110,.14);
  border-left:1px solid var(--gold);border-right:1px solid var(--gold);pointer-events:none}
@@ -147,11 +147,11 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <h2 class="sec">観測の履歴</h2>
 <div class="tbl"><table><thead><tr><th>日付</th><th>最新</th><th>出どころ</th></tr></thead><tbody>
 <tr><td class="num">2026-06-30</td><td style="white-space:normal">第一生命単体の国内公社債<button type="button" class="gl" data-t="含み損" data-d="持っているだけで、まだ売っていないために損益計算書に出ていない損。売った瞬間に表に出る。" aria-label="含み損">含み損</button> △4兆406億円（3月末比△2,383億円拡大。責準対応債券は時価が簿価の75%）。大手4社計15兆円（3カ月で+1兆円）。日本生命は<button type="button" class="gl" data-t="減損" data-d="持っている資産の価値が戻らないと判断して、帳簿の金額を切り下げること。切り下げた分がその期の損になる。" aria-label="減損">減損</button>440億円を計上。業界41社の解約返戻金は1-5月6兆190億円（前年比+39%、9カ月連続で月1兆円超）。第一のESR約206%（▲13pt、会社が要因に「大量解約リスクの増加」を明記）。減損を除外する会計ルール改正（<button type="button" class="gl" data-t="JICPA" data-d="日本公認会計士協会。決算書を調べる会計士の団体で、監査のやり方の指針を出す。" aria-label="JICPA">JICPA</button> 21号）は2/17公開草案のまま最終化未確認<button type="button" class="gl q" data-t="日本の生保: 国内債含み損と解約動向（T1-Pj・日本版の破断候補ノード）" data-d="■ この数字の読み方
-2026-08-28追加（Tasuku承認）。時価が簿価の50%割れで減損強制（現行ルール）
+2026-08-28追加。時価が簿価の50%割れで減損強制（現行ルール）
 
 ■ 出どころ
 第一ライフグループ Q1開示・日経・Bloomberg・JICPA（2026-06-30）" aria-label="この数字について">?</button></td><td><a href="https://www.daiichilife-group.com/investor/library/earning/pdf/2026/index_001.pdf" rel="noopener">第一ライフグループ Q1開示・日経・Bloomberg・JICPA</a></td></tr>
-<tr><td colspan="3" class="na">2026-08-28追加（Tasuku承認）。時価が簿価の50%割れで<button type="button" class="gl" data-t="減損" data-d="持っている資産の価値が戻らないと判断して、帳簿の金額を切り下げること。切り下げた分がその期の損になる。" aria-label="減損">減損</button>強制（現行ルール）</td></tr>
+<tr><td colspan="3" class="na">2026-08-28追加。時価が簿価の50%割れで<button type="button" class="gl" data-t="減損" data-d="持っている資産の価値が戻らないと判断して、帳簿の金額を切り下げること。切り下げた分がその期の損になる。" aria-label="減損">減損</button>強制（現行ルール）</td></tr>
 </tbody></table></div>
 <h2 class="sec">出どころ</h2><p class="lead">出どころ: <br>更新の頻度: event_driven</p>
 <h2 class="sec">引用するとき</h2>

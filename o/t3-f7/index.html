@@ -18,7 +18,7 @@
 <meta name="twitter:image" content="https://kaikei-media.github.io/ogp.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"AI半導体の売り手の売掛金・在庫が、売上より速く伸びていないか（DSO）","description":"AI半導体の売り手の売掛金・在庫が、売上より速く伸びていないか（DSO） — AI Capexバブル — 二重の時間軸（信用1〜3年＋生産性10年+） の観測項目。価格ではなく数量と資金フローで測っています。値には日付と一次資料が付いています。","url":"https://kaikei-media.github.io/o/t3-f7/","inLanguage":"ja","isPartOf":{"@type":"Dataset","@id":"https://kaikei-media.github.io/#dataset"},"creator":{"@type":"Organization","name":"解経","url":"https://kaikei-media.github.io/","sameAs":["https://x.com/kaikei_media","https://x.com/kaikei_en"]},"isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by/4.0/","dateModified":"2026-07-26","hasPart":[{"@type":"Observation","observationDate":"2026-07-26","measuredProperty":"AI半導体の売り手の売掛金・在庫が、売上より速く伸びていないか（DSO）","description":"NVIDIA 2026年7月26日期: 売掛金が前四半期比+54.9%（407億→631億ドル）に対し売上は+17.9%（816億→962億ドル）。**DSOは45.4日→59.6日（+14.2日）。** 在庫は+22.4%（258億→316億ドル）。営業キャッシュフローは503億→241億ドル（−52.2%）で、売上1ドルあたり0.62→0.25。前年同期比では売上+106.0%に対し売掛金+126.8%・在庫+111.0%。**1四半期のみ。Lucentは8四半期続いて初めて壊れた。**","citation":"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"}]}</script>
 <style>
-/* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
+/* 解経のブランドカラー（図と同じ値を使う）
    地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
    紙=#f5f1e8 ／ 副=#9089b5 ／ 沈め=#332a63 ／ 罫=#3b3272。ライト/ダークの切替は無く、常に濃紺地。 */
 :root{--bg:#080130;--paper:#0e0838;--ink:#f5f1e8;--ink2:#c9c3dc;--ink3:#9089b5;--line:#3b3272;--dim:#332a63;
@@ -43,7 +43,7 @@ h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transf
 .card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
 .card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
 .card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
-/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 Tasuku決定 3-a）。 */
+/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 決定）。 */
 .ladder{position:relative}
 .ladder .band{position:absolute;top:0;bottom:0;background:rgba(201,169,110,.14);
  border-left:1px solid var(--gold);border-right:1px solid var(--gold);pointer-events:none}
@@ -150,13 +150,13 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 売掛金・在庫・売上は10-Qの決算発表（SEC）、前四半期・前年同期の値はSECのXBRL（AccountsReceivableNetCurrent / InventoryNet）と各期の発表資料から。DSOは 売掛金÷売上×91日 で計算。営業CFは6か月累計74,421から当四半期24,077を引いて前四半期を出した。別の読み方がありうる: 四半期末に売上が偏った／顧客構成が変わった（ネオクラウド・政府系は支払いが遅い）／同時に発表された計算資源の融資枠組み。1四半期では判定しない。次の10-Q（2026年11月ごろ）で続くかどうかを見る。
 
 ■ なぜこれを見るのか
-ドットコムでいちばん早く出た合図がこれだった（2026-09-01 調査・`参照/ドットコムの合図の時期.md`）。Lucentは売上+6〜33%に対し売掛金+41〜64%・在庫+45〜74%が8四半期続き、DSOは89日→102日。これは発表を待たずに四半期決算から誰でも計算できた。株価の天井の6〜18か月前から見えていた。減損・格下げ・capex削減は、天井の9〜28か月後に出た。事件ではなく比率として、決算のたびに測る。
+ドットコムでいちばん早く出た合図がこれだった（2026-09-01 調査・内部の記録）。Lucentは売上+6〜33%に対し売掛金+41〜64%・在庫+45〜74%が8四半期続き、DSOは89日→102日。これは発表を待たずに四半期決算から誰でも計算できた。株価の天井の6〜18か月前から見えていた。減損・格下げ・capex削減は、天井の9〜28か月後に出た。事件ではなく比率として、決算のたびに測る。
 
 ■ 出どころ
 NVIDIA Q2 FY2027 results (SEC EDGAR)（2026-07-26）" aria-label="この数字について">?</button></td><td><a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm" rel="noopener">NVIDIA Q2 FY2027 results (SEC EDGAR)</a></td></tr>
 <tr><td colspan="3" class="na">売掛金・在庫・売上は10-Qの決算発表（SEC）、前四半期・前年同期の値はSECのXBRL（AccountsReceivableNetCurrent / InventoryNet）と各期の発表資料から。DSOは 売掛金÷売上×91日 で計算。<button type="button" class="gl" data-t="営業CF" data-d="本業で1年間に実際に入ってきた現金から、出ていった現金を引いた額。利益と違い、実際に手元を通ったお金だけを数える。" aria-label="営業CF">営業CF</button>は6か月累計74,421から当四半期24,077を引いて前四半期を出した。<strong>別の読み方がありうる</strong>: 四半期末に売上が偏った／顧客構成が変わった（<button type="button" class="gl" data-t="ネオクラウド" data-d="GPUを大量に買い集めて、他社に時間貸しする会社。CoreWeaveなど。自社でAIを作るのではなく、計算する場所を貸すのが商売。" aria-label="ネオクラウド">ネオクラウド</button>・政府系は支払いが遅い）／同時に発表された計算資源の融資枠組み。<strong>1四半期では判定しない。次の10-Q（2026年11月ごろ）で続くかどうかを見る。</strong></td></tr>
 </tbody></table></div>
-<h2 class="sec">なぜこれを見るのか</h2><p class="lead"><strong>ドットコムでいちばん早く出た合図がこれだった</strong>（2026-09-01 調査・`参照/ドットコムの合図の時期.md`）。Lucentは売上+6〜33%に対し売掛金+41〜64%・在庫+45〜74%が8四半期続き、DSOは89日→102日。これは<strong>発表を待たずに四半期決算から誰でも計算できた</strong>。株価の天井の6〜18か月前から見えていた。<button type="button" class="gl" data-t="減損" data-d="持っている資産の価値が戻らないと判断して、帳簿の金額を切り下げること。切り下げた分がその期の損になる。" aria-label="減損">減損</button>・格下げ・<button type="button" class="gl" data-t="capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。日々の経費と違い、支出は先に出て、回収は何年もかけて起きる。" aria-label="capex">capex</button>削減は、天井の9〜28か月<strong>後</strong>に出た。<strong>事件ではなく比率として、決算のたびに測る。</strong></p>
+<h2 class="sec">なぜこれを見るのか</h2><p class="lead"><strong>ドットコムでいちばん早く出た合図がこれだった</strong>（2026-09-01 調査・内部の記録）。Lucentは売上+6〜33%に対し売掛金+41〜64%・在庫+45〜74%が8四半期続き、DSOは89日→102日。これは<strong>発表を待たずに四半期決算から誰でも計算できた</strong>。株価の天井の6〜18か月前から見えていた。<button type="button" class="gl" data-t="減損" data-d="持っている資産の価値が戻らないと判断して、帳簿の金額を切り下げること。切り下げた分がその期の損になる。" aria-label="減損">減損</button>・格下げ・<button type="button" class="gl" data-t="capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。日々の経費と違い、支出は先に出て、回収は何年もかけて起きる。" aria-label="capex">capex</button>削減は、天井の9〜28か月<strong>後</strong>に出た。<strong>事件ではなく比率として、決算のたびに測る。</strong></p>
 <h2 class="sec">出どころ</h2><p class="lead">出どころ: NVIDIA等の四半期報告書（10-Q）<br>更新の頻度: quarterly</p>
 <h2 class="sec">引用するとき</h2>
 <p class="lead"><code style="white-space:normal;word-break:break-word">解経『AI半導体の売り手の売掛金・在庫が、売上より速く伸びていないか（DSO）』https://kaikei-media.github.io/o/t3-f7/（対象日 2026-07-26、記録日 2026-09-01）。一次資料: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm</code></p>

@@ -13,7 +13,7 @@
 <meta name="twitter:site" content="@kaikei_en">
 <meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
 <style>
-/* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
+/* 解経のブランドカラー（図と同じ値を使う）
    地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
    紙=#f5f1e8 ／ 副=#9089b5 ／ 沈め=#332a63 ／ 罫=#3b3272。ライト/ダークの切替は無く、常に濃紺地。 */
 :root{--bg:#080130;--paper:#0e0838;--ink:#f5f1e8;--ink2:#c9c3dc;--ink3:#9089b5;--line:#3b3272;--dim:#332a63;
@@ -38,7 +38,7 @@ h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transf
 .card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
 .card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
 .card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
-/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 Tasuku決定 3-a）。 */
+/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 決定）。 */
 .ladder{position:relative}
 .ladder .band{position:absolute;top:0;bottom:0;background:rgba(201,169,110,.14);
  border-left:1px solid var(--gold);border-right:1px solid var(--gold);pointer-events:none}
@@ -119,7 +119,7 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <header><div><div class="tag">KAIKEI</div><h1>Corrections</h1></div></header>
 <p class="lead">A record of mistakes Kaikei found and fixed in its own work. Corrections are added, never erased.</p>
 <h2>2026-09-01 — Two signals were shown as unmeasured because there was no slot to record their state</h2>
-<p class="lead"><b>Found by:</b> Tasuku, who simply asked whether the unmeasured signals could not in fact be measured</p>
+<p class="lead"><b>Found by:</b> 運営, who simply asked whether the unmeasured signals could not in fact be measured</p>
 <p class="lead"><b>What was written:</b> Two of the eight signals were shown as unmeasured for a long time.</p>
 <p class="lead"><b>Why it was wrong:</b> They were not unmeasurable. The array holding signal states had six entries for eight signals, so the last two silently rendered as unmeasured. When actually measured, both could be judged the same day.</p>
 <p class="lead"><b>How it was fixed:</b> The array was extended to eight and both signals were measured. The counter-signal is not lit (US Census BTOS firm-level AI use flat at 17-20%). Inference pricing has a first data point (OpenAI cut same-generation prices on 30 July) but the signal requires a sustained decline, so judgement is pending. A machine check now blocks the mismatch.</p>
@@ -133,7 +133,7 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <p class="lead"><b>Lesson:</b> The signal&#x27;s own explanation said the credit window closes as an absence of issuance rather than a widening of spreads. It closed in exactly that way, and we still missed it by watching the aggregate. Judge a signal by the words of its own definition.</p>
 <p class="lead"><b>What the re-check produced:</b> This was found only by re-checking rather than trusting the record. A record is only correct up to the moment it was written.</p>
 <h2>2026-09-01 — Two price increases of different kinds were presented as comparable</h2>
-<p class="lead"><b>Found by:</b> Tasuku, whose complaint that a post was unintelligible led to checking the source article</p>
+<p class="lead"><b>Found by:</b> 運営, whose complaint that a post was unintelligible led to checking the source article</p>
 <p class="lead"><b>What was written:</b> A post said a 17% price increase by Huawei fell inside a forecast range. The forecast quoted was TrendForce&#x27;s +13-18% quarter-on-quarter for DRAM contract prices.</p>
 <p class="lead"><b>Why it was wrong:</b> The 17% was the increase in smartphone retail prices, not in DRAM contract prices. Component prices and finished-goods prices are different quantities; their numerical closeness carries no information, so the comparison does not hold.</p>
 <p class="lead"><b>How it was fixed:</b> The comparison was withdrawn. The same event is better described as a pass-through, with the upstream volume decomposition that shows most of the revenue growth came from price rather than units. A machine check now blocks posts that carry price figures with no volume figure.</p>

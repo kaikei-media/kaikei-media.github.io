@@ -18,7 +18,7 @@
 <meta name="twitter:image" content="https://kaikei-media.github.io/en/ogp.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Japan life insurers: JGB unrealized losses and surrenders (T1-Pj node)","description":"Japan life insurers: JGB unrealized losses and surrenders (T1-Pj node) — An observation item under Sovereign debt — the long slope to soft default, measured in quantities and money","url":"https://kaikei-media.github.io/en/o/t1-q6/","inLanguage":"en","isPartOf":{"@type":"Dataset","@id":"https://kaikei-media.github.io/#dataset"},"creator":{"@type":"Organization","name":"Kaikei","url":"https://kaikei-media.github.io/","sameAs":["https://x.com/kaikei_media","https://x.com/kaikei_en"]},"isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by/4.0/","dateModified":"2026-06-30","hasPart":[{"@type":"Observation","observationDate":"2026-06-30","measuredProperty":"Japan life insurers: JGB unrealized losses and surrenders (T1-Pj node)","description":"Dai-ichi Life solo JGB unrealized loss ¥4.04tn (widening; policy-reserve-matching bonds at 75% of book). Big-4 total ¥15tn (+¥1tn in 3 months). Nippon Life booked ¥44bn impairment. Industry surrender payouts ¥6.02tn Jan-May (+39% YoY). Dai-ichi ESR ~206% (-13pt, company cites mass-surrender risk). JICPA rule change still at draft stage","citation":"https://www.daiichilife-group.com/investor/library/earning/pdf/2026/index_001.pdf"}]}</script>
 <style>
-/* 解経のブランドカラー（編集方針_現行.md / scripts/chart_style.py と同じ）
+/* 解経のブランドカラー（図と同じ値を使う）
    地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
    紙=#f5f1e8 ／ 副=#9089b5 ／ 沈め=#332a63 ／ 罫=#3b3272。ライト/ダークの切替は無く、常に濃紺地。 */
 :root{--bg:#080130;--paper:#0e0838;--ink:#f5f1e8;--ink2:#c9c3dc;--ink3:#9089b5;--line:#3b3272;--dim:#332a63;
@@ -43,7 +43,7 @@ h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transf
 .card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
 .card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
 .card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
-/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 Tasuku決定 3-a）。 */
+/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 決定）。 */
 .ladder{position:relative}
 .ladder .band{position:absolute;top:0;bottom:0;background:rgba(201,169,110,.14);
  border-left:1px solid var(--gold);border-right:1px solid var(--gold);pointer-events:none}
@@ -147,11 +147,11 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <h2 class="sec">Observation history</h2>
 <div class="tbl"><table><thead><tr><th>Date</th><th>Latest</th><th>Source</th></tr></thead><tbody>
 <tr><td class="num">2026-06-30</td><td style="white-space:normal">Dai-ichi Life solo JGB unrealized loss ¥4.04tn (widening; policy-reserve-matching bonds at 75% of book). Big-4 total ¥15tn (+¥1tn in 3 months). Nippon Life booked ¥44bn impairment. Industry surrender payouts ¥6.02tn Jan-May (+39% YoY). Dai-ichi ESR ~206% (-13pt, company cites mass-surrender risk). <button type="button" class="gl" data-t="JICPA" data-d="The Japanese Institute of Certified Public Accountants, the body of accountants who examine financial statements and issue audit guidance." aria-label="JICPA">JICPA</button> rule change still at draft stage<button type="button" class="gl q" data-t="Japan life insurers: JGB unrealized losses and surrenders (T1-Pj node)" data-d="■ How to read it
-2026-08-28追加（Tasuku承認）。時価が簿価の50%割れで減損強制（現行ルール）
+2026-08-28追加。時価が簿価の50%割れで減損強制（現行ルール）
 
 ■ Source
 第一ライフグループ Q1開示・日経・Bloomberg・JICPA（2026-06-30）" aria-label="About this figure">?</button></td><td><a href="https://www.daiichilife-group.com/investor/library/earning/pdf/2026/index_001.pdf" rel="noopener">第一ライフグループ Q1開示・日経・Bloomberg・JICPA</a></td></tr>
-<tr><td colspan="3" class="na">2026-08-28追加（Tasuku承認）。時価が簿価の50%割れで<button type="button" class="gl" data-t="減損" data-d="An impairment — writing down an asset whose value is judged unrecoverable." aria-label="減損">減損</button>強制（現行ルール）</td></tr>
+<tr><td colspan="3" class="na">2026-08-28追加。時価が簿価の50%割れで<button type="button" class="gl" data-t="減損" data-d="An impairment — writing down an asset whose value is judged unrecoverable." aria-label="減損">減損</button>強制（現行ルール）</td></tr>
 </tbody></table></div>
 <h2 class="sec">Source</h2><p class="lead">Source: <br>Update frequency: event_driven</p>
 <h2 class="sec">How to cite</h2>

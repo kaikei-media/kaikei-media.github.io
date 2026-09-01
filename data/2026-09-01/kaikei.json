@@ -514,7 +514,7 @@
    "value_ja": "SK hynix 4-6月期: DRAMビット出荷 前期比+高1桁%に対しASP約+30%、NANDビット+10%台半ばに対しASP+50%台半ば。7-9月期ガイダンスはDRAMビット約+10%、NAND低1桁%",
    "value_en": "SK hynix Q2 2026: DRAM bits +high-single-digit % QoQ vs ASP ~+30%; NAND bits +mid-teens % vs ASP +mid-50s %; Q3 guidance DRAM bits ~+10%, NAND low-single-digit %",
    "direction": "up",
-   "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sk-hynix-posts-record-q2-2026-results-as-shares-fall-93CH-4818480",
+   "source_url": "https://www.investing.com/news/tran内部の記録",
    "source_label": "SK hynix Q2 2026 earnings call",
    "note_ja": "前期比。金額の伸びの大半は価格。数量の伸びは1桁〜10%台",
    "note_en": "",
@@ -953,7 +953,7 @@
    "direction": "worse",
    "source_url": "https://www.daiichilife-group.com/investor/library/earning/pdf/2026/index_001.pdf",
    "source_label": "第一ライフグループ Q1開示・日経・Bloomberg・JICPA",
-   "note_ja": "2026-08-28追加（Tasuku承認）。時価が簿価の50%割れで減損強制（現行ルール）",
+   "note_ja": "2026-08-28追加。時価が簿価の50%割れで減損強制（現行ルール）",
    "note_en": "",
    "page_url": "https://kaikei-media.github.io/o/t1-q6/"
   },

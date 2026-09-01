@@ -1,0 +1,267 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ドットコムのとき、合図はいつ出たか — 解経</title>
+<meta name="description" content="いまの合図を「先行・同時・遅行」に分けるために、ドットコムバブルのときに同じ種類の合図がいつ出たかを調べた記録です。この調べ方の限界も同じページに置いてあります——事例が少ないこと、壊れた会社しか見えていないこと、解経が実際にやった誤りまで。">
+<link rel="canonical" href="https://kaikei-media.github.io/dotcom/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ドットコムのとき、合図はいつ出たか">
+<meta property="og:description" content="いまの合図を「先行・同時・遅行」に分けるために、ドットコムバブルのときに同じ種類の合図がいつ出たかを調べた記録です。この調べ方の限界も同じページに置いてあります——事例が少ないこと、壊れた会社しか見えていないこと、解経が実際にやった誤りまで。">
+<meta property="og:url" content="https://kaikei-media.github.io/dotcom/">
+<meta property="og:image" content="https://kaikei-media.github.io/ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@kaikei_media">
+<meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
+<style>
+/* 解経のブランドカラー（図と同じ値を使う）
+   地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
+   紙=#f5f1e8 ／ 副=#9089b5 ／ 沈め=#332a63 ／ 罫=#3b3272。ライト/ダークの切替は無く、常に濃紺地。 */
+:root{--bg:#080130;--paper:#0e0838;--ink:#f5f1e8;--ink2:#c9c3dc;--ink3:#9089b5;--line:#3b3272;--dim:#332a63;
+--gold:#c9a96e;--on:#c9a96e;--off:#9089b5;--c:#c9a96e;--cbg:#332a63;--mono:ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP","Zen Kaku Gothic New",system-ui,sans-serif;font-size:15px;line-height:1.7}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 18px 64px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+h1{font-family:"Hiragino Mincho ProN","Shippori Mincho","Noto Serif JP",Georgia,serif;font-size:1.7rem;margin:0;color:var(--gold);font-weight:500}
+.tag{color:var(--ink3);font-family:var(--mono);font-size:.72rem;letter-spacing:.14em}
+.lead{max-width:70ch;color:var(--ink2);margin:12px 0 26px;font-size:.95rem}
+a{color:inherit}
+.hlinks{display:flex;gap:14px;align-items:baseline}
+.xlink{color:var(--gold);text-decoration:none;font-family:var(--mono);font-size:.78rem}
+.xlink:hover{text-decoration:underline}
+h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:34px 0 10px;font-weight:500}
+/* overview cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:760px){.cards{grid-template-columns:1fr}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:1rem;color:var(--ink);font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-weight:500}
+.card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
+.card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
+.card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
+/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 決定）。 */
+.ladder{position:relative}
+.ladder .band{position:absolute;top:0;bottom:0;background:rgba(201,169,110,.14);
+ border-left:1px solid var(--gold);border-right:1px solid var(--gold);pointer-events:none}
+.lnote.lead{color:var(--ink2)}
+/* ladder: 現在地だけが金。過去は沈めた紺、未来は罫だけ */
+.ladder{--n:5;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;margin:6px 0 2px;position:relative}
+.ladder .rung{background:var(--bg);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:4px 5px;font-size:.7rem;line-height:1.25;color:var(--ink3);display:flex;flex-direction:column;justify-content:flex-end}
+.ladder .rung b{font-family:var(--mono);font-size:.72rem;color:var(--ink2);display:block}
+.ladder .rung.past{background:var(--dim);border-color:var(--dim);color:var(--ink2)}
+.ladder .rung.now{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+.ladder .rung.now b{color:var(--bg)}
+.ladder .rung.next{border-style:dashed;border-color:var(--gold)}
+.ladder .rung.mini{min-height:30px;justify-content:center;align-items:center;padding:2px}
+.ladder .rung.mini b{font-size:.8rem}
+.ladder.big .rung{min-height:64px;font-size:.78rem}
+.marker{position:relative;height:30px;margin-top:2px}
+.marker span{position:absolute;transform:translateX(-50%);color:var(--gold);font-size:.72rem;font-family:var(--mono);white-space:nowrap}
+.marker span:before{content:"▲";display:block;text-align:center;line-height:.6}
+.lnote{color:var(--ink3);font-size:.8rem;margin:4px 0 0}
+details.phases{margin:8px 0 0}details.phases>summary{cursor:pointer;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:var(--ink3)}
+ol.phases{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+ol.phases li{display:grid;grid-template-columns:120px 1fr;gap:10px;padding:7px 10px;border:1px solid var(--line);border-radius:6px;font-size:.84rem;background:var(--bg)}
+ol.phases li.now{border-color:var(--gold);background:var(--dim)}
+ol.phases li b{color:var(--gold);font-family:var(--mono);font-size:.8rem}
+ol.phases li span{color:var(--ink2)}ol.phases li small{grid-column:2;color:var(--ink3)}
+@media(max-width:600px){ol.phases li{grid-template-columns:1fr}ol.phases li small{grid-column:1}}
+/* trend sections */
+.trend{margin:26px 0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.trend>.head{background:var(--dim);padding:14px 18px}
+.trend>.head h2{margin:0;font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-size:1.3rem;color:var(--ink);font-weight:500}
+.trend>.head .dest{color:var(--ink2);font-size:.9rem;margin-top:4px}
+.trend .body{padding:14px 18px;background:var(--paper)}
+.state{border-left:3px solid var(--gold);padding:8px 14px;margin:0 0 16px;background:var(--bg)}
+.state .k{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:var(--ink3);display:block}
+.state .short{margin:4px 0 6px;font-size:1.12rem;font-weight:600;line-height:1.5;color:var(--ink)}
+.state .why{margin:0 0 .5em;color:var(--ink2);font-size:.92rem;line-height:1.85}
+.state .why:last-child{margin-bottom:0}
+.state .sb{margin:12px 0 0;padding:10px 12px;border-radius:6px;background:var(--paper)}
+.state .sb.lead{background:none;padding:0;margin-top:6px}
+.state .sb.on{border-left:3px solid var(--gold)}
+.state .sb.off{border-left:3px solid var(--dim)}
+.state .sb.next{border-left:3px solid var(--ink3);background:none}
+.state .sh{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;
+ margin-bottom:6px;color:var(--ink3)}
+.state .sb.on .sh{color:var(--gold)}
+.state.empty{color:var(--ink3);font-style:italic}
+h3.sub{font-size:.75rem;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin:18px 0 6px;font-weight:500}
+ul.sig{list-style:none;margin:0;padding:0}
+ul.sig li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.9rem}
+ul.sig .pill{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--ink3);white-space:nowrap;height:fit-content;margin-top:3px}
+ul.sig .pill.on{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+ul.sig .txt small{display:block;color:var(--ink3)}
+/* money flow diagram */
+.money{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;align-items:stretch;margin:6px 0 4px}
+@media(max-width:760px){.money{grid-template-columns:1fr 1fr}}
+.money .box{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 9px;font-size:.78rem;line-height:1.35;position:relative}
+.money .box b{display:block;font-size:.86rem;color:var(--ink);margin-bottom:2px}
+.money .box em{display:block;font-style:normal;color:var(--ink2)}
+.money .box small{display:block;color:var(--ink3);margin-top:3px}
+.money .box:not(:last-child):after{content:"→";position:absolute;right:-9px;top:40%;color:var(--gold);font-weight:700;font-size:.9rem}
+@media(max-width:760px){.money .box:after{display:none}}
+.loop{color:var(--ink3);font-size:.8rem;margin:2px 0 0;text-align:right}
+/* tables */
+details.data{margin-top:14px}
+details.data>summary{cursor:pointer;font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{text-align:left;vertical-align:top;padding:7px 9px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);font-weight:500}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+td.dir{font-size:1.1rem;text-align:center;color:var(--gold)}
+td.na{color:var(--ink3);font-style:italic}
+details{font-size:.82rem;color:var(--ink2)}details summary{cursor:pointer;color:var(--ink3)}
+details table{margin-top:6px}
+footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
+.t1,.t2,.t3{--c:var(--gold);--cbg:var(--dim)}
+</style></head><body><div class="wrap">
+<header><div><div class="tag">KAIKEI</div><h1>ドットコムのとき、合図はいつ出たか</h1></div></header>
+<p class="lead">いまの合図を「先行・同時・遅行」に分けるために、ドットコムバブルのときに同じ種類の合図がいつ出たかを調べた記録です。この調べ方の限界も同じページに置いてあります——事例が少ないこと、壊れた会社しか見えていないこと、解経が実際にやった誤りまで。</p>
+<h2>ドットコムのとき、合図はいつ出たか</h2>
+<p class="lead"><b>問い</b>: 解経がT3に並べている「流れが変わる合図」は、<b>出たときにはもう暴落が終わっている</b>種類のものではないか。</p>
+<p class="lead"><b>答え</b>: <b>半分はそうだった。</b> そして解経の現在の8つの合図は、<b>遅行するものに偏っている。</b></p>
+<h3>1. 実際の順番（一次・二次資料で確認できた日付）</h3>
+<div class="tw"><table><thead><tr><th>日付</th><th>出来事</th><th>天井(2000-03-10)との差</th></tr></thead><tbody><tr><td>1998後半〜1999通年</td><td><b>Lucent の売掛金・在庫が、売上より速く伸び続ける</b>（8四半期連続）</td><td><b>−6〜18か月</b></td></tr><tr><td>1999-09-30</td><td>Lucent のベンダーファイナンス契約残 71億ドル（実行16億ドル）</td><td>−5か月</td></tr><tr><td>1999-12</td><td>Lucent 株が 84.25ドルで天井</td><td>−3か月</td></tr><tr><td>2000-01-06</td><td>Lucent が減収減益を警告</td><td>−2か月</td></tr><tr><td><b>2000-03-10</b></td><td><b>Nasdaq 5,048.62 / Nasdaq通信指数 1,230.06 で天井</b></td><td><b>0</b></td></tr><tr><td>2000-03-20</td><td>Barron&#x27;s「Burning Up」／MicroStrategy が売上訂正、1日で−62%</td><td>+10日</td></tr><tr><td>2000-04-03</td><td>Microsoft 独禁法敗訴、株価−15%</td><td>+1か月</td></tr><tr><td><b>2000-07-26</b></td><td><b>Nortel 株が 124.50ドルで天井</b>（Nasdaq天井の4か月半<b>後</b>）</td><td><b>+4.5か月</b></td></tr><tr><td>2000-09</td><td>Intel が業績警告、1日で大幅下落</td><td>+6か月</td></tr><tr><td><b>2000-Q4</b></td><td><b>通信設備の設備投資が年率1,350億ドル超で天井</b>（1996年ドル建て）</td><td><b>+9か月</b></td></tr><tr><td>2000年末</td><td>通信指数は天井から−62%。供給9社のベンダーファイナンス契約残は256億ドルに到達</td><td>+9か月</td></tr><tr><td>2000-11-09</td><td>Pets.com 清算（IPOから9か月）</td><td>+8か月</td></tr><tr><td>2001-02-15</td><td>Nortel が2001年の見通しを半減 → 1日で−33%</td><td>+11か月</td></tr><tr><td>2001-02</td><td>CLECの時価総額 321億ドル（1999年の864億ドルから−63%）</td><td>+11か月</td></tr><tr><td>2001年初</td><td><b>「長距離ファイバが過剰である」ことが広く認識される</b></td><td>+10か月</td></tr><tr><td>2001-03</td><td>Cisco が人員削減。通信業の雇用が159万人で天井</td><td>+12か月</td></tr><tr><td><b>2001-07-26</b></td><td><b>JDS Uniphase が通期で506億ドルの赤字（うち約448億ドルがのれん等の減損）</b></td><td><b>+16か月</b></td></tr><tr><td>2001-Q4</td><td>通信設備投資が930億ドル割れ（前年の69%）</td><td>+19か月</td></tr><tr><td>2002-02</td><td>CLECの時価総額 37.7億ドル（1999年比−88%）</td><td>+23か月</td></tr><tr><td>2002-07-21</td><td>WorldCom 破産</td><td>+28か月</td></tr><tr><td>2002-10-09</td><td>Nasdaq-100 が 1,114 で底（天井比−78%）</td><td>+31か月</td></tr><tr><td>（通期）</td><td>敷設されたファイバのうち<b>点灯したのは5%未満</b>。1996〜2001の通信債の発行は5,000億ドル超</td><td>—</td></tr></tbody></table></div>
+<h3>2. 解経の8つの合図を、この順番に当てはめる</h3>
+<div class="tw"><table><thead><tr><th>解経の合図</th><th>ドットコムでの対応物</th><th>出た時期</th><th>種別</th></tr></thead><tbody><tr><td>⑥ ベンダーファイナンス比率↑／営業CFに対するcapexカバー率↓・借入比率↑</td><td>Lucent の売掛金・在庫が売上より速く伸びる。ベンダーファイナンス残の膨張</td><td><b>天井の6〜18か月前</b></td><td><b>先行</b></td></tr><tr><td>⑦ 推論の単価が同一構成で下がり続ける</td><td>帯域の値崩れ／ファイバ点灯率5%未満</td><td><b>事実としては天井前</b>（広く認識されたのは+10か月）</td><td><b>先行（ただし気づかれにくい）</b></td></tr><tr><td>② 起債の失敗・撤回・応札倍率2倍割れ</td><td>CLEC向けジャンク債の窓が閉じる</td><td>天井とほぼ同時〜数か月後</td><td>同時</td></tr><tr><td>⑤ PPAの停止・キャンセル</td><td>発注の停止・在庫の積み上がり</td><td>天井の直後〜+12か月</td><td>同時〜遅行</td></tr><tr><td>④ ROIを理由にしたcapex削減</td><td>通信設備投資の天井が <b>2000-Q4</b></td><td><b>+9〜12か月</b></td><td><b>遅行</b></td></tr><tr><td>③ 契約非更新・コベナンツ違反・減損</td><td>Nortel の下方修正(+11か月)、JDSU の448億ドル減損(+16か月)</td><td><b>+11〜16か月</b></td><td><b>遅行</b></td></tr><tr><td>① NAV切下げ・格下げ・破綻</td><td>CLEC破綻、Lucent格下げ、WorldCom破産(+28か月)</td><td><b>+12〜28か月</b></td><td><b>最も遅行</b></td></tr></tbody></table></div>
+<h3>3. ここから言えること</h3>
+<p class="lead"><b>(a) 遅行する合図が「出ていない」ことは、安心の材料にならない。</b></p>
+<p class="lead">①③④は、ドットコムでは<b>暴落が始まってから1〜2年後</b>に出た。</p>
+<p class="lead">解経のいまの読みは「Cに入る破断の合図はまだゼロ」だが、</p>
+<p class="lead"><b>ドットコムでも天井の日に①③④はゼロだった。</b></p>
+<p class="lead"><b>(b) 「capexが増えている」は、天井が来ていない証拠にならない。</b></p>
+<p class="lead">通信設備投資が天井を打ったのは <b>株価の天井から9か月後</b>。</p>
+<p class="lead">指数が−62%になっても、設備投資はまだ前年を上回っていた。</p>
+<p class="lead">解経はいま「4社ともcapex増額」をC入りしていない根拠として挙げているが、</p>
+<p class="lead"><b>この読み方はドットコムでは外れた。</b></p>
+<p class="lead"><b>(c) 天井は1つの日付ではない。</b></p>
+<p class="lead">Lucent 1999-12 → Nasdaq 2000-03 → Nortel 2000-07 → 設備投資 2000-Q4。</p>
+<p class="lead"><b>売り手の株が先に天井を打ち、支出は後から天井を打った。</b></p>
+<p class="lead">「まだ皆が使っている」は、いちばん最後に崩れる。</p>
+<p class="lead"><b>(d) 先に出た合図は、事件ではなく比率だった。</b></p>
+<p class="lead">Lucent で最初に壊れたのは<b>四半期決算に載っている比率</b>だった。</p>
+<p class="lead">売上+6〜33%に対し、売掛金+41〜64%・在庫+45〜74%が<b>8四半期続いた</b>。</p>
+<p class="lead">DSOはF1999の89日からF2000の102日へ。</p>
+<p class="lead">これは発表を待つ必要がなく、<b>決算が出るたびに誰でも計算できた。</b></p>
+<p class="lead">「出た／出ていない」の事件ではなく、<b>閾値つきの連続値</b>として見るべきものだった。</p>
+<p class="lead"><b>(e) 解経の⑥の但し書きは、たぶん逆。</b></p>
+<p class="lead">いまの記録は⑥について「Bの深化を示すものでCの発火ではない」と書いている。</p>
+<p class="lead">ドットコムでは、<b>⑥にあたるものがいちばん早い警告だった。</b></p>
+<h3>4. いま同じ形が出ているか（要・一次資料確認）</h3>
+<p class="lead">NVIDIA の直近四半期で、売掛金と在庫が売上より速く伸びているとする分析がある。</p>
+<ul><li>DSO 45日 → 60日（1四半期で+15日）</li><li>売掛金 384.7億ドル → 630.6億ドル</li><li>在庫 214.0億ドル → 315.8億ドル</li><li>フリーキャッシュフロー 485.5億ドル → 213.4億ドル（売上は前四半期比+18%）</li></ul>
+<p class="lead"><b>出どころは分析記事であって一次資料ではない。10-Q で確認するまで解経の値にしない。</b></p>
+<p class="lead">確認できれば、これは Lucent の1999年と<b>同じ形</b>であり、</p>
+<p class="lead">解経が持っていない<b>先行の比率</b>そのものになる。</p>
+<h3>5. 出どころ</h3>
+<ul><li>Richmond Fed, *Boom and Bust in Telecommunications* (2003): 設備投資の天井Q4 2000、通信指数、CLEC時価総額、雇用</li><li>Motley Fool, *The Rest of the Lucent Lesson* (2006-11-28): Lucent の四半期別 売上／在庫／売掛金の伸び</li><li>Redfield, Blonsky &amp; Starinsky, *Lucent In Depth Report* (2001-01-02): DSO 89→102日、ベンダーファイナンス残、1999-12 高値84.25ドル</li><li>Global News, *Timeline: Nortel*: 2000-07-26 天井124.50ドル、2001-02-15 −33%</li><li>SEC EDGAR, JDS Uniphase 8-K (2001-07-26): 通期赤字506億ドル、減損448億ドル</li><li>Wikipedia, *Dot-com bubble*: Nasdaq 天井・底、2000-03-20、2000-04-03、2000-11-09</li><li>thebubblebubble.com: ファイバ点灯率5%未満、通信債5,000億ドル超</li></ul>
+<h2>この類推が効かないところ</h2>
+<p class="lead"><b>類推は道具であって答えではない。効かない場所を先に書いておく。</b></p>
+<h3>0. 額で比べない（前の版の誤り）</h3>
+<p class="lead">インフレも資産の種類も違うので、<b>契約残高の絶対額を並べても意味がない</b>。</p>
+<p class="lead">GDP比で取る。</p>
+<div class="tw"><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>ドットコムの通信投資のピーク</td><td><b>GDP比 1.2%</b></td></tr><tr><td>AI関連（DC・ハード・ネットワーク）2026年Q1の実測</td><td><b>GDP比 1.4%</b>（2015-22年平均は0.7%）</td></tr><tr><td>ハイパースケーラのcapex 2027年見込み</td><td><b>GDP比 3.1%</b></td></tr></tbody></table></div>
+<p class="lead"><b>すでに当時のピークを超えている。見込みでは約2.6倍。</b></p>
+<p class="lead">額を並べるより、この比のほうが強い。</p>
+<h3>1. 普及の摩擦が無い</h3>
+<p class="lead">2000年8月の米国世帯: PC保有 <b>51.0%</b>、インターネット接続 <b>41.5%</b>、<b>ブロードバンド 4.4%</b>（NTIA）。</p>
+<p class="lead">ファイバは、<b>まずPCを買ってもらうところから始まる需要</b>のために敷かれた。</p>
+<p class="lead">いまAIを使うのに要る端末は、すでに全員が持っている。<b>この差は大きく、実在する。</b></p>
+<p class="lead"><b>ただし裏がある。</b> 1999年は最後の1マイルの費用を<b>消費者が払った</b>（PC・モデム・加入料）。</p>
+<p class="lead">いまは計算の費用が<b>全部作り手の帳簿に載り</b>、使う側は月0〜20ドル。</p>
+<p class="lead"><b>普及の摩擦は、費用を作り手に移すことで消した。</b></p>
+<p class="lead">上限のない利用は、GPUを持つ側にとっては費用の問題になる。</p>
+<h3>2. 需要が伸び続けることは、資本が守られることを意味しない（最重要）</h3>
+<p class="lead">当時も需要は「上限なし」と信じられていた。標語は <b>「100日で倍」＝年16倍</b>。</p>
+<p class="lead">実際のバックボーン通信量の伸びは <b>1997〜2002年で年約2倍</b>（70〜150%）。</p>
+<p class="lead"><b>需要は崩壊のあいだもずっと伸び続けた。それでも作り手は潰れた。</b></p>
+<p class="lead">理由は、<b>16倍を前提に建てて2倍しか来なかった</b>ことと、<b>単価が崩れた</b>こと。</p>
+<p class="lead">Odlyzko の言い方では、事業計画は「実際の需要を意図的に無視して」作られていた。</p>
+<p class="lead">→ 問うべきは「<b>需要に上限があるか</b>」ではない。</p>
+<p class="lead">→ 「<b>調達を正当化した想定と同じ速さで伸びているか</b>」と「<b>いくらで</b>」。</p>
+<p class="lead">（観測: T3-D1 推論の単価 / T3-D5 AIラボの収益と損失 / T3-D6 SaaSの実利用）</p>
+<h3>3. 資産の寿命が短い（1と逆向きに効く）</h3>
+<p class="lead">ファイバは約25年。敷いたら残る。だから過剰は10年続いたが、<b>待てば正しくなった</b>（いまは全部点いている）。</p>
+<p class="lead">GPUは3〜6年。Amazonは2025年1月に一部サーバを6年→<b>5年へ短縮</b>（理由はAIの技術更新の速さ。四半期純利益で約3億ドルの押し下げ）。Metaは5.5年へ延長。</p>
+<p class="lead">Burryは実際の経済寿命は2〜3年で、2026〜28年に約1,760億ドルの償却不足になると主張している。</p>
+<p class="lead"><b>25年の資産は需要の遅れを待てる。4年の資産は待てない。</b></p>
+<p class="lead">回収は償却期間の中で終わらせる必要があり、現行世代に留まるには<b>また使う</b>必要がある。</p>
+<p class="lead">→ <b>AI capexは、収益の未達に対してファイバより脆い。</b></p>
+<h3>4. 帰結 — 速さの見立ては両側に開く</h3>
+<p class="lead">1は「<b>収益が早く立ちうる</b>」側に効き、3は「<b>損が早く出る</b>」側に効く。</p>
+<p class="lead"><b>ドットコムより遅いのではなく、両方向に速いと見るのが自然。</b></p>
+<p class="lead">「ハイパースケーラーがキャッシュリッチだから、下落はゆっくり」については、</p>
+<p class="lead">当時のキャッシュリッチな巨人も<b>ゆっくりだった</b>（Cisco 31か月、Intel 26か月）。</p>
+<p class="lead"><b>ただし、ゆっくりは浅いを意味しなかった</b>（Cisco 約−90%、Intel 約−80%）。</p>
+<p class="lead">そして<b>その緩衝材は解経の記録の中で薄くなっている</b>——</p>
+<p class="lead">設備投資の借入比率 FY24の9%→32%、Alphabetのcapexが営業CFの115%で上場来初のFCFマイナス。</p>
+<h3>5. 出どころ（この節）</h3>
+<ul><li>NTIA, *Falling Through the Net: Toward Digital Inclusion*（2000年8月調査）: PC 51.0% / ネット 41.5% / ブロードバンド 4.4%</li><li>A. Odlyzko, *Internet traffic growth: Sources and implications*: 実測は1997-2002で年約2倍、「100日で倍」は年16倍相当</li><li>Epoch AI: AI関連投資 2026年Q1で GDP比 1.4%（2015-22平均 0.7%）</li><li>Torsten Slok（Apollo）: ハイパースケーラcapex 2027年 GDP比 3.1%、ドットコムの通信投資ピークは 1.2%</li><li>Amazon 10-Q（2025年1月適用）: 一部サーバの耐用年数を6年→5年</li><li>Deep Quarry: Meta 5.5年、Burryの償却不足の主張（2026-28で約1,760億ドル）</li></ul>
+<h2>この調べ方の限界</h2>
+<h3>分母が無い</h3>
+<p class="lead">この文書は<b>壊れた銘柄だけを見て書いている</b>。Lucent、Nortel、JDSU、Cisco、Intel、WorldCom——</p>
+<p class="lead"><b>全部、崩壊したから記録が残っている企業。</b></p>
+<p class="lead"><b>売掛金が売上より速く伸びたが、何事もなく解消した会社は、こちらから見えない。</b></p>
+<p class="lead">だから「売掛金の膨張が出たら危ない」と言えても、</p>
+<p class="lead"><b>「出たうちの何割が崩壊に至るか」は、解経は知らない。</b></p>
+<p class="lead">これは調べれば埋まる穴ではない（標本の作り方そのものが歪む）。</p>
+<p class="lead"><b>埋まらないことを認めて、使い方のほうを変える。</b></p>
+<ul><li>合図を<b>「危ないから売る理由」として使わない。</b></li><li>合図を<b>「次にどこを見るかを決める理由」として使う。</b></li><li><b>合図が出たのに何も起きない期間を、異常と扱わない。</b> それが多数派かもしれない。</li></ul>
+<h3>事例の数が少ない</h3>
+<p class="lead">「先行の合図から天井まで6〜18か月」は <b>Lucent の1例</b>から出ている（n=1）。</p>
+<p class="lead">Nortel は<b>天井の前に合図が無かった</b>ので、この幅の裏づけにならない。</p>
+<p class="lead"><b>幅の広さは、事例が多いからではなく、事例が1つしかないから。</b></p>
+<h3>日付を片側だけ確かめる誤りを、実際にやった</h3>
+<p class="lead">2026-09-01、Lucent の日付だけ確かめ、Nortel は「同じだろう」で書いた。</p>
+<p class="lead"><b>成り立たない対比を、1つの枠組みの唯一の根拠にしていた。</b></p>
+<p class="lead">記録は公開ページ <a href="https://kaikei-media.github.io/corrections/" rel="nofollow">直したこと</a> に置いた。</p>
+<p class="lead"><b>2つの事例を並べる前に、両方の日付を確かめる。</b></p>
+<h2>ネオクラウドの対応物（CLEC）は、何で落ちたか</h2>
+<p class="lead"><b>Lucent/Nortelで日付を片側しか確かめずに失敗したので、今回は先に確かめた。</b></p>
+<h3>Winstar — 与信を出していた側が止めた19日後に破産</h3>
+<p class="lead">Lucentの与信先。<b>何が最初に壊れたかがはっきり記録されている。</b></p>
+<div class="tw"><table><thead><tr><th>日付</th><th>出来事</th></tr></thead><tbody><tr><td>1998年</td><td>Lucentが<b>7億ドル超</b>を貸付。5年の供給契約で追加の融資義務を負う</td></tr><tr><td><b>2001-03-30</b></td><td><b>Lucentが予定していた9,000万ドル超の支払いを実行しなかった。</b> その後Winstarをデフォルト認定</td></tr><tr><td>2001-04-16頃</td><td>Winstarが約7,500万ドルの利払い不能を公表</td></tr><tr><td><b>2001-04-18</b></td><td><b>Chapter 11申請。</b> Lucentの供給契約違反が破産の原因だと提訴</td></tr></tbody></table></div>
+<p class="lead"><b>最初に壊れたのは需要でもコベナンツでもなく、資金の仕組みそのものだった。</b></p>
+<p class="lead">そして<b>与信を止めてから破産まで19日。</b></p>
+<p class="lead"><b>いちばん重要な点</b>: Winstarの先行指標は、<b>Winstarの側ではなくLucentの側にあった。</b></p>
+<p class="lead">Lucentは2001年度に22億ドルの貸倒引当を積む状態で、<b>自分が苦しくなったから与信を止めた。</b></p>
+<p class="lead"><b>Winstarは、金を出していた相手が倒れたから倒れた。</b></p>
+<p class="lead">→ <b>いまのNVIDIAは、この「金を出していた相手」の位置にいる。</b></p>
+<p class="lead">非市場性有価証券511.6億ドル、5,000億ドルの融資枠組み、SB Energyへの1,050億ドルの保証。</p>
+<p class="lead">**NVIDIAの貸借対照表は、NVIDIA自身にとっては経路の長い先行指標だが、</p>
+<p class="lead">ネオクラウドにとっては経路19日の致命的な指標。**</p>
+<p class="lead"><b>同じ数字が、見る相手によって種別が変わる。</b></p>
+<h3>Level 3 — 生き残った側（対照）</h3>
+<p class="lead">倒れた会社ばかり見ると分母が歪むので、<b>生き残った1社</b>も見る。</p>
+<p class="lead">2000年時点で流動資産 50.45億ドル、営業損失 13.45億ドル/年（1998年の2.05億→1999年7.41億→2000年13.45億と加速）。</p>
+<p class="lead">長期負債 73.18億ドル。<b>それでも破産していない。</b></p>
+<p class="lead">標準的な説明は「<b>早い段階で大量に資金を調達し、手元を厚くしていた</b>」。</p>
+<p class="lead"><b>参考の比較（精度は粗い。流動資産≠現金、営業損失≠現金流出）</b></p>
+<ul><li>Level 3（2000年）: 流動資産 ÷ 年間営業損失 ≒ <b>3.7年</b></li><li><s>NBIS（2026年）: 現金93億ドル ÷ 四半期のFCF流出34億ドル ≒ 0.7年</s> ← <b>誤り。2026-09-01に訂正（消さずに残す）</b></li></ul>
+<p class="lead"><b>訂正（2026-09-01・一次資料 Nebius 6-K で確認）</b></p>
+<p class="lead">1-3月期の実績は 営業CF <b>+22.58億ドル</b>、設備投資 <b>24.73億ドル</b>、差引フリーCF <b>−2.15億ドル</b>。</p>
+<p class="lead"><b>設備投資の額をそのままFCFの流出として扱っていた。約16倍の誤り。</b></p>
+<p class="lead">同じ割り算をやり直すと 92.98 ÷ 2.15 ≒ <b>43四半期（約10.8年）</b> になり、結論が逆になる。</p>
+<p class="lead"><b>さらに、この分母はそもそも使えない。</b></p>
+<p class="lead">営業CF(+22.58億ドル)が売上(3.99億ドル)を大きく上回っている。前受けなどが入っているはずで、分解しないと分母にならない。</p>
+<p class="lead">現金の増加も財務活動+62.96億ドル（転換社債43億ドル・NVIDIAワラント20億ドル）によるもので、<b>厚さは調達の結果</b>。</p>
+<p class="lead"><b>残るのは Level 3 の側だけ</b>: 「残り月数」が生死を分けた変数だったことは、2000年の側の記録が示している。</p>
+<p class="lead"><b>いまのネオクラウドについては、まだ測れていない。</b>（記録は T3-F12）</p>
+<h3>型ごとに、壊れ方が違った</h3>
+<div class="tw"><table><thead><tr><th>型</th><th>例</th><th>最初に壊れたもの</th><th>先行指標の在り処</th></tr></thead><tbody><tr><td><b>与信依存</b>（供給元が金を出す）</td><td>Winstar</td><td><b>供給元が与信を止めた</b></td><td><b>供給元の帳簿</b>（自社ではない）</td></tr><tr><td><b>負債依存</b></td><td>Global Crossing</td><td>債務の重さと借換え</td><td>自社のスプレッド・満期構成</td></tr><tr><td><b>手元の厚さで持ちこたえた</b></td><td>Level 3</td><td>壊れなかった</td><td><b>残り月数</b></td></tr></tbody></table></div>
+<h3>留保</h3>
+<ul><li>CLECは数百社あり、記録が残っているのは<b>大きく壊れたものと、大きく生き残ったもの</b>だけ。<b>ここでも分母は無い。</b></li><li>Level 3 の数字は流動資産と営業損失で、現金と現金流出ではない。<b>桁の話としてしか使えない。</b></li></ul>
+<h2>Nortel の顧客向け与信の時期（2026-09-01 追記・一次調査）</h2>
+<p class="lead"><b>「ノーテルも同じ月に与信を本格化させた」と書きかけて、確かめたら言い過ぎだった。</b></p>
+<p class="lead">確認できたのは次まで。</p>
+<div class="tw"><table><thead><tr><th>日付</th><th>事実</th><th>出典</th></tr></thead><tbody><tr><td>2000-10</td><td>Nortel が Aerie Networks に <b>5億ドル分の設備の融資</b>＋非開示の運転資金</td><td>TheStreet (2000-11-08)</td></tr><tr><td>2000-11-08 時点</td><td>与信の<b>約束の総額 31億ドル</b>、<b>実行済み 14億ドル</b></td><td>同上</td></tr><tr><td>2000年初〜11月</td><td>顧客向け貸付を <b>約3億ドル（+27%）</b> 増やした</td><td>同上</td></tr></tbody></table></div>
+<p class="lead"><b>言えること</b>: 前四半期比が折れた 2000-10 に、個別の大型与信を出している。</p>
+<p class="lead"><b>言えないこと</b>: 「与信をこの月に本格化させた」。年初からの+27%は年を通じた増加で、月次の内訳は確かめていない。</p>
+<p class="lead"><b>記事にはこの区別のまま書く。</b></p>
+<h2>Nortel 2000-Q3（2000-10-24発表）の数字</h2>
+<p class="lead">光通信製品の売上: <b>前年同期比 +90%、前四半期比 −5〜10%</b>。</p>
+<p class="lead">発表翌日に株価は約3分の1を失った。</p>
+<p class="lead">出典: EDN, *Nortel&#x27;s numbers make industry nervous about fiber optics market*（2000-10-27）</p>
+<p class="lead"><a href="../">← いまの流れ（全体）へ</a></p>
+</div></body></html>
