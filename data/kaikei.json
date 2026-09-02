@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
  "temporal_coverage": "2025-01-01/2026-09-01",
- "count": 70,
+ "count": 72,
  "columns": [
   "item_id",
   "trend",
@@ -1355,6 +1355,44 @@
    "note_ja": "「古い」と「観測できない」を取り違えないために記録する。（2026-09-02）健康レポートが122日古いと指摘していたが、原因は公表の停止ではなくこちらが取りに行っていなかったこと。9/1に「未観測は実はデータの不具合だった」という同じ形の誤りを直したばかりで、同じ種類の取り違えが別の項目で起きていた。数値は press release には載っておらず、データファイル（インタラクティブ表示はJavaScript必須で、WebFetchでは取れない）か America Counts の記事から取る必要がある。次の観測での取得手順を決めること。この項目は逆方向の合図の3条件のうち、唯一まだ上がっていない1つなので、止めたままにできない。",
    "note_en": "Recorded so that 'stale' is not mistaken for 'unobservable'. The health report flagged 122 days; the cause was our own failure to fetch, not a halt in publication. The figure is not in the press release and must come from the data file or the America Counts story. This item is the one condition of the counter-signal that has not yet risen, so it cannot be left stalled.",
    "page_url": "https://kaikei-media.github.io/o/t3-d3/"
+  },
+  {
+   "item_id": "T1-F4",
+   "trend": "T1",
+   "kind": "flow",
+   "cadence": "quarterly",
+   "unit": "USD bn",
+   "name_ja": "財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図）",
+   "name_en": "Treasury buybacks (quarterly cap and per-operation size; >$50bn/quarter = stealth-YCC signal)",
+   "date": "2026-08-18",
+   "recorded_at": "2026-09-02T12:20:07+00:00",
+   "value_ja": "20-30年ゾーンの買い戻しで、提示が約200億ドルに対し買い取りは20億ドル（当時の上限いっぱい。2048年債10億＋2051年債2銘柄で10億）。提示÷上限は約10倍。それでも同日、利回りは上昇した",
+   "value_en": "In the 20-30 year buyback on 18 August, dealers offered about $20bn against $2bn purchased (the cap at the time). Offers were roughly 10x the maximum, and yields still rose that day.",
+   "direction": "up",
+   "source_url": "https://www.newyorkfed.org/medialibrary/microsites/tmpg/files/ODM_Treasury_Buyback_1024.pdf",
+   "source_label": "提示・買取額は報道（FXStreet 2026-08-19）。**過去の水準は一次資料**: NY連銀/財務省ODM『Review of Treasury Buyback Results』（2024-10）",
+   "note_ja": "買い戻しの「提示」は、保有者が政府に引き取ってくれと言うこと。買い手の行列ではなく売り手の行列。 過去の水準を一次資料で確かめた: 流動性支援の20回で提示÷上限は0.77〜9.24、平均約3.68。資金繰り目的の4回は2.6〜5.2。約10倍は、それまでの最高（9.24）を超える。 ただし①上限が20億と小さいので比率は大きく出やすい ②1回の観測。趨勢として見るには、毎回の提示額を継続して取る必要がある。（新しい観測の作法として T1-F4 に足していく）※財務省自身は増額の理由を「市場参加者からの一貫した強い支持。日常的に受け取る高品質な提示の量がそれを示す」と説明している。同じ数量を、売りの圧力ではなく支持と読んでいる。",
+   "note_en": "An offer in a buyback is a holder asking the government to take paper off its hands, so offers are sellers, not buyers. Against a primary-source baseline (Treasury ODM, October 2024) of 0.77-9.24 with an average near 3.68, roughly 10x exceeds the previous maximum. Caveats: the $2bn cap is small, which inflates the ratio, and this is a single observation. Treasury itself describes the same volume of offers as evidence of strong sponsorship.",
+   "page_url": "https://kaikei-media.github.io/o/t1-f4/"
+  },
+  {
+   "item_id": "T1-F4",
+   "trend": "T1",
+   "kind": "flow",
+   "cadence": "quarterly",
+   "unit": "USD bn",
+   "name_ja": "財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図）",
+   "name_en": "Treasury buybacks (quarterly cap and per-operation size; >$50bn/quarter = stealth-YCC signal)",
+   "date": "2026-08-19",
+   "recorded_at": "2026-09-02T12:20:07+00:00",
+   "value_ja": "財務省が長期ゾーンの買い戻しの1回あたり上限を20億→最低40億ドルへ倍増（10-20年と20-30年。9/9開始〜11/4）。四半期の予定表の上限合計は690億ドル（うち1か月〜2年の資金繰り330億、10-20年+20-30年 180億、2-10年 160億、TIPS 20億）。増額後は830億ドル（長期のみでは320億ドル）",
+   "value_en": "Treasury doubled the per-operation cap for long-end liquidity-support buybacks from $2bn to at least $4bn (10-20y and 20-30y buckets, 9 September to 4 November). The quarter's tentative schedule totals $69bn of maximum purchases, rising to about $83bn after the increase; the long-end buckets alone are $32bn.",
+   "direction": "up",
+   "source_url": "https://home.treasury.gov/news/press-releases/sb0607",
+   "source_label": "U.S. Treasury 報道発表（2026-08-19）＋ Tentative Schedule of Treasury Buyback Operations Q3 2026（一次）",
+   "note_ja": "合図④の閾値の定義が抜けている。（2026-09-02）④は「買い戻し枠が四半期500億ドル超へ拡大」だが、どの買い戻しを数えるかが書いていない。 数え方で結論が3つに割れる: 全部＝830億で超えている／資金繰り（1か月〜2年）を除く＝500億でちょうど閾値／長期のみ＝320億で超えていない。8/31の②と同じ形の穴（総額を見て個々を見ていなかった）で、今度は逆に総額の定義が無い。運営が数え方を決めるまで、④は点けも消しもしない。 ※1か月〜2年の330億は資金繰り目的で、金利を抑える意図とは別物と見るのが自然。",
+   "note_en": "The threshold in signal 4 does not define which buybacks count. Counting everything gives $83bn (above); excluding short-dated cash-management operations gives $50bn (exactly at); counting only the long end gives $32bn (below). The signal is left unjudged until the counting rule is decided.",
+   "page_url": "https://kaikei-media.github.io/o/t1-f4/"
   }
  ]
 }

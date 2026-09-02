@@ -4,9 +4,23 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-02T11:25:23+00:00</updated>
+<updated>2026-09-02T12:20:07+00:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図） — 2026-08-18</title>
+<link href="https://kaikei-media.github.io/o/t1-f4/"/>
+<id>https://kaikei-media.github.io/o/t1-f4/#2026-08-18@2026-09-02</id>
+<updated>2026-09-02T12:20:07+00:00</updated>
+<summary>20-30年ゾーンの買い戻しで、提示が約200億ドルに対し買い取りは20億ドル（当時の上限いっぱい。2048年債10億＋2051年債2銘柄で10億）。提示÷上限は約10倍。それでも同日、利回りは上昇した</summary>
+</entry>
+<entry>
+<title>財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図） — 2026-08-19</title>
+<link href="https://kaikei-media.github.io/o/t1-f4/"/>
+<id>https://kaikei-media.github.io/o/t1-f4/#2026-08-19@2026-09-02</id>
+<updated>2026-09-02T12:20:07+00:00</updated>
+<summary>財務省が長期ゾーンの買い戻しの1回あたり上限を20億→最低40億ドルへ倍増（10-20年と20-30年。9/9開始〜11/4）。四半期の予定表の上限合計は690億ドル（うち1か月〜2年の資金繰り330億、10-20年+20-30年 180億、2-10年 160億、TIPS 20億）。増額後は830億ドル（長期のみでは320億ドル）</summary>
+</entry>
 <entry>
 <title>米企業のAI利用率（センサス局BTOS・過去2週間にAIを使って製品やサービスを作った企業の割合） — 2026-08-27</title>
 <link href="https://kaikei-media.github.io/o/t3-d3/"/>
@@ -412,19 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-q1/#2026-06-30@2026-08-27</id>
 <updated>2026-08-27T12:24:02+00:00</updated>
 <summary>北米のDC建設パイプライン66GW（95%が事前契約済み）、2026年上期の吸収量25GW（前年同期比2倍）</summary>
-</entry>
-<entry>
-<title>電力の大口契約（PPA）の新規締結MWとキャンセル — 2026-06-30</title>
-<link href="https://kaikei-media.github.io/o/t3-q2/"/>
-<id>https://kaikei-media.github.io/o/t3-q2/#2026-06-30@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>Constellationが4-6月期に約920MWの長期PPAを新規締結（15〜20年、原子力。うちWalmart 176MW）。キャンセルの開示なし</summary>
-</entry>
-<entry>
-<title>メモリ: ビット出荷成長率と契約価格QoQ（価格×数量に分解する） — 2026-06-30</title>
-<link href="https://kaikei-media.github.io/o/t3-q3/"/>
-<id>https://kaikei-media.github.io/o/t3-q3/#2026-06-30@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>SK hynix 4-6月期: DRAMビット出荷 前期比+高1桁%に対しASP約+30%、NANDビット+10%台半ばに対しASP+50%台半ば。7-9月期ガイダンスはDRAMビット約+10%、NAND低1桁%</summary>
 </entry>
 </feed>
