@@ -4,9 +4,16 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-02T13:00:29+00:00</updated>
+<updated>2026-09-02T13:27:48+00:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>米国債入札の応札倍率と間接落札比率 — 海外中銀がまだ引き受けているか — 2026-08-13</title>
+<link href="https://kaikei-media.github.io/o/t1-q2/"/>
+<id>https://kaikei-media.github.io/o/t1-q2/#2026-08-13@2026-09-02</id>
+<updated>2026-09-02T13:27:48+00:00</updated>
+<summary>一次資料（財務省の入札結果）で確認。5月10年債（5/12）応札倍率2.40倍・間接落札63.9%・落札利回り4.468%／8月10年債（8/12）2.53倍・76.7%・4.083%／5月30年債（5/13）2.30倍・67.0%・5.048%／8月30年債（8/13）2.39倍・66.8%・5.216%。入れ替わったのは10年債だけ（間接落札+12.8ポイント）。30年債は67.0%→66.8%でほぼ動かず</summary>
+</entry>
 <entry>
 <title>政府の純利払い — 額と、歳入・GDPに対する比率 — 2026-07-31</title>
 <link href="https://kaikei-media.github.io/o/t1-f6/"/>
@@ -419,12 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-f3/#2026-08-10@2026-08-27</id>
 <updated>2026-08-27T12:24:02+00:00</updated>
 <summary>NVIDIAの5,000億ドル金融プラットフォームは覚書段階（最終契約は未締結）。NVIDIA自身の出資額・残存価値支援の条件は非開示</summary>
-</entry>
-<entry>
-<title>ベンダーファイナンス — GPU供給元が顧客に出資・与信している額 — 2026-08-17</title>
-<link href="https://kaikei-media.github.io/o/t3-f3/"/>
-<id>https://kaikei-media.github.io/o/t3-f3/#2026-08-17@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>NVIDIAがSB Energy向けの残存価値保証（上限1,050億ドル、OpenAIのデフォルト時のみ発動、オフバランス）を8-Kで開示</summary>
 </entry>
 </feed>

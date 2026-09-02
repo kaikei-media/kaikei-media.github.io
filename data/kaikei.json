@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
  "temporal_coverage": "2025-01-01/2026-09-01",
- "count": 78,
+ "count": 79,
  "columns": [
   "item_id",
   "trend",
@@ -1507,6 +1507,25 @@
    "note_ja": "新設（2026-09-02）。解経は株価を判定に使わないが、金利は使う（誰がいくらで貸したかは流れの結果ではなく流れそのもの）。それなのに金利の水準を置く項目が無く、記事に書いた数字が記録に無い状態になっていた。水準そのものは合図ではない。合図に使うのは保有の中身（T1-Q3）と入札（T1-Q2）と買い戻し（T1-F4）。この項目は、それらを読むときの背景として置く。",
    "note_en": "New item. Kaikei does not use equity prices to make calls but does use rates, since who lent at what price is the flow itself; yet there was no item holding the levels. The level alone is not a signal: the signals are the composition of holdings, the auctions and the buybacks. This item is background for reading those.",
    "page_url": "https://kaikei-media.github.io/o/t1-q7/"
+  },
+  {
+   "item_id": "T1-Q2",
+   "trend": "T1",
+   "kind": "quantity",
+   "cadence": "per_auction",
+   "unit": "x / %",
+   "name_ja": "米国債入札の応札倍率と間接落札比率 — 海外中銀がまだ引き受けているか",
+   "name_en": "Treasury auction bid-to-cover and indirect-bidder share — are foreign officials still taking paper?",
+   "date": "2026-08-13",
+   "recorded_at": "2026-09-02T13:27:48+00:00",
+   "value_ja": "一次資料（財務省の入札結果）で確認。5月10年債（5/12）応札倍率2.40倍・間接落札63.9%・落札利回り4.468%／8月10年債（8/12）2.53倍・76.7%・4.083%／5月30年債（5/13）2.30倍・67.0%・5.048%／8月30年債（8/13）2.39倍・66.8%・5.216%。入れ替わったのは10年債だけ（間接落札+12.8ポイント）。30年債は67.0%→66.8%でほぼ動かず",
+   "value_en": "Verified against Treasury auction results. May 10-year (12 May): bid-to-cover 2.40, indirect 63.9%, high yield 4.468%. August 10-year (12 Aug): 2.53, 76.7%, 4.083%. May 30-year (13 May): 2.30, 67.0%, 5.048%. August 30-year (13 Aug): 2.39, 66.8%, 5.216%. The turnover in buyers is confined to the 10-year, where the indirect share rose 12.8 points; the 30-year barely moved.",
+   "direction": "up",
+   "source_url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260813_3.pdf",
+   "source_label": "U.S. Treasury 入札結果（一次）。10年債 R_20260812_3.pdf・R_20260512_3.pdf、30年債 R_20260813_3.pdf・R_20260513_2.pdf",
+   "note_ja": "計算式: 応札倍率＝小計の応札額÷小計の落札額（財務省が脚注で明示）。間接落札比率＝間接落札の落札額÷競争入札の落札額。5月30年債の66.6%は誤りだった（正しくは67.0%）。二次の集計サイトから取っていたもので、一次で計算し直して判明。この訂正で結論が変わる: 30年債の間接落札は上がっておらず、わずかに下がっている。「3つとも同じ方向」は10年債だけの話。 ※テール（+4.8/−1.7/+1.6/−2.4bp）は財務省が公表していない。比較対象の市場予想（when-issued利回り）が公表されないため。ここだけは二次のまま。",
+   "note_en": "Bid-to-cover is total tendered over total accepted for the subtotal, as Treasury states in its footnote; the indirect share is indirect accepted over competitive accepted. The May 30-year figure of 66.6% held previously was wrong; recomputing from the primary release gives 67.0%, which reverses the reading: the 30-year indirect share did not rise. Tails are not published by Treasury because the when-issued comparison is not, so they remain second-hand.",
+   "page_url": "https://kaikei-media.github.io/o/t1-q2/"
   }
  ]
 }
