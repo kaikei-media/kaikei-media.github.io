@@ -4,9 +4,51 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-02T12:20:07+00:00</updated>
+<updated>2026-09-02T13:00:29+00:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>政府の純利払い — 額と、歳入・GDPに対する比率 — 2026-07-31</title>
+<link href="https://kaikei-media.github.io/o/t1-f6/"/>
+<id>https://kaikei-media.github.io/o/t1-f6/#2026-07-31@2026-09-02</id>
+<updated>2026-09-02T13:00:29+00:00</updated>
+<summary>米連邦政府の純利払いは2026会計年度の7月までで9,310億ドル（前年同期8,420億ドルから+11%）。通年で約1兆ドルの見込み。歳入の18.5%、GDPの3.2%で、GDP比は1991年の戦後最高を超えた。連邦歳出で3番目に大きい費目</summary>
+</entry>
+<entry>
+<title>主要国の長期金利の水準（誰がいくらで貸したか。株価は使わないが金利は使う） — 2026-09-01</title>
+<link href="https://kaikei-media.github.io/o/t1-q7/"/>
+<id>https://kaikei-media.github.io/o/t1-q7/#2026-09-01@2026-09-02</id>
+<updated>2026-09-02T13:00:29+00:00</updated>
+<summary>日本10年 3.00%（1996年以来）／日本30年 4.18%（過去最高は2026年5月の4.20%）／米10年 4.798%（2025年1月以来）／米30年 5.27%／英10年 5.25%（2008年以来）／独10年 3.35%（2011年以来）</summary>
+</entry>
+<entry>
+<title>AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期 — 2026-08-17</title>
+<link href="https://kaikei-media.github.io/o/t3-f1/"/>
+<id>https://kaikei-media.github.io/o/t3-f1/#2026-08-17@2026-09-02</id>
+<updated>2026-09-02T12:55:12+00:00</updated>
+<summary>米投資適格社債の発行は年初来1兆6,810億ドル（前年同期比+26.9%）で3か月連続の月間記録。うちハイパースケーラ等のAI関連が約2,250億ドル（前年同期比+973.7%）。AIはIG発行全体の13.4%だが、IG市場の増分（+3,563億ドル）の約57%（+2,040億ドル）を占める</summary>
+</entry>
+<entry>
+<title>海外公的部門の米国債保有残高 — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t1-q3/"/>
+<id>https://kaikei-media.github.io/o/t1-q3/#2026-06-30@2026-09-02</id>
+<updated>2026-09-02T12:54:11+00:00</updated>
+<summary>海外公的部門の比率が1年で 42.8% → 40.6% に低下。海外公的 3兆8,925億→3兆7,781億ドル（−1,144億ドル）、海外合計 9兆0,936億→9兆2,990億ドル（+2,054億ドル）。中銀は減らし、民間は増やした</summary>
+</entry>
+<entry>
+<title>財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図） — 2026-08-05</title>
+<link href="https://kaikei-media.github.io/o/t1-f4/"/>
+<id>https://kaikei-media.github.io/o/t1-f4/#2026-08-05@2026-09-02</id>
+<updated>2026-09-02T12:52:43+00:00</updated>
+<summary>長期の発行額（四半期・一次: 財務省の定例発行の声明）: 20年債 420億ドル（8月160・9月130・10月130）、30年債 690億ドル（8月250・9月220・10月220）。合計1,110億ドル。買い戻しの上限との比率は 増額前 180/1,110=16.2% → 増額後 320/1,110=28.8%（20-30年ゾーンだけなら 80/690=11.6% → 140/690=20.3%）</summary>
+</entry>
+<entry>
+<title>財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図） — 2025-11-01</title>
+<link href="https://kaikei-media.github.io/o/t1-f4/"/>
+<id>https://kaikei-media.github.io/o/t1-f4/#2025-11-01@2026-09-02</id>
+<updated>2026-09-02T12:28:20+00:00</updated>
+<summary>前年の同じ枠（2025年11月〜2026年2月の予定表）: 四半期の上限合計 655億ドル。うち10-20年+20-30年は190億ドル、1か月〜2年（資金繰り）は290億ドル</summary>
+</entry>
 <entry>
 <title>財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図） — 2026-08-18</title>
 <link href="https://kaikei-media.github.io/o/t1-f4/"/>
@@ -384,47 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-f3/#2026-08-17@2026-08-27</id>
 <updated>2026-08-27T12:24:02+00:00</updated>
 <summary>NVIDIAがSB Energy向けの残存価値保証（上限1,050億ドル、OpenAIのデフォルト時のみ発動、オフバランス）を8-Kで開示</summary>
-</entry>
-<entry>
-<title>ハイパースケーラ: 営業CFに対するcapexのカバー率と、capexに占める新規借入の比率（FactSet: FY24 9%→直近32%） — 2026-06-30</title>
-<link href="https://kaikei-media.github.io/o/t3-f4/"/>
-<id>https://kaikei-media.github.io/o/t3-f4/#2026-06-30@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>設備投資の借入調達比率 32%（直近12か月。FY24は9%）</summary>
-</entry>
-<entry>
-<title>私募クレジット: 解約請求率・引出上限（ゲート）・NAV（Cliffwater / BCRED / Blue Owl）、BDCの純資産割引 — 2026-06-30</title>
-<link href="https://kaikei-media.github.io/o/t3-f5/"/>
-<id>https://kaikei-media.github.io/o/t3-f5/#2026-06-30@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>Cliffwater: 4-6月期の解約請求 17%（1-3月期 約14%）、上限5%で充足率約33%</summary>
-</entry>
-<entry>
-<title>ネオクラウドの発行市場の条件: 担保付と無担保の利回りの逆転、コベナンツ、ワラント付き（CoreWeave等） — 2026-07-17</title>
-<link href="https://kaikei-media.github.io/o/t3-f6/"/>
-<id>https://kaikei-media.github.io/o/t3-f6/#2026-07-17@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>Nebius 初の担保付ローン 7.75億ドル SOFR+250bp（担保は稼働中GPUと投資適格顧客の契約CF）</summary>
-</entry>
-<entry>
-<title>ネオクラウドの発行市場の条件: 担保付と無担保の利回りの逆転、コベナンツ、ワラント付き（CoreWeave等） — 2026-08-07</title>
-<link href="https://kaikei-media.github.io/o/t3-f6/"/>
-<id>https://kaikei-media.github.io/o/t3-f6/#2026-08-07@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>CoreWeave DDTL 5.5（26億ドル・担保付）: SOFR+550bp・YTM 10.44%（当初提示から100〜125bp拡大）、DSCR 1.35倍。無担保債9.625%を上回る逆転が継続</summary>
-</entry>
-<entry>
-<title>データセンターの新規着工と完工MW — 2025-12-31</title>
-<link href="https://kaikei-media.github.io/o/t3-q1/"/>
-<id>https://kaikei-media.github.io/o/t3-q1/#2025-12-31@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>北米の建設中容量 5,994MW（2024年末6,350MWから減少。2020年以来初の減少）</summary>
-</entry>
-<entry>
-<title>データセンターの新規着工と完工MW — 2026-06-30</title>
-<link href="https://kaikei-media.github.io/o/t3-q1/"/>
-<id>https://kaikei-media.github.io/o/t3-q1/#2026-06-30@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>北米のDC建設パイプライン66GW（95%が事前契約済み）、2026年上期の吸収量25GW（前年同期比2倍）</summary>
 </entry>
 </feed>
