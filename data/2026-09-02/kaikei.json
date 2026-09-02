@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "2026-09-02",
  "temporal_coverage": "2025-01-01/2026-09-01",
- "count": 68,
+ "count": 70,
  "columns": [
   "item_id",
   "trend",
@@ -1317,6 +1317,44 @@
    "note_ja": "逆方向の合図（⑧）の3条件のうち2つ目。これは明確に上がっている。 10億ドルを超えた企業が年100%以上で伸び続けるのは歴史的に稀とEpochは書いている。※非上場のため一次資料は存在しない。報道の集計であり、会社ごとに会計の定義も揃っていない。",
    "note_en": "Second of the three conditions of the counter-signal, and clearly rising. Both companies are private, so no primary filing exists; these are aggregated press reports with inconsistent definitions.",
    "page_url": "https://kaikei-media.github.io/o/t3-d5/"
+  },
+  {
+   "item_id": "T3-F12",
+   "trend": "T3",
+   "kind": "flow",
+   "cadence": "quarterly",
+   "unit": "四半期 / 年",
+   "name_ja": "ネオクラウドの残り月数 — 手元資金 ÷ 現金の流出",
+   "name_en": "Neocloud runway — cash on hand divided by cash burn",
+   "date": "2026-06-30",
+   "recorded_at": "2026-09-02T10:56:08+00:00",
+   "value_ja": "CoreWeave: 現金55.24億ドル。1-6月の営業CF +36.63億ドル、設備投資 141.17億ドル、差引 −104.54億ドル（四半期あたり約−52.3億ドル）。現金 ÷ 四半期の投資超過 = 1.06四半期。 負債総額 350.68億ドル（現金の6.3倍）。1-6月の純支払利息 11.76億ドル＝年換算23.5億ドルで、1-6月の売上46.53億ドルの25.3%",
+   "value_en": "CoreWeave: cash $5,524m. H1 operating cash flow +$3,663m, capex $14,117m, net -$10,454m (about -$5,227m per quarter). Cash divided by the quarterly investment gap is 1.06 quarters. Total debt $35,068m, 6.3x cash. H1 net interest expense $1,176m (~$2,352m annualised), 25.3% of H1 revenue of $4,653m.",
+   "direction": "down",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+   "source_label": "CoreWeave 10-Q（2026年4-6月期・SEC EDGAR）",
+   "note_ja": "Nebiusと違って、この分母は使える。営業CF(36.63億ドル)は売上(46.53億ドル)の79%で、売上を超えていない（Nebiusは営業CFが売上の5.7倍で、前受けが混ざっていると見て判定を保留した）。減価償却の戻しが大きい商売なので、この水準は説明がつく。ただし「残り月数」という読み方は正しくない。設備投資は手元資金ではなく借入で回しているので、1.06四半期は「破産までの時間」ではなく「借り続けられなくなった瞬間に建設が止まるまでの時間」。だから見るべきは現金ではなく、借り続けられるかどうか——2026-09-30に発効するDSCR 1.35倍の条件がその試験。※Level 3の3.7年（流動資産÷年間営業赤字）とは計算式が違うので、直接は比べない。支払利息が売上の4分の1という水準は、それ自体が重い。",
+   "note_en": "Unlike Nebius, this denominator is usable: operating cash flow is 79% of revenue rather than several times it. But 'months of runway' is the wrong reading, because capex is funded by borrowing, not by cash on hand: 1.06 quarters is the time until construction stops if borrowing stops, not time to insolvency. The test is the DSCR 1.35x covenant effective 2026-09-30. Not directly comparable with Level 3's 3.7 years, which used a different formula. Net interest at a quarter of revenue is heavy on its own.",
+   "page_url": "https://kaikei-media.github.io/o/t3-f12/"
+  },
+  {
+   "item_id": "T3-D3",
+   "trend": "T3",
+   "kind": "quantity",
+   "cadence": "biweekly",
+   "unit": "% of firms",
+   "name_ja": "米企業のAI利用率（センサス局BTOS・過去2週間にAIを使って製品やサービスを作った企業の割合）",
+   "name_en": "US firms using AI (Census BTOS): share of firms that used AI to produce goods or services in the last two weeks",
+   "date": "2026-08-27",
+   "recorded_at": "2026-09-02T11:25:23+00:00",
+   "value_ja": "公表は止まっていない。センサス局のBTOSは2026-08-27に最新版を出している（2026年は2/12・4/23・8/27の公表を確認）。解経が取りに行っていなかっただけで、記録は2026-05-03の19.8%で止まっていた。AI利用率の数値そのものは、この回では未取得",
+   "value_en": "Publication has not stopped: the Census Bureau released BTOS data on 2026-08-27. The gap in this record was our own failure to fetch, not a limit of the source. The AI-use figure itself was not obtained in this pass.",
+   "direction": "flat",
+   "source_url": "https://www.census.gov/newsroom/press-releases/2026/btos-aug-27.html",
+   "source_label": "U.S. Census Bureau, BTOS Data Release（2026-08-27）",
+   "note_ja": "「古い」と「観測できない」を取り違えないために記録する。（2026-09-02）健康レポートが122日古いと指摘していたが、原因は公表の停止ではなくこちらが取りに行っていなかったこと。9/1に「未観測は実はデータの不具合だった」という同じ形の誤りを直したばかりで、同じ種類の取り違えが別の項目で起きていた。数値は press release には載っておらず、データファイル（インタラクティブ表示はJavaScript必須で、WebFetchでは取れない）か America Counts の記事から取る必要がある。次の観測での取得手順を決めること。この項目は逆方向の合図の3条件のうち、唯一まだ上がっていない1つなので、止めたままにできない。",
+   "note_en": "Recorded so that 'stale' is not mistaken for 'unobservable'. The health report flagged 122 days; the cause was our own failure to fetch, not a halt in publication. The figure is not in the press release and must come from the data file or the America Counts story. This item is the one condition of the counter-signal that has not yet risen, so it cannot be left stalled.",
+   "page_url": "https://kaikei-media.github.io/o/t3-d3/"
   }
  ]
 }

@@ -4,9 +4,23 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-01T23:40:00+09:00</updated>
+<updated>2026-09-02T11:25:23+00:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>米企業のAI利用率（センサス局BTOS・過去2週間にAIを使って製品やサービスを作った企業の割合） — 2026-08-27</title>
+<link href="https://kaikei-media.github.io/o/t3-d3/"/>
+<id>https://kaikei-media.github.io/o/t3-d3/#2026-08-27@2026-09-02</id>
+<updated>2026-09-02T11:25:23+00:00</updated>
+<summary>公表は止まっていない。センサス局のBTOSは2026-08-27に最新版を出している（2026年は2/12・4/23・8/27の公表を確認）。解経が取りに行っていなかっただけで、記録は2026-05-03の19.8%で止まっていた。AI利用率の数値そのものは、この回では未取得</summary>
+</entry>
+<entry>
+<title>ネオクラウドの残り月数 — 手元資金 ÷ 現金の流出 — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-f12/"/>
+<id>https://kaikei-media.github.io/o/t3-f12/#2026-06-30@2026-09-02</id>
+<updated>2026-09-02T10:56:08+00:00</updated>
+<summary>CoreWeave: 現金55.24億ドル。1-6月の営業CF +36.63億ドル、設備投資 141.17億ドル、差引 −104.54億ドル（四半期あたり約−52.3億ドル）。現金 ÷ 四半期の投資超過 = 1.06四半期。 負債総額 350.68億ドル（現金の6.3倍）。1-6月の純支払利息 11.76億ドル＝年換算23.5億ドルで、1-6月の売上46.53億ドルの25.3%</summary>
+</entry>
 <entry>
 <title>クラウドのAI寄与: Azure・Google Cloud・AWS の成長率のうちAI由来と開示された部分 — 2026-08-18</title>
 <link href="https://kaikei-media.github.io/o/t3-d4/"/>
@@ -412,19 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-q3/#2026-06-30@2026-08-27</id>
 <updated>2026-08-27T12:24:02+00:00</updated>
 <summary>SK hynix 4-6月期: DRAMビット出荷 前期比+高1桁%に対しASP約+30%、NANDビット+10%台半ばに対しASP+50%台半ば。7-9月期ガイダンスはDRAMビット約+10%、NAND低1桁%</summary>
-</entry>
-<entry>
-<title>メモリ: ビット出荷成長率と契約価格QoQ（価格×数量に分解する） — 2026-07-03</title>
-<link href="https://kaikei-media.github.io/o/t3-q3/"/>
-<id>https://kaikei-media.github.io/o/t3-q3/#2026-07-03@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>SanDisk 4-6月期: 売上+51%（前期比）のうち約2/3が価格・約1/3が数量。次四半期ガイダンスは約+18%（中間値）</summary>
-</entry>
-<entry>
-<title>GPUの収益力: 同一世代・同一構成の1年契約価格の前年比、旧世代の再契約価格（資産の稼ぐ力。市場価格ではない） — 2026-07-31</title>
-<link href="https://kaikei-media.github.io/o/t3-q5/"/>
-<id>https://kaikei-media.github.io/o/t3-q5/#2026-07-31@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>CoreWeave: 7月に契約価格を全SKUで約25%引き上げ。旧世代（H100等）の価格は「数年前と同等以上」、A100を2029年まで再契約</summary>
 </entry>
 </feed>
