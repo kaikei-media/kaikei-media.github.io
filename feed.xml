@@ -4,9 +4,23 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-02T13:27:48+00:00</updated>
+<updated>2026-09-04T00:54:00+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>売上の前四半期比 — 年次の見出しの裏で、連続性が先に折れていないか — 2026-08-02</title>
+<link href="https://kaikei-media.github.io/o/t3-f11/"/>
+<id>https://kaikei-media.github.io/o/t3-f11/#2026-08-02@2026-09-04</id>
+<updated>2026-09-04T00:54:00+09:00</updated>
+<summary>Broadcom 2026年8月2日期（Q3 FY26）: AI半導体売上 167億ドル＝前四半期比+54.6%（108億→167億ドル。前々期→前期は+28.6%）。半導体部門全体は+38.8%（150.1億→208.4億ドル）、うちAI以外は−1.7%（42.1億→41.4億ドル＝横ばい。伸びは全部AI）。インフラソフトは+21.9%（71.8億→87.5億ドル）。全社売上は+33.4%（221.9億→295.9億ドル）。次期（Q4）ガイダンスはAI半導体217億ドル＝前四半期比+30%。前四半期比はマイナスではなく加速側。Nortel型（前年比の見出しが好調なまま前四半期比が折れる）の形は出ていない。 非GAAP粗利率は77.1%→75.0%（AI比率の上昇で薄まる）。</summary>
+</entry>
+<entry>
+<title>AI半導体の売り手の売掛金・在庫が、売上より速く伸びていないか（DSO） — 2026-08-02</title>
+<link href="https://kaikei-media.github.io/o/t3-f7/"/>
+<id>https://kaikei-media.github.io/o/t3-f7/#2026-08-02@2026-09-04</id>
+<updated>2026-09-04T00:54:00+09:00</updated>
+<summary>Broadcom 2026年8月2日期（Q3 FY26）: 売掛金は前四半期比+26.6%（108.3億→137.1億ドル）に対し売上は+33.4%（221.9億→295.9億ドル）＝売掛金は売上より遅く伸びた。DSOは44.4日→42.2日（−2.2日）。 在庫は+4.5%（43.3億→45.2億ドル）で、売上比の在庫日数は17.8日→13.9日。営業キャッシュフローは104.9億→142.0億ドル（+35.3%）、売上1ドルあたり0.47→0.48。前期（5月3日期）は売掛金+28.0%・在庫+46.1%が売上+14.9%を上回りDSOは39.9日→44.4日と、1四半期だけLucentの形だったが、今期で戻った。NVIDIA（DSO +14.2日・営業CF−52%）と逆向き。売掛金の伸びは、いまのところ業界の形ではなくNVIDIA 1社の形。</summary>
+</entry>
 <entry>
 <title>米国債入札の応札倍率と間接落札比率 — 海外中銀がまだ引き受けているか — 2026-08-13</title>
 <link href="https://kaikei-media.github.io/o/t1-q2/"/>
@@ -412,19 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-f1/#2026-06-30@2026-08-27</id>
 <updated>2026-08-27T12:24:02+00:00</updated>
 <summary>ハイパースケーラ等のAI関連社債発行 年初来約2,250億ドル（前年同期比約10倍）、通年ペース約4,000億ドル</summary>
-</entry>
-<entry>
-<title>AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期 — 2026-07-07</title>
-<link href="https://kaikei-media.github.io/o/t3-f1/"/>
-<id>https://kaikei-media.github.io/o/t3-f1/#2026-07-07@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>Amazon 250億ドル起債の需要倍率 2.5倍（3月の同社起債は3.2倍）。最長年限に18〜21bpの上乗せ</summary>
-</entry>
-<entry>
-<title>ベンダーファイナンス — GPU供給元が顧客に出資・与信している額 — 2026-08-10</title>
-<link href="https://kaikei-media.github.io/o/t3-f3/"/>
-<id>https://kaikei-media.github.io/o/t3-f3/#2026-08-10@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>NVIDIAの5,000億ドル金融プラットフォームは覚書段階（最終契約は未締結）。NVIDIA自身の出資額・残存価値支援の条件は非開示</summary>
 </entry>
 </feed>
