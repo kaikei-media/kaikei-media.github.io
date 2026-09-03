@@ -4,9 +4,23 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-04T00:54:00+09:00</updated>
+<updated>2026-09-04T08:40:00+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>推論の単価: 主要モデルの100万トークンあたり価格（入力/出力）の推移 — 2026-08-21</title>
+<link href="https://kaikei-media.github.io/o/t3-d1/"/>
+<id>https://kaikei-media.github.io/o/t3-d1/#2026-08-21@2026-09-04</id>
+<updated>2026-09-04T08:40:00+09:00</updated>
+<summary>OpenAIがGPT-5.6 Solを値下げ（公式チェンジログ 2026-08-21）。$5.00/$30.00 → $4.00/$20.00（入力−20%・出力−33%）。ただし恒久の価格ではなく「少なくとも2026年11月21日まで」の販促価格だとOpenAI自身が明記している。7/30の記録では「Solは据え置き」だったが、その後に下がった。これでGPT-5.6世代は3階層すべてが下がった。</summary>
+</entry>
+<entry>
+<title>推論の単価: 主要モデルの100万トークンあたり価格（入力/出力）の推移 — 2026-09-03</title>
+<link href="https://kaikei-media.github.io/o/t3-d1/"/>
+<id>https://kaikei-media.github.io/o/t3-d1/#2026-09-03@2026-09-04</id>
+<updated>2026-09-04T08:40:00+09:00</updated>
+<summary>OpenAIがGPT-6 Astraを公開。100万トークンあたり 入力$10.00 / キャッシュ入力$1.00 / 出力$50.00。272Kトークン超のプロンプトは入力2倍・出力1.5倍、キャッシュ書き込みは未キャッシュ入力の1.25倍、バッチは半額。世代が上がると、最上位の単価は上がった。 同時点のGPT-5.6 Sol（$4.00/$20.00）比で入力2.5倍・出力2.5倍。Solの値下げ前（$5.00/$30.00）比では入力2.0倍・出力1.67倍。参考: 同世代の下位はTerra $2.00/$12.00、Luna $0.20/$1.20。</summary>
+</entry>
 <entry>
 <title>売上の前四半期比 — 年次の見出しの裏で、連続性が先に折れていないか — 2026-08-02</title>
 <link href="https://kaikei-media.github.io/o/t3-f11/"/>
@@ -412,19 +426,5 @@
 <id>https://kaikei-media.github.io/o/t2-q4/#2026-08-21@2026-08-27</id>
 <updated>2026-08-27T12:24:02+00:00</updated>
 <summary>米SPR 2億8,970万バレル（週−370万バレル）。IEAは3月に史上最大の協調放出4億バレルを決定</summary>
-</entry>
-<entry>
-<title>輸出規制の品目数、制裁対象エンティティ数 — 2026-07-23</title>
-<link href="https://kaikei-media.github.io/o/t2-q5/"/>
-<id>https://kaikei-media.github.io/o/t2-q5/#2026-07-23@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>EU対ロ第21次制裁: 新規指定218（個人48・団体170）、影の船団41隻追加（累計673隻）。過去4年で最大の指定バッチ</summary>
-</entry>
-<entry>
-<title>AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期 — 2026-06-30</title>
-<link href="https://kaikei-media.github.io/o/t3-f1/"/>
-<id>https://kaikei-media.github.io/o/t3-f1/#2026-06-30@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>ハイパースケーラ等のAI関連社債発行 年初来約2,250億ドル（前年同期比約10倍）、通年ペース約4,000億ドル</summary>
 </entry>
 </feed>

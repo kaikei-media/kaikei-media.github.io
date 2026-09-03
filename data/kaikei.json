@@ -4,8 +4,8 @@
  "license_name": "CC BY 4.0",
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
- "temporal_coverage": "2025-01-01/2026-09-01",
- "count": 81,
+ "temporal_coverage": "2025-01-01/2026-09-03",
+ "count": 83,
  "columns": [
   "item_id",
   "trend",
@@ -1564,6 +1564,44 @@
    "note_ja": "売掛金（Trade accounts receivable, net）・在庫・現金は各四半期の決算発表の要約貸借対照表から（Q1 84.6億/29.6億、Q2 108.3億/43.3億、Q3 137.1億/45.2億ドル）。DSOは 売掛金÷売上×91日（Q2・Q3とも13週）。営業CFは各発表の四半期値。別の読み方: Broadcomの顧客はハイパースケーラ数社に集中し（売掛金の質が違う）、NVIDIAはネオクラウド・政府系・出資先への販売が混ざる。つまり2社の差は「誰に売っているか」の差でもあり、売掛金が伸びているのが買い手の資金繰りの弱い側だという読みとは矛盾しない。ショート台帳の規則（同じ形が2社に出れば業界の話、NVDAだけなら1社の話）に従い、現時点では1社の話。次の判定はNVIDIAのQ3 FY27（2026年11月）とBroadcomのQ4（12月上旬）。",
    "note_en": "Receivables, inventory and cash from the condensed balance sheets in each quarterly release ($8.46bn/$2.96bn, $10.83bn/$4.33bn, $13.71bn/$4.52bn). DSO = receivables / revenue x 91 days (both quarters are 13 weeks). Alternative reading: Broadcom sells to a handful of hyperscalers; NVIDIA's mix includes neoclouds, sovereigns and companies it has invested in. The gap between the two may therefore be a difference in who the buyer is — consistent with, not against, the reading that receivables stretch where the buyer's funding is weaker. Under the ledger's rule (two companies = the industry, NVIDIA alone = one company), this is one company's story for now. Next readings: NVIDIA Q3 FY27 (November 2026) and Broadcom Q4 (early December).",
    "page_url": "https://kaikei-media.github.io/o/t3-f7/"
+  },
+  {
+   "item_id": "T3-D1",
+   "trend": "T3",
+   "kind": "quantity",
+   "cadence": "monthly",
+   "unit": "USD / 1M tokens",
+   "name_ja": "推論の単価: 主要モデルの100万トークンあたり価格（入力/出力）の推移",
+   "name_en": "Inference price: per-million-token list price (input/output) for frontier models, over time",
+   "date": "2026-08-21",
+   "recorded_at": "2026-09-04T08:40:00+09:00",
+   "value_ja": "OpenAIがGPT-5.6 Solを値下げ（公式チェンジログ 2026-08-21）。$5.00/$30.00 → $4.00/$20.00（入力−20%・出力−33%）。ただし恒久の価格ではなく「少なくとも2026年11月21日まで」の販促価格だとOpenAI自身が明記している。7/30の記録では「Solは据え置き」だったが、その後に下がった。これでGPT-5.6世代は3階層すべてが下がった。",
+   "value_en": "OpenAI cut GPT-5.6 Sol (official changelog, 2026-08-21): $5.00/$30.00 to $4.00/$20.00 (input -20%, output -33%). OpenAI states this is promotional pricing available at least through 21 November 2026, not a permanent list price. The 2026-07-30 entry recorded Sol as unchanged; the cut came afterwards. All three tiers of the GPT-5.6 generation have now fallen.",
+   "direction": "down",
+   "source_url": "https://developers.openai.com/api/docs/changelog",
+   "source_label": "OpenAI 公式チェンジログ（2026-08-21）",
+   "note_ja": "7/30の値の訂正ではない。7/30時点でSolは据え置きで、下げは8/21。 7/30の値は集計サイト由来で一次未確認だったが、今回Terra $2.00/$12.00・Luna $0.20/$1.20 は公式価格ページと一致することを確認した。期限つきの販促価格である点が肝心: 期限後の価格をOpenAIは示していないので、これを「供給が需要を上回った」証拠としては読めない（⑦が意図するのは①供給過剰であって、②競争のための戦略的値下げではない）。11月21日以降にどうなるかが、①と②を切り分ける材料になる。",
+   "note_en": "This is not a correction to the 2026-07-30 entry: Sol was genuinely unchanged on 30 July and was cut on 21 August. The July figures came from an aggregator; the Terra ($2.00/$12.00) and Luna ($0.20/$1.20) values have now been confirmed against the official price page. The promotional, time-limited nature is the point: OpenAI does not state the price after the window, so this cannot be read as evidence that supply has outrun demand (signal 7 targets oversupply, not a strategic price war). What happens after 21 November 2026 is what separates the two.",
+   "page_url": "https://kaikei-media.github.io/o/t3-d1/"
+  },
+  {
+   "item_id": "T3-D1",
+   "trend": "T3",
+   "kind": "quantity",
+   "cadence": "monthly",
+   "unit": "USD / 1M tokens",
+   "name_ja": "推論の単価: 主要モデルの100万トークンあたり価格（入力/出力）の推移",
+   "name_en": "Inference price: per-million-token list price (input/output) for frontier models, over time",
+   "date": "2026-09-03",
+   "recorded_at": "2026-09-04T08:40:00+09:00",
+   "value_ja": "OpenAIがGPT-6 Astraを公開。100万トークンあたり 入力$10.00 / キャッシュ入力$1.00 / 出力$50.00。272Kトークン超のプロンプトは入力2倍・出力1.5倍、キャッシュ書き込みは未キャッシュ入力の1.25倍、バッチは半額。世代が上がると、最上位の単価は上がった。 同時点のGPT-5.6 Sol（$4.00/$20.00）比で入力2.5倍・出力2.5倍。Solの値下げ前（$5.00/$30.00）比では入力2.0倍・出力1.67倍。参考: 同世代の下位はTerra $2.00/$12.00、Luna $0.20/$1.20。",
+   "value_en": "OpenAI released GPT-6 Astra. Per million tokens: input $10.00 / cached input $1.00 / output $50.00. Prompts over 272K input tokens are billed at 2x input and 1.5x output; cache writes at 1.25x the uncached input rate; batch at half. The generation step raised the price of the top tier. That is 2.5x both input and output versus GPT-5.6 Sol at the same date ($4.00/$20.00), and 2.0x input / 1.67x output versus Sol before its cut ($5.00/$30.00). For reference, the same generation's lower tiers: Terra $2.00/$12.00, Luna $0.20/$1.20.",
+   "direction": "up",
+   "source_url": "https://developers.openai.com/api/docs/pricing",
+   "source_label": "OpenAI 公式価格ページ（2026-09-04取得）",
+   "note_ja": "合図⑦は「同一世代・同一構成で継続的に下がる」ことを求めるので、これは⑦の点灯でも消灯でもない。 測っているものが違う。世代の内側（GPT-5.6）は3階層とも下がり続けている一方、世代の階段は上がった。 そして1トークンの値段と、1つの仕事の値段は別物。 Astraはreasoning effortにxhigh/maxが加わり、272K超の割増もあるので、同じ仕事に使うトークンが増えれば支出は単価の倍率以上に増える。1タスクあたりの支出は未測定（ARC Prizeの独立検証はARC-AGI-3で$19K〜$26Kを開示しているが、これは評価セット全体の合計で、ゲーム数が非公表のため1タスクに割れない）。次に測るのは、同一タスクでのAstraとSolの実支出。",
+   "note_en": "Signal 7 asks for a sustained decline within a generation at a like-for-like tier, so this is neither a light nor an extinguishment. It measures something else: inside the GPT-5.6 generation all three tiers kept falling, while the step between generations went up. And the price of a token is not the price of a job. Astra adds xhigh and max reasoning effort and carries the long-context surcharge, so if a job consumes more tokens the spend rises by more than the headline multiple. Spend per task is not yet measured (ARC Prize disclosed $19K-$26K on ARC-AGI-3, but those are totals for the whole evaluation set and the number of games is not published, so they cannot be divided into a per-task figure). Next measurement: actual spend for the same task on Astra versus Sol.",
+   "page_url": "https://kaikei-media.github.io/o/t3-d1/"
   }
  ]
 }
