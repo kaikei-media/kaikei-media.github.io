@@ -4,9 +4,58 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-04T12:50:00+09:00</updated>
+<updated>2026-09-05T08:09:31+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>MMF残高とリバースレポ残高 — 短期に逃げているか — 2026-09-02</title>
+<link href="https://kaikei-media.github.io/o/t1-f1/"/>
+<id>https://kaikei-media.github.io/o/t1-f1/#2026-09-02@2026-09-05</id>
+<updated>2026-09-05T08:09:31+09:00</updated>
+<summary>MMF残高 7.98兆ドル（前週比+447.5億ドル。機関投資家向け+336.6億ドル・個人向け+111.0億ドル）。翌日物リバースレポは今回未再確認（前回8/26時点で7億ドルとほぼ枯渇）</summary>
+</entry>
+<entry>
+<title>世界の外貨準備の通貨構成 — ドルの比率（IMF COFER） — 2026-03-31</title>
+<link href="https://kaikei-media.github.io/o/t2-f9/"/>
+<id>https://kaikei-media.github.io/o/t2-f9/#2026-03-31@2026-09-05</id>
+<updated>2026-09-05T08:09:31+09:00</updated>
+<summary>外貨準備におけるドルの比率 57.13%（2026年1-3月期。前期(2025年10-12月期)56.42%から上昇）。ユーロは20.03%（前期20.38%から低下）、人民元は1.99%（前期1.95%から上昇）</summary>
+</entry>
+<entry>
+<title>トークン処理量: ハイパースケーラが開示する月間/四半期の処理トークン数と推論リクエスト数 — 2026-07-22</title>
+<link href="https://kaikei-media.github.io/o/t3-d2/"/>
+<id>https://kaikei-media.github.io/o/t3-d2/#2026-07-22@2026-09-05</id>
+<updated>2026-09-05T08:09:31+09:00</updated>
+<summary>Alphabet: Google のモデルAPI経由の処理量が毎分220億トークン（前四半期の毎分160億トークンから増加）。月間処理トークン数は3.2千兆で、2026年5月のGoogle I/O時点の開示と同水準（1年前の約7分の1）。直近12か月で1兆トークン超を消費したクラウド顧客は約500社</summary>
+</entry>
+<entry>
+<title>AI製品の実利用: 上場SaaSが開示する有料シート数・採用率・解約 — 2026-08-26</title>
+<link href="https://kaikei-media.github.io/o/t3-d6/"/>
+<id>https://kaikei-media.github.io/o/t3-d6/#2026-08-26@2026-09-05</id>
+<updated>2026-09-05T08:09:31+09:00</updated>
+<summary>3社とも「有料シート数」「解約率」そのものは開示せず、ARR・浸透率などの代理指標のみ。Salesforce(FY27 Q2、7月31日締め): Agentforce年率換算収益(ARR)15億ドル超（前年同期比+240%）、Agentforce+Data 360のARRは約39億ドル（+210%）、有料顧客6,000社超。ServiceNow(2026年Q2): AI ACV(年間契約金額)が10億ドル突破、純新規AI ACVが前四半期比40%超加速、大口顧客(ACV500万ドル超)におけるNow Assist浸透率30%。Adobe(FY26 Q2、6月11日発表): Firefly期末ARR約3億ドル(前四半期比+約50%)、AI-first ARR全体5億ドル超(前年比3倍)</summary>
+</entry>
+<entry>
+<title>建てるときに置いた前提 — capexを正当化するために各社が公言した需要の想定 — 2026-07-25</title>
+<link href="https://kaikei-media.github.io/o/t3-d7/"/>
+<id>https://kaikei-media.github.io/o/t3-d7/#2026-07-25@2026-09-05</id>
+<updated>2026-09-05T08:09:31+09:00</updated>
+<summary>【予測・実測ではない】OpenAI Sam Altman(YC Startup School 2026): 「世界の推論需要は今後何年も年10倍(10x/年)で伸びると予想している」。ドットコム期の通信会社の想定「年16倍(100日で倍)」と同じ形の、具体的な倍率を伴う需要想定。参考として同時期の他社発言(いずれも稼働率・供給制約の言及で、倍率の明示は無い): Amazon Andy Jassy(7/30決算)「2026年通期の需要を賄う容量が無く、2028年分として既にある需要も驚くべき水準」。Alphabet Anat Ashkenazi CFO(7/22決算)「依然として供給制約下にある」でcapex予想を1,800〜1,900億→1,950〜2,050億ドルに上方修正。Microsoft Amy Hood CFO(7/29決算)「需要は供給を上回り続けている」。Meta Mark </summary>
+</entry>
+<entry>
+<title>GPU・サーバの耐用年数の想定と、その変更（償却の前提） — 2024-06-01</title>
+<link href="https://kaikei-media.github.io/o/t3-d8/"/>
+<id>https://kaikei-media.github.io/o/t3-d8/#2024-06-01@2026-09-05</id>
+<updated>2026-09-05T08:09:31+09:00</updated>
+<summary>Oracle: サーバー・ネットワーク機器の耐用年数を5年→6年に延長（FY2025期首・2024年6月1日発効）。営業費用を7.33億ドル削減、純利益を5.73億ドル押し上げ（1株0.21/0.20ドル）。2023年にも4年→5年へ延長しており、2回連続の延長</summary>
+</entry>
+<entry>
+<title>GPU・サーバの耐用年数の想定と、その変更（償却の前提） — 2025-01-01</title>
+<link href="https://kaikei-media.github.io/o/t3-d8/"/>
+<id>https://kaikei-media.github.io/o/t3-d8/#2025-01-01@2026-09-05</id>
+<updated>2026-09-05T08:09:31+09:00</updated>
+<summary>Meta: 大半のサーバー・ネットワーク資産の耐用年数を5.5年に延長（2025年1月1日発効）。2025年通期の減価償却費を約29億ドル削減する見込み</summary>
+</entry>
 <entry>
 <title>1タスクあたりの推論支出 — 同じ仕事を終えるのに、実際いくら払うか — 2026-09-03</title>
 <link href="https://kaikei-media.github.io/o/t3-d9/"/>
@@ -377,54 +426,5 @@
 <id>https://kaikei-media.github.io/o/t1-f4/#2026-08-19@2026-08-27</id>
 <updated>2026-08-27T13:21:21+00:00</updated>
 <summary>長期ゾーンの買い戻しを1回$20億→$40億以上に倍増（9/9〜11/4）。四半期の流動性支援枠は$38B据え置き</summary>
-</entry>
-<entry>
-<title>為替介入額とFIMAレポの利用（日本が米国債を売らずにドルを調達しているか） — 2026-07-31</title>
-<link href="https://kaikei-media.github.io/o/t1-f5/"/>
-<id>https://kaikei-media.github.io/o/t1-f5/#2026-07-31@2026-08-27</id>
-<updated>2026-08-27T13:21:21+00:00</updated>
-<summary>7/30〜31の日米協調円買いは約11〜12兆円。米側はドルでなくユーロを売り、日本は米国債を売らずFRBのFIMAレポで調達</summary>
-</entry>
-<entry>
-<title>金ETFの現物保有トン数（価格ではなく現物の増減） — 2026-07-31</title>
-<link href="https://kaikei-media.github.io/o/t1-f2/"/>
-<id>https://kaikei-media.github.io/o/t1-f2/#2026-07-31@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>世界の金ETF保有 4,068トン（7月+23トン、2か月連続流出のあと流入に転換。過去最高は2/27の4,176トン）</summary>
-</entry>
-<entry>
-<title>米国債 年限別発行額（四半期定例発行計画）— 短期化しているか — 2026-08-05</title>
-<link href="https://kaikei-media.github.io/o/t1-q1/"/>
-<id>https://kaikei-media.github.io/o/t1-q1/#2026-08-05@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>8〜10月期: 利付債の入札規模は据え置き（10年390〜420億ドル、30年220〜250億ドル）。長期ゾーン（10〜30年）の流動性支援バイバックを1回20億ドル→40億ドル以上に倍増（9/9〜11/4）</summary>
-</entry>
-<entry>
-<title>米国債入札の応札倍率と間接落札比率 — 海外中銀がまだ引き受けているか — 2026-08-13</title>
-<link href="https://kaikei-media.github.io/o/t1-q2/"/>
-<id>https://kaikei-media.github.io/o/t1-q2/#2026-08-13@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>8月入札: 10年債（420億ドル）応札倍率2.53倍・間接落札76.7%・テール−1.7bp。30年債（250億ドル）2.39倍・66.8%・−2.4bp（5月は10年2.40倍/64.0%/+4.8bp、30年2.30倍/66.6%/+1.6bp）</summary>
-</entry>
-<entry>
-<title>各国の国防調達契約額（予算ではなく受注ベース） — 2025-12-31</title>
-<link href="https://kaikei-media.github.io/o/t2-f1/"/>
-<id>https://kaikei-media.github.io/o/t2-f1/#2025-12-31@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>EU加盟国の装備調達 1,150億ユーロ（2025年。国防支出計4,180億ユーロ、前年比+20%。2026年見込み4,540億ユーロ）</summary>
-</entry>
-<entry>
-<title>ホルムズ・スエズ・パナマの通航隻数とトン数 — 2026-08-23</title>
-<link href="https://kaikei-media.github.io/o/t2-q1/"/>
-<id>https://kaikei-media.github.io/o/t2-q1/#2026-08-23@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>ホルムズ海峡 通航3隻/日（危機前の基準85隻/日の約4%）。スエズ運河 約39隻/日（8/16までの4週。危機前比−41%、2024年1月以来の高水準）。パナマ運河 平均35隻/日（FY2026 10〜6月、前年比+5.2%）</summary>
-</entry>
-<entry>
-<title>戦争リスク保険の付保可否と料率 — 2026-07-22</title>
-<link href="https://kaikei-media.github.io/o/t2-q3/"/>
-<id>https://kaikei-media.github.io/o/t2-q3/#2026-07-22@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>ホルムズ通航の戦争リスク保険料 船体価額の7.5〜10%（数週間前は1〜3%）。紅海は0.5%（7/20以前は0.3%）</summary>
 </entry>
 </feed>

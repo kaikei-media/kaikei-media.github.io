@@ -120,8 +120,10 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <tr><td style="white-space:nowrap"><b>AA</b></td><td style="white-space:normal">債券の返済の確からしさを表す記号で、上から2番目に高い区分。</td></tr>
 <tr><td style="white-space:nowrap"><b>ABS</b></td><td style="white-space:normal">資産担保証券。特定の資産（ここではGPUやデータセンター）から生まれる収入を裏づけに発行する債券。</td></tr>
 <tr><td style="white-space:nowrap"><b>AccountsReceivableNetCurrent</b></td><td style="white-space:normal">決算書に載る、まだ受け取っていない売上代金（売掛金）の残高を表す会計上の項目名。SECへの提出資料から機械的に集計するときに使う名前。</td></tr>
+<tr><td style="white-space:nowrap"><b>ACV</b></td><td style="white-space:normal">年間契約金額。1件の契約が1年あたりいくらの価値かを表す数字。ARRが会社全体の合計であるのに対し、ACVは契約単位で見る。</td></tr>
 <tr><td style="white-space:nowrap"><b>AIS</b></td><td style="white-space:normal">船が自分の位置を電波で知らせる仕組み。切ると追跡から消えるので、切っていること自体が情報になる。</td></tr>
 <tr><td style="white-space:nowrap"><b>AIラボ</b></td><td style="white-space:normal">AIのモデルそのものを作っている会社。OpenAI・Anthropic・Google DeepMindなど。設備を買う側ではなく、その設備で動かすものを作る側。</td></tr>
+<tr><td style="white-space:nowrap"><b>ARR</b></td><td style="white-space:normal">年間経常収益。契約している顧客から1年間に入り続けると見込まれる収益を、年換算した金額。ソフトウェア会社の成長を見るときによく使う。</td></tr>
 <tr><td style="white-space:nowrap"><b>ASP</b></td><td style="white-space:normal">平均販売価格。売上を数量で割ったもの。売上の伸びが値段によるのか数量によるのかを分けるのに使う。</td></tr>
 <tr><td style="white-space:nowrap"><b>BACI</b></td><td style="white-space:normal">CEPIIが作る、国と国のあいだの品目別の貿易統計。輸出側と輸入側で食い違う数字を突き合わせて直してある。</td></tr>
 <tr><td style="white-space:nowrap"><b>Bad PIK</b></td><td style="white-space:normal">利息を現金で払えず、借金の元本に上乗せして先送りしている状態。借り手が苦しくなっている印として見られる。</td></tr>
@@ -189,6 +191,8 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <tr><td style="white-space:nowrap"><b>YTM</b></td><td style="white-space:normal">最終利回り。その債券を満期まで持ったときに、1年あたり何%になるかの利回り。</td></tr>
 <tr><td style="white-space:nowrap"><b>オフバランス</b></td><td style="white-space:normal">借金や資産を、自分の決算書に載せない形にすること。別会社や賃借の形にすると載らない。載っていないだけで、支払う義務は残る。</td></tr>
 <tr><td style="white-space:nowrap"><b>ガイダンス</b></td><td style="white-space:normal">会社が自分で出す、次の期間の売上や利益の見通し。外れたときに株価が動きやすい。</td></tr>
+<tr><td style="white-space:nowrap"><b>キャッシュフロー</b></td><td style="white-space:normal">実際に出入りしたお金の流れ。帳簿上の利益とは別で、本業でどれだけ現金が入ってきたか・出ていったかを見る。</td></tr>
+<tr><td style="white-space:nowrap"><b>クラウド</b></td><td style="white-space:normal">自前でサーバーを持たずに、他社が運用する計算機を借りて使う仕組み。使った分だけ料金を払う。</td></tr>
 <tr><td style="white-space:nowrap"><b>クレジット</b></td><td style="white-space:normal">お金を貸すこと、および貸した相手が返せるかどうかの度合い。株ではなく、貸付や社債の世界を指して使う。</td></tr>
 <tr><td style="white-space:nowrap"><b>グリーンボンド</b></td><td style="white-space:normal">集めたお金の使い道を、環境に関する事業に限ると決めて出す債券。使い道が決まっている分、買い手の層が違う。</td></tr>
 <tr><td style="white-space:nowrap"><b>コベナンツ</b></td><td style="white-space:normal">借入契約に付く約束事。財務指標の下限などを決めておき、破ると一括返済を求められることがある。</td></tr>
@@ -202,12 +206,16 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <tr><td style="white-space:nowrap"><b>デフォルト率</b></td><td style="white-space:normal">借り手が返済できなくなった割合。上がるほど、貸している側の損が近づいている。</td></tr>
 <tr><td style="white-space:nowrap"><b>トリプルネットリース</b></td><td style="white-space:normal">借りた側が、賃料に加えて税金・保険・修繕まで払う契約。貸した側の手取りが読みやすくなるかわりに、借り手が倒れたときの穴が大きい。</td></tr>
 <tr><td style="white-space:nowrap"><b>トンマイル</b></td><td style="white-space:normal">運んだ重さ（トン）×運んだ距離（マイル）。同じ量でも遠回りすれば増えるので、航路が変わったことが数量で分かる。</td></tr>
+<tr><td style="white-space:nowrap"><b>トークン</b></td><td style="white-space:normal">AIが文章を読み書きするときに区切る、単語より小さい断片の単位。AIへの支払いは、このトークンの数に応じて決まることが多い。</td></tr>
+<tr><td style="white-space:nowrap"><b>ドットコム</b></td><td style="white-space:normal">1990年代末から2000年代初めにかけて起きた、インターネット関連企業への過剰な投資と、その崩壊のこと。今回のAI投資と比較する基準としてよく引き合いに出される。</td></tr>
 <tr><td style="white-space:nowrap"><b>ネオクラウド</b></td><td style="white-space:normal">GPUを大量に買い集めて、他社に時間貸しする会社。CoreWeaveなど。自社でAIを作るのではなく、計算する場所を貸すのが商売。</td></tr>
 <tr><td style="white-space:nowrap"><b>ノヴォロシースク</b></td><td style="white-space:normal">ロシア南部・黒海に面した港町。原油と穀物の主要な積み出し口で、ここが止まると出荷量に直接出る。</td></tr>
 <tr><td style="white-space:nowrap"><b>ハイパースケーラ</b></td><td style="white-space:normal">自前で巨大なデータセンターを持つ大手のこと。ふつうアマゾン・アルファベット（Google）・マイクロソフト・メタの4社を指す。</td></tr>
+<tr><td style="white-space:nowrap"><b>ハーネス</b></td><td style="white-space:normal">AIモデルに実際の作業（コードを書く、ツールを呼び出す等）をさせるための、周りの仕組み。同じモデルでもハーネスが違うと成績や費用が変わる。</td></tr>
 <tr><td style="white-space:nowrap"><b>バイバック</b></td><td style="white-space:normal">会社が自社の株を買い戻すこと。出回る株が減るので、1株あたりの取り分は増える。使った現金は設備には回らない。</td></tr>
 <tr><td style="white-space:nowrap"><b>ビット出荷</b></td><td style="white-space:normal">メモリを、金額ではなく容量（ビット数）で数えた出荷量。金額は値段の上下で動くので、数量で見ると実需が分かる。</td></tr>
 <tr><td style="white-space:nowrap"><b>プロダクトタンカー</b></td><td style="white-space:normal">原油そのものではなく、精製した後のガソリンや軽油を運ぶ船。原油船とは航路も運賃も別に動く。</td></tr>
+<tr><td style="white-space:nowrap"><b>プロンプト</b></td><td style="white-space:normal">AIに対して人が入力する指示や質問の文章。長いプロンプトほど、処理に使うトークンの数が増える。</td></tr>
 <tr><td style="white-space:nowrap"><b>ベンダーファイナンス</b></td><td style="white-space:normal">売り手が買い手にお金を貸したり出資したりして、自社製品を買わせること。売上は立つが、代金の risk は売り手に残る。</td></tr>
 <tr><td style="white-space:nowrap"><b>リバースレポ</b></td><td style="white-space:normal">中央銀行が金融機関から一時的にお金を預かる取引。市場に出回るお金の量を測る目安として使われる。</td></tr>
 <tr><td style="white-space:nowrap"><b>レポ</b></td><td style="white-space:normal">債券を担保にして短期でお金を借りる取引。売って買い戻す形をとる。</td></tr>
@@ -218,6 +226,7 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <tr><td style="white-space:nowrap"><b>入札</b></td><td style="white-space:normal">国債などを売り出すときに、買い手が価格や利回りを出して競り合う仕組み。</td></tr>
 <tr><td style="white-space:nowrap"><b>劣後</b></td><td style="white-space:normal">返済の順番が後ろになる部分。損が出たときに先に削られる代わりに、利回りが高い。</td></tr>
 <tr><td style="white-space:nowrap"><b>受注倍率</b></td><td style="white-space:normal">その期間に受けた注文を、同じ期間に売り上げた金額で割った数字。1を超えていれば、注文が売上より先に積み上がっている。</td></tr>
+<tr><td style="white-space:nowrap"><b>同一構成</b></td><td style="white-space:normal">AIモデルを比べるとき、性能の設定（どれだけ深く考えさせるか等）を同じ条件にそろえること。そろえないと、値段の違いが性能の違いのせいなのか設定の違いのせいなのか分からなくなる。</td></tr>
 <tr><td style="white-space:nowrap"><b>含み損</b></td><td style="white-space:normal">持っているだけで、まだ売っていないために損益計算書に出ていない損。売った瞬間に表に出る。</td></tr>
 <tr><td style="white-space:nowrap"><b>営業CF</b></td><td style="white-space:normal">本業で1年間に実際に入ってきた現金から、出ていった現金を引いた額。利益と違い、実際に手元を通ったお金だけを数える。</td></tr>
 <tr><td style="white-space:nowrap"><b>変電所</b></td><td style="white-space:normal">送られてきた電気の電圧を変えて、使える形にする施設。データセンターにはほぼ必ず要る。</td></tr>
@@ -232,6 +241,7 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <tr><td style="white-space:nowrap"><b>昇圧</b></td><td style="white-space:normal">電圧を上げること。発電した電気を遠くへ送るために必要で、そのための変圧器の納期が問題になっている。</td></tr>
 <tr><td style="white-space:nowrap"><b>格付</b></td><td style="white-space:normal">債券の返済の確からしさを、格付会社が記号で示したもの。引き下げは、貸し手の見方が変わったことを意味する。</td></tr>
 <tr><td style="white-space:nowrap"><b>流動性ストレス</b></td><td style="white-space:normal">お金が返せないのではなく、すぐに引き出せない状態。解約を止める、担保を積み増すといった形で先に出る。損が確定する前の段階。</td></tr>
+<tr><td style="white-space:nowrap"><b>浸透率</b></td><td style="white-space:normal">対象になりうる顧客のうち、実際にその製品を使っている割合。契約はしているが使われていない、という状態と区別するための数字。</td></tr>
 <tr><td style="white-space:nowrap"><b>減損</b></td><td style="white-space:normal">持っている資産の価値が戻らないと判断して、帳簿の金額を切り下げること。切り下げた分がその期の損になる。</td></tr>
 <tr><td style="white-space:nowrap"><b>瀬取り</b></td><td style="white-space:normal">洋上で船から船へ積荷を移し替えること。制裁を避けて原油を動かすときに使われ、書類の上の輸出量と実際の流れがずれる。</td></tr>
 <tr><td style="white-space:nowrap"><b>無担保</b></td><td style="white-space:normal">差し押さえる資産を決めていない借金。返ってこない risk が高いぶん、普通は担保付より金利が高い。逆転すると、担保そのものが疑われている合図になる。</td></tr>
