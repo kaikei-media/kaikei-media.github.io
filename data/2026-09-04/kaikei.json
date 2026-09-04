@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "2026-09-04",
  "temporal_coverage": "2025-01-01/2026-09-03",
- "count": 83,
+ "count": 84,
  "columns": [
   "item_id",
   "trend",
@@ -1599,9 +1599,28 @@
    "direction": "up",
    "source_url": "https://developers.openai.com/api/docs/pricing",
    "source_label": "OpenAI 公式価格ページ（2026-09-04取得）",
-   "note_ja": "合図⑦は「同一世代・同一構成で継続的に下がる」ことを求めるので、これは⑦の点灯でも消灯でもない。 測っているものが違う。世代の内側（GPT-5.6）は3階層とも下がり続けている一方、世代の階段は上がった。 そして1トークンの値段と、1つの仕事の値段は別物。 Astraはreasoning effortにxhigh/maxが加わり、272K超の割増もあるので、同じ仕事に使うトークンが増えれば支出は単価の倍率以上に増える。1タスクあたりの支出は未測定（ARC Prizeの独立検証はARC-AGI-3で$19K〜$26Kを開示しているが、これは評価セット全体の合計で、ゲーム数が非公表のため1タスクに割れない）。次に測るのは、同一タスクでのAstraとSolの実支出。",
-   "note_en": "Signal 7 asks for a sustained decline within a generation at a like-for-like tier, so this is neither a light nor an extinguishment. It measures something else: inside the GPT-5.6 generation all three tiers kept falling, while the step between generations went up. And the price of a token is not the price of a job. Astra adds xhigh and max reasoning effort and carries the long-context surcharge, so if a job consumes more tokens the spend rises by more than the headline multiple. Spend per task is not yet measured (ARC Prize disclosed $19K-$26K on ARC-AGI-3, but those are totals for the whole evaluation set and the number of games is not published, so they cannot be divided into a per-task figure). Next measurement: actual spend for the same task on Astra versus Sol.",
+   "note_ja": "合図⑦は「同一世代・同一構成で継続的に下がる」ことを求めるので、これは⑦の点灯でも消灯でもない。 測っているものが違う。世代の内側（GPT-5.6）は3階層とも下がり続けている一方、世代の階段は上がった。 そして1トークンの値段と、1つの仕事の値段は別物。 Astraはreasoning effortにxhigh/maxが加わり、272K超の割増もあるので、同じ仕事に使うトークンが増えれば支出は単価の倍率以上に増える。1タスクあたりの支出は T3-D9 に分けて記録した（単位が違うのでここには混ぜない）。2026-09-04に測定が出て、短い仕事は+75%・長い仕事は横ばいと、指数によって逆向きに割れている。",
+   "note_en": "Signal 7 asks for a sustained decline within a generation at a like-for-like tier, so this is neither a light nor an extinguishment. It measures something else: inside the GPT-5.6 generation all three tiers kept falling, while the step between generations went up. And the price of a token is not the price of a job. Astra adds xhigh and max reasoning effort and carries the long-context surcharge, so if a job consumes more tokens the spend rises by more than the headline multiple. Spend per task is recorded separately under T3-D9 (a different unit, so it is not mixed in here). Measurements published on 2026-09-04 split by task type: +75% on short jobs, flat on long agentic ones.",
    "page_url": "https://kaikei-media.github.io/o/t3-d1/"
+  },
+  {
+   "item_id": "T3-D9",
+   "trend": "T3",
+   "kind": "quantity",
+   "cadence": "monthly",
+   "unit": "USD / タスク（指数の実行費用・世代間の相対比）",
+   "name_ja": "1タスクあたりの推論支出 — 同じ仕事を終えるのに、実際いくら払うか",
+   "name_en": "Inference spend per task - what it actually costs to finish the same job",
+   "date": "2026-09-03",
+   "recorded_at": "2026-09-04T12:50:00+09:00",
+   "value_ja": "GPT-6 Astra 対 GPT-5.6 Sol（ともにmax effort・測定はArtificial Analysis）。タスクの種類で逆向きに割れた。 ①汎用の指数（Intelligence Index）: スコアは61対61の同点、出力トークンは約10%減にとどまり、2.5倍の値上げを吸収できず1タスクあたり75%高い。②エージェント的な長い仕事（Coding Agent Index）: スコアは67対65でAstraが2点上、Codexハーネスでトークンは3分の1になり、費用はSolとほぼ同じ。参考: Claude Fable 5と同点で費用は半分以下、首位はFable 5.1の70。世代を一段上げて、短い仕事は75%増、長い仕事は横ばい。下がった測定はひとつも無い。",
+   "value_en": "GPT-6 Astra versus GPT-5.6 Sol (both at max effort; measured by Artificial Analysis). The direction splits by task type. (1) General index (Intelligence Index): the scores tie at 61 to 61, output tokens fall only ~10%, and that does not absorb the 2.5x price rise - 75% more expensive per task. (2) Long agentic work (Coding Agent Index): 67 to 65 in Astra's favour, tokens fall to one third in the Codex harness, and the cost is about the same as Sol. For reference, it ties Claude Fable 5 at less than half the cost; Fable 5.1 leads at 70. One generation step: short jobs 75% dearer, long jobs flat. Not one measurement shows a fall.",
+   "direction": "up",
+   "source_url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra",
+   "source_label": "Artificial Analysis「Benchmarking GPT-6 Astra」（2026-09-04取得）",
+   "note_ja": "directionを up にしたのは、下がった測定がひとつも無いから。 ただし内訳は指数によって「+75%」と「横ばい」に割れるので、矢印だけで読まないこと。測定者はArtificial Analysisで、自分で走らせた数字なのでその点は一次。効率の出どころにも切り分けが要る: ARC Prizeの検証では、同じAstraでもハーネスをプロバイダ固有のものに替えるとトークン49%減・所要時間3.66倍速・費用$26,098→$17,332になった（`https://arcprize.org/blog/astra`）。つまり効率の相当部分がモデルではなく配管（推論状態の保持とcompaction）から出ている。「モデルが賢くなったから安くなった」と読むと原因を取り違える。留保2つ: ①Astraは公開初日の価格。Sol自身は約3か月で−20〜33%下がり、現在の$4/$20は11/21までの販促価格なので、これを恒久の水準として扱わない ②固定タスク集合は新しく取れる仕事を数えない。",
+   "note_en": "Direction is recorded as up because not one measurement fell - but the split (+75% versus flat) means the arrow alone must not be read as the finding. Artificial Analysis ran the tasks itself, so it is primary for its own numbers. The source of the efficiency also needs separating: ARC Prize found that the same Astra, switched to a provider-specific harness, used 49% fewer tokens, ran 3.66x faster and cost $17,332 instead of $26,098. A large part of the efficiency therefore comes from the plumbing, not the model - reading it as 'the model got smarter so it got cheaper' mistakes the cause. Two caveats: (1) this is Astra's first-day price; Sol itself fell 20-33% within about three months and its current $4/$20 is promotional through 21 November, so neither is a settled level; (2) a fixed task set does not count newly addressable work.",
+   "page_url": "https://kaikei-media.github.io/o/t3-d9/"
   }
  ]
 }

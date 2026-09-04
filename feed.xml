@@ -4,9 +4,16 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-04T08:40:00+09:00</updated>
+<updated>2026-09-04T12:50:00+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>1タスクあたりの推論支出 — 同じ仕事を終えるのに、実際いくら払うか — 2026-09-03</title>
+<link href="https://kaikei-media.github.io/o/t3-d9/"/>
+<id>https://kaikei-media.github.io/o/t3-d9/#2026-09-03@2026-09-04</id>
+<updated>2026-09-04T12:50:00+09:00</updated>
+<summary>GPT-6 Astra 対 GPT-5.6 Sol（ともにmax effort・測定はArtificial Analysis）。タスクの種類で逆向きに割れた。 ①汎用の指数（Intelligence Index）: スコアは61対61の同点、出力トークンは約10%減にとどまり、2.5倍の値上げを吸収できず1タスクあたり75%高い。②エージェント的な長い仕事（Coding Agent Index）: スコアは67対65でAstraが2点上、Codexハーネスでトークンは3分の1になり、費用はSolとほぼ同じ。参考: Claude Fable 5と同点で費用は半分以下、首位はFable 5.1の70。世代を一段上げて、短い仕事は75%増、長い仕事は横ばい。下がった測定はひとつも無い。</summary>
+</entry>
 <entry>
 <title>推論の単価: 主要モデルの100万トークンあたり価格（入力/出力）の推移 — 2026-08-21</title>
 <link href="https://kaikei-media.github.io/o/t3-d1/"/>
@@ -419,12 +426,5 @@
 <id>https://kaikei-media.github.io/o/t2-q3/#2026-07-22@2026-08-27</id>
 <updated>2026-08-27T12:24:02+00:00</updated>
 <summary>ホルムズ通航の戦争リスク保険料 船体価額の7.5〜10%（数週間前は1〜3%）。紅海は0.5%（7/20以前は0.3%）</summary>
-</entry>
-<entry>
-<title>主要品目の在庫日数、戦略備蓄の放出量 — 2026-08-21</title>
-<link href="https://kaikei-media.github.io/o/t2-q4/"/>
-<id>https://kaikei-media.github.io/o/t2-q4/#2026-08-21@2026-08-27</id>
-<updated>2026-08-27T12:24:02+00:00</updated>
-<summary>米SPR 2億8,970万バレル（週−370万バレル）。IEAは3月に史上最大の協調放出4億バレルを決定</summary>
 </entry>
 </feed>
