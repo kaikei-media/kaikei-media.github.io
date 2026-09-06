@@ -4,9 +4,30 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-05T08:09:31+09:00</updated>
+<updated>2026-09-07T08:00:10+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>陣営別の貿易額 — 誰と誰が取引しているか（CEPII BACI） — 2025-12-31</title>
+<link href="https://kaikei-media.github.io/o/t2-f8/"/>
+<id>https://kaikei-media.github.io/o/t2-f8/#2025-12-31@2026-09-07</id>
+<updated>2026-09-07T08:00:10+09:00</updated>
+<summary>陣営内貿易（米・中どちらかの陣営との近さで分類）は世界貿易の約71%（2025年、1995年は55%）。陣営分類は各国の国連投票の一致度（Bailey et al. 2017のideal point距離）を米・中それぞれとの近さで判定</summary>
+</entry>
+<entry>
+<title>ホルムズ・スエズ・パナマの通航隻数とトン数 — 2026-08-30</title>
+<link href="https://kaikei-media.github.io/o/t2-q1/"/>
+<id>https://kaikei-media.github.io/o/t2-q1/#2026-08-30@2026-09-07</id>
+<updated>2026-09-07T08:00:10+09:00</updated>
+<summary>ホルムズ海峡: IMF PortWatchの直近公表分は8/30時点で6隻/日（基準85隻/日の7%）。スエズ運河（北側）: 8/24〜8/30の週で290隻通航（前週294隻とほぼ同水準）、危機前比−36%だが2025年同時期比+30%、2024年初以来の高水準が2週連続。パナマ運河: 渇水対応でニオパナマックス閘門9枠+パナマックス閘門25枠＝1日34隻へ縮小（9/3発効）、9/15からはパナマックス23枠を加えさらに32隻/日へ縮小予定。喫水制限も14.48m（47.5フィート）への引き下げが10/1へ延期</summary>
+</entry>
+<entry>
+<title>高圧変圧器・開閉装置の納期（AI工場を完成させる難易度） — 2025-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-q7/"/>
+<id>https://kaikei-media.github.io/o/t3-q7/#2025-06-30@2026-09-07</id>
+<updated>2026-09-07T08:00:10+09:00</updated>
+<summary>Wood Mackenzie自身のサーベイ（Lead Time Benchmarking Product）: 電力用変圧器（Power Transformers）はQ1比10週短縮し平均128週。発電機昇圧変圧器（GSU）はQ1からわずかに改善し平均143週。開閉装置（Switchgear）は平均44週。パッドマウント変圧器・リクローザ・電線/ケーブルはQ2に増加傾向</summary>
+</entry>
 <entry>
 <title>MMF残高とリバースレポ残高 — 短期に逃げているか — 2026-09-02</title>
 <link href="https://kaikei-media.github.io/o/t1-f1/"/>
@@ -405,26 +426,5 @@
 <id>https://kaikei-media.github.io/o/t2-q2/#2025-12-31@2026-08-27</id>
 <updated>2026-08-27T13:30:41+00:00</updated>
 <summary>世界海上貿易トンマイル 2025年+0.3%（2024年は+5.9%で6兆6,781億トンマイル）。2026年の原油タンカー需要は+1.5〜2.5%（BIMCO予測）</summary>
-</entry>
-<entry>
-<title>GPU担保ABS・DC-ABSの新発条件（劣後比率・スプレッド）と格付アクション — 2026-07-27</title>
-<link href="https://kaikei-media.github.io/o/t3-f2/"/>
-<id>https://kaikei-media.github.io/o/t3-f2/#2026-07-27@2026-08-27</id>
-<updated>2026-08-27T13:30:41+00:00</updated>
-<summary>Aligned DC ABS 2026-1: 11.8億ドル（当初9.05億から30%増額）、A-2-I=A−／B=BBB（S&amp;P）、評価LTV上限70%、5年ARD</summary>
-</entry>
-<entry>
-<title>GPU担保ABS・DC-ABSの新発条件（劣後比率・スプレッド）と格付アクション — 2026-08-10</title>
-<link href="https://kaikei-media.github.io/o/t3-f2/"/>
-<id>https://kaikei-media.github.io/o/t3-f2/#2026-08-10@2026-08-27</id>
-<updated>2026-08-27T13:30:41+00:00</updated>
-<summary>CoreWeave DDTL 5.5（GPU担保ローン）26億ドル・SOFR+550bp・Moody&#x27;s Ba2／Fitch BB+。5月のDDTL 5.0（31億ドル・SOFR+450bp・同格付）よりスプレッド拡大</summary>
-</entry>
-<entry>
-<title>財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図） — 2026-08-19</title>
-<link href="https://kaikei-media.github.io/o/t1-f4/"/>
-<id>https://kaikei-media.github.io/o/t1-f4/#2026-08-19@2026-08-27</id>
-<updated>2026-08-27T13:21:21+00:00</updated>
-<summary>長期ゾーンの買い戻しを1回$20億→$40億以上に倍増（9/9〜11/4）。四半期の流動性支援枠は$38B据え置き</summary>
 </entry>
 </feed>
