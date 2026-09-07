@@ -4,9 +4,23 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-07T08:00:10+09:00</updated>
+<updated>2026-09-07T23:30:38+00:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>FRBの保有残高 — 買っているか減らしているか — 2026-09-02</title>
+<link href="https://kaikei-media.github.io/o/t1-q5/"/>
+<id>https://kaikei-media.github.io/o/t1-q5/#2026-09-02@2026-09-07</id>
+<updated>2026-09-07T23:30:38+00:00</updated>
+<summary>FRB総資産 6兆7,372億ドル（前週比+63億ドル、前年比+1,351億ドル）</summary>
+</entry>
+<entry>
+<title>台湾周辺の人民解放軍の活動（機数・艦艇数／日、月間累計）と台湾海峡の商船通航 — 2026-09-07</title>
+<link href="https://kaikei-media.github.io/o/t2-q7/"/>
+<id>https://kaikei-media.github.io/o/t2-q7/#2026-09-07@2026-09-07</id>
+<updated>2026-09-07T23:30:38+00:00</updated>
+<summary>台湾周辺の人民解放軍活動: 9/6 6時〜9/7 6時で戦闘機等2ソーティー・艦艇13隻・公船4隻（9/5〜9/6は機21・艦10・公船5、9/4は機0・艦5・公船5、9/2は機1・艦5・公船3）。日によるばらつきが大きく、8/24（機2・艦7・公船2）と比べても傾向は読めない。台湾海峡の商船通航（IMF PortWatch日次）は直近値2026-08-30で318隻/日、8月の日平均は約232隻/日で、従来の基準235〜240隻/日とほぼ同水準（8/26〜27に67〜122隻へ一時落ち込んだが8月末には回復）</summary>
+</entry>
 <entry>
 <title>陣営別の貿易額 — 誰と誰が取引しているか（CEPII BACI） — 2025-12-31</title>
 <link href="https://kaikei-media.github.io/o/t2-f8/"/>
@@ -412,19 +426,5 @@
 <id>https://kaikei-media.github.io/o/t2-q6/#2026-08-27@2026-08-27</id>
 <updated>2026-08-27T14:48:37+00:00</updated>
 <summary>クウェート・カタールの石油輸送は戦前の約7割（AIS切断・オマーン湾での瀬取り経由。待機船約150隻、1月は40隻）</summary>
-</entry>
-<entry>
-<title>貿易の陣営別シェア — 誰と誰が取引しているか — 2025-12-31</title>
-<link href="https://kaikei-media.github.io/o/t2-f2/"/>
-<id>https://kaikei-media.github.io/o/t2-f2/#2025-12-31@2026-08-27</id>
-<updated>2026-08-27T13:30:41+00:00</updated>
-<summary>同じ陣営内の貿易が世界貿易の約71%（2025年。1995年は約55%）。陣営間の貿易は2022年以降、陣営内より約4%遅く成長</summary>
-</entry>
-<entry>
-<title>海上輸送のトンマイル — 迂回で実距離がどれだけ伸びたか — 2025-12-31</title>
-<link href="https://kaikei-media.github.io/o/t2-q2/"/>
-<id>https://kaikei-media.github.io/o/t2-q2/#2025-12-31@2026-08-27</id>
-<updated>2026-08-27T13:30:41+00:00</updated>
-<summary>世界海上貿易トンマイル 2025年+0.3%（2024年は+5.9%で6兆6,781億トンマイル）。2026年の原油タンカー需要は+1.5〜2.5%（BIMCO予測）</summary>
 </entry>
 </feed>
