@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
  "temporal_coverage": "2024-06-01/2026-09-09",
- "count": 99,
+ "count": 101,
  "columns": [
   "item_id",
   "trend",
@@ -1906,6 +1906,44 @@
    "note_ja": "この項目は「見張りの発火の線」のAにあたる最優先の観測点なのに、根拠がTechTimesという二次情報だった（2026-09-10の点検で発覚。しかもその記事は7月の報道の訂正を報じたもの）。最優先の線を報道に乗せていた。\n一次で取り直して分かった違い: 前の記録は発動事由を「OpenAIのデフォルト時のみ」と書いていたが、8-K本文は支払不能による債務不履行と、単なる支払い不履行の2つを挙げている。前者より広い。 また4.25GW（＋選択権3.8GW）という規模と、支払額が差額であることも前の記録には無かった。\n線Aの見方: この保証の縮小・条件変更が線Aの発火。上限額と対象GWが分かったので、次の10-Qでこの数字が動いたかを見る。二次情報では気づけない粒度。",
    "note_en": "This item is line A of the watch list - the highest-priority signal - yet it had been recorded from secondary reporting (found in the 2026-09-10 audit). Re-taking it from the filing changed the substance: the earlier entry said the guarantee fires only on OpenAI's default, but the 8-K names two triggers, the second being simple non-payment - broader than recorded. The 4.25 GW scope and the shortfall mechanism were also missing.",
    "page_url": "https://kaikei-media.github.io/o/t3-f3/"
+  },
+  {
+   "item_id": "T3-D4",
+   "trend": "T3",
+   "kind": "quantity",
+   "cadence": "quarterly",
+   "unit": "percentage points / USD",
+   "name_ja": "クラウドのAI寄与: Azure・Google Cloud・AWS の成長率のうちAI由来と開示された部分",
+   "name_en": "AI contribution to cloud growth: the AI-attributed points of Azure / Google Cloud / AWS growth",
+   "date": "2026-06-30",
+   "recorded_at": "2026-09-10T23:05:00+09:00",
+   "value_ja": "一次資料（各社の決算発表そのもの）で取り直した。3社とも2026年6月30日締め。 Google Cloud: 前年同期比+82%の248億ドル（Alphabetの発表文。前年同期は136.24億ドル）。Azure and other cloud services: +43%、Microsoft Cloud全体は593億ドルで+27%（Microsoftの発表文）。AWS: +37%の422億ドル（Amazonの発表文）。あわせて分かった数量: Amazonの直近12か月の設備投資は1,730億ドルで前年比+64%、会社自身が「主に人工知能への投資を反映している」と書いている。",
+   "value_en": "Re-taken from the companies' own earnings releases. All three quarters ended 30 June 2026. Google Cloud +82% year on year to $24.8bn (Alphabet's release; prior-year quarter $13.624bn). Azure and other cloud services +43%, with Microsoft Cloud at $59.3bn, +27% (Microsoft's release). AWS +37% to $42.2bn (Amazon's release). Alongside: Amazon's trailing-twelve-month purchases of property and equipment reached $173.0bn, up 64% year on year, attributed by the company primarily to investments in AI.",
+   "direction": "up",
+   "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf",
+   "source_label": "Alphabet 2026 Q2 決算発表（原文PDF）／Microsoft FY26 Q4・Amazon 2026 Q2 も原文で確認",
+   "note_ja": "2026-09-10の点検で、この項目の根拠が集計サイト（Motley Fool）だったことが分かり、一次で取り直した。\nもう1つ、日付そのものが間違っていた。 前の値は date が 2026-08-18 になっていたが、それは記事が出た日であって、数字が測っている四半期（6月30日締め）ではない。 date は「いつ時点の数字か」を入れる列なので、記事の日付を入れると2か月ずれた新しさに見える。\n数字そのものは3つとも集計サイトと一致していた。中身は合っていて、出どころと日付が違った。\nこの項目は合図⑧（逆方向の合図）の3条件のうちの1つ。点いた合図の根拠なので、一次で持っておく必要がある。\n各社の原文: Alphabet https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf ／ Microsoft https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast ／ Amazon https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf",
+   "note_en": "Found in the 2026-09-10 audit: this item rested on an aggregator (Motley Fool), so it was re-taken from the primary releases. A second error: the previous entry's date was the article's publication date, not the quarter the figures measure. The figures themselves matched. This item is one of the three conditions behind signal 8, now lit.",
+   "page_url": "https://kaikei-media.github.io/o/t3-d4/"
+  },
+  {
+   "item_id": "T3-D6",
+   "trend": "T3",
+   "kind": "quantity",
+   "cadence": "quarterly",
+   "unit": "seats / %",
+   "name_ja": "AI製品の実利用: 上場SaaSが開示する有料シート数・採用率・解約",
+   "name_en": "Actual use of AI products: paid seats, adoption rates and churn disclosed by listed SaaS companies",
+   "date": "2026-06-30",
+   "recorded_at": "2026-09-10T23:05:00+09:00",
+   "value_ja": "前の記録の「3社とも有料シート数を開示していない」は誤りだった。 Microsoftは決算発表で有料シート数を開示している — CEOのNadellaが「Microsoft 365 Copilot は3,000万を超える有料シートに達した」と述べている（FY26 Q4・2026年6月30日締め）。AI製品の実利用を、代理指標ではなく実数で開示している例。",
+   "value_en": "The previous entry's claim that none of the three disclose paid seat counts was wrong. Microsoft does disclose it: Nadella states that Microsoft 365 Copilot reached over 30 million paid seats (FY26 Q4, quarter ended 30 June 2026) - actual usage disclosed as a count, not a proxy.",
+   "direction": "up",
+   "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+   "source_label": "Microsoft FY26 Q4 決算発表（原文）",
+   "note_ja": "2026-09-10の点検で、記録の断定が事実と食い違っていたことが分かった。 前の値は「3社とも『有料シート数』『解約率』そのものは開示せず、代理指標のみ」と書いていたが、Microsoftは有料シート数を数で出している。「開示していない」と書く前に、開示を全部読んだか。 消さずに足して直す。次は解約率が開示されているかを同じやり方で確かめる。",
+   "note_en": "The 2026-09-10 audit found the earlier entry asserted something contrary to fact. Corrected by appending.",
+   "page_url": "https://kaikei-media.github.io/o/t3-d6/"
   }
  ]
 }
