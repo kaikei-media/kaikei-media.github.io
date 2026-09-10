@@ -4,9 +4,37 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-10T23:05:00+09:00</updated>
+<updated>2026-09-11T08:11:16+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図） — 2026-09-10</title>
+<link href="https://kaikei-media.github.io/o/t1-f4/"/>
+<id>https://kaikei-media.github.io/o/t1-f4/#2026-09-10@2026-09-11</id>
+<updated>2026-09-11T08:11:16+09:00</updated>
+<summary>10-20年ゾーンの買い戻し（上限倍増後、初回）: 上限60億ドル（発表時の「40億ドル以上」からさらに増額）に対し、提示104.89億ドル・買取51.87億ドル（40発行銘柄中23銘柄）。提示÷上限＝1.75倍</summary>
+</entry>
+<entry>
+<title>米国債入札の応札倍率と間接落札比率 — 海外中銀がまだ引き受けているか — 2026-09-10</title>
+<link href="https://kaikei-media.github.io/o/t1-q2/"/>
+<id>https://kaikei-media.github.io/o/t1-q2/#2026-09-10@2026-09-11</id>
+<updated>2026-09-11T08:11:16+09:00</updated>
+<summary>30年債（29-Year 11-Month Bond、CUSIP 912810UW6）: 応札倍率2.61倍・間接落札比率79.48%・落札利回り5.308%</summary>
+</entry>
+<entry>
+<title>ホルムズ・スエズ・パナマの通航隻数とトン数 — 2026-09-02</title>
+<link href="https://kaikei-media.github.io/o/t2-q1/"/>
+<id>https://kaikei-media.github.io/o/t2-q1/#2026-09-02@2026-09-11</id>
+<updated>2026-09-11T08:11:16+09:00</updated>
+<summary>ホルムズ海峡の通航（隻数）: Kplerで9/2=5隻・9/1=11隻・8/31=6隻、10日平均13隻/日（基準85〜130隻/日の10〜15%）。Lloyd&#x27;s List Intelligenceは8/26〜9/1の平均を約12隻/日、8/17〜23の非イラン系船舶を約14隻/日と算出。米政府筋（CNN、財務長官ベッセント）は火曜(9/1)に40隻・1,800万バレルの通過、ベッセントは日量1,000万バレル超（月曜は1,500〜1,700万バレル）と主張しており、独立系トラッカーの隻数と大きく食い違う。JMIC（合同海事情報センター）は9/1付の勧告で商船通航を「基準を大きく下回る」としつつ「直近の最低水準からの緩やかな回復」とも記した</summary>
+</entry>
+<entry>
+<title>ホルムズ経由の原油・LNGの実輸送量（AISの隻数ではなくカーゴ追跡・輸出統計。瀬取り分を含む） — 2026-08-27</title>
+<link href="https://kaikei-media.github.io/o/t2-q6/"/>
+<id>https://kaikei-media.github.io/o/t2-q6/#2026-08-27@2026-09-11</id>
+<updated>2026-09-11T08:11:16+09:00</updated>
+<summary>Kplerが計測方法を開示: 「ホルムズ海峡の通過分＋オマーン湾での瀬取り分（積出港未特定分を含む）」＝Total Hormuz clearanceは、6/17の停戦覚書(MoU)以降の平均で日量8.6百万バレル（確認済みの下限値、8/27時点。後日さらに上方修正されうる）。これとは別に、海峡を通らず域内で積み出される分（フジャイラ港2.4百万バレル/日・オマーン各港1.6百万バレル/日、いずれも8月）があり、両者は合算できない別の計測線</summary>
+</entry>
 <entry>
 <title>クラウドのAI寄与: Azure・Google Cloud・AWS の成長率のうちAI由来と開示された部分 — 2026-06-30</title>
 <link href="https://kaikei-media.github.io/o/t3-d4/"/>
@@ -398,33 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-f1/#2026-07-27@2026-08-28</id>
 <updated>2026-08-28T05:25:15+00:00</updated>
 <summary>Sopaipilla Investor（BlackRock主導、Meta El Paso DC向け）が125億4,700万ドルの担保付債（22.3年・2048年11月満期）をT+287.5bp・利率7.534%で起債。S&amp;P A+／Fitch AA−</summary>
-</entry>
-<entry>
-<title>AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期 — 2026-08-13</title>
-<link href="https://kaikei-media.github.io/o/t3-f1/"/>
-<id>https://kaikei-media.github.io/o/t3-f1/#2026-08-13@2026-08-28</id>
-<updated>2026-08-28T05:25:15+00:00</updated>
-<summary>Zenith Arc（Jane Street向けデータセンター、オクラホマ州149MW）がグリーンボンド22.5億ドルを起債。Jane Streetの15年トリプルネットリース保証が裏付け。発行価格99.5・利回り約9%</summary>
-</entry>
-<entry>
-<title>電力の大口契約（PPA）の新規締結MWとキャンセル — 2026-08-04</title>
-<link href="https://kaikei-media.github.io/o/t3-q2/"/>
-<id>https://kaikei-media.github.io/o/t3-q2/#2026-08-04@2026-08-28</id>
-<updated>2026-08-28T05:25:15+00:00</updated>
-<summary>NRGが未公表のグローバル・ハイパースケーラーとの間で、テキサス州の1.2GWガス火力発電所（コンバインドサイクル）の商業条件基本合意に到達。投資額32億ドル、2029年後半稼働予定。将来的に2.4GWへの倍増オプションあり</summary>
-</entry>
-<entry>
-<title>FRBの保有残高 — 買っているか減らしているか — 2026-08-26</title>
-<link href="https://kaikei-media.github.io/o/t1-q5/"/>
-<id>https://kaikei-media.github.io/o/t1-q5/#2026-08-26@2026-08-28</id>
-<updated>2026-08-28T02:48:30+00:00</updated>
-<summary>FRB総資産 6兆7,309億ドル</summary>
-</entry>
-<entry>
-<title>石油取引の非ドル決済シェア（人民元・ルピー等）と中銀の金準備比率 — 2025-12-31</title>
-<link href="https://kaikei-media.github.io/o/t2-f3/"/>
-<id>https://kaikei-media.github.io/o/t2-f3/#2025-12-31@2026-08-28</id>
-<updated>2026-08-28T02:48:30+00:00</updated>
-<summary>世界の公的準備資産に占める金の割合は27%（前年20%から上昇）、米国債22%、ユーロ15%（時価ベース、2025年末）。石油取引の非ドル決済シェアは一次資料で確認できる直近値が見つからず未記入</summary>
 </entry>
 </feed>
