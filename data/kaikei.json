@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
  "temporal_coverage": "2024-06-01/2026-09-09",
- "count": 98,
+ "count": 99,
  "columns": [
   "item_id",
   "trend",
@@ -553,8 +553,8 @@
    "value_en": "CoreWeave raised contract pricing ~25% across SKUs in July 2026; prior-generation pricing 'at or above where it was years ago'; A100 re-contracted into 2029",
    "direction": "up",
    "source_url": "https://finance.yahoo.com/technology/ai/articles/coreweave-q2-earnings-call-highlights-230410540.html",
-   "source_label": "CoreWeave Q2 2026 earnings call",
-   "note_ja": "契約・予約価格の変化（オンデマンド価格ではない）。収益力の減衰の合図は出ていない",
+   "source_label": "Yahoo Finance（CoreWeave 2026 Q2決算説明会の報道。**一次資料ではない**）",
+   "note_ja": "契約・予約価格の変化（オンデマンド価格ではない）。収益力の減衰の合図は出ていない\n2026-09-10の点検: 出典のラベルが「決算説明会」となっていたが、実際のリンクはYahoo Financeの記事だった。看板と中身が違っていたので、ラベルを実物に合わせた（リンクは記録の不変化で守られる列なので変えていない）。一次資料（CoreWeaveの決算説明資料）で取り直す候補。",
    "note_en": "",
    "page_url": "https://kaikei-media.github.io/o/t3-q5/"
   },
@@ -1887,6 +1887,25 @@
    "note_ja": "これまで「半年間17〜20%で横ばい」と書いていたが、直近3か月半は横ばいを抜けて上昇している。 前回記録（2026-05-03・19.8%）はセンサス局のBTOS公表ページに数値が載っていなかったため取得が止まっていた（プレスリリースはtip sheetのみで数値なし）。今回、可視化ページが読みに行っている生データファイル（ai_national.json・AI_sector.json・AI_empsize.json）を直接取得して埋めた。逆方向の合図（⑧）の3条件のうち唯一まだ上がっていなかった1つが、これで上がった。",
    "note_en": "Previously recorded as 'flat at 17-20% for six months', but the last three and a half months show a break above that band. The prior entry (19.8% on 2026-05-03) had gone stale because the Census press release is a tip sheet with no figures; this update pulls the raw data files the Census visualization itself loads (ai_national.json, AI_sector.json, AI_empsize.json). This was the one of the three counter-signal conditions that had not yet risen — it now has.",
    "page_url": "https://kaikei-media.github.io/o/t3-d3/"
+  },
+  {
+   "item_id": "T3-F3",
+   "trend": "T3",
+   "kind": "flow",
+   "cadence": "annual",
+   "unit": "USD bn",
+   "name_ja": "ベンダーファイナンス — GPU供給元が顧客に出資・与信している額",
+   "name_en": "Vendor financing — GPU suppliers investing in or lending to their customers",
+   "date": "2026-08-17",
+   "recorded_at": "2026-09-10T22:10:00+09:00",
+   "value_ja": "一次資料（NVIDIAの8-K本文）で取り直した。 NVIDIAはSB Energyとの間で複数の残存価値保証を結び、支払義務の累計上限は1,050億ドル。対象はポーツマス拠点の合計約4.25GWのIT負荷で、さらに3.8GWを追加できる選択権がある。貸主がSB Energy、借主がOpenAI。 発動する事由は(i)OpenAIの支払不能によるリース契約の債務不履行、または(ii)OpenAIがリース料を支払わなかったことの2つ。発動時にNVIDIAが払うのは、保証された最低価値と、代わりのリースまたは売却で回収できた額との差額。Item 2.03（オフバランスの債務の発生）で開示されている。",
+   "value_en": "Re-taken from the primary source (NVIDIA's own 8-K). NVIDIA entered into multiple residual value guaranties with SB Energy; its aggregate payment obligation is capped cumulatively at $105bn. The arrangement covers approximately 4.25 GW of IT load at the Portsmouth site, with an option for a further 3.8 GW. SB Energy is the lessor and OpenAI the tenant. Two trigger events: (i) OpenAI's insolvency resulting in a default under a lease, or (ii) OpenAI's failure to make payments under a lease. On a trigger, NVIDIA pays the shortfall between the guaranteed minimum value of the lease and amounts recovered through a replacement lease or sale. Disclosed under Item 2.03 (off-balance-sheet obligation).",
+   "direction": "up",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+   "source_label": "NVIDIA 8-K（2026-08-17提出・Item 1.01/2.03/7.01。SEC EDGAR原文）",
+   "note_ja": "この項目は「見張りの発火の線」のAにあたる最優先の観測点なのに、根拠がTechTimesという二次情報だった（2026-09-10の点検で発覚。しかもその記事は7月の報道の訂正を報じたもの）。最優先の線を報道に乗せていた。\n一次で取り直して分かった違い: 前の記録は発動事由を「OpenAIのデフォルト時のみ」と書いていたが、8-K本文は支払不能による債務不履行と、単なる支払い不履行の2つを挙げている。前者より広い。 また4.25GW（＋選択権3.8GW）という規模と、支払額が差額であることも前の記録には無かった。\n線Aの見方: この保証の縮小・条件変更が線Aの発火。上限額と対象GWが分かったので、次の10-Qでこの数字が動いたかを見る。二次情報では気づけない粒度。",
+   "note_en": "This item is line A of the watch list - the highest-priority signal - yet it had been recorded from secondary reporting (found in the 2026-09-10 audit). Re-taking it from the filing changed the substance: the earlier entry said the guarantee fires only on OpenAI's default, but the 8-K names two triggers, the second being simple non-payment - broader than recorded. The 4.25 GW scope and the shortfall mechanism were also missing.",
+   "page_url": "https://kaikei-media.github.io/o/t3-f3/"
   }
  ]
 }

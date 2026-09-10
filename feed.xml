@@ -4,9 +4,16 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-10T08:19:57+09:00</updated>
+<updated>2026-09-10T22:10:00+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>ベンダーファイナンス — GPU供給元が顧客に出資・与信している額 — 2026-08-17</title>
+<link href="https://kaikei-media.github.io/o/t3-f3/"/>
+<id>https://kaikei-media.github.io/o/t3-f3/#2026-08-17@2026-09-10</id>
+<updated>2026-09-10T22:10:00+09:00</updated>
+<summary>一次資料（NVIDIAの8-K本文）で取り直した。 NVIDIAはSB Energyとの間で複数の残存価値保証を結び、支払義務の累計上限は1,050億ドル。対象はポーツマス拠点の合計約4.25GWのIT負荷で、さらに3.8GWを追加できる選択権がある。貸主がSB Energy、借主がOpenAI。 発動する事由は(i)OpenAIの支払不能によるリース契約の債務不履行、または(ii)OpenAIがリース料を支払わなかったことの2つ。発動時にNVIDIAが払うのは、保証された最低価値と、代わりのリースまたは売却で回収できた額との差額。Item 2.03（オフバランスの債務の発生）で開示されている。</summary>
+</entry>
 <entry>
 <title>米国債入札の応札倍率と間接落札比率 — 海外中銀がまだ引き受けているか — 2026-09-09</title>
 <link href="https://kaikei-media.github.io/o/t1-q2/"/>
@@ -419,12 +426,5 @@
 <id>https://kaikei-media.github.io/o/t2-q7/#2026-08-24@2026-08-28</id>
 <updated>2026-08-28T02:48:30+00:00</updated>
 <summary>台湾周辺の人民解放軍活動: 8/23 6時〜8/24 6時で戦闘機等2ソーティー・艦艇7隻・公船2隻（8/21は艦艇7隻・公船6隻・機なし、8/5は機21・艦14）。日によるばらつきが大きい</summary>
-</entry>
-<entry>
-<title>ロシア産原油の海上輸出量と影の船団の隻数・拿捕件数、黒海の輸送量 — 2026-07-31</title>
-<link href="https://kaikei-media.github.io/o/t2-q8/"/>
-<id>https://kaikei-media.github.io/o/t2-q8/#2026-07-31@2026-08-28</id>
-<updated>2026-08-28T02:48:30+00:00</updated>
-<summary>7月のロシア産石油の海上輸送は制裁対象「影の船団」が53%・G7＋籍が42%・非制裁の「影」船が残り。新規参入7隻中G7＋籍は2隻のみ。月末時点で偽装旗の「影の船団」46隻が稼働。ノヴォロシースクは7/19のCPCターミナル攻撃後、月間積出量が前月比23%減</summary>
 </entry>
 </feed>
