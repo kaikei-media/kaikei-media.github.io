@@ -4,9 +4,16 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-15T08:56:53+09:00</updated>
+<updated>2026-09-16T08:35:58+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>米国債入札の応札倍率と間接落札比率 — 海外中銀がまだ引き受けているか — 2026-09-15</title>
+<link href="https://kaikei-media.github.io/o/t1-q2/"/>
+<id>https://kaikei-media.github.io/o/t1-q2/#2026-09-15@2026-09-16</id>
+<updated>2026-09-16T08:35:58+09:00</updated>
+<summary>20年債（19-Year 11-Month Bond、8/19発行の20年債《CUSIP 912810UX4》の再発行分）: 応札倍率2.57倍・間接落札比率52.47%・落札利回り5.420%</summary>
+</entry>
 <entry>
 <title>当局の発表と、独立系の計測との食い違い（数量の食い違い幅） — 2026-09-14</title>
 <link href="https://kaikei-media.github.io/o/t2-q10/"/>
@@ -419,12 +426,5 @@
 <id>https://kaikei-media.github.io/o/t1-f6/#2026-07-31@2026-09-02</id>
 <updated>2026-09-02T13:00:29+00:00</updated>
 <summary>米連邦政府の純利払いは2026会計年度の7月までで9,310億ドル（前年同期8,420億ドルから+11%）。通年で約1兆ドルの見込み。歳入の18.5%、GDPの3.2%で、GDP比は1991年の戦後最高を超えた。連邦歳出で3番目に大きい費目</summary>
-</entry>
-<entry>
-<title>主要国の長期金利の水準（誰がいくらで貸したか。株価は使わないが金利は使う） — 2026-09-01</title>
-<link href="https://kaikei-media.github.io/o/t1-q7/"/>
-<id>https://kaikei-media.github.io/o/t1-q7/#2026-09-01@2026-09-02</id>
-<updated>2026-09-02T13:00:29+00:00</updated>
-<summary>日本10年 3.00%（1996年以来）／日本30年 4.18%（過去最高は2026年5月の4.20%）／米10年 4.798%（2025年1月以来）／米30年 5.27%／英10年 5.25%（2008年以来）／独10年 3.35%（2011年以来）</summary>
 </entry>
 </feed>
