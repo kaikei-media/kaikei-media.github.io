@@ -4,9 +4,69 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-17T08:47:16+09:00</updated>
+<updated>2026-09-18T08:38:29+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>FRBの保有残高 — 買っているか減らしているか — 2026-09-16</title>
+<link href="https://kaikei-media.github.io/o/t1-q5/"/>
+<id>https://kaikei-media.github.io/o/t1-q5/#2026-09-16@2026-09-18</id>
+<updated>2026-09-18T08:38:29+09:00</updated>
+<summary>FRB総資産 6兆7,465億ドル(前週比+59億ドル、前年比+1,380億ドル)。保有証券計6兆4,701億ドルのうち米国債4兆5,542億ドル(前週比+18億ドルの増加、増加分の大半を占める)・MBS1兆9,136億ドル(前週比ほぼ横ばい▲0.2億ドル、前年比▲1,893億ドル)</summary>
+</entry>
+<entry>
+<title>日本の物価に、エネルギーがどう出ているか（寄与度。上がっている理由の順位） — 2026-09-17</title>
+<link href="https://kaikei-media.github.io/o/t2-q13/"/>
+<id>https://kaikei-media.github.io/o/t2-q13/#2026-09-17@2026-09-17</id>
+<updated>2026-09-17T19:30:00+00:00</updated>
+<summary>押し下げ幅を計算した。そして自分の数字の取り違えを1つ見つけた。
+
+【訂正】9月17日にこの項目へ「7月のエネルギーの寄与度は−0.03」と書いたが、−0.03はガソリン単体の寄与度で、エネルギー全体は前年同月比+0.6%・寄与度+0.05ポイントだった（2026年7月分・2026-08-21公表）。内訳はガソリン−1.8%／−0.03、灯油+15.7%／+0.06、電気代−0.1%／0.00、都市ガス代−1.1%／−0.01。また、CPIは2026年7月分から2025年基準に改定されている（それ以前は2020年基準）。
+
+【計算】2025年基準のウエイトはガソリン195・灯油39（1万分比、総合10,000、エネルギー計749）。資源エネルギー庁の公式グラフ（2026-09-14調査）は、ガソリンの実勢169.9円/Lに対し「補助がなかった場合の価格 205.9円/L」（差36.0円）、</summary>
+</entry>
+<entry>
+<title>日本の輸入に占める中国の割合 — 「脱中国」が数字で起きているか — 2026-09-17</title>
+<link href="https://kaikei-media.github.io/o/t2-q14/"/>
+<id>https://kaikei-media.github.io/o/t2-q14/#2026-09-17@2026-09-17</id>
+<updated>2026-09-17T18:00:00+00:00</updated>
+<summary>起きていない。むしろ3年連続で上がっている。 日本の輸入に占める中国の割合は 2021年 24.07% → 2022年 21.02% → 2023年 22.16% → 2024年 22.50% → 2025年 23.60%。2022年の低下は脱中国ではなく分母効果で、この年は輸入総額が+39.2%（資源価格高騰）に対し対中輸入自体は+21.8%と増えている。2025年は輸入総額が+0.3%とほぼ横ばいなのに対中輸入は+5.5%（電算機類+18.2%、通信機+11.9%、衣類+6.0%）。品目で明確な低下を一次で確認できたのは希土類だけ（数量ベースで2005年100.0%→2010年89.8%→2024年62.9%、財務省「ファイナンス」2025年10月号）。</summary>
+</entry>
+<entry>
+<title>基幹インフラ制度の特定社会基盤事業者の指定数 — 壁がかかっている相手の数 — 2026-07-01</title>
+<link href="https://kaikei-media.github.io/o/t2-q15/"/>
+<id>https://kaikei-media.github.io/o/t2-q15/#2026-07-01@2026-09-17</id>
+<updated>2026-09-17T18:00:00+00:00</updated>
+<summary>258者（令和8年7月1日時点）。対象事業は16分野（電気・ガス・石油・水道・鉄道・貨物自動車運送・外航貨物・港湾運送・航空・空港・電気通信・放送・郵便・医療・金融・クレジットカード）。届出義務の運用開始は2024-05-17。</summary>
+</entry>
+<entry>
+<title>日本の石油備蓄日数（国家・民間・産油国共同）— 何も起きていないように見えている日数 — 2026-09-17</title>
+<link href="https://kaikei-media.github.io/o/t2-q12/"/>
+<id>https://kaikei-media.github.io/o/t2-q12/#2026-09-17@2026-09-17</id>
+<updated>2026-09-17T17:00:00+00:00</updated>
+<summary>取り崩し量そのものが取れた。日数が減ったのではなく、売った。 経済産業省は石油備蓄法第31条に基づき、2026年3月24日に「当面1ヶ月分」＝約850万kL・約5,400億円の国家備蓄原油の放出を決定（3月26日以降、苫小牧東部・菊間・白島・上五島・志布志ほか計11基地から、ENEOS・出光興産・コスモ石油・太陽石油の4社へ）。さらに4月15日、第2弾として約20日分の放出を発表（5月上旬以降）。あわせて約50日分。理由は原文で「原油タンカーがホルムズ海峡を事実上通れない状況が継続する中、3月下旬以降、中東から我が国への原油輸入は大幅に減少」。なお9月13日時点の速報は合計201日分（国家102・民間94・産油国共同4）。</summary>
+</entry>
+<entry>
+<title>日本の物価に、エネルギーがどう出ているか（寄与度。上がっている理由の順位） — 2026-09-17</title>
+<link href="https://kaikei-media.github.io/o/t2-q13/"/>
+<id>https://kaikei-media.github.io/o/t2-q13/#2026-09-17@2026-09-17</id>
+<updated>2026-09-17T15:30:00+00:00</updated>
+<summary>「何も起きていない」の正体の、もう半分が分かった。価格は補助金で押さえられている。 資源エネルギー庁「中東情勢を踏まえた緊急的激変緩和措置」（2026年3月19日開始）の補助単価は、9月17日以降でガソリン・軽油・灯油・重油とも51.0円/L（航空機燃料40.8円/L、調整単価2.8円/L）。店頭の全国平均が170円台なのは、51円が乗った後の値。 そして継続のために予備費から6,160億円の支出が閣議決定されたと報じられている。</summary>
+</entry>
+<entry>
+<title>日本の原油輸入のホルムズ依存度と、迂回路（東西パイプライン・フジャイラ）の稼働 — 2026-09-10</title>
+<link href="https://kaikei-media.github.io/o/t2-q11/"/>
+<id>https://kaikei-media.github.io/o/t2-q11/#2026-09-10@2026-09-17</id>
+<updated>2026-09-17T15:00:00+00:00</updated>
+<summary>サウジ・エネルギー省の公式発表（サウジ通信社）: 2026年9月10日朝、リヤド州とマディーナ州の東西パイプラインが複数の攻撃を受けた。予防措置としてパイプラインを停止。 負傷者が出て手当てを受けた。緊急・技術チームを派遣し、手順に従って安全を確認中。数量・被害額の数字は発表に含まれていない。</summary>
+</entry>
+<entry>
+<title>GPUの収益力: 同一世代・同一構成の1年契約価格の前年比、旧世代の再契約価格（資産の稼ぐ力。市場価格ではない） — 2025-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-q5/"/>
+<id>https://kaikei-media.github.io/o/t3-q5/#2025-06-30@2026-09-17</id>
+<updated>2026-09-17T15:00:00+00:00</updated>
+<summary>GSU（昇圧変圧器）143週・電力用変圧器128週・開閉装置44週（2025年4-6月期の平均。前期から変圧器は10週短縮、開閉装置も低下）。Wood Mackenzieは「短縮しているが待ち時間は依然として長い」とし、関税政策が改善を逆転させうると注記。</summary>
+</entry>
 <entry>
 <title>外国人の米国債買い越し額 — 2026-07-31</title>
 <link href="https://kaikei-media.github.io/o/t1-f3/"/>
@@ -370,61 +430,5 @@
 <id>https://kaikei-media.github.io/o/t1-f1/#2026-09-02@2026-09-05</id>
 <updated>2026-09-05T08:09:31+09:00</updated>
 <summary>MMF残高 7.98兆ドル（前週比+447.5億ドル。機関投資家向け+336.6億ドル・個人向け+111.0億ドル）。翌日物リバースレポは今回未再確認（前回8/26時点で7億ドルとほぼ枯渇）</summary>
-</entry>
-<entry>
-<title>世界の外貨準備の通貨構成 — ドルの比率（IMF COFER） — 2026-03-31</title>
-<link href="https://kaikei-media.github.io/o/t2-f9/"/>
-<id>https://kaikei-media.github.io/o/t2-f9/#2026-03-31@2026-09-05</id>
-<updated>2026-09-05T08:09:31+09:00</updated>
-<summary>外貨準備におけるドルの比率 57.13%（2026年1-3月期。前期(2025年10-12月期)56.42%から上昇）。ユーロは20.03%（前期20.38%から低下）、人民元は1.99%（前期1.95%から上昇）</summary>
-</entry>
-<entry>
-<title>トークン処理量: ハイパースケーラが開示する月間/四半期の処理トークン数と推論リクエスト数 — 2026-07-22</title>
-<link href="https://kaikei-media.github.io/o/t3-d2/"/>
-<id>https://kaikei-media.github.io/o/t3-d2/#2026-07-22@2026-09-05</id>
-<updated>2026-09-05T08:09:31+09:00</updated>
-<summary>Alphabet: Google のモデルAPI経由の処理量が毎分220億トークン（前四半期の毎分160億トークンから増加）。月間処理トークン数は3.2千兆で、2026年5月のGoogle I/O時点の開示と同水準（1年前の約7分の1）。直近12か月で1兆トークン超を消費したクラウド顧客は約500社</summary>
-</entry>
-<entry>
-<title>AI製品の実利用: 上場SaaSが開示する有料シート数・採用率・解約 — 2026-08-26</title>
-<link href="https://kaikei-media.github.io/o/t3-d6/"/>
-<id>https://kaikei-media.github.io/o/t3-d6/#2026-08-26@2026-09-05</id>
-<updated>2026-09-05T08:09:31+09:00</updated>
-<summary>3社とも「有料シート数」「解約率」そのものは開示せず、ARR・浸透率などの代理指標のみ。Salesforce(FY27 Q2、7月31日締め): Agentforce年率換算収益(ARR)15億ドル超（前年同期比+240%）、Agentforce+Data 360のARRは約39億ドル（+210%）、有料顧客6,000社超。ServiceNow(2026年Q2): AI ACV(年間契約金額)が10億ドル突破、純新規AI ACVが前四半期比40%超加速、大口顧客(ACV500万ドル超)におけるNow Assist浸透率30%。Adobe(FY26 Q2、6月11日発表): Firefly期末ARR約3億ドル(前四半期比+約50%)、AI-first ARR全体5億ドル超(前年比3倍)</summary>
-</entry>
-<entry>
-<title>建てるときに置いた前提 — capexを正当化するために各社が公言した需要の想定 — 2026-07-25</title>
-<link href="https://kaikei-media.github.io/o/t3-d7/"/>
-<id>https://kaikei-media.github.io/o/t3-d7/#2026-07-25@2026-09-05</id>
-<updated>2026-09-05T08:09:31+09:00</updated>
-<summary>【予測・実測ではない】OpenAI Sam Altman(YC Startup School 2026): 「世界の推論需要は今後何年も年10倍(10x/年)で伸びると予想している」。ドットコム期の通信会社の想定「年16倍(100日で倍)」と同じ形の、具体的な倍率を伴う需要想定。参考として同時期の他社発言(いずれも稼働率・供給制約の言及で、倍率の明示は無い): Amazon Andy Jassy(7/30決算)「2026年通期の需要を賄う容量が無く、2028年分として既にある需要も驚くべき水準」。Alphabet Anat Ashkenazi CFO(7/22決算)「依然として供給制約下にある」でcapex予想を1,800〜1,900億→1,950〜2,050億ドルに上方修正。Microsoft Amy Hood CFO(7/29決算)「需要は供給を上回り続けている」。Meta Mark </summary>
-</entry>
-<entry>
-<title>GPU・サーバの耐用年数の想定と、その変更（償却の前提） — 2024-06-01</title>
-<link href="https://kaikei-media.github.io/o/t3-d8/"/>
-<id>https://kaikei-media.github.io/o/t3-d8/#2024-06-01@2026-09-05</id>
-<updated>2026-09-05T08:09:31+09:00</updated>
-<summary>Oracle: サーバー・ネットワーク機器の耐用年数を5年→6年に延長（FY2025期首・2024年6月1日発効）。営業費用を7.33億ドル削減、純利益を5.73億ドル押し上げ（1株0.21/0.20ドル）。2023年にも4年→5年へ延長しており、2回連続の延長</summary>
-</entry>
-<entry>
-<title>GPU・サーバの耐用年数の想定と、その変更（償却の前提） — 2025-01-01</title>
-<link href="https://kaikei-media.github.io/o/t3-d8/"/>
-<id>https://kaikei-media.github.io/o/t3-d8/#2025-01-01@2026-09-05</id>
-<updated>2026-09-05T08:09:31+09:00</updated>
-<summary>Meta: 大半のサーバー・ネットワーク資産の耐用年数を5.5年に延長（2025年1月1日発効）。2025年通期の減価償却費を約29億ドル削減する見込み</summary>
-</entry>
-<entry>
-<title>1タスクあたりの推論支出 — 同じ仕事を終えるのに、実際いくら払うか — 2026-09-03</title>
-<link href="https://kaikei-media.github.io/o/t3-d9/"/>
-<id>https://kaikei-media.github.io/o/t3-d9/#2026-09-03@2026-09-04</id>
-<updated>2026-09-04T12:50:00+09:00</updated>
-<summary>GPT-6 Astra 対 GPT-5.6 Sol（ともにmax effort・測定はArtificial Analysis）。タスクの種類で逆向きに割れた。 ①汎用の指数（Intelligence Index）: スコアは61対61の同点、出力トークンは約10%減にとどまり、2.5倍の値上げを吸収できず1タスクあたり75%高い。②エージェント的な長い仕事（Coding Agent Index）: スコアは67対65でAstraが2点上、Codexハーネスでトークンは3分の1になり、費用はSolとほぼ同じ。参考: Claude Fable 5と同点で費用は半分以下、首位はFable 5.1の70。世代を一段上げて、短い仕事は75%増、長い仕事は横ばい。下がった測定はひとつも無い。</summary>
-</entry>
-<entry>
-<title>推論の単価: 主要モデルの100万トークンあたり価格（入力/出力）の推移 — 2026-08-21</title>
-<link href="https://kaikei-media.github.io/o/t3-d1/"/>
-<id>https://kaikei-media.github.io/o/t3-d1/#2026-08-21@2026-09-04</id>
-<updated>2026-09-04T08:40:00+09:00</updated>
-<summary>OpenAIがGPT-5.6 Solを値下げ（公式チェンジログ 2026-08-21）。$5.00/$30.00 → $4.00/$20.00（入力−20%・出力−33%）。ただし恒久の価格ではなく「少なくとも2026年11月21日まで」の販促価格だとOpenAI自身が明記している。7/30の記録では「Solは据え置き」だったが、その後に下がった。これでGPT-5.6世代は3階層すべてが下がった。</summary>
 </entry>
 </feed>
