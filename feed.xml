@@ -4,9 +4,93 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-18T08:38:29+09:00</updated>
+<updated>2026-09-28T18:50:51+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>MMF残高とリバースレポ残高 — 短期に逃げているか — 2026-09-23</title>
+<link href="https://kaikei-media.github.io/o/t1-f1/"/>
+<id>https://kaikei-media.github.io/o/t1-f1/#2026-09-23@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>MMF残高7.94兆ドル(週末9/23時点、前週比+150.0億ドル。個人向け3.11兆ドル・▲2.56億ドル、機関投資家向けは差引で約4.83兆ドルと算出)。翌日物リバースレポ(ON RRP)はFRED一次値で、9/17以降おおむね3〜6億ドルの枯渇水準が続く(直近9/25時点5.76億ドル)。ただし9/10〜9/16の週は一時47〜54億ドルへ跳ねた日が複数あった</summary>
+</entry>
+<entry>
+<title>米国債の実質利回り — 金融抑圧が効いているかどうかの判定（実質マイナスでなければ、目減りは起きていない） — 2026-09-24</title>
+<link href="https://kaikei-media.github.io/o/t1-f7/"/>
+<id>https://kaikei-media.github.io/o/t1-f7/#2026-09-24@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>10年の実質利回り +2.85%（5年 +2.70%、20年 +3.08%、30年 +3.21%）。9/10比で全年限がさらに上昇。全年限で強くプラスのまま。 金融抑圧の条件（実質マイナス）を満たしていない。</summary>
+</entry>
+<entry>
+<title>日本公認会計士協会 業種別監査委員会報告21号の改正が最終化されたか — 生命保険会社の減損の経路が消えるかどうか — 2026-08-28</title>
+<link href="https://kaikei-media.github.io/o/t1-f9/"/>
+<id>https://kaikei-media.github.io/o/t1-f9/#2026-08-28@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>2026年2月17日の公開草案のまま。最終化は未確認</summary>
+</entry>
+<entry>
+<title>主要国の長期金利の水準（誰がいくらで貸したか。株価は使わないが金利は使う） — 2026-09-24</title>
+<link href="https://kaikei-media.github.io/o/t1-q7/"/>
+<id>https://kaikei-media.github.io/o/t1-q7/#2026-09-24@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>米10年 5.18%（9/24、FREDの一次値で確認。9/10の4.95%からさらに上昇）／米30年 5.47%（同、9/10の5.37%から上昇）／日本10年 約3.07%（9/24〜25、報道複数。9/10の2.93%から上昇、1996年以来の水準が続く）／日本30年 4.160%（9/24、報道。9/3入札の4.080%から上昇）／英10年 約5.35%（9月下旬、報道。9/10の5.295%からさらに上昇、2007〜2008年以来の高さ）／独10年 約3.6%（9月下旬、報道。7週連続の週足上昇、2009年6月以来の高さ。9/10の3.51%から上昇）</summary>
+</entry>
+<entry>
+<title>ホルムズ・スエズ・パナマの通航隻数とトン数 — 2026-09-20</title>
+<link href="https://kaikei-media.github.io/o/t2-q1/"/>
+<id>https://kaikei-media.github.io/o/t2-q1/#2026-09-20@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>IMF PortWatchのArcGIS Feature Serviceを直接取得（一次）。9/9〜9/20の12日平均は、ホルムズ4.0隻/日（積める重量トンの合計は日平均5.7万トン。前回9/2〜9/13の平均4.3隻/日・10.9万トンから隻数はほぼ横ばい、トン数は半減）、スエズ39.7隻/日（155万トン、前回とほぼ同水準）、パナマ27.8隻/日（83万トン、9/15からの上限32隻/日への引き下げに沿って前回29.8隻/日から低下）。直近9/20時点の実数はホルムズ1隻・スエズ42隻・パナマ27隻。データの反映には8日ほどの遅れがある（9/28取得時点の最新値が9/20）</summary>
+</entry>
+<entry>
+<title>ホルムズ経由の原油・LNGの実輸送量（AISの隻数ではなくカーゴ追跡・輸出統計。瀬取り分を含む） — 2026-09-26</title>
+<link href="https://kaikei-media.github.io/o/t2-q6/"/>
+<id>https://kaikei-media.github.io/o/t2-q6/#2026-09-26@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>Kpler(船舶追跡会社)発の集計(Bloomberg/marinelink経由)で、ホルムズ海峡経由の原油輸出は9月に入り月間平均で日量約650万バレル、6月停戦後の一時的な急増以来の最高水準。9/20週は週初来33.7百万バレル・タンカー19隻(うちVLCC=超大型原油タンカー17隻)で、前週とほぼ同水準。サウジアラムコが紅海側ヤンブー積出港へのパイプライン攻撃を受け、ホルムズ経由の輸出を増やしている。LNGはカタールが9/24までの1週間で少なくとも積載タンカー4隻を送り出し・2隻を迎え入れ、7/11のタンカー攻撃以来2か月あまり続いた事実上の停止から、最も持続的な回復を見せている(Bloomberg)。石油製品の海峡輸送(前回記録: 日量約100万バレル、戦前の約400万バレル/日を大きく下回る)は今回、更新値を確認できず前回値のまま</summary>
+</entry>
+<entry>
+<title>米企業のAI利用率（センサス局BTOS・過去2週間にAIを使って製品やサービスを作った企業の割合） — 2026-09-20</title>
+<link href="https://kaikei-media.github.io/o/t3-d3/"/>
+<id>https://kaikei-media.github.io/o/t3-d3/#2026-09-20@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>23.8%(過去2週間にAIを使った企業の割合、全国。周期202619、収集期間2026-09-07〜09-20、公表2026-09-24)。前回9/6の23.2%からさらに上昇し11回連続の上昇が継続。業種別: Information 49.0%(前回43.5%)、Professional/Scientific/Technical 43.9%(同43.3%)、Finance and Insurance 41.0%(同36.5%)、Educational Services 30.0%(同35.5%・唯一低下)。企業規模別: 250人以上44.0%(同38.4%)、1〜4人23.8%(同23.6%)と小規模側も引き続き上昇。今後6か月の予定利用率も27.3%→27.6%へ上昇</summary>
+</entry>
+<entry>
+<title>政府系住宅金融機関の証券化で、VantageScore 4.0 で審査された住宅ローンの比率 — 代わりが認められたとき買い手は乗り換えるか — 2026-08-31</title>
+<link href="https://kaikei-media.github.io/o/t3-q11/"/>
+<id>https://kaikei-media.github.io/o/t3-q11/#2026-08-31@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>2026年5月1日〜8月31日の累計で、Fannie Mae・Freddie Mac証券化ローンの約9%がVantageScore 4.0で審査(VantageScore社自身の発表、2026-09-10付)。単月の8月分ではGSE取扱高の5.6%(KBWのアナリスト推計・業界紙経由)。貸し手別では、Rocket Mortgageが自社GSE案件に占めるVantageScore比率を7月17%→8月30%へ、UWMが19.8%→25.3%へ拡大。VantageScore 4.0案件の約99%がRocketとUWMの2社に集中しており、他の貸し手はほぼFICOのまま。全面展開(9/9)後だけを切り出した数字はまだ無い</summary>
+</entry>
+<entry>
+<title>PJM容量市場の落札価格 — 電力の逼迫が値段に出ているか、それとも上限で止まっているか — 2026-07-14</title>
+<link href="https://kaikei-media.github.io/o/t3-q12/"/>
+<id>https://kaikei-media.github.io/o/t3-q12/#2026-07-14@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>対象年度2028/2029: 落札価格325.00ドル/MW-day（UCAP）＝上限と一致。落札容量138,317.8MW、落札総額約164億ドル。信頼度要件156,013MWに対し6,831.3MW不足、設備予備率14.4%（目標20%）。上限325・下限175はFERCが2026-04-28に承認。過去: 2024/2025=28.92、2025/2026=269.92、2026/2027=329.17（上限一致）、2027/2028=333.44（上限一致）</summary>
+</entry>
+<entry>
+<title>ERCOTの大口需要 — 接続申込量と、実際に通電した量の差 — 2026-07-29</title>
+<link href="https://kaikei-media.github.io/o/t3-q13/"/>
+<id>https://kaikei-media.github.io/o/t3-q13/#2026-07-29@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>大口需要の接続申込 474GW（2026年6月時点、約90%がデータセンター）。1年前にあたる2025年末は233GW（前年末比約+300%）。発電側の接続待ちは462,785MW・1,949件（2026-06-30、蓄電池36.9%・太陽光34.9%・ガス16.8%・風力10.4%）。実際に通電済の大口需要は5.9GW、承認済未稼働3.2GW（いずれも2026年4月時点、当時の申込総量445.8GW）</summary>
+</entry>
+<entry>
+<title>米ハイイールド社債のCCC格以下とBB格のスプレッド差 — 最下層だけが切り離されているか — 2026-09-18</title>
+<link href="https://kaikei-media.github.io/o/t3-q14/"/>
+<id>https://kaikei-media.github.io/o/t3-q14/#2026-09-18@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>CCC以下1,083bp − BB格155bp = 差928bp（年初来最高）。1か月前864bp、3か月前788bp、6か月前764bp、1年前627bp。年初来最小は2026-01-28の673bp。ハイイールド全体は268bp（1年前271bp）</summary>
+</entry>
+<entry>
+<title>超大型技術企業4社の設備投資が営業キャッシュフローに占める割合と、有利子負債の増加額 — AI設備投資が自己資金の話から信用の話に移ったか — 2026-09-24</title>
+<link href="https://kaikei-media.github.io/o/t3-q15/"/>
+<id>https://kaikei-media.github.io/o/t3-q15/#2026-09-24@2026-09-28</id>
+<updated>2026-09-28T18:50:51+09:00</updated>
+<summary>設備投資÷営業CF: Amazon 104.7%（直近12か月、FCFは△76億ドル）／Alphabet 95.0%（2026年1-6月）／Meta 76.6%（同）／Microsoft 62.9%（2026年6月期の9か月）。有利子負債の半年の増加: Amazon +633億ドル／Alphabet +516億ドル（465→982億ドル）／Meta +249億ドル／Microsoft ほぼ横ばい</summary>
+</entry>
 <entry>
 <title>FRBの保有残高 — 買っているか減らしているか — 2026-09-16</title>
 <link href="https://kaikei-media.github.io/o/t1-q5/"/>
@@ -346,89 +430,5 @@
 <id>https://kaikei-media.github.io/o/t3-d8/#2026-08-31@2026-09-11</id>
 <updated>2026-09-11T00:00:00+00:00</updated>
 <summary>Oracle Q1 FY2027（6〜8月期）: 減価償却費31.56億ドル（前年同期13.51億ドル、+134%）に対し、設備投資284.99億ドル（前年同期85.02億ドル、+235%）。設備投資÷減価償却費は6.3倍→9.0倍に開いた。耐用年数の想定の新たな変更は、発表原文には記載なし（10-Qで確認する）。</summary>
-</entry>
-<entry>
-<title>AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期 — 2026-08-31</title>
-<link href="https://kaikei-media.github.io/o/t3-f1/"/>
-<id>https://kaikei-media.github.io/o/t3-f1/#2026-08-31@2026-09-11</id>
-<updated>2026-09-11T00:00:00+00:00</updated>
-<summary>Oracle Q1 FY2027: 営業CFは231.03億ドル（前年同期81.40億ドル、+184%）と過去最高でありながら、フリーCFは−53.96億ドル（前年同期−3.62億ドル）。設備投資284.99億ドルを賄うため、四半期中にATMで普通株200億ドル（手取り199.09億ドル）を売却した。期末の借入金合計1,253.37億ドル（1年内76.25億＋長期1,177.12億）、現金365.69億ドル。RPOは6,640億ドル（前年同期比+2,090億ドル）だが、相手方の集中度は開示されていない。</summary>
-</entry>
-<entry>
-<title>クラウドのAI寄与: Azure・Google Cloud・AWS の成長率のうちAI由来と開示された部分 — 2026-06-30</title>
-<link href="https://kaikei-media.github.io/o/t3-d4/"/>
-<id>https://kaikei-media.github.io/o/t3-d4/#2026-06-30@2026-09-10</id>
-<updated>2026-09-10T23:05:00+09:00</updated>
-<summary>一次資料（各社の決算発表そのもの）で取り直した。3社とも2026年6月30日締め。 Google Cloud: 前年同期比+82%の248億ドル（Alphabetの発表文。前年同期は136.24億ドル）。Azure and other cloud services: +43%、Microsoft Cloud全体は593億ドルで+27%（Microsoftの発表文）。AWS: +37%の422億ドル（Amazonの発表文）。あわせて分かった数量: Amazonの直近12か月の設備投資は1,730億ドルで前年比+64%、会社自身が「主に人工知能への投資を反映している」と書いている。</summary>
-</entry>
-<entry>
-<title>AI製品の実利用: 上場SaaSが開示する有料シート数・採用率・解約 — 2026-06-30</title>
-<link href="https://kaikei-media.github.io/o/t3-d6/"/>
-<id>https://kaikei-media.github.io/o/t3-d6/#2026-06-30@2026-09-10</id>
-<updated>2026-09-10T23:05:00+09:00</updated>
-<summary>前の記録の「3社とも有料シート数を開示していない」は誤りだった。 Microsoftは決算発表で有料シート数を開示している — CEOのNadellaが「Microsoft 365 Copilot は3,000万を超える有料シートに達した」と述べている（FY26 Q4・2026年6月30日締め）。AI製品の実利用を、代理指標ではなく実数で開示している例。</summary>
-</entry>
-<entry>
-<title>ベンダーファイナンス — GPU供給元が顧客に出資・与信している額 — 2026-08-17</title>
-<link href="https://kaikei-media.github.io/o/t3-f3/"/>
-<id>https://kaikei-media.github.io/o/t3-f3/#2026-08-17@2026-09-10</id>
-<updated>2026-09-10T22:10:00+09:00</updated>
-<summary>一次資料（NVIDIAの8-K本文）で取り直した。 NVIDIAはSB Energyとの間で複数の残存価値保証を結び、支払義務の累計上限は1,050億ドル。対象はポーツマス拠点の合計約4.25GWのIT負荷で、さらに3.8GWを追加できる選択権がある。貸主がSB Energy、借主がOpenAI。 発動する事由は(i)OpenAIの支払不能によるリース契約の債務不履行、または(ii)OpenAIがリース料を支払わなかったことの2つ。発動時にNVIDIAが払うのは、保証された最低価値と、代わりのリースまたは売却で回収できた額との差額。Item 2.03（オフバランスの債務の発生）で開示されている。</summary>
-</entry>
-<entry>
-<title>米国債入札の応札倍率と間接落札比率 — 海外中銀がまだ引き受けているか — 2026-09-09</title>
-<link href="https://kaikei-media.github.io/o/t1-q2/"/>
-<id>https://kaikei-media.github.io/o/t1-q2/#2026-09-09@2026-09-10</id>
-<updated>2026-09-10T08:19:57+09:00</updated>
-<summary>10年債（9-Year 11-Month Note、8/17発行の追加発行分。CUSIP 91282CRF0）: 応札倍率2.71倍・間接落札比率79.2%・落札利回り4.834%</summary>
-</entry>
-<entry>
-<title>米企業のAI利用率（センサス局BTOS・過去2週間にAIを使って製品やサービスを作った企業の割合） — 2026-08-23</title>
-<link href="https://kaikei-media.github.io/o/t3-d3/"/>
-<id>https://kaikei-media.github.io/o/t3-d3/#2026-08-23@2026-09-10</id>
-<updated>2026-09-10T08:19:57+09:00</updated>
-<summary>22.4%（過去2週間にAIを使った企業の割合、全国）。2025-11-30の17.3%から9か月連続で上昇し、2026-05-03の19.8%からも半年ぶりに横ばいを抜けた（5/3:19.8→5/31:20.6→6/28:20.6→7/26:21.5→8/23:22.4）。業種別: Information 46.0%（5/3時点39.7%）、Finance and Insurance 40.0%（同33.9%）、Professional/Scientific/Technical 41.9%、Educational Services 33.8%。従業員規模別: 250人以上39.9%、100〜249人30.3%、1〜19人も20〜22%台（1-4人22.5%・5-9人20.4%・10-19人21.8%）で、小規模側も上がっている。今後6か月の予定利用率は25.9%（8/23）。</summary>
-</entry>
-<entry>
-<title>FRBの保有残高 — 買っているか減らしているか — 2026-09-02</title>
-<link href="https://kaikei-media.github.io/o/t1-q5/"/>
-<id>https://kaikei-media.github.io/o/t1-q5/#2026-09-02@2026-09-07</id>
-<updated>2026-09-07T23:30:38+00:00</updated>
-<summary>FRB総資産 6兆7,372億ドル（前週比+63億ドル、前年比+1,351億ドル）</summary>
-</entry>
-<entry>
-<title>台湾周辺の人民解放軍の活動（機数・艦艇数／日、月間累計）と台湾海峡の商船通航 — 2026-09-07</title>
-<link href="https://kaikei-media.github.io/o/t2-q7/"/>
-<id>https://kaikei-media.github.io/o/t2-q7/#2026-09-07@2026-09-07</id>
-<updated>2026-09-07T23:30:38+00:00</updated>
-<summary>台湾周辺の人民解放軍活動: 9/6 6時〜9/7 6時で戦闘機等2ソーティー・艦艇13隻・公船4隻（9/5〜9/6は機21・艦10・公船5、9/4は機0・艦5・公船5、9/2は機1・艦5・公船3）。日によるばらつきが大きく、8/24（機2・艦7・公船2）と比べても傾向は読めない。台湾海峡の商船通航（IMF PortWatch日次）は直近値2026-08-30で318隻/日、8月の日平均は約232隻/日で、従来の基準235〜240隻/日とほぼ同水準（8/26〜27に67〜122隻へ一時落ち込んだが8月末には回復）</summary>
-</entry>
-<entry>
-<title>陣営別の貿易額 — 誰と誰が取引しているか（CEPII BACI） — 2025-12-31</title>
-<link href="https://kaikei-media.github.io/o/t2-f8/"/>
-<id>https://kaikei-media.github.io/o/t2-f8/#2025-12-31@2026-09-07</id>
-<updated>2026-09-07T08:00:10+09:00</updated>
-<summary>陣営内貿易（米・中どちらかの陣営との近さで分類）は世界貿易の約71%（2025年、1995年は55%）。陣営分類は各国の国連投票の一致度（Bailey et al. 2017のideal point距離）を米・中それぞれとの近さで判定</summary>
-</entry>
-<entry>
-<title>ホルムズ・スエズ・パナマの通航隻数とトン数 — 2026-08-30</title>
-<link href="https://kaikei-media.github.io/o/t2-q1/"/>
-<id>https://kaikei-media.github.io/o/t2-q1/#2026-08-30@2026-09-07</id>
-<updated>2026-09-07T08:00:10+09:00</updated>
-<summary>ホルムズ海峡: IMF PortWatchの直近公表分は8/30時点で6隻/日（基準85隻/日の7%）。スエズ運河（北側）: 8/24〜8/30の週で290隻通航（前週294隻とほぼ同水準）、危機前比−36%だが2025年同時期比+30%、2024年初以来の高水準が2週連続。パナマ運河: 渇水対応でニオパナマックス閘門9枠+パナマックス閘門25枠＝1日34隻へ縮小（9/3発効）、9/15からはパナマックス23枠を加えさらに32隻/日へ縮小予定。喫水制限も14.48m（47.5フィート）への引き下げが10/1へ延期</summary>
-</entry>
-<entry>
-<title>高圧変圧器・開閉装置の納期（AI工場を完成させる難易度） — 2025-06-30</title>
-<link href="https://kaikei-media.github.io/o/t3-q7/"/>
-<id>https://kaikei-media.github.io/o/t3-q7/#2025-06-30@2026-09-07</id>
-<updated>2026-09-07T08:00:10+09:00</updated>
-<summary>Wood Mackenzie自身のサーベイ（Lead Time Benchmarking Product）: 電力用変圧器（Power Transformers）はQ1比10週短縮し平均128週。発電機昇圧変圧器（GSU）はQ1からわずかに改善し平均143週。開閉装置（Switchgear）は平均44週。パッドマウント変圧器・リクローザ・電線/ケーブルはQ2に増加傾向</summary>
-</entry>
-<entry>
-<title>MMF残高とリバースレポ残高 — 短期に逃げているか — 2026-09-02</title>
-<link href="https://kaikei-media.github.io/o/t1-f1/"/>
-<id>https://kaikei-media.github.io/o/t1-f1/#2026-09-02@2026-09-05</id>
-<updated>2026-09-05T08:09:31+09:00</updated>
-<summary>MMF残高 7.98兆ドル（前週比+447.5億ドル。機関投資家向け+336.6億ドル・個人向け+111.0億ドル）。翌日物リバースレポは今回未再確認（前回8/26時点で7億ドルとほぼ枯渇）</summary>
 </entry>
 </feed>
