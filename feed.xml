@@ -4,9 +4,30 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-09-28T18:50:51+09:00</updated>
+<updated>2026-09-29T09:57:34+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>財務省の買い戻し額（四半期枠と1回あたり。$50B超/四半期がステルスYCCの合図） — 2026-09-24</title>
+<link href="https://kaikei-media.github.io/o/t1-f4/"/>
+<id>https://kaikei-media.github.io/o/t1-f4/#2026-09-24@2026-09-29</id>
+<updated>2026-09-29T09:57:34+09:00</updated>
+<summary>20-30年ゾーンの買い戻し: 上限60億ドルに対し、提示104.68億ドル・買取40.78億ドル（35発行銘柄中12銘柄）。提示÷上限＝1.74倍</summary>
+</entry>
+<entry>
+<title>FRBの保有残高 — 買っているか減らしているか — 2026-09-23</title>
+<link href="https://kaikei-media.github.io/o/t1-q5/"/>
+<id>https://kaikei-media.github.io/o/t1-q5/#2026-09-23@2026-09-29</id>
+<updated>2026-09-29T09:57:34+09:00</updated>
+<summary>FRB総資産 6兆7,477億ドル(前週比+11.6億ドル、前年比+1,393億ドル)。保有証券計6兆4,711億ドルのうち米国債4兆5,583億ドル(前週比+36億ドル)・MBS1兆9,104億ドル(前週比▲13.8億ドル、前年比▲1,891億ドル)</summary>
+</entry>
+<entry>
+<title>日本公認会計士協会 業種別監査委員会報告21号の改正が最終化されたか — 生命保険会社の減損の経路が消えるかどうか — 2026-09-28</title>
+<link href="https://kaikei-media.github.io/o/t1-f9/"/>
+<id>https://kaikei-media.github.io/o/t1-f9/#2026-09-28@2026-09-28</id>
+<updated>2026-09-28T20:45:00+09:00</updated>
+<summary>まだ公開草案（2026年2月17日）のまま。最終化の前提になる企業会計基準委員会の「金融商品に関する会計基準」（公開草案第89号）も未確定で、同委員会は2026年10月の最終化を目標にしている</summary>
+</entry>
 <entry>
 <title>MMF残高とリバースレポ残高 — 短期に逃げているか — 2026-09-23</title>
 <link href="https://kaikei-media.github.io/o/t1-f1/"/>
@@ -92,6 +113,13 @@
 <summary>設備投資÷営業CF: Amazon 104.7%（直近12か月、FCFは△76億ドル）／Alphabet 95.0%（2026年1-6月）／Meta 76.6%（同）／Microsoft 62.9%（2026年6月期の9か月）。有利子負債の半年の増加: Amazon +633億ドル／Alphabet +516億ドル（465→982億ドル）／Meta +249億ドル／Microsoft ほぼ横ばい</summary>
 </entry>
 <entry>
+<title>GPUの収益力: 同一世代・同一構成の1年契約価格の前年比、旧世代の再契約価格（資産の稼ぐ力。市場価格ではない） — 2026-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-q5/"/>
+<id>https://kaikei-media.github.io/o/t3-q5/#2026-06-30@2026-09-28</id>
+<updated>2026-09-28T10:30:00+00:00</updated>
+<summary>Nebius: 旧世代GPUの価格がQ1比で30%超上昇。新規契約はMWあたり年2,000万ドル超で、新世代GPUの値上がりと旧世代GPUの値上がりが要因（会社自身の株主レター）</summary>
+</entry>
+<entry>
 <title>FRBの保有残高 — 買っているか減らしているか — 2026-09-16</title>
 <link href="https://kaikei-media.github.io/o/t1-q5/"/>
 <id>https://kaikei-media.github.io/o/t1-q5/#2026-09-16@2026-09-18</id>
@@ -145,9 +173,9 @@
 <summary>サウジ・エネルギー省の公式発表（サウジ通信社）: 2026年9月10日朝、リヤド州とマディーナ州の東西パイプラインが複数の攻撃を受けた。予防措置としてパイプラインを停止。 負傷者が出て手当てを受けた。緊急・技術チームを派遣し、手順に従って安全を確認中。数量・被害額の数字は発表に含まれていない。</summary>
 </entry>
 <entry>
-<title>GPUの収益力: 同一世代・同一構成の1年契約価格の前年比、旧世代の再契約価格（資産の稼ぐ力。市場価格ではない） — 2025-06-30</title>
-<link href="https://kaikei-media.github.io/o/t3-q5/"/>
-<id>https://kaikei-media.github.io/o/t3-q5/#2025-06-30@2026-09-17</id>
+<title>高圧変圧器・開閉装置の納期（AI工場を完成させる難易度） — 2025-06-30</title>
+<link href="https://kaikei-media.github.io/o/t3-q7/"/>
+<id>https://kaikei-media.github.io/o/t3-q7/#2025-06-30@2026-09-17</id>
 <updated>2026-09-17T15:00:00+00:00</updated>
 <summary>GSU（昇圧変圧器）143週・電力用変圧器128週・開閉装置44週（2025年4-6月期の平均。前期から変圧器は10週短縮、開閉装置も低下）。Wood Mackenzieは「短縮しているが待ち時間は依然として長い」とし、関税政策が改善を逆転させうると注記。</summary>
 </entry>
@@ -402,33 +430,5 @@
 <id>https://kaikei-media.github.io/o/t1-f8/#2026-09-10@2026-09-11</id>
 <updated>2026-09-11T06:30:00+00:00</updated>
 <summary>1件: 10-20年ゾーンの買い戻しで、発表時に「40億ドル以上」としていた上限を、実施時に60億ドルへ引き上げた。結果は提示104.89億ドル・買取51.87億ドル（提示÷上限＝1.75倍）。</summary>
-</entry>
-<entry>
-<title>米国の消費者物価（前年比・総合とコア）— 実質債務が目減りしているかの分子 — 2026-07-31</title>
-<link href="https://kaikei-media.github.io/o/t1-q8/"/>
-<id>https://kaikei-media.github.io/o/t1-q8/#2026-07-31@2026-09-11</id>
-<updated>2026-09-11T06:30:00+00:00</updated>
-<summary>総合 前年比 +3.4%（季節調整済み前月比 +0.1%）、コア（食品・エネルギー除く）前年比 +2.5%（同 +0.2%）。8月分は未発表（2026-09-11 08:30 ET＝日本時間9/12 06:30 に公表予定）。</summary>
-</entry>
-<entry>
-<title>当局の発表と、独立系の計測との食い違い（数量の食い違い幅） — 2026-09-02</title>
-<link href="https://kaikei-media.github.io/o/t2-q10/"/>
-<id>https://kaikei-media.github.io/o/t2-q10/#2026-09-02@2026-09-11</id>
-<updated>2026-09-11T06:30:00+00:00</updated>
-<summary>通航隻数で約3倍の開き: 独立系の計測はホルムズの通航を9/2=5隻・9/1=11隻、10日平均13隻/日（Kpler）、8/26〜9/1平均 約12隻/日（Lloyd&#x27;s List Intelligence）とする一方、米財務長官ベッセントは9/1火曜に40隻・1,800万バレルの通過、日量1,000万バレル超（月曜は1,500〜1,700万バレル）と述べた。JMICは9/1付の勧告で商船通航を「基準を大きく下回る」としている。</summary>
-</entry>
-<entry>
-<title>当事者が、自分で言った計画や調達の形を期中に変えた件数（余裕の無さを行動で数える） — 2026-08-31</title>
-<link href="https://kaikei-media.github.io/o/t3-f13/"/>
-<id>https://kaikei-media.github.io/o/t3-f13/#2026-08-31@2026-09-11</id>
-<updated>2026-09-11T06:30:00+00:00</updated>
-<summary>3件: ①Oracleが四半期中にATMで普通株200億ドルを売却（社債ではなく株で設備投資を賄った） ②Pure Data Centresが10億ユーロの社債を撤回して銀行融資に切替 ③Prime Data Centersが社債を6億→5億ドルに減額してなお棚上げ。</summary>
-</entry>
-<entry>
-<title>GPU・サーバの耐用年数の想定と、その変更（償却の前提） — 2026-08-31</title>
-<link href="https://kaikei-media.github.io/o/t3-d8/"/>
-<id>https://kaikei-media.github.io/o/t3-d8/#2026-08-31@2026-09-11</id>
-<updated>2026-09-11T00:00:00+00:00</updated>
-<summary>Oracle Q1 FY2027（6〜8月期）: 減価償却費31.56億ドル（前年同期13.51億ドル、+134%）に対し、設備投資284.99億ドル（前年同期85.02億ドル、+235%）。設備投資÷減価償却費は6.3倍→9.0倍に開いた。耐用年数の想定の新たな変更は、発表原文には記載なし（10-Qで確認する）。</summary>
 </entry>
 </feed>
