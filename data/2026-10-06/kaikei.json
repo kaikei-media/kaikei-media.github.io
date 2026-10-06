@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "2026-10-06",
  "temporal_coverage": "2024-06-01/2026-10-05",
- "count": 215,
+ "count": 217,
  "columns": [
   "item_id",
   "trend",
@@ -4110,6 +4110,44 @@
    "note_ja": "100万人分には届かないが、投資家の口座番号が委託先から漏れた",
    "note_en": "",
    "page_url": "https://kaikei-media.github.io/o/t2-q16/"
+  },
+  {
+   "item_id": "T2-Q17",
+   "trend": "T2",
+   "kind": "quantity",
+   "cadence": "weekly",
+   "unit": "件",
+   "name_ja": "世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案",
+   "name_en": "Global cyberattacks: incidents that halted listed companies' production or shipping, and official statements by governments or AI firms that attackers used AI",
+   "date": "2026-08-20",
+   "recorded_at": "2026-10-06T12:40:00+09:00",
+   "value_ja": "米CISA・FBI・NSAなどの共同勧告（AA26-231A）: 攻撃者が公開情報をもとにAIで攻撃用のスクリプトを作り、古いソフトのままのSiemens S7制御装置を狙っている。対象はエネルギー・水道・製造・農業。7月には100超の水道の制御系が狙われた（ミネソタ・ミシガン・アーカンソー・ジョージア・ニュージャージー）。米情報機関はイランの可能性が高いとみるが、断定はしていない",
+   "value_en": "Joint CISA/FBI/NSA advisory AA26-231A: attackers use AI to generate exploit scripts against poorly secured Siemens S7 PLCs; 100+ water systems targeted in July.",
+   "direction": "up",
+   "source_url": "https://techcrunch.com/2026/08/20/us-says-hackers-are-targeting-vulnerable-water-systems-with-the-help-of-ai/",
+   "source_label": "TechCrunch（二次。勧告の原文 cisa.gov/aa26-231a は今回読めなかった）",
+   "note_ja": "政府が攻撃者のAI利用を具体的な攻撃について公式に書いた例",
+   "note_en": "",
+   "page_url": "https://kaikei-media.github.io/o/t2-q17/"
+  },
+  {
+   "item_id": "T2-Q17",
+   "trend": "T2",
+   "kind": "quantity",
+   "cadence": "weekly",
+   "unit": "件",
+   "name_ja": "世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案",
+   "name_en": "Global cyberattacks: incidents that halted listed companies' production or shipping, and official statements by governments or AI firms that attackers used AI",
+   "date": "2026-09-08",
+   "recorded_at": "2026-10-06T12:40:00+09:00",
+   "value_ja": "Boston Scientific（米国の医療機器大手・NYSE）が8-Kで、8/25に見つけたサイバー攻撃で製造・受注処理・出荷が止まり、7/29に出した7〜9月期と通期の売上成長率・調整後EPSの予想の範囲に届かない見込みと開示。9/8時点で主要な物流拠点は通常以上の水準に戻り、製造は世界のほとんどの工場で再開",
+   "value_en": "Boston Scientific 8-K: Aug 25 cyber incident disrupted manufacturing and order processing/shipping; unlikely to meet Q3 and FY2026 guidance ranges.",
+   "direction": "up",
+   "source_url": "https://www.stocktitan.net/sec-filings/BSX/8-k-boston-scientific-corp-reports-material-event-a5940c3e55fd.html",
+   "source_label": "Boston Scientific 8-K（一次・転載）",
+   "note_ja": "上場企業の業績予想を、サイバー攻撃が直接崩した例",
+   "note_en": "",
+   "page_url": "https://kaikei-media.github.io/o/t2-q17/"
   }
  ]
 }
