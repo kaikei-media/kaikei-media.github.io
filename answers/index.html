@@ -1,0 +1,238 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#080130">
+<title>答え合わせの記録 — 解経</title>
+<meta name="description" content="解経が投稿で期日を切って書いた見立てと、その結果です。外れも消さずに残します。">
+<link rel="canonical" href="https://kaikei-media.github.io/answers/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="答え合わせの記録">
+<meta property="og:description" content="解経が投稿で期日を切って書いた見立てと、その結果です。外れも消さずに残します。">
+<meta property="og:url" content="https://kaikei-media.github.io/answers/">
+<meta property="og:image" content="https://kaikei-media.github.io/ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@kaikei_media">
+<meta name="google-site-verification" content="o_QbNsXTPhFtwoxcaivRAeh5-eSDe3p78VNSQQNRyRc">
+<style>
+/* 解経のブランドカラー（図と同じ値を使う）
+   地=濃紺 #080130 ／ 強調=金 #c9a96e（主役1つ＝現在地と「出た」合図にだけ使う）／
+   紙=#f5f1e8 ／ 副=#9089b5 ／ 沈め=#332a63 ／ 罫=#3b3272。ライト/ダークの切替は無く、常に濃紺地。 */
+:root{--bg:#080130;--paper:#0e0838;--ink:#f5f1e8;--ink2:#c9c3dc;--ink3:#9089b5;--line:#3b3272;--dim:#332a63;
+--gold:#c9a96e;--on:#c9a96e;--off:#9089b5;--c:#c9a96e;--cbg:#332a63;--mono:ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP","Zen Kaku Gothic New",system-ui,sans-serif;font-size:15px;line-height:1.7}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 18px 64px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+h1{font-family:"Hiragino Mincho ProN","Shippori Mincho","Noto Serif JP",Georgia,serif;font-size:1.7rem;margin:0;color:var(--gold);font-weight:500}
+.tag{color:var(--ink3);font-family:var(--mono);font-size:.72rem;letter-spacing:.14em}
+.lead{max-width:70ch;color:var(--ink2);margin:12px 0 26px;font-size:.95rem}
+a{color:inherit}
+.hlinks{display:flex;gap:14px;align-items:baseline}
+.xlink{color:var(--gold);text-decoration:none;font-family:var(--mono);font-size:.78rem}
+.xlink:hover{text-decoration:underline}
+h2.sec{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:34px 0 10px;font-weight:500}
+/* overview cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:760px){.cards{grid-template-columns:1fr}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:1rem;color:var(--ink);font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-weight:500}
+.card .short{margin:0;font-weight:600;font-size:.98rem;line-height:1.5}
+.card .sig{color:var(--ink3);font-size:.8rem;font-family:var(--mono)}
+.card a{text-decoration:none;color:var(--ink3);font-size:.8rem}
+/* 先行の合図だけで言える幅。**点ではなく帯で示す**（2026-09-01 決定）。 */
+.ladder{position:relative}
+.ladder .band{position:absolute;top:0;bottom:0;background:rgba(201,169,110,.14);
+ border-left:1px solid var(--gold);border-right:1px solid var(--gold);pointer-events:none}
+.lnote.lead{color:var(--ink2)}
+/* ladder: 現在地だけが金。過去は沈めた紺、未来は罫だけ */
+.ladder{--n:5;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;margin:6px 0 2px;position:relative}
+.ladder .rung{background:var(--bg);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:4px 5px;font-size:.7rem;line-height:1.25;color:var(--ink3);display:flex;flex-direction:column;justify-content:flex-end}
+.ladder .rung b{font-family:var(--mono);font-size:.72rem;color:var(--ink2);display:block}
+.ladder .rung.past{background:var(--dim);border-color:var(--dim);color:var(--ink2)}
+.ladder .rung.now{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+.ladder .rung.now b{color:var(--bg)}
+.ladder .rung.next{border-style:dashed;border-color:var(--gold)}
+.ladder .rung.mini{min-height:30px;justify-content:center;align-items:center;padding:2px}
+.ladder .rung.mini b{font-size:.8rem}
+.ladder.big .rung{min-height:64px;font-size:.78rem}
+.marker{position:relative;height:30px;margin-top:2px}
+.marker span{position:absolute;transform:translateX(-50%);color:var(--gold);font-size:.72rem;font-family:var(--mono);white-space:nowrap}
+.marker span:before{content:"▲";display:block;text-align:center;line-height:.6}
+.lnote{color:var(--ink3);font-size:.8rem;margin:4px 0 0}
+details.phases{margin:8px 0 0}details.phases>summary{cursor:pointer;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:var(--ink3)}
+ol.phases{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+ol.phases li{display:grid;grid-template-columns:120px 1fr;gap:10px;padding:7px 10px;border:1px solid var(--line);border-radius:6px;font-size:.84rem;background:var(--bg)}
+ol.phases li.now{border-color:var(--gold);background:var(--dim)}
+ol.phases li b{color:var(--gold);font-family:var(--mono);font-size:.8rem}
+ol.phases li span{color:var(--ink2)}ol.phases li small{grid-column:2;color:var(--ink3)}
+@media(max-width:600px){ol.phases li{grid-template-columns:1fr}ol.phases li small{grid-column:1}}
+/* trend sections */
+.trend{margin:26px 0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.trend>.head{background:var(--dim);padding:14px 18px}
+.trend>.head h2{margin:0;font-family:"Hiragino Mincho ProN","Shippori Mincho",Georgia,serif;font-size:1.3rem;color:var(--ink);font-weight:500}
+.trend>.head .dest{color:var(--ink2);font-size:.9rem;margin-top:4px}
+.trend .body{padding:14px 18px;background:var(--paper)}
+.state{border-left:3px solid var(--gold);padding:8px 14px;margin:0 0 16px;background:var(--bg)}
+.state .k{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:var(--ink3);display:block}
+.state .short{margin:4px 0 6px;font-size:1.12rem;font-weight:600;line-height:1.5;color:var(--ink)}
+.state .why{margin:0 0 .5em;color:var(--ink2);font-size:.92rem;line-height:1.85}
+.state .why:last-child{margin-bottom:0}
+.state .sb{margin:12px 0 0;padding:10px 12px;border-radius:6px;background:var(--paper)}
+.state .sb.lead{background:none;padding:0;margin-top:6px}
+.state .sb.on{border-left:3px solid var(--gold)}
+.state .sb.off{border-left:3px solid var(--dim)}
+.state .sb.next{border-left:3px solid var(--ink3);background:none}
+.state .sh{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;
+ margin-bottom:6px;color:var(--ink3)}
+.state .sb.on .sh{color:var(--gold)}
+.state.empty{color:var(--ink3);font-style:italic}
+h3.sub{font-size:.75rem;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin:18px 0 6px;font-weight:500}
+ul.sig{list-style:none;margin:0;padding:0}
+ul.sig li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.9rem}
+ul.sig .pill{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--ink3);white-space:nowrap;height:fit-content;margin-top:3px}
+ul.sig .pill.on{background:var(--gold);border-color:var(--gold);color:var(--bg)}
+ul.sig .txt small{display:block;color:var(--ink3)}
+/* money flow diagram */
+.money{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;align-items:stretch;margin:6px 0 4px}
+@media(max-width:760px){.money{grid-template-columns:1fr 1fr}}
+.money .box{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 9px;font-size:.78rem;line-height:1.35;position:relative}
+.money .box b{display:block;font-size:.86rem;color:var(--ink);margin-bottom:2px}
+.money .box em{display:block;font-style:normal;color:var(--ink2)}
+.money .box small{display:block;color:var(--ink3);margin-top:3px}
+.money .box:not(:last-child):after{content:"→";position:absolute;right:-9px;top:40%;color:var(--gold);font-weight:700;font-size:.9rem}
+@media(max-width:760px){.money .box:after{display:none}}
+.loop{color:var(--ink3);font-size:.8rem;margin:2px 0 0;text-align:right}
+/* tables */
+details.data{margin-top:14px}
+details.data>summary{cursor:pointer;font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{text-align:left;vertical-align:top;padding:7px 9px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);font-weight:500}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+td.dir{font-size:1.1rem;text-align:center;color:var(--gold)}
+td.na{color:var(--ink3);font-style:italic}
+details{font-size:.82rem;color:var(--ink2)}details summary{cursor:pointer;color:var(--ink3)}
+details table{margin-top:6px}
+footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid var(--line);padding-top:14px}
+.t1,.t2,.t3{--c:var(--gold);--cbg:var(--dim)}
+</style></head><body><div class="wrap">
+<header><div><div class="tag">KAIKEI</div><h1>答え合わせの記録</h1></div></header>
+<p class="lead">解経が投稿で期日を切って書いた見立てと、その結果です。外れも消さずに残します。</p>
+<p class="lead">決着 9件（当たり 6・外れ 1・判定できず 2）／期日待ち 24件。判定の基準は、投稿したときに「何で確かめるか」として先に書いたものだけを使います。</p>
+<h2>決着したもの（外れ・判定できずを先に）</h2>
+<h2>【外れ】期日 2026-09-15 — AI設備投資</h2>
+<p class="lead"><b>見立て:</b> PJMの工事日程の変更申請のうち「許認可の遅れ」が理由とされる割合は29%とされるが、これは報道経由で一次資料を確認できていない <a href="https://x.com/kaikei_media/status/2094291717864464787">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> PJMが公表している系統接続の資料で、その29%という割合を一次資料として確認できるか</p>
+<p class="lead"><b>結果:</b> PJM自身の公表(fact sheet更新5/21・プレスリリース8/3)に29%という数字は無く、指標はGW単位(53→51GW)のみで一次資料での確認ができなかった（2026-10-01 誤って開き直したので閉じ直し。9/15に投稿済み）</p>
+<h2>【判定できず】期日 2026-09-16 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 海外公的部門の米国債離れは、ドルという通貨からの逃避ではなく、米国政府の信用(国債)だけを避ける選別的な動きである(ノルウェーの基金は削減分をドル建ての社債・機関債・MBSに振り替え、ドル比率52.9%→52.5%はほぼ不変)</p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 9/16公表の米財務省7月分国際資本統計(Major Foreign Holders of Treasury Securities)で、海外公的部門の米国債保有が引き続き減少する一方、海外民間部門・銀行系チャネル(中国の銀行など)の米国債需要までもが同時に明確に落ち込んでいないか。公的・民間の両方が同時に大きく減っていれば、選別ではなく通貨全体からの逃避に見立てを修正する</p>
+<p class="lead"><b>結果:</b> 記事が投稿されずtweet_idが得られず、答え合わせの本文を組めなかったため台帳から外す</p>
+<h2>【判定できず】期日 2026-10-01 — AI設備投資</h2>
+<p class="lead"><b>見立て:</b> CoreWeaveの31億ドルの借入枠に付いた「稼ぎが返済額の1.35倍以上」の条件が、2026年9月30日以降の最初のまるひと月について最初に確認される <a href="https://x.com/kaikei_media/status/2094291717864464787">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> CoreWeaveのSEC提出書類（10-Q・8-K）に、そのDSCR条件の充足または未充足の記載が出るか</p>
+<p class="lead"><b>結果:</b> 2026-10-03時点でSEC提出書類に9/30以降のDSCR条件の充足・未充足の記載が無い。最初の測定月は10月で、開示は11月上旬の10-Q以降</p>
+<h2>【当たり】期日 2026-09-15 — 乱世（地政学と供給）</h2>
+<p class="lead"><b>見立て:</b> 原油価格はもう物理供給(迂回路の稼働可否)ではなく、9/14のイラン・GCC外相級会合など外交日程のニュースフローで動く <a href="https://x.com/kaikei_media/status/2098573901353611518">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 9/14の外相級会合の結果(合意進展か決裂か)が伝わった直後のBrent原油価格の方向を、Reuters/Bloombergの相場記事で確認する。会合結果の方向とBrentの当日の値動きの方向が一致すれば的中</p>
+<p class="lead"><b>結果:</b> 延期(決裂方向)の直後にBrentが上昇し、外相会合の結果と価格の方向が一致した</p>
+<h2>【当たり】期日 2026-09-17 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 8月雇用統計の大幅な上振れ(16.2万人・予想の3倍近く)は、9月16-17日のFOMCで利上げ方向への支持を強めた <a href="https://x.com/kaikei_media/status/2095876104242311445">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> FOMC声明文とSEP(経済見通し)で政策金利が引き上げられたか、または声明・記者会見がタカ派的(据え置きでも次回利上げ示唆)だったか。米連邦準備制度理事会の公式発表で確認</p>
+<p class="lead"><b>結果:</b> FRBは2026-09-16のFOMCで0.25pt利上げ(3.75-4%)を決定。check通り(Atlanta Fed掲載の声明文で確認)</p>
+<h2>【当たり】期日 2026-09-17 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 市場は来週9/17未明(日本時間)のFRB会合で、25bpの利上げが起きる確率を85%(CME先物、9/12時点)と織り込んでいた。 <a href="https://x.com/kaikei_media/status/2099272747683655931">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 米FRBの発表で政策金利誘導目標が引き上げられたか(現状の目安3.50〜3.75%からの変更の有無)を確認する。</p>
+<p class="lead"><b>結果:</b> FRB公式声明(2026-09-16)で誘導目標が3.50-3.75%から3.75-4.00%へ引き上げられた(12対0)</p>
+<h2>【当たり】期日 2026-09-18 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 9/17-18の日銀会合で、市場が8〜9割織り込む利上げが実現するかが分かる(ベッセント米財務長官が片山財務相・植田総裁に利上げが必要と直接伝えたと8/31にNHKが報道) <a href="https://x.com/kaikei_media/status/2094566901477167519">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 日銀が9/18公表の金融政策決定内容で政策金利を引き上げるか(日銀公表資料)</p>
+<p class="lead"><b>結果:</b> 日銀は9/18に政策金利を1.25%程度へ引き上げた（決定は賛成7・反対2。日銀公表と報道による）</p>
+<h2>【当たり】期日 2026-09-18 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 日銀が9/17-18に1.25%へ利上げしても、その前後で円が数日のうちに5円以上急変しない限り、2024年8月のような日経平均の暴落(1日で1000円超の急落)は起きない <a href="https://x.com/kaikei_media/status/2097288097146843607">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 日銀金融政策決定会合の結果(政策金利)と、9/17-18前後のドル円終値・日経平均終値を確認する。円の変化幅が短期間で5円未満にとどまり、日経平均が単日で1000円超下げていなければ、この予測は当たり</p>
+<p class="lead"><b>結果:</b> 日銀は9/18に1.25%へ利上げ。ドル円は9/17〜9/25で約3円幅、日経平均は単日1000円超の下落なし(9/18は882円高、9/25は66,364円)</p>
+<h2>【当たり】期日 2026-09-30 — AI設備投資</h2>
+<p class="lead"><b>見立て:</b> ソフトバンクGが9月に売り込む最大200億ドルの新規社債が、4月発行の外債(利回り6.375〜8.5%)より高い利回りを要求されれば、市場はOpenAIへの一点賭けの信用リスクをより厳しく値付けしている <a href="https://x.com/kaikei_media/status/2097650514238554276">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> ソフトバンクG新規外貨建て社債(9月発行予定)の表面利率・スプレッドが、2026年4月発行分(6.375〜8.5%)を上回るか。あわせてS&amp;Pの長期発行体格付け(BB+)が据え置かれるか格下げされるかも確認する</p>
+<p class="lead"><b>結果:</b> ドル建て利率8.625〜9.75%が4月発行分の上限8.5%を上回り、S&amp;PのBB+も据え置き(出典は報道。公式PDFは読めず)</p>
+<h2>期日待ち（期日の近い順）</h2>
+<h2>期日 2026-09-25 — AI設備投資</h2>
+<p class="lead"><b>見立て:</b> SBエナジーはデータセンター事業の売上ゼロのまま、評価額およそ500億ドル(約8兆円)でのIPOを目指している</p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 9月21日の週にSBエナジーのIPOが価格決定・上場した際の最終評価額がSEC提出書類または上場発表で確認できる。目標の500億ドル前後で決着すれば公開市場が無収益のまま高評価を追認したことになり、目標を大きく下回れば市場が循環金融構造を織り込んで値切ったことになる</p>
+<h2>期日 2026-09-30 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 米財務省が長期国債の買い戻し枠を広げても、10年物国債の実質金利はマイナスに転じておらず、金融抑圧(名目金利が物価上昇率を下回る状態)はまだ始まっていない</p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 米財務省Daily Treasury Par Real Yield Curve Ratesの10年値が、2026-09-30時点でプラスかマイナスか</p>
+<h2>期日 2026-10-15 — 乱世（地政学と供給）</h2>
+<p class="lead"><b>見立て:</b> 米海軍の対イラン封鎖により、イランの洋上原油在庫(ブロック外)は9月7日時点の2,900万バレルから、現在の消費ペース(日量約100万バレル)なら10月半ばまでに枯渇する <a href="https://x.com/kaikei_media/status/2097326536105882057">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> Kpler(Bloomberg等が引用)のイラン洋上在庫データで、10月半ば時点の在庫量がゼロ近辺まで減っているか。ベッセント米財務長官が言及した『中国未購入の約3,000万バレル』が実際に売却・枯渇したかも合わせて確認</p>
+<h2>期日 2026-10-23 — 乱世（地政学と供給）</h2>
+<p class="lead"><b>見立て:</b> サウジの東西パイプラインの復旧見通しは5〜6週間だが、紅海側ヤンブー港の備蓄は5〜7日分しかない <a href="https://x.com/kaikei_media/status/2099645369932034256">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> ロイター/ブルームバーグの続報で、東西パイプラインが2026-10-23までに部分稼働も含め復旧しヤンブー港からの積み出しが途切れなかったか、それとも輸出が実際に止まったか・ホルムズ依存が明確に上がったか</p>
+<h2>期日 2026-10-23 — 乱世（地政学と供給）</h2>
+<p class="lead"><b>見立て:</b> サウジの東西パイプライン(ヤンブー港への迂回路)が攻撃(9/11)から6週間以内に復旧しなければ、日本の石油元売りによる原油の前倒し調達(通常より1か月早い受け渡しの確保)はさらに拡大する <a href="https://x.com/kaikei_media/status/2100188798277824798">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 10月23日時点で東西パイプラインが部分稼働を含め復旧し、ヤンブー港からの積み出しが再開しているか(一次資料: サウジアラムコの発表・Kpler/Vortexaのカーゴ追跡)。復旧していなければ、ENEOS・出光興産など日本の元売り各社の調達契約(積み月)がさらに前倒しされているかを確認する</p>
+<h2>期日 2026-10-27 — 乱世（地政学と供給）</h2>
+<p class="lead"><b>見立て:</b> ホルムズ迂回路（ヤンブー港の積み出し）は日量260万バレル以上に戻って4週間続くか</p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 10/27までに報道・調査会社の公表でヤンブー積み出しが日量260万バレル超を4週間維持し、東西パイプライン・ヤンブーへの再攻撃が無ければ枝は消える。維持できていない、または再攻撃があれば詰まり続ける側</p>
+<h2>期日 2026-10-28 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 9月に利上げした米FRBは、10月27-28日のFOMCで追加利上げを見送る、または声明が追加利上げを明示しない</p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> FRB公式の10月28日FOMC声明文で、政策金利の誘導目標(3.75-4.00%)が据え置かれたか引き上げられたかを確認する</p>
+<h2>期日 2026-10-31 — AI設備投資</h2>
+<p class="lead"><b>見立て:</b> アンソロピックのIPO価格が、5月のシリーズH評価965億ドル(9,650億ドル)を上回るか、観測される2兆ドルに近づくかで、アマゾン・グーグルが計上した含み益の妥当性が現金の買い手に検証される</p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> アンソロピックのIPO公開価格ベースの評価額(一次資料: 目論見書またはIPO発表資料)が、965億ドルを上回るか2兆ドルに近いかを見る。下回れば含み益は過大だったことになる</p>
+<h2>期日 2026-11-04 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> AI企業の社債発行が米国債の需要を奪い合っており、その綱引きの結果は11月4日の米財務省の四半期定例発行計画で長期債の発行額が実際に減るかどうかに表れる <a href="https://x.com/kaikei_media/status/2096377304612249910">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 米財務省が2026-11-04に発表する四半期定例発行計画(refunding announcement)で、10年・20年・30年債の発行額が前回(8月発表分)より減額されていれば政府が押されて年限を短期化した合図、減額されていなければ財政の必要が勝った合図</p>
+<h2>期日 2026-11-04 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 米財務省の長期国債買い戻し上限(1回40億ドル以上)は、11月4日の次回定例発行計画でさらに拡大されなければ、FRB抜きで長期金利を抑える力を持たないままだ <a href="https://x.com/kaikei_media/status/2097488137643507791">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 米財務省が2026-11-04に発表する次回四半期定例発行計画・買い戻し運用方針で、10-20年/20-30年ゾーンの買い戻し1回あたり上限額または実施頻度がさらに引き上げられているか</p>
+<h2>期日 2026-11-04 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 米財務省の長期国債買い戻し枠(9月に3倍へ増枠)が、11/4の次回スケジュールでさらに拡大されるかどうか</p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 11/4前後に財務省が公表する次四半期の買い戻し予定表(Tentative Buyback Schedule)で、10-20年+20-30年ゾーンの1回あたり上限・四半期合計が今回の60億ドル/320億ドル水準から増額されるか、据え置き・減額か</p>
+<h2>期日 2026-11-10 — AI設備投資</h2>
+<p class="lead"><b>見立て:</b> 先に壊れるのは売り手の売上ではなく買い手の資金繰りなので、ハイパースケーラー4社の現金設備投資と受注残は7-9月期も鈍らない <a href="https://x.com/kaikei_media/status/2094291717864464787">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> アマゾン・アルファベット・マイクロソフト・メタの7-9月期決算の現金設備投資（前四半期比）と、マイクロソフトの受注残。鈍り始めていればこの記事は外れ</p>
+<h2>期日 2026-11-10 — AI設備投資</h2>
+<p class="lead"><b>見立て:</b> 部品の不足はデータセンター側と電力設備メーカー側で逆向きに効くので、両者の差が開いていく <a href="https://x.com/kaikei_media/status/2094291717864464787">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 日立エナジー・シーメンス・エナジー・GEベルノバの四半期決算の受注残と、新規受注が納品を上回る幅（book-to-bill）</p>
+<h2>期日 2026-11-10 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> GPIFの外国債券配分(基本25%・約62.5兆円)が、7年ぶりの8月理事会をきっかけに動くかどうか <a href="https://x.com/kaikei_media/status/2095651226587172933">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> GPIFが公表する2026年度第2四半期(7-9月期)運用状況の資産構成割合。外国債券の実績配分が25%から低下していれば国内回帰の兆候</p>
+<h2>期日 2026-11-10 — AI設備投資</h2>
+<p class="lead"><b>見立て:</b> CoreWeaveの31億ドルの借入枠のDSCR1.35倍条件について、第3四半期の10-Qまたは8-Kに充足・未充足の記載が出る</p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> CoreWeaveのSEC提出書類（10-Q・8-K）に、DDTL5.0のDSCR条件の充足または未充足の記載が出るか</p>
+<h2>期日 2026-12-26 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 高市首相が示した「来年度の新規国債発行40兆円程度」の上限は、来年度当初予算の閣議決定時点で守られているか <a href="https://x.com/kaikei_media/status/2099444048172056743">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 財務省が公表する来年度(2027年度)当初予算の国債発行計画(市中発行分)が40兆円程度に収まっているか。40兆円を明確に超えていれば上限は崩れたと判定</p>
+<h2>期日 2026-12-31 — 乱世（地政学と供給）</h2>
+<p class="lead"><b>見立て:</b> 石油代金を金に変える非ドル経路の広がりは、IMFの公式準備資産統計(COFER)の金比率(2025年末27%)が12月公表分でさらに上がるかどうかで判定できる <a href="https://x.com/kaikei_media/status/2096190441456631956">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> IMF COFER 2026年Q3分(2026年12月ごろ公表)の世界公的準備資産に占める金の比率が27%を上回れば上昇継続、横ばい・低下なら今回の事例は誤差の範囲</p>
+<h2>期日 2026-12-31 — 乱世（地政学と供給）</h2>
+<p class="lead"><b>見立て:</b> ボストーク・オイルは2026年内に原油3,000万トンを北極海航路経由で出荷する <a href="https://x.com/kaikei_media/status/2096592437665726844">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> Rosneftの公表実績またはKpler/TankerTrackers等の出荷追跡データで、2026年末時点の累計出荷量が3,000万トンに達したか未達か</p>
+<h2>期日 2026-12-31 — AI設備投資</h2>
+<p class="lead"><b>見立て:</b> SBエナジーのデータセンター事業の売上は、2026年上半期時点でまだゼロである</p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> SBエナジーが2026年第4四半期または通期決算(10-Kないし決算発表)で、データセンター事業区分の売上を初めて計上したかどうかで確認する。計上されれば契約が実収入に変わり始めたことになり、次の期もゼロが続けば着工前案件(オハイオ含む)の遅れが実収益に及んでいることになる</p>
+<h2>期日 2027-03-31 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 金融庁の信金・信組(約400先)の国債含み損点検が完了する過程で、業務改善など追加の対策を求められる先が出るかどうか <a href="https://x.com/kaikei_media/status/2095475357532999810">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 金融庁の点検結果公表、または個別の業務改善命令・行政処分の有無（金融庁発表・日経等の報道）</p>
+<h2>期日 2027-03-31 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> 財務省は2027年3月末までに超長期債の発行をさらに減らす <a href="https://x.com/kaikei_media/status/2107283556406079608">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> 財務省の国債発行計画（2026年度の見直しまたは2027年度計画）で超長期債の発行額が17.4兆円より減れば的中、増額なら外れ</p>
+<h2>期日 2027-05-31 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> ノルウェー政府年金基金(NBIM)の米国債圧縮提案(34.1%→21.9%、約800億ドル)がノルウェー議会で承認されるか <a href="https://x.com/kaikei_media/status/2095838941517631641">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> ノルウェー財務省が2027年春に議会へ提出する最終案(Meld. St.)の内容と、議会(Storting)の議決結果。NBIM/ノルウェー財務省の公式発表で確認</p>
+<h2>期日 2027-06-30 — AI設備投資</h2>
+<p class="lead"><b>見立て:</b> NVIDIAのHugging Face買収(129億ドル)が2027年前半までに完了するか。2020年のArm買収(400億ドル)は規制当局に阻まれ2022年に断念している <a href="https://x.com/kaikei_media/status/2095894594692976654">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> NVIDIA・Hugging Faceの完了発表、または米FTC/EU欧州委員会/英当局による審査差し止め・条件付き承認の一次資料</p>
+<h2>期日 2029-12-31 — 政府債務</h2>
+<p class="lead"><b>見立て:</b> IMF予測どおり、世界の政府債務がGDP比100%（第二次世界大戦直後以来の水準）に達する <a href="https://x.com/kaikei_media/status/2094932504939487330">投稿</a></p>
+<p class="lead"><b>何で確かめるか（投稿時に固定）:</b> IMF Fiscal Monitorの該当年時点の値・予測年で、世界の政府債務GDP比が100%に達しているか、または到達予想年がさらに前倒し／後ろ倒しされているかを確認する</p>
+<p class="lead"><a href="../">← いまの流れ（全体）へ</a></p>
+</div></body></html>

@@ -4,9 +4,37 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-10-04T11:29:04+00:00</updated>
+<updated>2026-10-06T00:30:00+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-10-05</title>
+<link href="https://kaikei-media.github.io/o/t2-q16/"/>
+<id>https://kaikei-media.github.io/o/t2-q16/#2026-10-05@2026-10-06</id>
+<updated>2026-10-06T00:30:00+09:00</updated>
+<summary>大和証券: 委託先（スカラコミュニケーションズ）の問い合わせ管理サーバーに10/2 20:33ごろ〜10/3 8:01ごろ不正アクセス、顧客約11万人分・約22万件（氏名・メールアドレス・口座番号）が漏えいの可能性。委託先経由。侵入から公表まで約3日。AIへの言及なし</summary>
+</entry>
+<entry>
+<title>米国の長期金利の内訳（実質利回り・市場の期待インフレ・期間の上乗せ）と、株の急落日に国債が買われたか — 2026-10-02</title>
+<link href="https://kaikei-media.github.io/o/t1-f10/"/>
+<id>https://kaikei-media.github.io/o/t1-f10/#2026-10-02@2026-10-05</id>
+<updated>2026-10-05T23:59:00+09:00</updated>
+<summary>名目10年 5.28%（9/1 4.79%・+0.49）／実質10年 2.92%（9/1 2.44%・+0.48）／差＝市場の期待インフレ 2.36%（9/1 2.35%・+0.01）。9月の上げはほぼ全部が実質利回り。期間の上乗せ（ACM）0.82%（9/30・1962年以降の40パーセンタイル＝中央付近・二次の転載）。株の急落日（S&amp;P500 −3%以上）は9月以降なし</summary>
+</entry>
+<entry>
+<title>主要国の長い国債の入札の弱さと、当局の量の支え（日英仏と米国。誰が引き受けなかったか・当局が何を止めたか） — 2026-10-01</title>
+<link href="https://kaikei-media.github.io/o/t1-q10/"/>
+<id>https://kaikei-media.github.io/o/t1-q10/#2026-10-01@2026-10-05</id>
+<updated>2026-10-05T23:59:00+09:00</updated>
+<summary>当局の量の支え: 米財務省の長期債の買い戻しを少なくとも倍に（8/19）／イングランド銀行が長期ギルトの売却を停止し量的引き締めの計画を書き直し（9/17）／日本は20〜40年の発行を減額済み（2025年6月）・2026年度の超長期債は約17兆円で17年ぶりの少なさ。入札: 日本の40年 9/29 平均4.125%・応札倍率3.10倍、30年 9/3 平均4.079%・3.79倍（財務省・一次、K-x3の記録）</summary>
+</entry>
+<entry>
+<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-09-30</title>
+<link href="https://kaikei-media.github.io/o/t2-q16/"/>
+<id>https://kaikei-media.github.io/o/t2-q16/#2026-09-30@2026-10-05</id>
+<updated>2026-10-05T23:59:00+09:00</updated>
+<summary>2026年9月に公表された100万人分超: Helpfeel（Gyazo）約2,362万件・ムラウチドットコム約772万件・パーク24（タイムズカー）約660万件の3件（マイナビの集計・二次）。うち会社がAIの関与を認めたもの0件。AIの関与が一次で確かめられたのはRIZAPの生成AIへの入力（726人分・使う側の誤り）。参考: 2025年の上場企業の100万人分超は6件（東京商工リサーチ）</summary>
+</entry>
 <entry>
 <title>保険会社の帳簿 — AI・データセンター向けの私募の社債・資産担保証券の保有と、損失の引き受け — 2026-09-29</title>
 <link href="https://kaikei-media.github.io/o/t3-f17/"/>
@@ -410,33 +438,5 @@
 <id>https://kaikei-media.github.io/o/t3-q11/#2026-08-31@2026-09-28</id>
 <updated>2026-09-28T18:50:51+09:00</updated>
 <summary>2026年5月1日〜8月31日の累計で、Fannie Mae・Freddie Mac証券化ローンの約9%がVantageScore 4.0で審査(VantageScore社自身の発表、2026-09-10付)。単月の8月分ではGSE取扱高の5.6%(KBWのアナリスト推計・業界紙経由)。貸し手別では、Rocket Mortgageが自社GSE案件に占めるVantageScore比率を7月17%→8月30%へ、UWMが19.8%→25.3%へ拡大。VantageScore 4.0案件の約99%がRocketとUWMの2社に集中しており、他の貸し手はほぼFICOのまま。全面展開(9/9)後だけを切り出した数字はまだ無い</summary>
-</entry>
-<entry>
-<title>PJM容量市場の落札価格 — 電力の逼迫が値段に出ているか、それとも上限で止まっているか — 2026-07-14</title>
-<link href="https://kaikei-media.github.io/o/t3-q12/"/>
-<id>https://kaikei-media.github.io/o/t3-q12/#2026-07-14@2026-09-28</id>
-<updated>2026-09-28T18:50:51+09:00</updated>
-<summary>対象年度2028/2029: 落札価格325.00ドル/MW-day（UCAP）＝上限と一致。落札容量138,317.8MW、落札総額約164億ドル。信頼度要件156,013MWに対し6,831.3MW不足、設備予備率14.4%（目標20%）。上限325・下限175はFERCが2026-04-28に承認。過去: 2024/2025=28.92、2025/2026=269.92、2026/2027=329.17（上限一致）、2027/2028=333.44（上限一致）</summary>
-</entry>
-<entry>
-<title>ERCOTの大口需要 — 接続申込量と、実際に通電した量の差 — 2026-07-29</title>
-<link href="https://kaikei-media.github.io/o/t3-q13/"/>
-<id>https://kaikei-media.github.io/o/t3-q13/#2026-07-29@2026-09-28</id>
-<updated>2026-09-28T18:50:51+09:00</updated>
-<summary>大口需要の接続申込 474GW（2026年6月時点、約90%がデータセンター）。1年前にあたる2025年末は233GW（前年末比約+300%）。発電側の接続待ちは462,785MW・1,949件（2026-06-30、蓄電池36.9%・太陽光34.9%・ガス16.8%・風力10.4%）。実際に通電済の大口需要は5.9GW、承認済未稼働3.2GW（いずれも2026年4月時点、当時の申込総量445.8GW）</summary>
-</entry>
-<entry>
-<title>米ハイイールド社債のCCC格以下とBB格のスプレッド差 — 最下層だけが切り離されているか — 2026-09-18</title>
-<link href="https://kaikei-media.github.io/o/t3-q14/"/>
-<id>https://kaikei-media.github.io/o/t3-q14/#2026-09-18@2026-09-28</id>
-<updated>2026-09-28T18:50:51+09:00</updated>
-<summary>CCC以下1,083bp − BB格155bp = 差928bp（年初来最高）。1か月前864bp、3か月前788bp、6か月前764bp、1年前627bp。年初来最小は2026-01-28の673bp。ハイイールド全体は268bp（1年前271bp）</summary>
-</entry>
-<entry>
-<title>超大型技術企業4社の設備投資が営業キャッシュフローに占める割合と、有利子負債の増加額 — AI設備投資が自己資金の話から信用の話に移ったか — 2026-09-24</title>
-<link href="https://kaikei-media.github.io/o/t3-q15/"/>
-<id>https://kaikei-media.github.io/o/t3-q15/#2026-09-24@2026-09-28</id>
-<updated>2026-09-28T18:50:51+09:00</updated>
-<summary>設備投資÷営業CF: Amazon 104.7%（直近12か月、FCFは△76億ドル）／Alphabet 95.0%（2026年1-6月）／Meta 76.6%（同）／Microsoft 62.9%（2026年6月期の9か月）。有利子負債の半年の増加: Amazon +633億ドル／Alphabet +516億ドル（465→982億ドル）／Meta +249億ドル／Microsoft ほぼ横ばい</summary>
 </entry>
 </feed>
