@@ -4,9 +4,30 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-10-06T12:40:00+09:00</updated>
+<updated>2026-10-07T09:37:27+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>米国債の実質利回り — 金融抑圧が効いているかどうかの判定（実質マイナスでなければ、目減りは起きていない） — 2026-10-05</title>
+<link href="https://kaikei-media.github.io/o/t1-f7/"/>
+<id>https://kaikei-media.github.io/o/t1-f7/#2026-10-05@2026-10-07</id>
+<updated>2026-10-07T09:37:27+09:00</updated>
+<summary>10年の実質利回り +2.95%（9/30は+2.93%）。同日の期待インフレは2.36%（9/30は2.36%）。強くプラスのまま。 金融抑圧の条件（実質マイナス）を満たしていない。</summary>
+</entry>
+<entry>
+<title>主要国の長期金利の水準（誰がいくらで貸したか。株価は使わないが金利は使う） — 2026-10-05</title>
+<link href="https://kaikei-media.github.io/o/t1-q7/"/>
+<id>https://kaikei-media.github.io/o/t1-q7/#2026-10-05@2026-10-07</id>
+<updated>2026-10-07T09:37:27+09:00</updated>
+<summary>米10年 5.31%（10/5）、米2年 4.84%、米30年 5.66%。9/30は10年5.29%・2年4.88%・30年5.64%。10年は9/1の4.79%から+0.52ポイント</summary>
+</entry>
+<entry>
+<title>米ハイイールド社債のCCC格以下とBB格のスプレッド差 — 最下層だけが切り離されているか — 2026-10-05</title>
+<link href="https://kaikei-media.github.io/o/t3-q14/"/>
+<id>https://kaikei-media.github.io/o/t3-q14/#2026-10-05@2026-10-07</id>
+<updated>2026-10-07T09:37:27+09:00</updated>
+<summary>CCC以下 12.11%（10/5）、BB 1.93%。差は10.18ポイント（9/29の9.68から拡大）。ハイイールド全体3.12%、投資適格全体0.84%。CCCは10/1に12.15%まで広がった後、12%台で推移</summary>
+</entry>
 <entry>
 <title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-08-20</title>
 <link href="https://kaikei-media.github.io/o/t2-q17/"/>
@@ -417,26 +438,5 @@
 <id>https://kaikei-media.github.io/o/t1-f9/#2026-08-28@2026-09-28</id>
 <updated>2026-09-28T18:50:51+09:00</updated>
 <summary>2026年2月17日の公開草案のまま。最終化は未確認</summary>
-</entry>
-<entry>
-<title>主要国の長期金利の水準（誰がいくらで貸したか。株価は使わないが金利は使う） — 2026-09-24</title>
-<link href="https://kaikei-media.github.io/o/t1-q7/"/>
-<id>https://kaikei-media.github.io/o/t1-q7/#2026-09-24@2026-09-28</id>
-<updated>2026-09-28T18:50:51+09:00</updated>
-<summary>米10年 5.18%（9/24、FREDの一次値で確認。9/10の4.95%からさらに上昇）／米30年 5.47%（同、9/10の5.37%から上昇）／日本10年 約3.07%（9/24〜25、報道複数。9/10の2.93%から上昇、1996年以来の水準が続く）／日本30年 4.160%（9/24、報道。9/3入札の4.080%から上昇）／英10年 約5.35%（9月下旬、報道。9/10の5.295%からさらに上昇、2007〜2008年以来の高さ）／独10年 約3.6%（9月下旬、報道。7週連続の週足上昇、2009年6月以来の高さ。9/10の3.51%から上昇）</summary>
-</entry>
-<entry>
-<title>ホルムズ・スエズ・パナマの通航隻数とトン数 — 2026-09-20</title>
-<link href="https://kaikei-media.github.io/o/t2-q1/"/>
-<id>https://kaikei-media.github.io/o/t2-q1/#2026-09-20@2026-09-28</id>
-<updated>2026-09-28T18:50:51+09:00</updated>
-<summary>IMF PortWatchのArcGIS Feature Serviceを直接取得（一次）。9/9〜9/20の12日平均は、ホルムズ4.0隻/日（積める重量トンの合計は日平均5.7万トン。前回9/2〜9/13の平均4.3隻/日・10.9万トンから隻数はほぼ横ばい、トン数は半減）、スエズ39.7隻/日（155万トン、前回とほぼ同水準）、パナマ27.8隻/日（83万トン、9/15からの上限32隻/日への引き下げに沿って前回29.8隻/日から低下）。直近9/20時点の実数はホルムズ1隻・スエズ42隻・パナマ27隻。データの反映には8日ほどの遅れがある（9/28取得時点の最新値が9/20）</summary>
-</entry>
-<entry>
-<title>ホルムズ経由の原油・LNGの実輸送量（AISの隻数ではなくカーゴ追跡・輸出統計。瀬取り分を含む） — 2026-09-26</title>
-<link href="https://kaikei-media.github.io/o/t2-q6/"/>
-<id>https://kaikei-media.github.io/o/t2-q6/#2026-09-26@2026-09-28</id>
-<updated>2026-09-28T18:50:51+09:00</updated>
-<summary>Kpler(船舶追跡会社)発の集計(Bloomberg/marinelink経由)で、ホルムズ海峡経由の原油輸出は9月に入り月間平均で日量約650万バレル、6月停戦後の一時的な急増以来の最高水準。9/20週は週初来33.7百万バレル・タンカー19隻(うちVLCC=超大型原油タンカー17隻)で、前週とほぼ同水準。サウジアラムコが紅海側ヤンブー積出港へのパイプライン攻撃を受け、ホルムズ経由の輸出を増やしている。LNGはカタールが9/24までの1週間で少なくとも積載タンカー4隻を送り出し・2隻を迎え入れ、7/11のタンカー攻撃以来2か月あまり続いた事実上の停止から、最も持続的な回復を見せている(Bloomberg)。石油製品の海峡輸送(前回記録: 日量約100万バレル、戦前の約400万バレル/日を大きく下回る)は今回、更新値を確認できず前回値のまま</summary>
 </entry>
 </feed>
