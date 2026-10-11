@@ -151,8 +151,12 @@ footer{margin-top:40px;color:var(--ink3);font-size:.8rem;border-top:1px solid va
 <p class="lead">AI <button type="button" class="gl" data-t="Capex" data-d="設備投資のこと。工場やデータセンターなど、何年も使う設備にかけるお金。支出は先、回収は後になる。" aria-label="Capex">Capex</button>バブル — 二重の時間軸（信用1〜3年＋生産性10年+） の観測項目。価格ではなく数量と資金フローで測っています。値には日付と一次資料が付いています。</p>
 <h2 class="sec">観測の履歴</h2>
 <div class="tbl"><table><thead><tr><th>日付</th><th>最新</th><th>出どころ</th></tr></thead><tbody>
-<tr><td class="num">2026-09-30</td><td style="white-space:normal"><strong>GPUの時間貸し価格は前年より上がっている（すべて二次の指数）。</strong> H100: 2.71〜3.39ドル/時（指数により異なる）、12か月で+14%（GetDeploying）。B200: 5.78〜8.09ドル。H200は指数間で約1.7倍の差（3.29〜5.58ドル）。22機種中15機種が前年比で値上がり。旧世代: <button type="button" class="gl" data-t="CoreWeave" data-d="GPUを大量に買い集めて他社に貸す会社。借金で設備を買っているので、借入の条件に引っかかるかどうかが注目されている。" aria-label="CoreWeave">CoreWeave</button>のCFOが「旧世代GPUの価格は約1年前と同じかそれ以上」（8/11報道・二次。会社資料の原文は未確認）。<strong>9月時点の1年契約の価格は見つからなかった。</strong><button type="button" class="gl q" data-t="GPUの収益力: 同一世代・同一構成の1年契約価格の前年比、旧世代の再契約価格（資産の稼ぐ力。市場価格ではない）" data-d="■ 出どころ
+<tr><td class="num">2026-09-30</td><td style="white-space:normal"><strong>GPUの時間貸し価格は前年より上がっている（すべて二次の指数）。</strong> H100: 2.71〜3.39ドル/時（指数により異なる）、12か月で+14%（GetDeploying）。B200: 5.78〜8.09ドル。H200は指数間で約1.7倍の差（3.29〜5.58ドル）。22機種中15機種が前年比で値上がり。旧世代: <button type="button" class="gl" data-t="CoreWeave" data-d="GPUを大量に買い集めて他社に貸す会社。借金で設備を買っているので、借入の条件に引っかかるかどうかが注目されている。" aria-label="CoreWeave">CoreWeave</button>のCFOが「旧世代GPUの価格は約1年前と同じかそれ以上」（8/11報道・二次。会社資料の原文は未確認）。<strong>9月時点の1年契約の価格は見つからなかった。</strong><button type="button" class="gl q" data-t="GPUの収益力: 同一世代・同一構成の1年契約価格の前年比、旧世代の再契約価格（資産の稼ぐ力。市場価格ではない）" data-d="■ この数字の読み方
+一次資料なし（GPUの時間貸し価格には公的統計も取引所も無く、指数の発行元〔Ornn・Silicon Data・GetDeploying〕の公表値が最も元に近い。2026-10-10 毎日の片付け）
+
+■ 出どころ
 Ornn・Silicon Data・GetDeploying（すべて二次の指数）（2026-09-30）" aria-label="この数字について">?</button></td><td><a href="https://getdeploying.com/gpu-price-index" rel="noopener">Ornn・Silicon Data・GetDeploying（すべて二次の指数）</a></td></tr>
+<tr><td colspan="3" class="na">一次資料なし（GPUの時間貸し価格には公的統計も取引所も無く、指数の発行元〔Ornn・Silicon Data・GetDeploying〕の公表値が最も元に近い。2026-10-10 毎日の片付け）</td></tr>
 <tr><td class="num">2026-07-31</td><td style="white-space:normal"><button type="button" class="gl" data-t="CoreWeave" data-d="GPUを大量に買い集めて他社に貸す会社。借金で設備を買っているので、借入の条件に引っかかるかどうかが注目されている。" aria-label="CoreWeave">CoreWeave</button>: 7月に契約価格を全SKUで約25%引き上げ。旧世代（H100等）の価格は「数年前と同等以上」、A100を2029年まで再契約<button type="button" class="gl q" data-t="GPUの収益力: 同一世代・同一構成の1年契約価格の前年比、旧世代の再契約価格（資産の稼ぐ力。市場価格ではない）" data-d="■ この数字の読み方
 契約・予約価格の変化（オンデマンド価格ではない）。収益力の減衰の合図は出ていない
 2026-09-10の点検: 出典のラベルが「決算説明会」となっていたが、実際のリンクはYahoo Financeの記事だった。看板と中身が違っていたので、ラベルを実物に合わせた（リンクは記録の不変化で守られる列なので変えていない）。一次資料（CoreWeaveの決算説明資料）で取り直す候補。
@@ -175,7 +179,7 @@ Nebius 2026年Q2 株主レター（2026-08-12公表・一次資料）（2026-06-
 <p class="lead"><code style="white-space:normal;word-break:break-word">解経『GPUの収益力: 同一世代・<button type="button" class="gl" data-t="同一構成" data-d="AIモデルを比べるとき、性能の設定（どれだけ深く考えさせるか等）を同じ条件にそろえること。そろえないと、値段の違いが性能の違いのせいなのか設定の違いのせいなのか分からなくなる。" aria-label="同一構成">同一構成</button>の1年契約価格の前年比、旧世代の再契約価格（資産の稼ぐ力。市場価格ではない）』https://kaikei-media.github.io/o/t3-q5/（対象日 2026-09-30、記録日 2026-10-01）。一次資料: https://getdeploying.com/gpu-price-index</code></p>
 <p class="lead">一次資料のURLも一緒に書いてください。解経が主張しているのではなく、集めて日付を付けているだけなので、両方あって初めて確かめられます。全データは https://kaikei-media.github.io/data/ にCSVとJSONで置いてあります（CC BY 4.0）。</p>
 <p class="lead"><a href="../../">← いまの流れ（全体）へ</a> · <a href="../../g/">用語集</a> · <a href="../../method/">測り方</a> · <a href="../../data/">データ</a></p>
-<footer><time datetime="2026-10-10">最終更新 · 2026-10-10</time> · <a class="xlink" href="https://x.com/kaikei_media" rel="me">Xで毎日の観測を出しています（@kaikei_media）</a><br>情報提供のみを目的とし、特定の金融商品の売買を推奨するものではありません。数値は各出典の一次資料に基づきますが、正確性を保証するものではありません。</footer>
+<footer><time datetime="2026-10-11">最終更新 · 2026-10-11</time> · <a class="xlink" href="https://x.com/kaikei_media" rel="me">Xで毎日の観測を出しています（@kaikei_media）</a><br>情報提供のみを目的とし、特定の金融商品の売買を推奨するものではありません。数値は各出典の一次資料に基づきますが、正確性を保証するものではありません。</footer>
 <script>
 (function(){
  var d=document,p=null;
