@@ -4,15 +4,43 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-10-12T09:28:14+09:00</updated>
+<updated>2026-10-13T11:32:54+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>FRBの保有残高 — 買っているか減らしているか — 2026-10-07</title>
+<link href="https://kaikei-media.github.io/o/t1-q5/"/>
+<id>https://kaikei-media.github.io/o/t1-q5/#2026-10-07@2026-10-13</id>
+<updated>2026-10-13T11:32:54+09:00</updated>
+<summary>FRB総資産 6兆7,476億ドル（前週比約+45億ドル）。うち米国債 約4兆5,664億ドル（水曜残高）</summary>
+</entry>
 <entry>
 <title>米企業のAI利用率（センサス局BTOS・過去2週間にAIを使って製品やサービスを作った企業の割合） — 2026-10-04</title>
 <link href="https://kaikei-media.github.io/o/t3-d3/"/>
 <id>https://kaikei-media.github.io/o/t3-d3/#2026-10-04@2026-10-12</id>
 <updated>2026-10-12T09:28:14+09:00</updated>
 <summary>23.8%(過去2週間にAIを使った企業の割合、全国。収集期間2026-09-21〜10-04)。前回9/20の23.8%と同じで、12回目の上昇にはならず横ばい。今後6か月の予定利用率は27.6%→27.7%</summary>
+</entry>
+<entry>
+<title>金ETFの現物保有トン数（価格ではなく現物の増減） — 2026-09-30</title>
+<link href="https://kaikei-media.github.io/o/t1-f2/"/>
+<id>https://kaikei-media.github.io/o/t1-f2/#2026-09-30@2026-10-12</id>
+<updated>2026-10-12T07:10:54.641002+00:00</updated>
+<summary>世界の金ETF保有 4,256トン（9月+67トンで過去最高を更新、8月末4,189トンから）。9月の流入額は100億ドル、7〜9月期は310億ドルで四半期の過去最高。地域別の流入: 北米40億ドル（米国38億ドル）・欧州36億ドル（英国22億ドル）・アジア23億ドル。運用残高は前月比−7%の5,740億ドル（金の値下がりによる）</summary>
+</entry>
+<entry>
+<title>政府の純利払い — 額と、歳入・GDPに対する比率 — 2026-09-30</title>
+<link href="https://kaikei-media.github.io/o/t1-f6/"/>
+<id>https://kaikei-media.github.io/o/t1-f6/#2026-09-30@2026-10-12</id>
+<updated>2026-10-12T07:10:54.641002+00:00</updated>
+<summary>2026会計年度の通年（9月まで）の純利払いは読めなかった。CBOの月次財政報告（2026-10-08）は財政赤字を通年2.0兆ドル（9月単月280億ドル）と推計（CRFBの要約・二次）</summary>
+</entry>
+<entry>
+<title>ロシア産原油の海上輸出量と影の船団の隻数・拿捕件数、黒海の輸送量 — 2026-09-30</title>
+<link href="https://kaikei-media.github.io/o/t2-q8/"/>
+<id>https://kaikei-media.github.io/o/t2-q8/#2026-09-30@2026-10-12</id>
+<updated>2026-10-12T07:10:54.641002+00:00</updated>
+<summary>9月分は未公表。CREAの月次分析は8月分が2026-09-10に掲載されたが、9月分は2026-10-12時点で一覧に無い</summary>
 </entry>
 <entry>
 <title>株式側の資金の流れ — 信用取引の残高・内部者の売却・新規上場で既存株主が売る割合 — 2026-10-02</title>
@@ -398,33 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-f7/#2026-09-03@2026-10-04</id>
 <updated>2026-10-04T11:25:31+00:00</updated>
 <summary>Micron 2026年6〜8月期: 売上542.3億ドル（前四半期比+30.8%）に対し、在庫103.72億ドル（+21.1%）、売掛金361.97億ドル（+16.7%）。在庫も売掛金も売上より遅く伸びている。粗利益率86.8%、次の四半期の売上見通し615億ドル±15億ドル</summary>
-</entry>
-<entry>
-<title>FRBの保有残高 — 買っているか減らしているか — 2026-09-30</title>
-<link href="https://kaikei-media.github.io/o/t1-q5/"/>
-<id>https://kaikei-media.github.io/o/t1-q5/#2026-09-30@2026-10-03</id>
-<updated>2026-10-03T09:25:02+09:00</updated>
-<summary>FRB総資産 6兆7,430億ドル（前週比約▲46億ドル）。うち米国債4兆5,642億ドル（前週比約+59億ドル）</summary>
-</entry>
-<entry>
-<title>AI投資の結果 — 労働生産性・AIを理由にした人員削減・働き手への分配 — 2026-09-30</title>
-<link href="https://kaikei-media.github.io/o/t3-d11/"/>
-<id>https://kaikei-media.github.io/o/t3-d11/#2026-09-30@2026-10-02</id>
-<updated>2026-10-02T21:55:00+09:00</updated>
-<summary>米雇用統計 9月分（10/2公表）: 非農業部門の雇用+2.9万人（市場予想は+9〜10万人・二次）。失業率4.2%（8月4.1%）、ただし労働参加率は61.6%→61.8%に上がっており、上昇の一部は働く人が増えたため。平均時給$37.81・前月比+0.13%・前年比+3.0%で、8月の消費者物価+3.4%を下回る（実質マイナスが続く）。情報産業−1.0万人、うち「計算基盤の提供・データ処理・ウェブのホスティング」−1,600人で2か月続けて減少（8月−7,700人）。7月は−1.0万人、8月は+13.3万人へ下方修正（二次: TradingEconomics）で、3か月平均は約+5万人</summary>
-</entry>
-<entry>
-<title>主要国の長期金利の水準（誰がいくらで貸したか。株価は使わないが金利は使う） — 2026-09-30</title>
-<link href="https://kaikei-media.github.io/o/t1-q7/"/>
-<id>https://kaikei-media.github.io/o/t1-q7/#2026-09-30@2026-10-02</id>
-<updated>2026-10-02T21:00:00+09:00</updated>
-<summary>米10年 5.29%（9/30）。9/1の4.79%から1か月で+0.50ポイント、9/24の5.18%からさらに上昇／米2年 4.88%（9/1は4.39%）。FRBは9/16に0.25ポイント利上げし3.75〜4.00%へ（2025年12月までの利下げからの転換）。日英独は今回取り直していない</summary>
-</entry>
-<entry>
-<title>米国債の実質利回り — 金融抑圧が効いているかどうかの判定（実質マイナスでなければ、目減りは起きていない） — 2026-09-30</title>
-<link href="https://kaikei-media.github.io/o/t1-f7/"/>
-<id>https://kaikei-media.github.io/o/t1-f7/#2026-09-30@2026-10-02</id>
-<updated>2026-10-02T09:42:14+09:00</updated>
-<summary>10年の実質利回り +2.93%。9/24の+2.85%からさらに上昇。強くプラスのまま。 金融抑圧の条件（実質マイナス）を満たしていない。</summary>
 </entry>
 </feed>
