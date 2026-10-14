@@ -4,8 +4,8 @@
  "license_name": "CC BY 4.0",
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
- "temporal_coverage": "2024-06-01/2026-10-11",
- "count": 261,
+ "temporal_coverage": "2024-06-01/2026-10-12",
+ "count": 262,
  "columns": [
   "item_id",
   "trend",
@@ -4965,6 +4965,25 @@
    "note_ja": "逆方向の合図(⑧)は『低下すれば消える』条件。横ばいなので低下ではなく、上昇の連続だけが止まった。小数第1位の丸めの範囲で、標準誤差は見ていない",
    "note_en": "The counter-signal (8) switches off on a decline; flat is not a decline, only the streak of rises stopped. Rounded to one decimal; standard errors not checked.",
    "page_url": "https://kaikei-media.github.io/o/t3-d3/"
+  },
+  {
+   "item_id": "T3-Q16",
+   "trend": "T3",
+   "kind": "quantity",
+   "cadence": "monthly",
+   "unit": "億ドル・億台湾ドル・前年同月比%",
+   "name_ja": "AI半導体の出荷の実績 — 韓国の半導体輸出・台湾の輸出受注・TSMCの月次売上",
+   "name_en": "AI chip shipments in practice — Korea's chip exports, Taiwan's export orders, TSMC monthly revenue",
+   "date": "2026-10-12",
+   "recorded_at": "2026-10-13",
+   "value_ja": "韓国の10月1〜10日の輸出は261億ドル（前年同期比+102.0%）、うち半導体121.98億ドル（+170.9%・10月上旬として過去最高・比率46.7%）。前年は秋夕の連休で操業日数が少なく、操業日数で調整した全体の輸出は1日47.5億ドル（前年36.9億ドル・+28.5%）",
+   "value_en": "Korea Oct 1-10 exports US$26.1bn (+102.0% y/y); semiconductors US$12.20bn (+170.9%, record for early October, 46.7% share). Last year had fewer working days (Chuseok); working-day-adjusted total exports US$4.75bn/day (+28.5%).",
+   "direction": "up",
+   "source_url": "https://www.mt.co.kr/economy/2026/10/12/2026101208440032733",
+   "source_label": "マネートゥデイ 2026-10-12（関税庁の発表の報道・二次）",
+   "note_ja": "前年比の大きさは連休のずれが大半。半導体だけの操業日数調整の値は報じられず。値段×数量で、量の内訳は無い。一次資料は読めなかった（https://www.customs.go.kr/kcs/na/ntt/selectNttList.do?mi=2891&bbsId=1362 関税庁の報道資料の一覧。この環境からは開く許可が得られなかった）",
+   "note_en": "",
+   "page_url": "https://kaikei-media.github.io/o/t3-q16/"
   },
   {
    "item_id": "T1-Q5",
