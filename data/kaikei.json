@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
  "temporal_coverage": "2024-06-01/2026-10-12",
- "count": 262,
+ "count": 263,
  "columns": [
   "item_id",
   "trend",
@@ -5003,6 +5003,25 @@
    "note_ja": "WebFetchが許可されず、検索結果の引用から取得。表の列が崩れており米国債の前週差は未確認（9/30の4兆5,642億ドルとの差は約+22億ドル）。MBSは未確認。規模はほぼ横ばい。",
    "note_en": "Obtained via search-result citation (fetch not permitted); table columns garbled, Treasuries WoW unconfirmed (~+$2.2bn vs Sep 30). MBS not confirmed. Roughly flat.",
    "page_url": "https://kaikei-media.github.io/o/t1-q5/"
+  },
+  {
+   "item_id": "T1-Q8",
+   "trend": "T1",
+   "kind": "quantity",
+   "cadence": "monthly",
+   "unit": "%",
+   "name_ja": "米国の消費者物価（前年比・総合とコア）— 実質債務が目減りしているかの分子",
+   "name_en": "US consumer price index, year-over-year, headline and core",
+   "date": "2026-09-30",
+   "recorded_at": "2026-10-15T08:53:52+09:00",
+   "value_ja": "総合 前年比 +3.7%（前月比 +0.6%・季節調整済み）、コア 前年比 +2.6%（前月比 +0.3%）。エネルギー前年比 +20.4%、食品 +2.5%、住居 +3.2%。",
+   "value_en": "Headline CPI +3.7% y/y (+0.6% m/m SA); core +2.6% y/y (+0.3% m/m). Energy +20.4%, food +2.5%, shelter +3.2%.",
+   "direction": "up",
+   "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+   "source_label": "米労働統計局 CPIニュースリリース 2026年9月分（一次・2026-10-14公表）",
+   "note_ja": "総合は8月の3.4%から上がり、コアも2.4%から2.6%へ上がった。エネルギーの押し上げが大きいが、コアも動いている。数字は検索結果が引いた公表本文による。",
+   "note_en": "",
+   "page_url": "https://kaikei-media.github.io/o/t1-q8/"
   }
  ]
 }

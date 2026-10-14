@@ -4,9 +4,16 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-10-13T11:32:54+09:00</updated>
+<updated>2026-10-15T08:53:52+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>米国の消費者物価（前年比・総合とコア）— 実質債務が目減りしているかの分子 — 2026-09-30</title>
+<link href="https://kaikei-media.github.io/o/t1-q8/"/>
+<id>https://kaikei-media.github.io/o/t1-q8/#2026-09-30@2026-10-15</id>
+<updated>2026-10-15T08:53:52+09:00</updated>
+<summary>総合 前年比 +3.7%（前月比 +0.6%・季節調整済み）、コア 前年比 +2.6%（前月比 +0.3%）。エネルギー前年比 +20.4%、食品 +2.5%、住居 +3.2%。</summary>
+</entry>
 <entry>
 <title>FRBの保有残高 — 買っているか減らしているか — 2026-10-07</title>
 <link href="https://kaikei-media.github.io/o/t1-q5/"/>
@@ -419,12 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-f15/#2026-10-01@2026-10-04</id>
 <updated>2026-10-04T11:25:31+00:00</updated>
 <summary>ソフトバンクグループがOpenAIへの追加出資の最終回100億ドルを実行（累計646億ドル・持分約13%）。資金は9/24の外貨建て無担保社債（約111億ドル相当、ドル建ては利率8.625〜9.750%、格付けBB+）。つなぎ融資枠の未使用分100億ドルを解約し、借入はすべて返済済み</summary>
-</entry>
-<entry>
-<title>ベンダーファイナンス — GPU供給元が顧客に出資・与信している額 — 2026-09-29</title>
-<link href="https://kaikei-media.github.io/o/t3-f3/"/>
-<id>https://kaikei-media.github.io/o/t3-f3/#2026-09-29@2026-10-04</id>
-<updated>2026-10-04T11:25:31+00:00</updated>
-<summary>NVIDIAが、自社の半導体を担保にしたネオクラウド向け融資の損失（担保を売っても足りない分）を保険会社に分け持たせる交渉を初期段階で進めている（再保険仲介Howden Reが組成、成約なし）</summary>
 </entry>
 </feed>
