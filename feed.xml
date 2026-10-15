@@ -4,9 +4,51 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-10-15T08:53:52+09:00</updated>
+<updated>2026-10-16T08:40:05+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>米国の長期金利の内訳（実質利回り・市場の期待インフレ・期間の上乗せ）と、株の急落日に国債が買われたか — 2026-10-14</title>
+<link href="https://kaikei-media.github.io/o/t1-f10/"/>
+<id>https://kaikei-media.github.io/o/t1-f10/#2026-10-14@2026-10-16</id>
+<updated>2026-10-16T08:40:05+09:00</updated>
+<summary>名目10年 5.19%（9/1 4.79%・+0.40）／実質10年 2.84%（9/1 2.44%・+0.40）／差＝市場の期待インフレ 2.35%（9/1 2.35%・±0）。9月からの上げは引き続き全部が実質利回り</summary>
+</entry>
+<entry>
+<title>米国債の実質利回り — 金融抑圧が効いているかどうかの判定（実質マイナスでなければ、目減りは起きていない） — 2026-10-14</title>
+<link href="https://kaikei-media.github.io/o/t1-f7/"/>
+<id>https://kaikei-media.github.io/o/t1-f7/#2026-10-14@2026-10-16</id>
+<updated>2026-10-16T08:40:05+09:00</updated>
+<summary>10年の実質利回り +2.84%（10/8は+2.87%）。期待インフレは2.35%（10/14、10/8と同じ）。強くプラスのまま。 金融抑圧の条件（実質マイナス）を満たしていない。</summary>
+</entry>
+<entry>
+<title>主要国の長期金利の水準（誰がいくらで貸したか。株価は使わないが金利は使う） — 2026-10-14</title>
+<link href="https://kaikei-media.github.io/o/t1-q7/"/>
+<id>https://kaikei-media.github.io/o/t1-q7/#2026-10-14@2026-10-16</id>
+<updated>2026-10-16T08:40:05+09:00</updated>
+<summary>米10年 5.19%（10/14）、米2年 4.82%、米30年 5.52%。10/8は10年5.22%・2年4.75%・30年5.60%。10年は9/1の4.79%から+0.40ポイント</summary>
+</entry>
+<entry>
+<title>米ハイイールド社債のCCC格以下とBB格のスプレッド差 — 最下層だけが切り離されているか — 2026-10-14</title>
+<link href="https://kaikei-media.github.io/o/t3-q14/"/>
+<id>https://kaikei-media.github.io/o/t3-q14/#2026-10-14@2026-10-16</id>
+<updated>2026-10-16T08:40:05+09:00</updated>
+<summary>CCC以下 12.82%（10/14）、BB 1.99%。差は10.83ポイント（10/8の10.58から拡大）。ハイイールド全体3.25%、投資適格全体0.84%。CCCは10/8の12.52%を超え、10/12以降3営業日連続で広がった</summary>
+</entry>
+<entry>
+<title>1タスクあたりの推論支出 — 同じ仕事を終えるのに、実際いくら払うか — 2026-10-08</title>
+<link href="https://kaikei-media.github.io/o/t3-d9/"/>
+<id>https://kaikei-media.github.io/o/t3-d9/#2026-10-08@2026-10-15</id>
+<updated>2026-10-15T16:30:00+09:00</updated>
+<summary>GPT-6 Sol 対 GPT-5.6 Sol（ともにmax effort・測定はArtificial Analysis・同じ版の指数）。汎用の指数（Intelligence Index）の点は48対47でほぼ同じ、指数を1回走らせる費用は1,536ドル対3,465ドル＝約56%安い。内訳は、単価が半分（入力2ドル・出力10ドル／100万トークン、GPT-5.6 Solは4ドル・20ドル）、出力トークンが7,700万対9,000万＝約14%減。同じ仕事が、世代を上げて安くなった最初の測定。</summary>
+</entry>
+<entry>
+<title>AI半導体の出荷の実績 — 韓国の半導体輸出・台湾の輸出受注・TSMCの月次売上 — 2026-10-15</title>
+<link href="https://kaikei-media.github.io/o/t3-q16/"/>
+<id>https://kaikei-media.github.io/o/t3-q16/#2026-10-15@2026-10-15</id>
+<updated>2026-10-15T12:04:29+00:00</updated>
+<summary>TSMCの2026年7〜9月期: 売上467.2億ドル（前年同期比+41.2%・前期比+16.2%、台湾ドルでは+50.9%）、純利益7,630.6億台湾ドル（+68.7%）、粗利率66.4%。10〜12月期の見通しは売上523〜543億ドル（前期比+12〜16%）・粗利率65〜67%。量（出荷）は減っていない。同じ日にCoreWeaveの社債の利回りは16%超（2031年満期）・CDS約1,000bp＝信用の値段と出荷の量が逆へ動いている。通年の設備投資600〜640億ドル据え置きは二次（currentlogic）</summary>
+</entry>
 <entry>
 <title>米国の消費者物価（前年比・総合とコア）— 実質債務が目減りしているかの分子 — 2026-09-30</title>
 <link href="https://kaikei-media.github.io/o/t1-q8/"/>
@@ -384,47 +426,5 @@
 <id>https://kaikei-media.github.io/o/t2-f1/#2026-09-25@2026-10-04</id>
 <updated>2026-10-04T11:25:31+00:00</updated>
 <summary>米国防総省がRaytheonにAMRAAM（空対空ミサイル）の最大207億ドルの契約（5年＋オプション2年、9/25契約・9/28発表、数量は非公表）。9/29にドローン対策で10社と数量を決めない枠契約 合計41.5億ドル（実際に支出が決まったのは5,000万ドル）</summary>
-</entry>
-<entry>
-<title>ホルムズ・スエズ・パナマの通航隻数とトン数 — 2026-09-30</title>
-<link href="https://kaikei-media.github.io/o/t2-q1/"/>
-<id>https://kaikei-media.github.io/o/t2-q1/#2026-09-30@2026-10-04</id>
-<updated>2026-10-04T11:25:31+00:00</updated>
-<summary>ホルムズ: IMF PortWatchの値で9/27に1隻（平常時は1日約85隻・二次のまとめ経由）。一方、合同海事情報センターの数え方では、米国が通航を支援した船が9月に801隻・1日平均26.7隻（9/27〜30は96時間で113隻、戦前の基準は約138隻）</summary>
-</entry>
-<entry>
-<title>主要品目の在庫日数、戦略備蓄の放出量 — 2026-09-25</title>
-<link href="https://kaikei-media.github.io/o/t2-q4/"/>
-<id>https://kaikei-media.github.io/o/t2-q4/#2026-09-25@2026-10-04</id>
-<updated>2026-10-04T11:25:31+00:00</updated>
-<summary>米SPR 2億8,380万バレル（週−80万バレル）。民間の原油在庫4億2,730万バレル、製油所の稼働率95.3%（4週平均）、留出油在庫1億520万バレル。IEA: 世界の観測在庫は8月にさらに9,500万バレル減り、2月からの累計で5億700万バレル減（日量280万バレル）</summary>
-</entry>
-<entry>
-<title>データセンターの借り手の需要 — 空室率・完成前の契約率と、地元の反対で止まった計画 — 2026-09-30</title>
-<link href="https://kaikei-media.github.io/o/t3-d10/"/>
-<id>https://kaikei-media.github.io/o/t3-d10/#2026-09-30@2026-10-04</id>
-<updated>2026-10-04T11:25:31+00:00</updated>
-<summary>地元の反対による停止: ジョージア州ラブジョイ市が市内全域でデータセンターの建設を禁止する条例を可決（9/29、学校の近くの1.25GW案件がきっかけ）、オハイオ州ウォーレン郡が大規模データセンターを6か月停止（9/30、全会一致）、ケンタッキー州ジョージタウン市が禁止条例の起草を指示（9/30）</summary>
-</entry>
-<entry>
-<title>AI関連の起債・ローン: 月次発行額、応札倍率、シンジケーション中の条件変更幅、撤回・延期 — 2026-09-30</title>
-<link href="https://kaikei-media.github.io/o/t3-f1/"/>
-<id>https://kaikei-media.github.io/o/t3-f1/#2026-09-30@2026-10-04</id>
-<updated>2026-10-04T11:25:31+00:00</updated>
-<summary>Morgan Stanleyの集計: 2026年7月以降に出たデータセンター向けハイイールド債4件は4件すべて額面割れで価格決定（その前の10件では3件）。仏ソシエテ・ジェネラル・三井住友銀行・三菱UFJ銀行がデータセンター融資で案件を選び、銀行団が細っている</summary>
-</entry>
-<entry>
-<title>米国の銀行のノンバンク向け貸出 — 私募クレジットやデータセンターの資金の、最後の出し手 — 2026-09-23</title>
-<link href="https://kaikei-media.github.io/o/t3-f14/"/>
-<id>https://kaikei-media.github.io/o/t3-f14/#2026-09-23@2026-10-04</id>
-<updated>2026-10-04T11:25:31+00:00</updated>
-<summary>銀行以外の金融機関向け貸出（全商業銀行・季節調整済み）2兆668億ドル（9/23の週）。月平均は2026年8月2兆406億ドル、2025年8月1兆6,987億ドル（+20.1%）</summary>
-</entry>
-<entry>
-<title>AIラボに出すお金の出どころ — 出し手が自分のお金で出しているか、借りて出しているか — 2026-10-01</title>
-<link href="https://kaikei-media.github.io/o/t3-f15/"/>
-<id>https://kaikei-media.github.io/o/t3-f15/#2026-10-01@2026-10-04</id>
-<updated>2026-10-04T11:25:31+00:00</updated>
-<summary>ソフトバンクグループがOpenAIへの追加出資の最終回100億ドルを実行（累計646億ドル・持分約13%）。資金は9/24の外貨建て無担保社債（約111億ドル相当、ドル建ては利率8.625〜9.750%、格付けBB+）。つなぎ融資枠の未使用分100億ドルを解約し、借入はすべて返済済み</summary>
 </entry>
 </feed>
