@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
  "temporal_coverage": "2024-06-01/2026-10-18",
- "count": 294,
+ "count": 295,
  "columns": [
   "item_id",
   "trend",
@@ -5611,6 +5611,25 @@
    "note_ja": "一次資料（経産省の統計）の原表は今回読めなかった。東西パイプラインの10/6以降の新しい送油量は見つからず、10/6の日量580万バレル（能力の約8割）が最新。Kplerでは9月のサウジ原油輸出は日量600万バレルで開戦後最高（二次）。ヤンブーの積み出しは最大約450万バレルが上限との見方。",
    "note_en": "METI primary table not read. No East-West flow figure newer than 6 Oct (5.8m b/d) found.",
    "page_url": "https://kaikei-media.github.io/o/t2-q11/"
+  },
+  {
+   "item_id": "T1-Q5",
+   "trend": "T1",
+   "kind": "quantity",
+   "cadence": "weekly",
+   "unit": "USD tn",
+   "name_ja": "FRBの保有残高 — 買っているか減らしているか",
+   "name_en": "Fed balance sheet holdings — buying or shrinking?",
+   "date": "2026-10-14",
+   "recorded_at": "2026-10-22T08:59:25+09:00",
+   "value_ja": "FRB信用供与(Reserve Bank credit) 6兆7,089億ドル(水曜残高、週平均は前週比+117億ドル)。うち米国債 4兆5,706億ドル(水曜残高、週平均は前週比+50億ドル)。長期債(ノート・債券)は3兆6,180億ドルで変化なし",
+   "value_en": "Reserve Bank credit $6.7089tn (Wednesday level; weekly average +$11.7bn WoW). Treasuries $4.5706tn (Wednesday level; weekly average +$5.0bn). Nominal notes and bonds $3.6180tn, unchanged.",
+   "direction": "up",
+   "source_url": "https://www.federalreserve.gov/releases/h41/20261015/h41.pdf",
+   "source_label": "Federal Reserve H.4.1 (release Oct 15, 2026, Wednesday Oct 14, 2026)（一次・検索結果の引用経由）",
+   "note_ja": "WebFetchが許可されず検索結果の引用から取得。「総資産」ではなく信用供与の値で、10/7までの総資産の系列とは定義が違うため直接比較しない。MBSは未確認。規模はほぼ横ばい。",
+   "note_en": "Obtained via search-result citation (fetch not permitted). This is Reserve Bank credit, not total assets, so not directly comparable with the earlier series. MBS not confirmed. Roughly flat.",
+   "page_url": "https://kaikei-media.github.io/o/t1-q5/"
   }
  ]
 }

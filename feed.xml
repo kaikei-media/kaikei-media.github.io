@@ -4,9 +4,16 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-10-21T08:48:27+09:00</updated>
+<updated>2026-10-22T08:59:25+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>FRBの保有残高 — 買っているか減らしているか — 2026-10-14</title>
+<link href="https://kaikei-media.github.io/o/t1-q5/"/>
+<id>https://kaikei-media.github.io/o/t1-q5/#2026-10-14@2026-10-22</id>
+<updated>2026-10-22T08:59:25+09:00</updated>
+<summary>FRB信用供与(Reserve Bank credit) 6兆7,089億ドル(水曜残高、週平均は前週比+117億ドル)。うち米国債 4兆5,706億ドル(水曜残高、週平均は前週比+50億ドル)。長期債(ノート・債券)は3兆6,180億ドルで変化なし</summary>
+</entry>
 <entry>
 <title>日本の原油輸入のホルムズ依存度と、迂回路（東西パイプライン・フジャイラ）の稼働 — 2026-06-30</title>
 <link href="https://kaikei-media.github.io/o/t2-q11/"/>
@@ -419,12 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-q4/#2026-08-31@2026-10-11</id>
 <updated>2026-10-11T12:00:00+00:00</updated>
 <summary>Oracleの6〜8月期の10-Q（9月提出・表紙の株数は9/7時点）: 残存履行義務6,640億ドル（約13%が12か月以内、37%が13〜36か月、34%が37〜60か月）。まだ始まっていないリースの約束2,880億ドル（ほぼすべてデータセンター、開始は2027会計年度第2四半期〜2029会計年度、期間15〜19年、貸借対照表に載っていない）。四半期の営業CF 231.03億ドル・設備投資284.99億ドル。売掛金113.94億ドル（5月末103.85億）。借入金と社債の合計1,253.37億ドル（5月末1,295.41億）。読めた範囲（本文の約85%＋残り）に、データセンターの不可抗力・遅延・建設融資・ニューメキシコ、耐用年数の変更の記載は無かった</summary>
-</entry>
-<entry>
-<title>米国の長期金利の内訳（実質利回り・市場の期待インフレ・期間の上乗せ）と、株の急落日に国債が買われたか — 2026-10-08</title>
-<link href="https://kaikei-media.github.io/o/t1-f10/"/>
-<id>https://kaikei-media.github.io/o/t1-f10/#2026-10-08@2026-10-11</id>
-<updated>2026-10-11T09:12:24+09:00</updated>
-<summary>名目10年 5.22%（9/1 4.79%・+0.43）／実質10年 2.87%（9/1 2.44%・+0.43）／差＝市場の期待インフレ 2.35%（9/1 2.35%・±0）。10/5の5.31%・2.95%から少し下がったが、9月からの上げは引き続き全部が実質利回り</summary>
 </entry>
 </feed>
