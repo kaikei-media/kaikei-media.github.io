@@ -4,9 +4,16 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-10-22T08:59:25+09:00</updated>
+<updated>2026-10-23</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>銅の在庫と実需（価格ではなく数量） — 2026-08-31</title>
+<link href="https://kaikei-media.github.io/o/t3-q10/"/>
+<id>https://kaikei-media.github.io/o/t3-q10/#2026-08-31@2026-10-23</id>
+<updated>2026-10-23</updated>
+<summary>ICSG（国際銅研究会）の月報2026年9月号の表1（一次）: 2026年7月の世界の精錬銅の生産241.1万トン・使用246.2万トン＝収支−5.1万トンの不足（中国の保税在庫の増減を調整後−5.5万トン）。1〜7月の季節調整後の月平均は生産240.3万トン・使用247.5万トン＝月−7.2万トン。二次（metalradar・ICSGの発表の要約）: 1〜7月の収支は約3.2万トンの余り（前年同期約15.7万トン）、中国の保税在庫を調整すると約0.5万トンの不足。見かけの使用は1〜7月に+2.4%（中国+3.5%・中国外+約1%）、鉱山生産−1%、精錬生産+約1.7%。LME・COMEX・SHFEの在庫の合計は8月末に99万7,600トン（2003年6月以来の最高・2025年末比+25万3,480トン・+34%）＝二次のみ</summary>
+</entry>
 <entry>
 <title>FRBの保有残高 — 買っているか減らしているか — 2026-10-14</title>
 <link href="https://kaikei-media.github.io/o/t1-q5/"/>
@@ -419,12 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-q16/#2026-10-08@2026-10-11</id>
 <updated>2026-10-11T12:00:00+00:00</updated>
 <summary>TSMCの9月の売上は5,118.57億台湾ドル（8月比−0.6%・前年同月比+54.6%）。1〜9月の累計3兆8,987.27億台湾ドル（+41.1%）。台湾の9月の輸出は872.2億ドル（+60.9%・月として過去最高、二次）。台湾の9月の輸出受注は未発表</summary>
-</entry>
-<entry>
-<title>ハイパースケーラの受注残（RPO）とcapexの実額（キャッシュフロー計算書） — 2026-08-31</title>
-<link href="https://kaikei-media.github.io/o/t3-q4/"/>
-<id>https://kaikei-media.github.io/o/t3-q4/#2026-08-31@2026-10-11</id>
-<updated>2026-10-11T12:00:00+00:00</updated>
-<summary>Oracleの6〜8月期の10-Q（9月提出・表紙の株数は9/7時点）: 残存履行義務6,640億ドル（約13%が12か月以内、37%が13〜36か月、34%が37〜60か月）。まだ始まっていないリースの約束2,880億ドル（ほぼすべてデータセンター、開始は2027会計年度第2四半期〜2029会計年度、期間15〜19年、貸借対照表に載っていない）。四半期の営業CF 231.03億ドル・設備投資284.99億ドル。売掛金113.94億ドル（5月末103.85億）。借入金と社債の合計1,253.37億ドル（5月末1,295.41億）。読めた範囲（本文の約85%＋残り）に、データセンターの不可抗力・遅延・建設融資・ニューメキシコ、耐用年数の変更の記載は無かった</summary>
 </entry>
 </feed>

@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
  "temporal_coverage": "2024-06-01/2026-10-18",
- "count": 295,
+ "count": 296,
  "columns": [
   "item_id",
   "trend",
@@ -5630,6 +5630,25 @@
    "note_ja": "WebFetchが許可されず検索結果の引用から取得。「総資産」ではなく信用供与の値で、10/7までの総資産の系列とは定義が違うため直接比較しない。MBSは未確認。規模はほぼ横ばい。",
    "note_en": "Obtained via search-result citation (fetch not permitted). This is Reserve Bank credit, not total assets, so not directly comparable with the earlier series. MBS not confirmed. Roughly flat.",
    "page_url": "https://kaikei-media.github.io/o/t1-q5/"
+  },
+  {
+   "item_id": "T3-Q10",
+   "trend": "T3",
+   "kind": "quantity",
+   "cadence": "monthly",
+   "unit": "tonnes",
+   "name_ja": "銅の在庫と実需（価格ではなく数量）",
+   "name_en": "Copper inventories and physical demand (quantity, not price)",
+   "date": "2026-08-31",
+   "recorded_at": "2026-10-23",
+   "value_ja": "ICSG（国際銅研究会）の月報2026年9月号の表1（一次）: 2026年7月の世界の精錬銅の生産241.1万トン・使用246.2万トン＝収支−5.1万トンの不足（中国の保税在庫の増減を調整後−5.5万トン）。1〜7月の季節調整後の月平均は生産240.3万トン・使用247.5万トン＝月−7.2万トン。二次（metalradar・ICSGの発表の要約）: 1〜7月の収支は約3.2万トンの余り（前年同期約15.7万トン）、中国の保税在庫を調整すると約0.5万トンの不足。見かけの使用は1〜7月に+2.4%（中国+3.5%・中国外+約1%）、鉱山生産−1%、精錬生産+約1.7%。LME・COMEX・SHFEの在庫の合計は8月末に99万7,600トン（2003年6月以来の最高・2025年末比+25万3,480トン・+34%）＝二次のみ",
+   "value_en": "ICSG Copper Bulletin Sep 2026, Table 1 (primary): July 2026 world refined production 2,411 kt, usage 2,462 kt, balance -51 kt (-55 kt adjusted for Chinese bonded stocks). Jan-Jul seasonally adjusted monthly average: production 2,403 kt, usage 2,475 kt, balance -72 kt/month. Secondary (metalradar summarising ICSG): Jan-Jul surplus ~32 kt (157 kt a year earlier), ~5 kt deficit after China bonded adjustment; apparent usage +2.4%; LME+COMEX+SHFE stocks 997,600 t at end-August, highest since June 2003 (+253,480 t, +34% vs end-2025) — secondary only",
+   "direction": "up",
+   "source_url": "https://icsg.org/wp-content/uploads/Table1.pdf",
+   "source_label": "一次（ICSG 月報の表1）＋二次（在庫の合計と1〜7月の収支: https://metalradar.com/article/theme-of-the-day-global-copper-market-in-5kt-deficit-in-jan-jul-2026-icsg-1790685552）",
+   "note_ja": "取引所の在庫の合計（8月末）は二次のみ。一次の表1には在庫の合計が無い（2026-10-23 毎日の片付け）。在庫は過去最高圏で増え、7月単月の使用は生産を上回った＝数量は『在庫の積み上がり』と『単月の不足』が並ぶ",
+   "note_en": "",
+   "page_url": "https://kaikei-media.github.io/o/t3-q10/"
   }
  ]
 }
