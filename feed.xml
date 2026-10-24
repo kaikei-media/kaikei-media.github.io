@@ -4,9 +4,23 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-10-23</updated>
+<updated>2026-10-25T08:06:59+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>MMF残高とリバースレポ残高 — 短期に逃げているか — 2026-10-23</title>
+<link href="https://kaikei-media.github.io/o/t1-f1/"/>
+<id>https://kaikei-media.github.io/o/t1-f1/#2026-10-23@2026-10-25</id>
+<updated>2026-10-25T08:06:59+09:00</updated>
+<summary>翌日物リバースレポ(ON RRP)は2026-10-23時点で2.0億ドル。10/8〜10/23はおおむね1〜12億ドルの枯渇水準が続いた(10/15のみ12.0億ドル)。MMF残高はICIの新しい週次値を取れず未更新(直近の記録は9/23時点7.94兆ドル)</summary>
+</entry>
+<entry>
+<title>日本の原油輸入のホルムズ依存度と、迂回路（東西パイプライン・フジャイラ）の稼働 — 2026-10-24</title>
+<link href="https://kaikei-media.github.io/o/t2-q11/"/>
+<id>https://kaikei-media.github.io/o/t2-q11/#2026-10-24@2026-10-24</id>
+<updated>2026-10-24T08:00:00+00:00</updated>
+<summary>10/6（日量580万バレルへ戻ったとのサウジのエネルギー相の発言）より新しい数字は見つからなかった。 10/6以降、東西パイプラインへの新しい攻撃・停止の報道も見つからなかった。ヤンブー港からの積み出し量の独立した数字も無い。日本の原油輸入のホルムズ経由の割合（経済産業省の統計）の新しい値も見つからなかった</summary>
+</entry>
 <entry>
 <title>銅の在庫と実需（価格ではなく数量） — 2026-08-31</title>
 <link href="https://kaikei-media.github.io/o/t3-q10/"/>
@@ -412,19 +426,5 @@
 <id>https://kaikei-media.github.io/o/t3-d10/#2026-10-07@2026-10-11</id>
 <updated>2026-10-11T12:00:00+00:00</updated>
 <summary>フィンランドの許認可監督庁が、Googleの子会社Tuike Finlandに、Muhos・Kajaaniの2か所のデータセンターの工事の停止を命令（許可の無い伐採が理由。環境影響評価が終わるまで。報道10/7）。ミズーリ州インディペンデンス市の議会が6対0で、消費電力5MW超のデータセンターに新しい規制（建設中のNebiusの施設は対象外。10/5ごろ）。ノースカロライナ州コロンバス郡が120日の新設停止を審議予定（10/2報）。空室率・完成前の契約率の7〜9月期の集計はまだ見当たらない</summary>
-</entry>
-<entry>
-<title>AI投資の結果 — 労働生産性・AIを理由にした人員削減・働き手への分配 — 2026-10-01</title>
-<link href="https://kaikei-media.github.io/o/t3-d11/"/>
-<id>https://kaikei-media.github.io/o/t3-d11/#2026-10-01@2026-10-11</id>
-<updated>2026-10-11T12:00:00+00:00</updated>
-<summary>Challenger, Gray &amp; Christmasの9月分: 発表された人員削減43,281人（8月比−18%）、うちAIを理由にした削減3,961人（約9%）。年初からのAIを理由にした削減は120,136人（全体の約21%）で理由の1位。IT業界の削減は1〜9月165,925人（前年同期比+54%）</summary>
-</entry>
-<entry>
-<title>AI半導体の出荷の実績 — 韓国の半導体輸出・台湾の輸出受注・TSMCの月次売上 — 2026-10-08</title>
-<link href="https://kaikei-media.github.io/o/t3-q16/"/>
-<id>https://kaikei-media.github.io/o/t3-q16/#2026-10-08@2026-10-11</id>
-<updated>2026-10-11T12:00:00+00:00</updated>
-<summary>TSMCの9月の売上は5,118.57億台湾ドル（8月比−0.6%・前年同月比+54.6%）。1〜9月の累計3兆8,987.27億台湾ドル（+41.1%）。台湾の9月の輸出は872.2億ドル（+60.9%・月として過去最高、二次）。台湾の9月の輸出受注は未発表</summary>
 </entry>
 </feed>
