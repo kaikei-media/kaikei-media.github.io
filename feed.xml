@@ -4,9 +4,44 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-11-17T07:03:51.399993+00:00</updated>
+<updated>2026-11-19T11:30:09+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>FRBの保有残高 — 買っているか減らしているか — 2026-11-11</title>
+<link href="https://kaikei-media.github.io/o/t1-q5/"/>
+<id>https://kaikei-media.github.io/o/t1-q5/#2026-11-11@2026-11-19</id>
+<updated>2026-11-19T11:30:09+09:00</updated>
+<summary>FRBの米国債保有 約4兆5,866億ドル(水曜残高)。週平均は4兆5,833億ドルで前週比+約49.5億ドル、前年同週比+約3,904億ドル。信用供与(Reserve Bank credit)の週平均は約6兆7,075億ドルで前週比+約59億ドル</summary>
+</entry>
+<entry>
+<title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-11-18</title>
+<link href="https://kaikei-media.github.io/o/t2-q17/"/>
+<id>https://kaikei-media.github.io/o/t2-q17/#2026-11-18@2026-11-18</id>
+<updated>2026-11-18T17:00:00+09:00</updated>
+<summary>11/18の見出し（二次）: The Times「Cyberattack targets BBC, Zoom and Ikea as 178 websites hacked」・WBAL-TV「世界で最も見られているサイトの一部が攻撃の標的」・Fox News「Microsoft・銀行・FAA（米連邦航空局）の障害の速報」。攻撃者・手口・障害との関係は見出しのみで未確認（検索1回では元の記事が見つからず、2025-11-18のCloudflareの障害の記事と混ざって出た）。11/15のFortuneは10月の一連の攻撃とMicrosoftの障害・FAAの管制の障害を並べて国防総省の備えを報道</summary>
+</entry>
+<entry>
+<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-17</title>
+<link href="https://kaikei-media.github.io/o/t2-q16/"/>
+<id>https://kaikei-media.github.io/o/t2-q16/#2026-11-17@2026-11-18</id>
+<updated>2026-11-18T16:50:00+09:00</updated>
+<summary>11/17に見出しに出た日本の漏洩（見出しの集計・二次）。証券会社: 楽天証券が不正アクセスで最大1,572万口座の情報の漏えいの可能性（うち年収の情報は447万口座分・時事通信・テレ東BIZ）／マネックス証券で本人確認の免許証の画像や自撮りの流出の恐れ（テレ朝NEWS）。1,000万件超: JINS（眼鏡チェーン）最大1,829万件（メールマガジンの委託先への不正アクセス・会員ID・生年月日など・共同通信）／アインHD（調剤薬局大手）最大1,258万件（委託先）。 ほか: アインズ＆トルペなど260万件（マーケティング会社のシステム）／LiPLUS 約28万件（Widsleyの「Telforce」への不正アクセス）／良品計画で破棄すべきクレジットカードの情報の流出の疑い／筑波銀行 3,900件余り（提携先・日経）。委託先・取引先のシステムへの侵入が続く形。攻撃にAIが使われたとの公式の記</summary>
+</entry>
+<entry>
+<title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-11-17</title>
+<link href="https://kaikei-media.github.io/o/t2-q17/"/>
+<id>https://kaikei-media.github.io/o/t2-q17/#2026-11-17@2026-11-18</id>
+<updated>2026-11-18T16:50:00+09:00</updated>
+<summary>11/17に見出しに出た世界のサイバー（二次）: N-able（米国の遠隔管理ソフトの会社）のN-centralの未知の欠陥が攻撃に使われた（SOC Prime）／Danfoss（デンマークの冷凍機器の会社）の冷蔵庫の制御装置に6件の未知の欠陥（研究者の発表）／ドイツ議会が連邦情報局（BND）の侵入の権限の法律を、未知の欠陥の開示の規則なしで可決／Trezor（暗号資産の機器の会社）が配送の取引先への不正アクセスで2万件超の注文の個人情報が流出／米JPMorgan Chaseのシステム障害は「攻撃の証拠なし・ソフトの不具合」と説明</summary>
+</entry>
+<entry>
+<title>ホルムズ経由の原油・LNGの実輸送量（AISの隻数ではなくカーゴ追跡・輸出統計。瀬取り分を含む） — 2026-11-18</title>
+<link href="https://kaikei-media.github.io/o/t2-q6/"/>
+<id>https://kaikei-media.github.io/o/t2-q6/#2026-11-18@2026-11-18</id>
+<updated>2026-11-18T16:40:00+09:00</updated>
+<summary>新しい値なし。11月の週ごとのホルムズの原油・LNGの通過量（Kpler・Vortexa）は検索で見つからなかった（出てくるのは9/25のReuters＝9/20の週3,370万バレル、10/30のCNBC＝10月最後の週の日量730万バレルまで）。Kplerの公開ブログ「Hormuz: Normalisation no longer needs to wait for a deal」は湾全体の原油の輸出が戦争前並み（日量1,850万バレル）と書くが、日付と期間が書かれていない</summary>
+</entry>
 <entry>
 <title>各国の国防調達契約額（予算ではなく受注ベース） — 2026-11-17</title>
 <link href="https://kaikei-media.github.io/o/t2-f1/"/>
@@ -391,40 +426,5 @@
 <id>https://kaikei-media.github.io/o/t2-q16/#2026-11-05@2026-11-06</id>
 <updated>2026-11-06</updated>
 <summary>11/4〜5に見出しに出た日本の漏洩（見出しの集計・二次）。100万人分超の新しい公表は少なくとも7件: アイリスオーヤマの公式通販『アイリスプラザ』最大約770万人（生年月日・パスワードを含む）／ほっともっと（プレナス）最大700万件（委託先への不正アクセス）／モスフードサービス751万件／アソビュー約1,582万件（11/03の値の続き＝アララ経由）／ワークマン会員メールアドレス145万件／H2O（エイチ・ツー・オー リテイリング）126万件余／無印良品のクレジットカード『MUJI Card』の番号全桁約109万件（当初『含まれない』と発表→続報で訂正）。 金融: SMBCコンシューマーファイナンス最大32万人（免許証番号・年収・ローンの契約額。保証システムへの不正アクセス＝北洋銀行のカードローンの利用者も同じ保証会社経由）・三井住友銀行のメールアドレス22万件・東京海上ダイレクト（証</summary>
-</entry>
-<entry>
-<title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-11-05</title>
-<link href="https://kaikei-media.github.io/o/t2-q17/"/>
-<id>https://kaikei-media.github.io/o/t2-q17/#2026-11-05@2026-11-06</id>
-<updated>2026-11-06</updated>
-<summary>11/4〜6に見出しに出た世界のサイバー（二次）。 ①フランスの血液公社（EFS）の血漿の冷凍設備が乗っ取られ、温度の設定を−30℃から110℃へ変えられた（11/03の欧州のスーパーの冷蔵設備に続く冷凍・冷蔵設備への攻撃・血液製剤への被害は無いと発表。AP・CNBC・Telegraph・DW）。②仏銀行クレディ・ミュチュエル・アルケアが自社口座から不正送金（報道で約1.33億ドル・暗号資産に換金か・顧客の損失なし）。③韓国の金融機関37社から個人情報47万件・被害1億円超。台湾の永豊銀行で顧客418人が不正送金被害（約2億円）。④Linuxの機器にSSHで入れる欠陥（Ars Technica）・Zyxelのゼロデイでネットワークのスイッチ約1,000台が乗っ取られる・WordPressの欠陥が悪用中。⑤OpenAIの自動の仕組みが30時間でLinuxの管理者の権限を奪う手口を948件生成</summary>
-</entry>
-<entry>
-<title>FRBの保有残高 — 買っているか減らしているか — 2026-10-28</title>
-<link href="https://kaikei-media.github.io/o/t1-q5/"/>
-<id>https://kaikei-media.github.io/o/t1-q5/#2026-10-28@2026-11-05</id>
-<updated>2026-11-05T00:43:25+09:00</updated>
-<summary>FRBの米国債保有 4兆5,766億ドル(水曜残高)。週平均は4兆5,760億ドルで前週比+47億ドル。信用供与(Reserve Bank credit)の週平均は約6兆7,060億ドル</summary>
-</entry>
-<entry>
-<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-03</title>
-<link href="https://kaikei-media.github.io/o/t2-q16/"/>
-<id>https://kaikei-media.github.io/o/t2-q16/#2026-11-03@2026-11-04</id>
-<updated>2026-11-04</updated>
-<summary>11/3〜4に見出しに出た日本の漏洩（見出しの集計・二次）。100万人分超の新しい公表は2件: アソビュー（レジャー施設の予約サイト『アソビュー！』）約1,582万件（メールアドレス・最終ログイン日・利用施設＝メール配信の委託先アララへの不正アクセス＝11/02のアララ最大約7,700万件の続きの委託先経由の型）／アルカディア（IT企業）300万件超のおそれで大阪府警に被害の調書を提出（不正アクセス禁止法違反の疑いで捜査）。 ほか: セブン－イレブン・ジャパンの宅配サービスの委託先への不正アクセスで氏名など約16〜17万件。再掲: ノジマオンライン約700万件（11/02の値と同じ件・サイト休止で再開未定）・イズミ最大40万件（10/14の公表）・GMOへの攻撃の攻撃者像の解説（元警察庁の課長）</summary>
-</entry>
-<entry>
-<title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-11-04</title>
-<link href="https://kaikei-media.github.io/o/t2-q17/"/>
-<id>https://kaikei-media.github.io/o/t2-q17/#2026-11-04@2026-11-04</id>
-<updated>2026-11-04</updated>
-<summary>11/1〜4に見出しに出た世界のサイバー（二次）。 ①Adobe Commerce（ネット通販の基盤ソフト）のゼロデイ（修正前の欠陥）が悪用され、遠隔操作の道具（PSK Agent）が仕込まれる（CyberSecurityNews 11/03）。②英国の国家サイバーセキュリティセンター（NCSC）がAIが重要インフラへの身代金の攻撃を速めうると警告（同 11/03）。③Androidの欠陥『SMS of Death』（CVE-2026-58882・SMSを受けるだけで通話の切断・再起動の繰り返し）をGoogleが最も重い等級で修正（BleepingComputer 11/01）。④ロシアが『AIだけで実行された初のサイバー攻撃』（3時間で10台超のサーバーに侵入）を報告（Vietnam.vn 11/03の転載・元の報道は未確認）</summary>
-</entry>
-<entry>
-<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-02</title>
-<link href="https://kaikei-media.github.io/o/t2-q16/"/>
-<id>https://kaikei-media.github.io/o/t2-q16/#2026-11-02@2026-11-03</id>
-<updated>2026-11-03</updated>
-<summary>11/2に見出しに出た日本の漏洩（見出しの集計・二次）。100万人分超の新しい公表は7件: アララ メッセージ（ペイクラウド子会社の企業向けメール配信）最大約7,700万件のメールアドレス＝最大380社の環境に侵入し、713万通の不審メールも送信（委託先経由の型）／ノジマ（家電量販）のEC 約700万件（暗号化したパスワードを含む・2サイト停止）／プレステージ・インターナショナル（ロードサービスの受託）最大約550万件（車両・事故情報・口座情報）／ネットマイル 最大約549万人／アイスタイルの@cosme 約300万人（肌質・髪質を含む）／So-net 260万件超／ワールド子会社（RAGTAGの運営元）のべ約120万件。 ほか: 北陸電力の会員サービス 約55万件（委託先経由）・メディアナビ 約11万件（ブラストメール＝メール配信の委託先経由）・サントリーHD 約10万人・PingCAP</summary>
 </entry>
 </feed>
