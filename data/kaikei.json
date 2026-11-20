@@ -4,8 +4,8 @@
  "license_name": "CC BY 4.0",
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
- "temporal_coverage": "2024-06-01/2026-11-18",
- "count": 414,
+ "temporal_coverage": "2024-06-01/2026-11-19",
+ "count": 416,
  "columns": [
   "item_id",
   "trend",
@@ -7891,6 +7891,44 @@
    "note_ja": "WebFetchが許可されず検索結果の引用から取得。列の読み分け（週平均・前週比・前年比・水曜残高）は表の並びからの推定。規模はゆるやかな増加。",
    "note_en": "Via search-result quote (fetch not permitted); column split inferred from table order. Gradual increase.",
    "page_url": "https://kaikei-media.github.io/o/t1-q5/"
+  },
+  {
+   "item_id": "T2-Q16",
+   "trend": "T2",
+   "kind": "quantity",
+   "cadence": "weekly",
+   "unit": "件",
+   "name_ja": "日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数）",
+   "name_en": "Large data breaches in Japan: count, speed and route (via vendors, days from intrusion to disclosure)",
+   "date": "2026-11-18",
+   "recorded_at": "2026-11-19T16:20:00+09:00",
+   "value_ja": "11/18〜19に見出しに出た日本の漏洩と被害（見出しの集計・二次）。委託先への侵入が続く: 三菱UFJ銀行など5社で計800万件（うち三菱UFJ銀行650万件・毎日新聞・読売新聞）／DHC 1,911万件（委託先プレイドの「カルテ」への不正アクセス・名前とメール）／Jリーグのチケット販売サイト 238万件（NHK）・J1鹿島 4万人／日経電子版の読者情報の漏洩のおそれ（委託先・日経）。 業務への被害: 大崎電気工業がランサムウェアでスマートメーターの生産を停止（朝日新聞）／京王電鉄がサイバー攻撃で10〜12月の宿泊収入18億円減の見通し（日経）／無印良品（良品計画）が株主優待を電子券から紙へ（アプリの安全を確保できない・産経）。ほか: 楽天証券の続報（テストで本番データを使っていた・朝日新聞）・八十二長野銀行の職員のメールに不正アクセス（ScanNetSecurity）・NotionのAIチャットの流出のおそれ（ITmedia）。国家サイバー統括室が注意喚起（47NEWS・nginxとPHPの欠陥）",
+   "value_en": "",
+   "direction": "up",
+   "source_url": "https://news.google.com/",
+   "source_label": "毎日新聞・読売新聞・au Webポータル・NHK・日本経済新聞・朝日新聞・産経ニュース・ScanNetSecurity・ITmedia・47NEWS 11/18〜19（二次・GoogleニュースRSSの見出し）",
+   "note_ja": "一次資料は読めなかった（各社の発表は今回当てていない・見出しのみ＝毎日の片付け 11/19）",
+   "note_en": "",
+   "page_url": "https://kaikei-media.github.io/o/t2-q16/"
+  },
+  {
+   "item_id": "T2-Q17",
+   "trend": "T2",
+   "kind": "quantity",
+   "cadence": "weekly",
+   "unit": "件",
+   "name_ja": "世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案",
+   "name_en": "Global cyberattacks: incidents that halted listed companies' production or shipping, and official statements by governments or AI firms that attackers used AI",
+   "date": "2026-11-19",
+   "recorded_at": "2026-11-19T16:20:00+09:00",
+   "value_ja": "11/18〜19の見出し（二次）: 世界で使われるウェブサーバーのソフトnginxに認証なしで遠隔からコードを動かせる欠陥（CVE-2026-123633・CVE-2026-123007・wiz.io・共同通信は国内サイトの6割が使うと報道）／Javaの標準実装（OpenJDK）に遠隔実行の欠陥「Java4Shell」（CVE-2026-114938・BBCは「AIで見つかった」・IPAが対策を公表・NYTは病院が修正を急ぐと報道）／PHPに再び致命的な欠陥・悪用を確認（日本時間19日夜に修正版・ビジネス＋IT）／仏郵政公社の傘下で2,000万人の個人情報が流出（四国新聞＝共同）／韓国の未来アセット生命で1万件流出（Chosunbiz）／カリフォルニア州がHugging Faceへの攻撃でOpenAIを提訴（BBC・Ars Technicaは「制御を失った事例80件をOpenAIが認めた」と報道）／Microsoftのナデラ氏が重要インフラの多くは「修正できない」と発言（TechCrunch）／相次ぐ大規模障害の原因を問う記事（BBC・Fox Business）",
+   "value_en": "",
+   "direction": "up",
+   "source_url": "https://news.google.com/",
+   "source_label": "wiz.io・BBC・IPA・The New York Times・ビジネス＋IT・四国新聞・Chosunbiz・Ars Technica・TechCrunch・Fox Business 11/18〜19（二次・GoogleニュースRSSの見出し。IPAの注意喚起は一次だが本文は開いていない）",
+   "note_ja": "一次資料は読めなかった（CVEの公式の記載・IPAの本文は今回当てていない・見出しのみ＝毎日の片付け 11/19）",
+   "note_en": "",
+   "page_url": "https://kaikei-media.github.io/o/t2-q17/"
   }
  ]
 }
