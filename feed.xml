@@ -4,9 +4,37 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-11-19T16:20:00+09:00</updated>
+<updated>2026-11-20T16:45:00+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>1タスクあたりの推論支出 — 同じ仕事を終えるのに、実際いくら払うか — 2026-11-20</title>
+<link href="https://kaikei-media.github.io/o/t3-d9/"/>
+<id>https://kaikei-media.github.io/o/t3-d9/#2026-11-20@2026-11-20</id>
+<updated>2026-11-20T16:45:00+09:00</updated>
+<summary>新しい同条件の測定は確かめられなかった（読めなかった）</summary>
+</entry>
+<entry>
+<title>各国中銀の金購入量（トン） — 2026-09-30</title>
+<link href="https://kaikei-media.github.io/o/t1-q4/"/>
+<id>https://kaikei-media.github.io/o/t1-q4/#2026-09-30@2026-11-20</id>
+<updated>2026-11-20T16:30:00+09:00</updated>
+<summary>中銀金購入 321トン（第3四半期・WGCの推計。報告された分は120トン＝未報告が約63%）</summary>
+</entry>
+<entry>
+<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-19</title>
+<link href="https://kaikei-media.github.io/o/t2-q16/"/>
+<id>https://kaikei-media.github.io/o/t2-q16/#2026-11-19@2026-11-20</id>
+<updated>2026-11-20T16:30:00+09:00</updated>
+<summary>11/19〜20に見出しに出た日本の漏洩（見出しの集計・二次）。委託先プレイドの「KARTE」への不正アクセスが広がる: シャープの通販 最大320万件／mineo（オプテージ）最大142万件／サントリーウエルネス 最大94万件超／ミツモア 6万人＋339万件のおそれ（いずれもKARTE経由と報道）。ほか委託先・提携先経由: タイミー 求人事業者22万人／トライアル 決済アプリID 6万件／毎日新聞 14万人／福岡銀行 カードローン8,132人。直接: 湘南美容クリニック（SBC）約162万人（パスワードを暗号化せず保存・海外から77万回の攻撃）／ユニフォームネクスト 最大約170万件／商工会議所のネット試験 最大約98万人／北海道留萌市 住民基本台帳 最大7万1,002件／六花亭の通販 カードの全桁とセキュリティコード。当局: 金融庁が楽天証券に報告徴求命令（日経）・楽天証券の件で集団訴</summary>
+</entry>
+<entry>
+<title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-11-20</title>
+<link href="https://kaikei-media.github.io/o/t2-q17/"/>
+<id>https://kaikei-media.github.io/o/t2-q17/#2026-11-20@2026-11-20</id>
+<updated>2026-11-20T16:30:00+09:00</updated>
+<summary>11/19〜20の見出し（二次）: Visa・Mastercard・JPMorgan Chaseの顧客データがハッカーに流出（WSJ・NYT）／米農務省（USDA）が侵入を受けIT部門が複数のシステムを停止（Nextgov）／相次ぐ大規模な障害の後にホワイトハウスのサイバー担当の長が退任（Guardian・Axios）、Politicoは「AIが大規模障害を起こす新しい常態」と報道／Marshの集計でAIの進歩とともにサイバー事案が急増（MSN）／英国で数万台の冷蔵庫をハッカーから守る秘密の作戦（BBC）／ウクライナがFBIと身代金要求の集団の4人を逮捕（4,000万ドルの支払いに関わる）／GTA6の開発版の流出を主張するCyberleek（ゲーム・解経の流れの外）</summary>
+</entry>
 <entry>
 <title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-18</title>
 <link href="https://kaikei-media.github.io/o/t2-q16/"/>
@@ -398,33 +426,5 @@
 <id>https://kaikei-media.github.io/o/t2-q16/#2026-11-09@2026-11-10</id>
 <updated>2026-11-10</updated>
 <summary>ニトリ（家具・日用品の小売）が最大3,762万件の個人情報の漏洩の可能性を公表（11/09）。 会員番号・氏名・メールアドレス・住所・電話番号・生年月日など。カード情報とログインパスワードは対象外。不正アクセスの判明は11/06、侵入は「10月中旬から下旬」の可能性＝侵入から公表まで約2〜4週・判明から3日。自社のシステム（委託先経由の記載なし）。同じ週のアララ（メール配信の委託先）経由の公表の連鎖とは別の件</summary>
-</entry>
-<entry>
-<title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-11-09</title>
-<link href="https://kaikei-media.github.io/o/t2-q17/"/>
-<id>https://kaikei-media.github.io/o/t2-q17/#2026-11-09@2026-11-10</id>
-<updated>2026-11-10</updated>
-<summary>11/6〜9に見出しに出た世界のサイバー（二次）。 ①仏銀行クレディ・ミュチュエル・アルケアの不正送金は約1億ユーロ（11/05の値の続報・顧客資産は無事）。②SonicWall（米のネットワーク機器の会社）のSSL-VPNの欠陥（CVE-2026-19868・SAMLと多要素認証を回避）が実際に悪用されていると警告。③PAN-OS（Palo Altoのファイアウォール）がPHP2Shellで5拠点被害の報告。④米FBI・CISAが冷凍・冷蔵設備への攻撃を警告（11/03〜05の欧州の冷蔵・血液の冷凍設備の続き）。⑤Amplifon Americas（補聴器）130万人・米フロリダ州教育省の奨学金サイト490万人。⑥インドネシアの銀行に24時間で120万回の攻撃の試み・タイ中央銀行が全金融機関に警戒の強化を指示（被害は確認されず）。⑦「AIで素人が数時間で重大なゼロデイを見つける」（研究者</summary>
-</entry>
-<entry>
-<title>ホルムズ・スエズ・パナマの通航隻数とトン数 — 2026-10-29</title>
-<link href="https://kaikei-media.github.io/o/t2-q1/"/>
-<id>https://kaikei-media.github.io/o/t2-q1/#2026-10-29@2026-11-07</id>
-<updated>2026-11-07T16:20:00+09:00</updated>
-<summary>ホルムズの通航 13隻（10/29・Windward＝船の位置の発信と衛星で数える。入る5・出る8、うち4隻は位置の発信を切っていた）。7日平均は1日12隻。IMF PortWatchの基準（タンカーと貨物船で1日約73隻）の約18%。UKMTO（英国海軍の海上貿易の窓口）は10/30までの1週間を戦争前より約70%少ないと評価。湾内に留まる船は1,014隻（10/30）。11/02朝の時点で海峡は事実上閉じたまま・米国の封鎖は継続・ドーハでの再開の協議は止まっている</summary>
-</entry>
-<entry>
-<title>ホルムズ経由の原油・LNGの実輸送量（AISの隻数ではなくカーゴ追跡・輸出統計。瀬取り分を含む） — 2026-10-31</title>
-<link href="https://kaikei-media.github.io/o/t2-q6/"/>
-<id>https://kaikei-media.github.io/o/t2-q6/#2026-10-31@2026-11-07</id>
-<updated>2026-11-07T16:20:00+09:00</updated>
-<summary>Kpler（船の位置で積み荷を追う調査会社）: ホルムズを通った原油は10月の平均で日量約1,110万バレル、10月最後の週は日量730万バレル（戦争前の約2,000万バレルより40%超少ない）。ペルシャ湾全体の原油の輸出は10/18までの週に日量2,460万バレルで、約40%がパイプラインで海峡を迂回（戦争前は17%）</summary>
-</entry>
-<entry>
-<title>台湾周辺の人民解放軍の活動（機数・艦艇数／日、月間累計）と台湾海峡の商船通航 — 2026-10-26</title>
-<link href="https://kaikei-media.github.io/o/t2-q7/"/>
-<id>https://kaikei-media.github.io/o/t2-q7/#2026-10-26@2026-11-07</id>
-<updated>2026-11-07T16:20:00+09:00</updated>
-<summary>台湾国防部の日次発表（10/26 6時まで）: 中国軍機3機（うち1機が中間線越え）・艦艇6・公船9。期間中の名前の付いた演習は見つからなかった。10/19〜11/06の日次の数字はほかに開いていない</summary>
 </entry>
 </feed>
