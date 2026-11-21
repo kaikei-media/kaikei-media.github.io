@@ -4,9 +4,23 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-11-21T15:55:43+09:00</updated>
+<updated>2026-11-21T16:30:00+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>MMF残高とリバースレポ残高 — 短期に逃げているか — 2026-11-21</title>
+<link href="https://kaikei-media.github.io/o/t1-f1/"/>
+<id>https://kaikei-media.github.io/o/t1-f1/#2026-11-21@2026-11-21</id>
+<updated>2026-11-21T16:30:00+09:00</updated>
+<summary>未更新（読めなかった）。翌日物リバースレポの11月の日次の値も、ICIの週次のMMF残高も、検索に日付の付いた一次資料が出なかった。直近の記録は ON RRP 約4.3億ドル（11/03）・MMF 7.94兆ドル（9/23）</summary>
+</entry>
+<entry>
+<title>CoreWeaveの逃げ道の残り — 線に触れずに資金を回す手段が、いくつ残り、使うたびに代償が上がっているか — 2026-11-21</title>
+<link href="https://kaikei-media.github.io/o/t3-q20/"/>
+<id>https://kaikei-media.github.io/o/t3-q20/#2026-11-21@2026-11-21</id>
+<updated>2026-11-21T16:30:00+09:00</updated>
+<summary>2026-11-21 時点（10/10の値からの変化だけ）。④無担保の普通社債: 使わない側がさらに固まった＝会社が11/10の決算で2027年まで無担保の借入をしないと表明（一次 決算発表・二次 digitimes 11/11）。流通利回りは11/04に15%超（2031年債は額面の79.5）、11/07〜09に16%超（一部17%超）、11/20にCDSが約1,233bp（すべて二次）＝使う代償はさらに上がった。⑥顧客の前払い: 今後3か月で約90億ドルを見込むと決算で表明（出し手は未開示・二次）＝この逃げ道へ寄せている。②GPU担保の借入: 『資金の費用の上昇の中で』新しい借入を計画と報道（二次）＝額と条件は未確認。⑤借入契約の猶予: DDTL 3.0は2026-10-28で期限切れ、5.0は2026-12-30まで（既報の期限どおり）。⑧支え手: NVIDIAが保証を『案件が遅れる</summary>
+</entry>
 <entry>
 <title>戦争リスク保険の付保可否と料率 — 2026-10-15</title>
 <link href="https://kaikei-media.github.io/o/t2-q3/"/>
@@ -412,19 +426,5 @@
 <id>https://kaikei-media.github.io/o/t1-f1/#2026-11-03@2026-11-10</id>
 <updated>2026-11-10T12:27:26+09:00</updated>
 <summary>翌日物リバースレポ(ON RRP)は2026-11-03時点で約4.3億ドル(前日11/2は約50.9億ドル)。MMF残高は新しい週次値を取れず未更新(直近の記録は9/23時点7.94兆ドル)</summary>
-</entry>
-<entry>
-<title>為替介入額とFIMAレポの利用（日本が米国債を売らずにドルを調達しているか） — 2026-10-28</title>
-<link href="https://kaikei-media.github.io/o/t1-f5/"/>
-<id>https://kaikei-media.github.io/o/t1-f5/#2026-10-28@2026-11-10</id>
-<updated>2026-11-10</updated>
-<summary>財務省の月次の外国為替平衡操作の実施状況（令和8年9月29日〜10月28日）は2026-10-30に公表済み（一覧の頁で期間とリンク先 20261030.html を確かめた）。金額は読めなかった</summary>
-</entry>
-<entry>
-<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-09</title>
-<link href="https://kaikei-media.github.io/o/t2-q16/"/>
-<id>https://kaikei-media.github.io/o/t2-q16/#2026-11-09@2026-11-10</id>
-<updated>2026-11-10</updated>
-<summary>11/6〜9に見出しに出た日本の漏洩（見出しの集計・二次）。100万人分超の新しい公表は少なくとも7件: ニトリ最大3,762万件（11/09の値）／ビックカメラなど3社 約1,490万件（メール配信の委託先アララへの不正アクセス＝11/02のアララの続き）／スタークス（クラウドロジ等の物流のソフトの会社）約1,100万件の窃取を攻撃者が主張（Metabase＝データ分析の道具への不正アクセス後）／アイリスプラザ 約770万件（11/05の値の続報）／カカクコム（食べログ・価格.com・求人ボックス）約570万件／ウィルズの「ネットマイル」最大約549万人／ロート製薬 約280万人（9,715人分はカード番号・有効期限も）／小学館 199万件（アララ経由）。 金融と保険: MS&amp;ADホールディングス傘下（三井住友海上・あいおいニッセイ同和損保・三井ダイレクト損保）計約70万件超・日産フィナ</summary>
 </entry>
 </feed>
