@@ -4,9 +4,16 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-11-20T16:45:00+09:00</updated>
+<updated>2026-11-21T15:55:43+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>戦争リスク保険の付保可否と料率 — 2026-10-15</title>
+<link href="https://kaikei-media.github.io/o/t2-q3/"/>
+<id>https://kaikei-media.github.io/o/t2-q3/#2026-10-15@2026-11-21</id>
+<updated>2026-11-21T15:55:43+09:00</updated>
+<summary>湾岸向けタンカーの戦争リスク保険料 船体価額の6〜10%（10月中旬の仲介業者の提示。開戦前のホルムズは0.15〜0.25%）</summary>
+</entry>
 <entry>
 <title>1タスクあたりの推論支出 — 同じ仕事を終えるのに、実際いくら払うか — 2026-11-20</title>
 <link href="https://kaikei-media.github.io/o/t3-d9/"/>
@@ -419,12 +426,5 @@
 <id>https://kaikei-media.github.io/o/t2-q16/#2026-11-09@2026-11-10</id>
 <updated>2026-11-10</updated>
 <summary>11/6〜9に見出しに出た日本の漏洩（見出しの集計・二次）。100万人分超の新しい公表は少なくとも7件: ニトリ最大3,762万件（11/09の値）／ビックカメラなど3社 約1,490万件（メール配信の委託先アララへの不正アクセス＝11/02のアララの続き）／スタークス（クラウドロジ等の物流のソフトの会社）約1,100万件の窃取を攻撃者が主張（Metabase＝データ分析の道具への不正アクセス後）／アイリスプラザ 約770万件（11/05の値の続報）／カカクコム（食べログ・価格.com・求人ボックス）約570万件／ウィルズの「ネットマイル」最大約549万人／ロート製薬 約280万人（9,715人分はカード番号・有効期限も）／小学館 199万件（アララ経由）。 金融と保険: MS&amp;ADホールディングス傘下（三井住友海上・あいおいニッセイ同和損保・三井ダイレクト損保）計約70万件超・日産フィナ</summary>
-</entry>
-<entry>
-<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-09</title>
-<link href="https://kaikei-media.github.io/o/t2-q16/"/>
-<id>https://kaikei-media.github.io/o/t2-q16/#2026-11-09@2026-11-10</id>
-<updated>2026-11-10</updated>
-<summary>ニトリ（家具・日用品の小売）が最大3,762万件の個人情報の漏洩の可能性を公表（11/09）。 会員番号・氏名・メールアドレス・住所・電話番号・生年月日など。カード情報とログインパスワードは対象外。不正アクセスの判明は11/06、侵入は「10月中旬から下旬」の可能性＝侵入から公表まで約2〜4週・判明から3日。自社のシステム（委託先経由の記載なし）。同じ週のアララ（メール配信の委託先）経由の公表の連鎖とは別の件</summary>
 </entry>
 </feed>

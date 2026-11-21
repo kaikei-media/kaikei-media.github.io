@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
  "temporal_coverage": "2024-06-01/2026-11-20",
- "count": 420,
+ "count": 421,
  "columns": [
   "item_id",
   "trend",
@@ -8005,6 +8005,25 @@
    "note_ja": "検索で見えたのは二次の見出しだけ。指数の版が改まった可能性（v5の記事の見出し）があり、改版なら10/08の値（同じ版のGPT-6 Sol対GPT-5.6 Sol）との時系列はそこで切れる。同じ版・同じeffortの比較を一次で取れたら値を足す（毎日の片付け 11/20）",
    "note_en": "",
    "page_url": "https://kaikei-media.github.io/o/t3-d9/"
+  },
+  {
+   "item_id": "T2-Q3",
+   "trend": "T2",
+   "kind": "quantity",
+   "cadence": "event_driven",
+   "unit": "% of hull value",
+   "name_ja": "戦争リスク保険の付保可否と料率",
+   "name_en": "War-risk insurance availability and premium rates",
+   "date": "2026-10-15",
+   "recorded_at": "2026-11-21T15:55:43+09:00",
+   "value_ja": "湾岸向けタンカーの戦争リスク保険料 船体価額の6〜10%（10月中旬の仲介業者の提示。開戦前のホルムズは0.15〜0.25%）",
+   "value_en": "Gulf tanker war-risk quotes 6–10% of hull value in mid-October (pre-hostilities Hormuz ~0.15–0.25%)",
+   "direction": "flat",
+   "source_url": "https://www.insurancebusinessmag.com/au/news/marine/black-sea-war-cover-now-costs-more-than-wwii-atlantic-convoys-did--so-why-isnt-the-gulf-596551.aspx",
+   "source_label": "Insurance Business 2026-11-09（二次）",
+   "note_ja": "一次資料なし（仲介業者の提示値を報じた業界紙）。7/22の7.5〜10%と同水準で、料率は高止まり。基準日は記事の「10月中旬」から。",
+   "note_en": "Secondary (trade press citing broker quotes). Similar to July's 7.5-10%.",
+   "page_url": "https://kaikei-media.github.io/o/t2-q3/"
   }
  ]
 }
