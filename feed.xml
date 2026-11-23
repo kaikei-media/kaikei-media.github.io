@@ -4,9 +4,44 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-11-21T16:30:00+09:00</updated>
+<updated>2026-11-23T10:34:59+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>米企業のAI利用率（センサス局BTOS・過去2週間にAIを使って製品やサービスを作った企業の割合） — 2026-11-15</title>
+<link href="https://kaikei-media.github.io/o/t3-d3/"/>
+<id>https://kaikei-media.github.io/o/t3-d3/#2026-11-15@2026-11-23</id>
+<updated>2026-11-23T10:34:59+09:00</updated>
+<summary>25.0%(過去2週間にAIを使った企業の割合、全国。収集期間2026-11-02〜11-15)。前回11/1の24.2%から+0.8ポイントで、上昇に戻った。今後6か月の予定利用率は27.6%→28.2%</summary>
+</entry>
+<entry>
+<title>主要国の長い国債の入札の弱さと、当局の量の支え（日英仏と米国。誰が引き受けなかったか・当局が何を止めたか） — 2026-11-19</title>
+<link href="https://kaikei-media.github.io/o/t1-q10/"/>
+<id>https://kaikei-media.github.io/o/t1-q10/#2026-11-19@2026-11-22</id>
+<updated>2026-11-22</updated>
+<summary>米国の10年物価連動債（11/19・既発の追加）: 実質利回り2.903%（入札で2002年7月以来の高さ）・応札倍率2.43倍・予想2.90%とほぼ一致。米20年債（11/18・160億ドル）: 5.459%・テール0.0bp・応札倍率2.63倍（平均どおり）・間接60.2%（平均63.7%を下回る）。日本の20年債（第198回・11/18）: 応札倍率約3.64倍・平均3.756%・最高3.782%（一次・財務省）。英国2041年債（11/17）: 32.5億ポンド・3.28倍・5.591%（一次・債務管理庁）。 期間内の当局の新しい量の措置は見つからなかった</summary>
+</entry>
+<entry>
+<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-20</title>
+<link href="https://kaikei-media.github.io/o/t2-q16/"/>
+<id>https://kaikei-media.github.io/o/t2-q16/#2026-11-20@2026-11-22</id>
+<updated>2026-11-22</updated>
+<summary>11/20〜21に見出しに出た日本の大口の漏洩（見出し・二次）: 三井住友銀行の委託先（スマホアプリのサービス）で生年月日など最大1,400万件（日経・ロイター訂正版）／ZOZO 1,518万人分（委託先・日経）／ピーチ 899万件超（メール配信の委託先ユミルリンクへの不正アクセス・日経）／キヤノンMJ 366万件のおそれ（委託先・日経）／イエローハット 180万人分（山陽新聞）／宿泊予約の「手間いらず」最大100万人（日経）／Payどん（鹿児島の決済アプリ・インフキュリオン）25万件・全サービス停止（委託先に再び）／ポケットチェンジ（外貨交換）最大約11万件・パスポート番号とカード番号の全桁／北海道3市町の住基データ約7.7万件／楽天証券は最大約1,125万口座（約447万口座は年収・金融資産を含む・会社の発表11/17）で集団訴訟の準備サイトに2万人、片山担当相が顧客保護を要求。 委託</summary>
+</entry>
+<entry>
+<title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-11-21</title>
+<link href="https://kaikei-media.github.io/o/t2-q17/"/>
+<id>https://kaikei-media.github.io/o/t2-q17/#2026-11-21@2026-11-22</id>
+<updated>2026-11-22</updated>
+<summary>攻撃者のAI利用を書いた報告: ①Palo Alto NetworksのUnit 42（11/12・一次）＝誰でも使えるAIの侵入テストの枠組み「Cairn」を、中国系と見られる集団が8〜9月に19以上の組織に使い10組織で侵入（半導体・防衛など・既知の欠陥だけ） ②Amazon（11/13・AWSのブログ・一次）＝中国系と見られる集団がAIの枠組み「ARTEX」とAIのAPIの鍵を使い、暗号資産の取引所2社で偽の動画で本人確認を突破 ③11/21の見出し（BleepingComputer等・二次）＝Amazonによると中国系の攻撃者がCairnのAIエージェントで大学のサーバーの医用画像ソフトMONAI Labelのゼロデイを見つけ乗っ取った（①②の一次と中身が食い違う＝別の報告か混同か未確認）。 国家が関わる攻撃: Googleの脅威の情報部門（11/19・一次）＝中国系ARMORY </summary>
+</entry>
+<entry>
+<title>Oracleの5年CDS（倒産に備える保険料）— 同じ格付けの社債全体と比べて、Oracleだけが離れているか — 2026-11-20</title>
+<link href="https://kaikei-media.github.io/o/t3-q19/"/>
+<id>https://kaikei-media.github.io/o/t3-q19/#2026-11-20@2026-11-22</id>
+<updated>2026-11-22</updated>
+<summary>Oracleの5年CDS 最大327.9bp（11/20・10/20以来の高さ・10月の山約295bpを上回る）。 11/02は292bp。同じ日のCoreWeaveの5年CDSは最大1,232.6bp（ドイツ銀行のデータで11/19に1,289bp超）</summary>
+</entry>
 <entry>
 <title>MMF残高とリバースレポ残高 — 短期に逃げているか — 2026-11-20</title>
 <link href="https://kaikei-media.github.io/o/t1-f1/"/>
@@ -391,40 +426,5 @@
 <id>https://kaikei-media.github.io/o/t1-f2/#2026-10-31@2026-11-11</id>
 <updated>2026-11-11</updated>
 <summary>世界の金ETF保有 4,275トン（10月+19トンで月末の過去最高を更新、9月末4,256トンから）。10月の流入額は27億ドル（9月100億ドルから鈍化）。地域別: 欧州+18億ドル・アジア+13億ドル・その他+0.62億ドル・北米は−5.12億ドル（流出は北米だけ）。運用残高は金の値下がりで−6%の5,420億ドル。1〜10月の累計は+410億ドル・+246トン</summary>
-</entry>
-<entry>
-<title>政府の純利払い — 額と、歳入・GDPに対する比率 — 2026-10-31</title>
-<link href="https://kaikei-media.github.io/o/t1-f6/"/>
-<id>https://kaikei-media.github.io/o/t1-f6/#2026-10-31@2026-11-11</id>
-<updated>2026-11-11</updated>
-<summary>2026会計年度（2025年10月〜2026年9月）の国債の純利払い 1兆1,420億ドル（2025会計年度の1兆280億ドルから+1,140億ドル・+11.1%）。理由は債務の増加と長期金利の上昇（短期金利の低下が一部を打ち消した）。2027会計年度の初月（2026年10月）の財政赤字は推計4,090億ドルで前年同月より1,250億ドル多い</summary>
-</entry>
-<entry>
-<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-10</title>
-<link href="https://kaikei-media.github.io/o/t2-q16/"/>
-<id>https://kaikei-media.github.io/o/t2-q16/#2026-11-10@2026-11-11</id>
-<updated>2026-11-11</updated>
-<summary>11/10に見出しに出た日本の漏洩（見出しの集計・二次）。100万人分超の新しい公表: シェアフル（スキマバイトの仲介）顔写真などスポットワーカーの個人情報 約750万件の可能性。 ほか: 日本商工会議所のネット試験の外部の管理システムに不正アクセス、簿記など8試験の受験者 最大約98万人の合否・得点など（日商の公表文あり）／ドコモオンラインショップ・My docomo 最大約30万件／エディオン 不正プログラムでカード情報500件余。海外の日本関連: MS&amp;ADの漏洩が100万件超と海外媒体（11/09の値の約70万件超の続き・数字の食い違いは未確認）。当局と業界: 政府の「サイバーセキュリティ緊急対策パッケージ」の発表・高市首相が国内間通信の監視の法改正の検討を指示（11/09）・地銀へのサイバー攻撃の懸念の報道（十八親和銀行の頭取の発言・北海道新聞）</summary>
-</entry>
-<entry>
-<title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-11-10</title>
-<link href="https://kaikei-media.github.io/o/t2-q17/"/>
-<id>https://kaikei-media.github.io/o/t2-q17/#2026-11-10@2026-11-11</id>
-<updated>2026-11-11</updated>
-<summary>11/10に見出しに出た世界のサイバー（二次）。 ①韓国の証券最大手の未来アセットにサイバー攻撃、顧客約3,800人の口座番号が流出。②米Vanderbilt大学が攻撃で端末を停止、犯罪集団が社会保障番号を盗んだと主張。③N-able（米の遠隔管理ソフトの会社）がゼロデイの公開でN-centralを止めた。④Chrome 157が悪用中のゼロデイを修正・Apache Airflowの認証なしで遠隔実行できる欠陥・iOSのゼロデイで暗号資産の財布の鍵が漏れるとBinanceが警告・Gmailでパスワード変更後も入れると攻撃者が主張（Cybernews・未確認）・「1971年からの欠陥」Terminal2Shell（主張の段階）。⑤台湾の旅行会社イージートラベル 69万人超。⑥SEGAのメール配信 220万件。⑦豪政府がOpenAIの政府のシステムへの不正アクセスを受けAIの監督を強化（Al </summary>
-</entry>
-<entry>
-<title>推論の単価: 主要モデルの100万トークンあたり価格（入力/出力）の推移 — 2026-11-09</title>
-<link href="https://kaikei-media.github.io/o/t3-d1/"/>
-<id>https://kaikei-media.github.io/o/t3-d1/#2026-11-09@2026-11-11</id>
-<updated>2026-11-11</updated>
-<summary>最上位帯の値下げが続く。 AnthropicがFable 5.2を出し、100万トークンあたり入力8・出力40ドル（前のFable 5.1の10/50ドルから−20%）。同時に出たMythos 5.2の値段は記事に無い</summary>
-</entry>
-<entry>
-<title>MMF残高とリバースレポ残高 — 短期に逃げているか — 2026-11-03</title>
-<link href="https://kaikei-media.github.io/o/t1-f1/"/>
-<id>https://kaikei-media.github.io/o/t1-f1/#2026-11-03@2026-11-10</id>
-<updated>2026-11-10T12:27:26+09:00</updated>
-<summary>翌日物リバースレポ(ON RRP)は2026-11-03時点で約4.3億ドル(前日11/2は約50.9億ドル)。MMF残高は新しい週次値を取れず未更新(直近の記録は9/23時点7.94兆ドル)</summary>
 </entry>
 </feed>
