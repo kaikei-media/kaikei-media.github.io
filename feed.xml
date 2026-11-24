@@ -4,15 +4,43 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-11-23T10:34:59+09:00</updated>
+<updated>2026-11-24T14:17:01+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>米国の長期金利の内訳（実質利回り・市場の期待インフレ・期間の上乗せ）と、株の急落日に国債が買われたか — 2026-11-20</title>
+<link href="https://kaikei-media.github.io/o/t1-f10/"/>
+<id>https://kaikei-media.github.io/o/t1-f10/#2026-11-20@2026-11-24</id>
+<updated>2026-11-24T14:17:01+09:00</updated>
+<summary>名目10年 4.92%（11/9 4.88%）／実質10年 2.77%（11/9 2.66%）／市場の期待インフレ 2.15%（11/20）。株の急落日（11/20・S&amp;P500が7,175.83→6,910.39で−3.7%）に10年は−0.12ポイント（5.04→4.92）＝国債は買われた。下げは実質2.88→2.77が主で、期待インフレは2.16→2.15。期間の上乗せ（ACM）は取得していない</summary>
+</entry>
+<entry>
+<title>主要国の長期金利の水準（誰がいくらで貸したか。株価は使わないが金利は使う） — 2026-11-20</title>
+<link href="https://kaikei-media.github.io/o/t1-q7/"/>
+<id>https://kaikei-media.github.io/o/t1-q7/#2026-11-20@2026-11-24</id>
+<updated>2026-11-24T14:17:01+09:00</updated>
+<summary>米10年 4.92%（11/20）、米2年 4.63%、米30年 5.31%。11/9は10年4.88%・2年4.56%・30年5.26%。11/13に10年5.15%・30年5.47%まで上がった後、11/20に10年−0.12ポイント</summary>
+</entry>
 <entry>
 <title>米企業のAI利用率（センサス局BTOS・過去2週間にAIを使って製品やサービスを作った企業の割合） — 2026-11-15</title>
 <link href="https://kaikei-media.github.io/o/t3-d3/"/>
 <id>https://kaikei-media.github.io/o/t3-d3/#2026-11-15@2026-11-23</id>
 <updated>2026-11-23T10:34:59+09:00</updated>
 <summary>25.0%(過去2週間にAIを使った企業の割合、全国。収集期間2026-11-02〜11-15)。前回11/1の24.2%から+0.8ポイントで、上昇に戻った。今後6か月の予定利用率は27.6%→28.2%</summary>
+</entry>
+<entry>
+<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-22</title>
+<link href="https://kaikei-media.github.io/o/t2-q16/"/>
+<id>https://kaikei-media.github.io/o/t2-q16/#2026-11-22@2026-11-23</id>
+<updated>2026-11-23</updated>
+<summary>11/22に見出しに出た日本の漏洩（見出し・二次）: タワーレコード（音楽ソフトの小売）が不正アクセスで約1,100万件の個人情報の流出を発表（朝日新聞・Investing.comは1,020万アカウント）／六花亭のオンラインショップで約8,000件のカード情報の流出のおそれ・約5万円の不正利用（au Webポータル）。集計: 旅行業界の流出は1億1,940万件（@DIME）、サイバー攻撃の復旧費用が1,000万円超の会社が6割（産経新聞の調査記事）。 三菱UFJ銀行の650万件・楽天証券の最大1,572万口座は既出（11/17・11/18の値）の続報</summary>
+</entry>
+<entry>
+<title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-11-22</title>
+<link href="https://kaikei-media.github.io/o/t2-q17/"/>
+<id>https://kaikei-media.github.io/o/t2-q17/#2026-11-22@2026-11-23</id>
+<updated>2026-11-23</updated>
+<summary>11/22の見出し（二次）: 米国の連邦政府機関・航空会社・大手銀行の障害が続く中、FBIの犯罪情報網に侵入されたとの報道（毎日経済＝韓国紙・米国の元の報道は未確認）／Euronews「欧州の1か月のサイバー攻撃（冷凍庫の温度・GPSの妨害・偽の爆破予告）」の集計／監督当局が量子計算を使う攻撃者が金融の仕組みを破りうると警告（Futurism・当局名は見出しで未確認）</summary>
 </entry>
 <entry>
 <title>主要国の長い国債の入札の弱さと、当局の量の支え（日英仏と米国。誰が引き受けなかったか・当局が何を止めたか） — 2026-11-19</title>
@@ -398,33 +426,5 @@
 <id>https://kaikei-media.github.io/o/t2-q4/#2026-10-30@2026-11-12</id>
 <updated>2026-11-12T04:47:48+09:00</updated>
 <summary>米SPR 2億8,220万バレル（週−40万バレル、前週2億8,260万）。年初来の累計は約−1億2,740万バレル</summary>
-</entry>
-<entry>
-<title>FRBの保有残高 — 買っているか減らしているか — 2026-11-04</title>
-<link href="https://kaikei-media.github.io/o/t1-q5/"/>
-<id>https://kaikei-media.github.io/o/t1-q5/#2026-11-04@2026-11-12</id>
-<updated>2026-11-12T00:34:20+09:00</updated>
-<summary>FRBの米国債保有 約4兆5,800億ドル(水曜残高)。週平均は前週比+約24億ドル、前年同週比+約3,850億ドル。信用供与の週平均は約6兆7,000億ドル</summary>
-</entry>
-<entry>
-<title>台湾周辺の人民解放軍の活動（機数・艦艇数／日、月間累計）と台湾海峡の商船通航 — 2026-11-08</title>
-<link href="https://kaikei-media.github.io/o/t2-q7/"/>
-<id>https://kaikei-media.github.io/o/t2-q7/#2026-11-08@2026-11-11</id>
-<updated>2026-11-11T11:11:17+09:00</updated>
-<summary>台湾国防部の日次発表: 11/8（6時まで24時間）中国軍機4機（うち2機が南西の防空識別圏に入った）・艦艇6・公船2。11/4（6時まで24時間）は軍機49機・艦艇6・公船6で、台北タイムズは「グレーゾーン」活動の高まりと報じた</summary>
-</entry>
-<entry>
-<title>米企業のAI利用率（センサス局BTOS・過去2週間にAIを使って製品やサービスを作った企業の割合） — 2026-11-01</title>
-<link href="https://kaikei-media.github.io/o/t3-d3/"/>
-<id>https://kaikei-media.github.io/o/t3-d3/#2026-11-01@2026-11-11</id>
-<updated>2026-11-11T10:12:46+09:00</updated>
-<summary>24.2%(過去2週間にAIを使った企業の割合、全国。収集期間2026-10-19〜11-01)。前回10/18の24.6%から−0.4ポイントで、2回ぶりの低下。今後6か月の予定利用率は28.6%→27.6%</summary>
-</entry>
-<entry>
-<title>金ETFの現物保有トン数（価格ではなく現物の増減） — 2026-10-31</title>
-<link href="https://kaikei-media.github.io/o/t1-f2/"/>
-<id>https://kaikei-media.github.io/o/t1-f2/#2026-10-31@2026-11-11</id>
-<updated>2026-11-11</updated>
-<summary>世界の金ETF保有 4,275トン（10月+19トンで月末の過去最高を更新、9月末4,256トンから）。10月の流入額は27億ドル（9月100億ドルから鈍化）。地域別: 欧州+18億ドル・アジア+13億ドル・その他+0.62億ドル・北米は−5.12億ドル（流出は北米だけ）。運用残高は金の値下がりで−6%の5,420億ドル。1〜10月の累計は+410億ドル・+246トン</summary>
 </entry>
 </feed>
