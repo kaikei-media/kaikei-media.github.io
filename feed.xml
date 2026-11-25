@@ -4,9 +4,16 @@
 <link href="https://kaikei-media.github.io/"/>
 <link rel="self" href="https://kaikei-media.github.io/feed.xml"/>
 <id>https://kaikei-media.github.io/</id>
-<updated>2026-11-24T14:17:01+09:00</updated>
+<updated>2026-11-25T13:06:13+09:00</updated>
 <author><name>解経 / Kaikei</name></author>
 <rights>CC BY 4.0</rights>
+<entry>
+<title>米ハイイールド社債のCCC格以下とBB格のスプレッド差 — 最下層だけが切り離されているか — 2026-11-23</title>
+<link href="https://kaikei-media.github.io/o/t3-q14/"/>
+<id>https://kaikei-media.github.io/o/t3-q14/#2026-11-23@2026-11-25</id>
+<updated>2026-11-25T13:06:13+09:00</updated>
+<summary>CCC以下 13.87%（11/23）、BB 2.19%。差は11.68ポイント（11/9の11.11から拡大）。ハイイールド全体3.63%、投資適格全体0.97%。CCCは11/20の14.02%から−0.15ポイントだが、11/9の13.11%からは+0.76ポイント</summary>
+</entry>
 <entry>
 <title>米国の長期金利の内訳（実質利回り・市場の期待インフレ・期間の上乗せ）と、株の急落日に国債が買われたか — 2026-11-20</title>
 <link href="https://kaikei-media.github.io/o/t1-f10/"/>
@@ -20,6 +27,20 @@
 <id>https://kaikei-media.github.io/o/t1-q7/#2026-11-20@2026-11-24</id>
 <updated>2026-11-24T14:17:01+09:00</updated>
 <summary>米10年 4.92%（11/20）、米2年 4.63%、米30年 5.31%。11/9は10年4.88%・2年4.56%・30年5.26%。11/13に10年5.15%・30年5.47%まで上がった後、11/20に10年−0.12ポイント</summary>
+</entry>
+<entry>
+<title>日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数） — 2026-11-23</title>
+<link href="https://kaikei-media.github.io/o/t2-q16/"/>
+<id>https://kaikei-media.github.io/o/t2-q16/#2026-11-23@2026-11-24</id>
+<updated>2026-11-24</updated>
+<summary>11/23に見出しに出た日本の漏洩（見出し・二次）: タワーレコード（音楽ソフトの小売）の不正アクセスによる約1,100万件の流出の続報（琉球新報）。楽天証券の情報漏えいでテレビの出演者が「詐欺の詐欺」に注意を呼びかけ（Infoseek）。 新しい会社の流出は見出しに無し</summary>
+</entry>
+<entry>
+<title>世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案 — 2026-11-23</title>
+<link href="https://kaikei-media.github.io/o/t2-q17/"/>
+<id>https://kaikei-media.github.io/o/t2-q17/#2026-11-23@2026-11-24</id>
+<updated>2026-11-24</updated>
+<summary>11/23の見出し（二次）: 韓国電力（KEPCO）で約152万人の個人情報の流出・個人情報保護委員会が調査、株価は3%安（Chosunbiz）／AIの侵入試験の道具を悪用して未知の欠陥を見つけ大学のサーバーに侵入した事件（AWSの報告とされる・Tech Wire Asia・Neowin・CyberSecurityNews）／Cisco Expresswayの重大な欠陥（CVE-2026-76466）が悪用されている（Pasquale Pillitteri）／Aeroméxico（メキシコの航空会社）の流出（SOCRadar）</summary>
 </entry>
 <entry>
 <title>米企業のAI利用率（センサス局BTOS・過去2週間にAIを使って製品やサービスを作った企業の割合） — 2026-11-15</title>
@@ -405,26 +426,5 @@
 <id>https://kaikei-media.github.io/o/t1-f7/#2026-11-09@2026-11-12</id>
 <updated>2026-11-12T12:18:50+09:00</updated>
 <summary>10年の実質利回り +2.66%（10/29は+2.63%）。期待インフレは2.22%（11/9）。強くプラスのまま。 金融抑圧の条件（実質マイナス）を満たしていない。</summary>
-</entry>
-<entry>
-<title>主要国の長期金利の水準（誰がいくらで貸したか。株価は使わないが金利は使う） — 2026-11-09</title>
-<link href="https://kaikei-media.github.io/o/t1-q7/"/>
-<id>https://kaikei-media.github.io/o/t1-q7/#2026-11-09@2026-11-12</id>
-<updated>2026-11-12T12:18:50+09:00</updated>
-<summary>米10年 4.88%（11/9）、米2年 4.56%、米30年 5.26%。10/29は10年4.98%・2年4.61%・30年5.32%。10年は10/29から−0.10ポイント</summary>
-</entry>
-<entry>
-<title>米ハイイールド社債のCCC格以下とBB格のスプレッド差 — 最下層だけが切り離されているか — 2026-11-09</title>
-<link href="https://kaikei-media.github.io/o/t3-q14/"/>
-<id>https://kaikei-media.github.io/o/t3-q14/#2026-11-09@2026-11-12</id>
-<updated>2026-11-12T12:18:50+09:00</updated>
-<summary>CCC以下 13.11%（11/9）、BB 2.00%。差は11.11ポイント（11/5の11.07から微増）。ハイイールド全体3.34%、投資適格全体0.91%。CCCは11/5の13.20%から−0.09ポイント</summary>
-</entry>
-<entry>
-<title>主要品目の在庫日数、戦略備蓄の放出量 — 2026-10-30</title>
-<link href="https://kaikei-media.github.io/o/t2-q4/"/>
-<id>https://kaikei-media.github.io/o/t2-q4/#2026-10-30@2026-11-12</id>
-<updated>2026-11-12T04:47:48+09:00</updated>
-<summary>米SPR 2億8,220万バレル（週−40万バレル、前週2億8,260万）。年初来の累計は約−1億2,740万バレル</summary>
 </entry>
 </feed>

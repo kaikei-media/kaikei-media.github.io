@@ -4,8 +4,8 @@
  "license_name": "CC BY 4.0",
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
- "temporal_coverage": "2024-06-01/2026-11-22",
- "count": 432,
+ "temporal_coverage": "2024-06-01/2026-11-23",
+ "count": 435,
  "columns": [
   "item_id",
   "trend",
@@ -8197,6 +8197,44 @@
    "page_url": "https://kaikei-media.github.io/o/t3-d3/"
   },
   {
+   "item_id": "T2-Q16",
+   "trend": "T2",
+   "kind": "quantity",
+   "cadence": "weekly",
+   "unit": "件",
+   "name_ja": "日本の情報漏洩の大型件数と、手口の速さ・経路（委託先経由か・侵入から公表までの日数）",
+   "name_en": "Large data breaches in Japan: count, speed and route (via vendors, days from intrusion to disclosure)",
+   "date": "2026-11-23",
+   "recorded_at": "2026-11-24",
+   "value_ja": "11/23に見出しに出た日本の漏洩（見出し・二次）: タワーレコード（音楽ソフトの小売）の不正アクセスによる約1,100万件の流出の続報（琉球新報）。楽天証券の情報漏えいでテレビの出演者が「詐欺の詐欺」に注意を呼びかけ（Infoseek）。 新しい会社の流出は見出しに無し",
+   "value_en": "Japan Nov 23 headlines: follow-ups on Tower Records (~11M) and Rakuten Securities; no new company breach.",
+   "direction": "up",
+   "source_url": "https://news.google.com/",
+   "source_label": "琉球新報デジタル・Infoseek・テレ東BIZ・二次（見出し）",
+   "note_ja": "一次資料なし（見出しの集計。各社の発表の原文は開いていない）",
+   "note_en": "",
+   "page_url": "https://kaikei-media.github.io/o/t2-q16/"
+  },
+  {
+   "item_id": "T2-Q17",
+   "trend": "T2",
+   "kind": "quantity",
+   "cadence": "weekly",
+   "unit": "件",
+   "name_ja": "世界のサイバー攻撃: 上場企業の生産・出荷を止めた事案と、政府・AI企業が攻撃者のAI利用を公式に認めた事案",
+   "name_en": "Global cyberattacks: incidents that halted listed companies' production or shipping, and official statements by governments or AI firms that attackers used AI",
+   "date": "2026-11-23",
+   "recorded_at": "2026-11-24",
+   "value_ja": "11/23の見出し（二次）: 韓国電力（KEPCO）で約152万人の個人情報の流出・個人情報保護委員会が調査、株価は3%安（Chosunbiz）／AIの侵入試験の道具を悪用して未知の欠陥を見つけ大学のサーバーに侵入した事件（AWSの報告とされる・Tech Wire Asia・Neowin・CyberSecurityNews）／Cisco Expresswayの重大な欠陥（CVE-2026-76466）が悪用されている（Pasquale Pillitteri）／Aeroméxico（メキシコの航空会社）の流出（SOCRadar）",
+   "value_en": "Nov 23 headlines: KEPCO ~1.52M personal records leaked (PIPC probe, shares -3%); AI pentest tool abused to find zero-day and breach university server; Cisco Expressway CVE exploited; Aeroméxico leak.",
+   "direction": "up",
+   "source_url": "https://news.google.com/",
+   "source_label": "Chosunbiz・Tech Wire Asia・Neowin・CyberSecurityNews・SOCRadar・二次（見出し）",
+   "note_ja": "一次資料なし（見出しの集計。AWS・KEPCOの発表の原文は開いていない）",
+   "note_en": "",
+   "page_url": "https://kaikei-media.github.io/o/t2-q17/"
+  },
+  {
    "item_id": "T1-F10",
    "trend": "T1",
    "kind": "flow",
@@ -8233,6 +8271,25 @@
    "note_ja": "日英独は今回取り直していない",
    "note_en": "Japan, UK, Germany not re-read.",
    "page_url": "https://kaikei-media.github.io/o/t1-q7/"
+  },
+  {
+   "item_id": "T3-Q14",
+   "trend": "T3",
+   "kind": "price",
+   "cadence": "weekly",
+   "unit": "bp",
+   "name_ja": "米ハイイールド社債のCCC格以下とBB格のスプレッド差 — 最下層だけが切り離されているか",
+   "name_en": "US high yield: CCC-and-below minus BB option-adjusted spread",
+   "date": "2026-11-23",
+   "recorded_at": "2026-11-25T13:06:13+09:00",
+   "value_ja": "CCC以下 13.87%（11/23）、BB 2.19%。差は11.68ポイント（11/9の11.11から拡大）。ハイイールド全体3.63%、投資適格全体0.97%。CCCは11/20の14.02%から−0.15ポイントだが、11/9の13.11%からは+0.76ポイント",
+   "value_en": "CCC and lower 13.87% (Nov 23), BB 2.19%; gap 11.68 points (11.11 on Nov 9). HY 3.63%, IG 0.97%.",
+   "direction": "up",
+   "source_url": "https://fred.stlouisfed.org/data/BAMLH0A3HYC.txt",
+   "source_label": "FRED ICE BofA CCC & Lower・BB・HY全体・IG全体（一次）、2026-11-23の値",
+   "note_ja": "差は当方の計算。リポジトリ保存のCSV（data/fred）で確認。最下層だけでなくBBも広がっており、切り離しより全体の広がり",
+   "note_en": "Gap is our calculation; from saved CSV.",
+   "page_url": "https://kaikei-media.github.io/o/t3-q14/"
   }
  ]
 }
