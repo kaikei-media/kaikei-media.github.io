@@ -5,7 +5,7 @@
  "attribution": "解経 / Kaikei — https://kaikei-media.github.io/",
  "snapshot": "latest",
  "temporal_coverage": "2024-06-01/2026-11-24",
- "count": 439,
+ "count": 440,
  "columns": [
   "item_id",
   "trend",
@@ -8366,6 +8366,25 @@
    "note_ja": "差は当方の計算。リポジトリ保存のCSV（data/fred）で確認。最下層だけでなくBBも広がっており、切り離しより全体の広がり",
    "note_en": "Gap is our calculation; from saved CSV.",
    "page_url": "https://kaikei-media.github.io/o/t3-q14/"
+  },
+  {
+   "item_id": "T1-F7",
+   "trend": "T1",
+   "kind": "flow",
+   "cadence": "weekly",
+   "unit": "%",
+   "name_ja": "米国債の実質利回り — 金融抑圧が効いているかどうかの判定（実質マイナスでなければ、目減りは起きていない）",
+   "name_en": "US Treasury real yields — whether financial repression is actually working",
+   "date": "2026-11-24",
+   "recorded_at": "2026-11-26T12:29:47+09:00",
+   "value_ja": "10年の実質利回り +2.79%（11/9は+2.66%）。期待インフレは2.12%（11/25）。強くプラスのまま。 金融抑圧の条件（実質マイナス）を満たしていない。",
+   "value_en": "Ten-year real yield +2.79% (+2.66% on Nov 9). Breakeven 2.12% (Nov 25). Still strongly positive; negative-real-rate condition unmet.",
+   "direction": "up",
+   "source_url": "https://fred.stlouisfed.org/series/DFII10",
+   "source_label": "FRED DFII10・T10YIE（2026-11-24の値、一次のミラー）",
+   "note_ja": "名目10年は4.91%（DGS10・11/24）",
+   "note_en": "Nominal 10Y 4.91%.",
+   "page_url": "https://kaikei-media.github.io/o/t1-f7/"
   }
  ]
 }
